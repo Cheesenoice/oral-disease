@@ -29,10 +29,10 @@ Notebook [16.21](../../../notebooks/alignment/16_21_gigikita_crowding_yolo11s_ba
 ## Kaggle handoff
 
 - Public, train/validation-only dataset: `trihuynhviprovcl/dentalselfie-crowding-gigikita-v1`.
-- Kernel: [`trihuynhviprovcl/ds-crowding-yolo11s-v1`](https://www.kaggle.com/code/trihuynhviprovcl/ds-crowding-yolo11s-v1), version 1 (submitted; currently queued).
+- Kernel: [`trihuynhviprovcl/ds-crowding-yolo11s-v1`](https://www.kaggle.com/code/trihuynhviprovcl/ds-crowding-yolo11s-v1), version 4 (running). Version 1 stopped before training because the assumed input mount contained neither the expected manifest nor ZIP. Version 4 searches all of `/kaggle/input` and prints the mounted entries; its data-integrity cell has not yet been confirmed in the new run.
 - Archive SHA-256: `2c103696ee2389a1919bc36f0befa9aaf51ce341d95225679a047d3dfe75ea10`.
 - The source test directory and personal images are excluded.
 
 The task is useful as a reproducible engineering baseline. It is not enough to claim clinical reliability, patient-independent performance, or performance on casual phone captures. A low or unstable score should be reported as a data/label limitation, not repaired by filtering validation cases.
 
-No model metrics are available yet; the Kaggle kernel is queued. Collect its artifacts after it reaches a terminal state, then update this report with the actual run status and validation results.
+No model metrics are available yet. Collect its artifacts after it reaches a terminal state, then update this report with the actual run status and validation results.
