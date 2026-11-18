@@ -1,0 +1,507 @@
+- navigation "Main Kaggle page navigation":
+  - button "Navigation menu": menu
+  - link "Skip to content":
+    - /url: "#site-content"
+    - text: Skip to
+    - text: content
+  - link "Return to Kaggle home page":
+    - /url: /
+  - button "Create on Kaggle":
+    - paragraph: Create
+  - list:
+    - listitem "Home List Item":
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - listitem "Competitions List Item":
+      - link "Competitions":
+        - /url: /competitions
+        - paragraph: Competitions
+    - listitem "Benchmarks List Item":
+      - link "Benchmarks":
+        - /url: /benchmarks
+        - paragraph: Benchmarks
+    - listitem "Arenas List Item":
+      - link "Arenas":
+        - /url: /arenas
+        - paragraph: Arenas
+    - listitem "Game Arena List Item":
+      - link "Game Arena":
+        - /url: /game-arena
+        - paragraph: Game Arena
+  - list:
+    - listitem "Data Hub List Item":
+      - link "Data Hub":
+        - /url: "#"
+        - paragraph: Data Hub
+      - button "Expand"
+  - list:
+    - listitem "More on Kaggle List Item":
+      - link "More on Kaggle":
+        - /url: "#"
+        - paragraph: More
+      - button "Expand"
+  - separator
+  - list:
+    - listitem "Your Work List Item":
+      - link "Your Work":
+        - /url: /work
+        - paragraph: Your Work
+      - button "Collapse Your Work" [expanded]
+    - listitem "Collapse Viewed List Item":
+      - link "Collapse Viewed" [expanded]:
+        - /url: "#"
+        - paragraph: Viewed
+      - button "Collapse Viewed"
+    - list:
+      - listitem "Dentalselfie 11 2 Dinov3 Partial Adaptation List Item":
+        - link "Dentalselfie 11 2 Dinov3 Partial Adaptation":
+          - /url: /code/trihuynhviprovcl/dentalselfie-11-2-dinov3-partial-adaptation
+          - paragraph: Dentalselfie 11 2 Dinov3 Partial Adaptation
+      - listitem "Dentalselfie 11 1 Dinov3 Patch Probe List Item":
+        - link "Dentalselfie 11 1 Dinov3 Patch Probe":
+          - /url: /code/trihuynhviprovcl/dentalselfie-11-1-dinov3-patch-probe
+          - paragraph: Dentalselfie 11 1 Dinov3 Patch Probe
+      - listitem "DentalSelfie Original Source Gingival ROI v1 List Item":
+        - link "DentalSelfie Original Source Gingival ROI v1":
+          - /url: /datasets/trihuynhviprovcl/dentalselfie-gum-raw-roi-v1
+          - paragraph: DentalSelfie Original Source Gingival ROI v1
+      - listitem "DentalSelfie 09.3 Foundation Feature Probe List Item":
+        - link "DentalSelfie 09.3 Foundation Feature Probe":
+          - /url: /code/trihuynhviprovcl/dentalselfie-09-3-foundation-feature-probe
+          - paragraph: DentalSelfie 09.3 Foundation Feature Probe
+      - listitem "DentalSelfie 09.2 Imbalance Ablation List Item":
+        - link "DentalSelfie 09.2 Imbalance Ablation":
+          - /url: /code/trihuynhviprovcl/dentalselfie-09-2-imbalance-ablation
+          - paragraph: DentalSelfie 09.2 Imbalance Ablation
+    - listitem "Collapse Edited List Item":
+      - link "Collapse Edited" [expanded]:
+        - /url: "#"
+        - paragraph: Edited
+      - button "Collapse Edited"
+    - list:
+      - listitem "Dentalselfie 11 2 Dinov3 Partial Adaptation List Item":
+        - link "Dentalselfie 11 2 Dinov3 Partial Adaptation":
+          - /url: /code/trihuynhviprovcl/dentalselfie-11-2-dinov3-partial-adaptation
+          - paragraph: Dentalselfie 11 2 Dinov3 Partial Adaptation
+      - listitem "Dentalselfie 11 1 Dinov3 Patch Probe List Item":
+        - link "Dentalselfie 11 1 Dinov3 Patch Probe":
+          - /url: /code/trihuynhviprovcl/dentalselfie-11-1-dinov3-patch-probe
+          - paragraph: Dentalselfie 11 1 Dinov3 Patch Probe
+      - listitem "DentalSelfie 09.3 Foundation Feature Probe List Item":
+        - link "DentalSelfie 09.3 Foundation Feature Probe":
+          - /url: /code/trihuynhviprovcl/dentalselfie-09-3-foundation-feature-probe
+          - paragraph: DentalSelfie 09.3 Foundation Feature Probe
+      - listitem "Dentalselfie 03 Baseline List Item":
+        - link "Dentalselfie 03 Baseline":
+          - /url: /code/trihuynhviprovcl/dentalselfie-03-baseline
+          - paragraph: Dentalselfie 03 Baseline
+      - listitem "notebooke8fb1f7ac4 List Item":
+        - link "notebooke8fb1f7ac4":
+          - /url: /code/trihuynhviprovcl/notebooke8fb1f7ac4
+          - paragraph: notebooke8fb1f7ac4
+    - listitem "Collapse Bookmarks List Item":
+      - link "Collapse Bookmarks" [expanded]:
+        - /url: "#"
+        - paragraph: Bookmarks
+      - button "Collapse Bookmarks"
+    - list:
+      - listitem "TCGA-BRCA:survival analysis List Item":
+        - link "TCGA-BRCA:survival analysis":
+          - /url: /datasets/jmalagontorres/tcga-brca-survival-analysis
+          - paragraph: TCGA-BRCA:survival analysis
+      - listitem "Fashion MNIST List Item":
+        - link "Fashion MNIST":
+          - /url: /datasets/zalando-research/fashionmnist
+          - paragraph: Fashion MNIST
+  - button "Event running 1 View Active Events":
+    - generic "Event running": update
+    - generic: "1"
+    - paragraph: View Active Events
+- navigation "Main menu, search and your account":
+  - textbox "Search"
+  - button "Tri Huynh":
+    - generic "Tri Huynh"
+- main:
+  - link "Tri Huynh's profile":
+    - /url: /trihuynhviprovcl
+    - generic "Tri Huynh"
+  - generic: Tri Huynh
+  - generic: · 23m ago · 16 views
+  - button "Upvote":
+    - generic: arrow_drop_up
+  - button "0 votes": "0"
+  - button "Share":
+    - generic: public
+    - generic: Share
+  - link "Edit":
+    - /url: /code/trihuynhviprovcl/dentalselfie-11-2-dinov3-partial-adaptation/edit/run/361136686
+    - button "Edit":
+      - generic: edit
+      - generic: Edit
+  - button "Download":
+    - generic: file_download
+    - generic: Download
+  - button "More options for this notebook": more_vert
+  - heading "Dentalselfie 11 2 Dinov3 Partial Adaptation" [level=1]
+  - button "Edit title": edit
+  - tablist:
+    - tab "Notebook, 1 of 6":
+      - generic: Notebook
+    - tab "Input, 2 of 6":
+      - generic: Input
+    - tab "Output, 3 of 6":
+      - generic: Output
+    - tab "Logs, 4 of 6" [selected]:
+      - generic: Logs
+    - tab "Comments (0), 5 of 6":
+      - generic: Comments (0)
+    - tab "Settings, 6 of 6":
+      - generic: Settings
+  - separator
+  - heading "Logs" [level=2]
+  - progressbar "Loading":
+  - heading "Running for 821.1s" [level=5]
+  - generic: Accelerator
+  - paragraph: GPU T4 x2
+  - generic: Environment
+  - paragraph:
+    - generic: Latest Container Image
+  - generic: Output
+  - paragraph: 0 B
+  - separator
+  - table:
+    - rowgroup:
+      - 'row "Time # Log Message"':
+        - columnheader "Time":
+          - generic: Time
+        - columnheader "#":
+          - generic: "#"
+        - columnheader "Log Message":
+          - generic: Log Message
+    - rowgroup:
+      - 'row "7.3s 0 0.00s - Debugger warning: It seems that frozen modules are being used, which may"':
+        - cell "7.3s"
+        - cell "0"
+        - 'cell "0.00s - Debugger warning: It seems that frozen modules are being used, which may"'
+      - row "7.3s 1 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off":
+        - cell "7.3s"
+        - cell "1"
+        - cell "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off"
+      - row "7.3s 2 0.00s - to python to disable frozen modules.":
+        - cell "7.3s"
+        - cell "2"
+        - cell "0.00s - to python to disable frozen modules."
+      - 'row "7.3s 3 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."':
+        - cell "7.3s"
+        - cell "3"
+        - 'cell "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."'
+      - 'row "7.9s 4 0.00s - Debugger warning: It seems that frozen modules are being used, which may"':
+        - cell "7.9s"
+        - cell "4"
+        - 'cell "0.00s - Debugger warning: It seems that frozen modules are being used, which may"'
+      - row "7.9s 5 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off":
+        - cell "7.9s"
+        - cell "5"
+        - cell "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off"
+      - row "7.9s 6 0.00s - to python to disable frozen modules.":
+        - cell "7.9s"
+        - cell "6"
+        - cell "0.00s - to python to disable frozen modules."
+      - 'row "7.9s 7 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."':
+        - cell "7.9s"
+        - cell "7"
+        - 'cell "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."'
+      - row "24.8s 8 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00":
+        - cell "24.8s"
+        - cell "8"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00"
+      - row "25.0s 9 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00":
+        - cell "25.0s"
+        - cell "9"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00"
+      - row "26.1s 10 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00":
+        - cell "26.1s"
+        - cell "10"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00"
+      - row "26.2s 11 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00":
+        - cell "26.2s"
+        - cell "11"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00"
+      - row "26.2s 12 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00":
+        - cell "26.2s"
+        - cell "12"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00"
+      - row "26.3s 13 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "13"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00"
+      - row "26.3s 14 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "14"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00"
+      - row "26.3s 15 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "15"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00"
+      - row "26.3s 16 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "16"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00"
+      - row "26.3s 17 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "17"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00"
+      - row "36.8s 18 Thu Oct 22 12:47:21 2026":
+        - cell "36.8s"
+        - cell "18"
+        - cell "Thu Oct 22 12:47:21 2026"
+      - row "36.8s 19 +-----------------------------------------------------------------------------------------+":
+        - cell "36.8s"
+        - cell "19"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "36.8s 20 | NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"':
+        - cell "36.8s"
+        - cell "20"
+        - 'cell "| NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"'
+      - row "36.8s 21 +-----------------------------------------+------------------------+----------------------+":
+        - cell "36.8s"
+        - cell "21"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "36.8s 22 | GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |":
+        - cell "36.8s"
+        - cell "22"
+        - cell "| GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |"
+      - row "36.8s 23 | Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |":
+        - cell "36.8s"
+        - cell "23"
+        - cell "| Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |"
+      - row "36.8s 24 | | | MIG M. |":
+        - cell "36.8s"
+        - cell "24"
+        - cell "| | | MIG M. |"
+      - row "36.8s 25 |=========================================+========================+======================|":
+        - cell "36.8s"
+        - cell "25"
+        - cell "|=========================================+========================+======================|"
+      - row "36.8s 26 | 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |":
+        - cell "36.8s"
+        - cell "26"
+        - cell "| 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |"
+      - row "36.8s 27 | N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "36.8s"
+        - cell "27"
+        - cell "| N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "36.8s 28 | | | N/A |":
+        - cell "36.8s"
+        - cell "28"
+        - cell "| | | N/A |"
+      - row "36.8s 29 +-----------------------------------------+------------------------+----------------------+":
+        - cell "36.8s"
+        - cell "29"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "36.8s 30 | 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |":
+        - cell "36.8s"
+        - cell "30"
+        - cell "| 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |"
+      - row "36.8s 31 | N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "36.8s"
+        - cell "31"
+        - cell "| N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "36.8s 32 | | | N/A |":
+        - cell "36.8s"
+        - cell "32"
+        - cell "| | | N/A |"
+      - row "36.8s 33 +-----------------------------------------+------------------------+----------------------+":
+        - cell "36.8s"
+        - cell "33"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "36.8s 34":
+        - cell "36.8s"
+        - cell "34"
+        - cell
+      - row "36.8s 35 +-----------------------------------------------------------------------------------------+":
+        - cell "36.8s"
+        - cell "35"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "36.8s 36 | Processes: |"':
+        - cell "36.8s"
+        - cell "36"
+        - 'cell "| Processes: |"'
+      - row "36.8s 37 | GPU GI CI PID Type Process name GPU Memory |":
+        - cell "36.8s"
+        - cell "37"
+        - cell "| GPU GI CI PID Type Process name GPU Memory |"
+      - row "36.8s 38 | ID ID Usage |":
+        - cell "36.8s"
+        - cell "38"
+        - cell "| ID ID Usage |"
+      - row "36.8s 39 |=========================================================================================|":
+        - cell "36.8s"
+        - cell "39"
+        - cell "|=========================================================================================|"
+      - row "36.8s 40 | No running processes found |":
+        - cell "36.8s"
+        - cell "40"
+        - cell "| No running processes found |"
+      - row "36.8s 41 +-----------------------------------------------------------------------------------------+":
+        - cell "36.8s"
+        - cell "41"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - row "37.0s 42 Thu Oct 22 12:47:21 2026":
+        - cell "37.0s"
+        - cell "42"
+        - cell "Thu Oct 22 12:47:21 2026"
+      - row "37.0s 43 +-----------------------------------------------------------------------------------------+":
+        - cell "37.0s"
+        - cell "43"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "37.0s 44 | NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"':
+        - cell "37.0s"
+        - cell "44"
+        - 'cell "| NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"'
+      - row "37.0s 45 +-----------------------------------------+------------------------+----------------------+":
+        - cell "37.0s"
+        - cell "45"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "37.0s 46 | GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |":
+        - cell "37.0s"
+        - cell "46"
+        - cell "| GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |"
+      - row "37.0s 47 | Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |":
+        - cell "37.0s"
+        - cell "47"
+        - cell "| Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |"
+      - row "37.0s 48 | | | MIG M. |":
+        - cell "37.0s"
+        - cell "48"
+        - cell "| | | MIG M. |"
+      - row "37.0s 49 |=========================================+========================+======================|":
+        - cell "37.0s"
+        - cell "49"
+        - cell "|=========================================+========================+======================|"
+      - row "37.0s 50 | 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |":
+        - cell "37.0s"
+        - cell "50"
+        - cell "| 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |"
+      - row "37.0s 51 | N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "37.0s"
+        - cell "51"
+        - cell "| N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "37.0s 52 | | | N/A |":
+        - cell "37.0s"
+        - cell "52"
+        - cell "| | | N/A |"
+      - row "37.0s 53 +-----------------------------------------+------------------------+----------------------+":
+        - cell "37.0s"
+        - cell "53"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "37.0s 54 | 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |":
+        - cell "37.0s"
+        - cell "54"
+        - cell "| 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |"
+      - row "37.0s 55 | N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "37.0s"
+        - cell "55"
+        - cell "| N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "37.0s 56 | | | N/A |":
+        - cell "37.0s"
+        - cell "56"
+        - cell "| | | N/A |"
+      - row "37.0s 57 +-----------------------------------------+------------------------+----------------------+":
+        - cell "37.0s"
+        - cell "57"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "37.0s 58":
+        - cell "37.0s"
+        - cell "58"
+        - cell
+      - row "37.0s 59 +-----------------------------------------------------------------------------------------+":
+        - cell "37.0s"
+        - cell "59"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "37.0s 60 | Processes: |"':
+        - cell "37.0s"
+        - cell "60"
+        - 'cell "| Processes: |"'
+      - row "37.0s 61 | GPU GI CI PID Type Process name GPU Memory |":
+        - cell "37.0s"
+        - cell "61"
+        - cell "| GPU GI CI PID Type Process name GPU Memory |"
+      - row "37.0s 62 | ID ID Usage |":
+        - cell "37.0s"
+        - cell "62"
+        - cell "| ID ID Usage |"
+      - row "37.0s 63 |=========================================================================================|":
+        - cell "37.0s"
+        - cell "63"
+        - cell "|=========================================================================================|"
+      - row "37.0s 64 | No running processes found |":
+        - cell "37.0s"
+        - cell "64"
+        - cell "| No running processes found |"
+      - row "37.0s 65 +-----------------------------------------------------------------------------------------+":
+        - cell "37.0s"
+        - cell "65"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "37.2s 66 {''python'': ''3.13.15'', ''torch'': ''2.11.0+cu128'', ''torchvision'': ''0.26.0+cu128'', ''gpu_count'': 2, ''gpus'': [''Tesla T4'', ''Tesla T4'']}"':
+        - cell "37.2s"
+        - cell "66"
+        - 'cell "{''python'': ''3.13.15'', ''torch'': ''2.11.0+cu128'', ''torchvision'': ''0.26.0+cu128'', ''gpu_count'': 2, ''gpus'': [''Tesla T4'', ''Tesla T4'']}"'
+      - 'row "40.4s 67 Pinned manifest verified: b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06 test rows: 0"':
+        - cell "40.4s"
+        - cell "67"
+        - 'cell "Pinned manifest verified: b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06 test rows: 0"'
+      - row "722.7s 68 Verified all 10889 crop files in 682.5 seconds":
+        - cell "722.7s"
+        - cell "68"
+        - cell "Verified all 10889 crop files in 682.5 seconds"
+      - row "723.5s 69 HF_TOKEN preflight passed; token value is never logged.":
+        - cell "723.5s"
+        - cell "69"
+        - cell "HF_TOKEN preflight passed; token value is never logged."
+      - 'row "723.5s 70 Official model: facebook/dinov3-vits16-pretrain-lvd1689m | pinned revision: 114c1379950215c8b35dfcd4e90a5c251dde0d32"':
+        - cell "723.5s"
+        - cell "70"
+        - 'cell "Official model: facebook/dinov3-vits16-pretrain-lvd1689m | pinned revision: 114c1379950215c8b35dfcd4e90a5c251dde0d32"'
+      - 'row "724.5s 71 Classifier head: 384 -> 3 logits; patched backbone structure will be checked against the downloaded model."':
+        - cell "724.5s"
+        - cell "71"
+        - 'cell "Classifier head: 384 -> 3 logits; patched backbone structure will be checked against the downloaded model."'
+      - 'row "724.7s 72 Worker source SHA256: 82e831347f7daadd6c5a6a76706baf79d60b7479d6cfc8874e077402c9798c2e | source sections: 3"':
+        - cell "724.7s"
+        - cell "72"
+        - 'cell "Worker source SHA256: 82e831347f7daadd6c5a6a76706baf79d60b7479d6cfc8874e077402c9798c2e | source sections: 3"'
+      - row "744.8s 73 frozen_CE GPU 0 return None heartbeat age 20 sec":
+        - cell "744.8s"
+        - cell "73"
+        - cell "frozen_CE GPU 0 return None heartbeat age 20 sec"
+      - row "744.8s 74 last2_blocks_norm_CE GPU 1 return None heartbeat age 20 sec":
+        - cell "744.8s"
+        - cell "74"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 20 sec"
+      - row "764.8s 75 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "764.8s"
+        - cell "75"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "764.8s 76 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "764.8s"
+        - cell "76"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "784.8s 77 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "784.8s"
+        - cell "77"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "784.8s 78 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "784.8s"
+        - cell "78"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "804.8s 79 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "804.8s"
+        - cell "79"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "804.8s 80 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "804.8s"
+        - cell "80"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+- alert

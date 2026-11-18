@@ -1,0 +1,6 @@
+names:
+- visible_caries
+path: /tmp/dentalselfie_prepared/caries
+test: images/test
+train: images/train
+val: images/val

@@ -1,0 +1,6 @@
+path: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-visible-alignment-v2
+train: train/images
+val: valid/images
+names:
+  0: gap_or_spacing
+  1: malposition_present

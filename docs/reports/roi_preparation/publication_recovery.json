@@ -1,0 +1,19 @@
+{
+  "observed_receipt": {
+    "dataset": "trihuynhviprovcl/dentalselfie-code",
+    "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-code",
+    "version": 10,
+    "private": true,
+    "status": "ready",
+    "artifact_sha256": "d99562a0e18c8e67b776a2e52c8f281aa7d00f2052ab0b60e66df6c88d6f7380",
+    "artifact_bytes": 20299352,
+    "mode": "version",
+    "log": ".venv/work/kaggle/upload_logs/code_1792556769.log"
+  },
+  "verified_remote_version": 11,
+  "verified_private": true,
+  "checked_zip_members": 47,
+  "mismatches": [],
+  "verification": "Remote expanded filenames and byte sizes versus local ZIP; not downloaded remote SHA-256",
+  "action": "Recover receipt from stale ready v10 to actual uploaded v11; publisher now waits for expected next version"
+}

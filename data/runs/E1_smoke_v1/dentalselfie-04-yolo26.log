@@ -1,0 +1,909 @@
+[{"stream_name":"stderr","time":8.507752974,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.507801689,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.507809354,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.507814282,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.254433328,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.254497538,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.254503847,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.254508509,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":35.081646374,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.284264777,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.383279837,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 21.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.472817472,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 90.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.507232935,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 3.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.542885564,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 4.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.585329121,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 21.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.585354008,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 90.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.585359845,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 3.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.585364101,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 4.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":41.497122981,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.497160027,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.497168354,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.497174153,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.49719353,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.497199563,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.497204308,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.497208917,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":41.679940819,"data":"Project: /kaggle/working/dentalselfie\n"}
+,{"stream_name":"stderr","time":41.681151469,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.681165973,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.681169715,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681172803,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681175751,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681178408,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681181038,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681183774,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681186527,"data":"\n"}
+,{"stream_name":"stderr","time":41.681189015,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.681209745,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.68121459,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681218921,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.68122357,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681228324,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681232436,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.681236413,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":44.886157858,"data":"Prepared dataset: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared\n"}
+,{"stream_name":"stdout","time":44.928420289,"data":"Tue Oct 20 16:22:07 2026       \n"}
+,{"stream_name":"stdout","time":44.92846551,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":44.928471303,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":44.928475543,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":44.928481106,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":44.928484933,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":44.928489109,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":44.928493421,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":44.960439943,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":44.960475181,"data":"| N/A   54C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":44.960479006,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":44.960481789,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":44.960484607,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":44.960487364,"data":"| N/A   54C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":44.960491039,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":44.960509803,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":44.961369396,"data":"\n"}
+,{"stream_name":"stdout","time":44.961381186,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":44.961397942,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":44.961401004,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":44.961403671,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":44.961406435,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":44.962896023,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":44.962909491,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":45.087377812,"data":"Tue Oct 20 16:22:07 2026       \n"}
+,{"stream_name":"stdout","time":45.087413247,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":45.087417025,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":45.087419937,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":45.087450523,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":45.087456027,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":45.087460539,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":45.087464741,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":45.087469361,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":45.087473972,"data":"| N/A   54C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":45.087477928,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":45.08748185,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":45.08748578,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":45.087489799,"data":"| N/A   54C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":45.08749375,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":45.087500015,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":45.087507407,"data":"\n"}
+,{"stream_name":"stdout","time":45.087509888,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":45.087512447,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":45.087514997,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":45.087517543,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":45.087520152,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":45.087522687,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":45.0875263,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":53.65653127,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":53.859870112,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":83.666823325,"data":"E1_caries_seed42_smoke.log -1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n"}
+,{"stream_name":"stdout","time":83.666871966,"data":" 19                  -1  1     95232  ultralytics.nn.modules.block.C3k2            [192, 128, 1, True]           \n"}
+,{"stream_name":"stdout","time":83.666880064,"data":" 20                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              \n"}
+,{"stream_name":"stdout","time":83.666885381,"data":" 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n"}
+,{"stream_name":"stdout","time":83.666901696,"data":" 22                  -1  1    463104  ultralytics.nn.modules.block.C3k2            [384, 256, 1, True, 0.5, True]\n"}
+,{"stream_name":"stdout","time":83.666905882,"data":" 23        [16, 19, 22]  1    241566  ultralytics.nn.modules.head.Detect           [1, 1, True, [64, 128, 256]]  \n"}
+,{"stream_name":"stdout","time":83.666909933,"data":"YOLO26n summary: 260 layers, 2,504,190 parameters, 2,504,190 gradients, 5.9 GFLOPs\n"}
+,{"stream_name":"stdout","time":83.666914106,"data":"\n"}
+,{"stream_name":"stdout","time":83.666917768,"data":"Transferred 696/708 items from pretrained weights\n"}
+,{"stream_name":"stdout","time":83.666921574,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mrunning Automatic Mixed Precision (AMP) checks...\n"}
+,{"stream_name":"stdout","time":83.666926069,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mdownloading yolo26n.pt for AMP checks (one-time, not used for training)...\n"}
+,{"stream_name":"stdout","time":83.666930734,"data":"\n"}
+,{"stream_name":"stdout","time":83.666934443,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 100% ━━━━━━━━━━━━ 5.3MB 59.5MB/s 0.1s\n"}
+,{"stream_name":"stdout","time":83.666941226,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mchecks passed ✅\n"}
+,{"stream_name":"stdout","time":83.666964491,"data":"WARNING ⚠️ \u001b[34m\u001b[1mtrain: \u001b[0mSlow image access detected (ping: 0.8±0.3 ms, read: 1.4±0.3 MB/s, size: 295.8 KB). Use local storage instead of remote/mounted storage for better performance. See https://docs.ultralytics.com/guides/model-training-tips\n"}
+,{"stream_name":"stdout","time":83.666973362,"data":"\n"}
+,{"stream_name":"stdout","time":83.666978249,"data":"E1_gum_seed42_smoke.log y: 260 layers, 2,504,970 parameters, 2,504,970 gradients, 5.9 GFLOPs\n"}
+,{"stream_name":"stdout","time":83.66698261,"data":"\n"}
+,{"stream_name":"stdout","time":83.666986269,"data":"Transferred 696/708 items from pretrained weights\n"}
+,{"stream_name":"stdout","time":83.666990157,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mrunning Automatic Mixed Precision (AMP) checks...\n"}
+,{"stream_name":"stdout","time":83.666994143,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mdownloading yolo26n.pt for AMP checks (one-time, not used for training)...\n"}
+,{"stream_name":"stdout","time":83.666998326,"data":"\n"}
+,{"stream_name":"stdout","time":83.667002009,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 13% ━╸────────── 712.0KB/5.3MB 6.9MB/s 0.1s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":83.667007659,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 35% ━━━━──────── 1.9/5.3MB 12.0MB/s 0.2s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":83.667012169,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 70% ━━━━━━━━──── 3.7/5.3MB 18.1MB/s 0.3s\u003c0.1s\n"}
+,{"stream_name":"stdout","time":83.667016555,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 100% ━━━━━━━━━━━━ 5.3MB 14.5MB/s 0.4s\n"}
+,{"stream_name":"stdout","time":83.667020882,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mchecks passed ✅\n"}
+,{"stream_name":"stdout","time":83.667024871,"data":"WARNING ⚠️ \u001b[34m\u001b[1mtrain: \u001b[0mSlow image access detected (ping: 0.5±0.1 ms, read: 1.4±0.1 MB/s, size: 289.4 KB). Use local storage instead of remote/mounted storage for better performance. See https://docs.ultralytics.com/guides/model-training-tips\n"}
+,{"stream_name":"stdout","time":83.667034054,"data":"\n"}
+,{"stream_name":"stdout","time":83.667043421,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 1 images, 0 backgrounds, 0 corrupt: 0% ──────────── 1/747 1.4s/it 0.4s\u003c17:02\n"}
+,{"stream_name":"stdout","time":83.873137403,"data":"E1_caries_seed42_smoke.log -1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n"}
+,{"stream_name":"stdout","time":83.873168236,"data":" 19                  -1  1     95232  ultralytics.nn.modules.block.C3k2            [192, 128, 1, True]           \n"}
+,{"stream_name":"stdout","time":83.873174672,"data":" 20                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              \n"}
+,{"stream_name":"stdout","time":83.873180039,"data":" 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n"}
+,{"stream_name":"stdout","time":83.873184661,"data":" 22                  -1  1    463104  ultralytics.nn.modules.block.C3k2            [384, 256, 1, True, 0.5, True]\n"}
+,{"stream_name":"stdout","time":83.873189754,"data":" 23        [16, 19, 22]  1    241566  ultralytics.nn.modules.head.Detect           [1, 1, True, [64, 128, 256]]  \n"}
+,{"stream_name":"stdout","time":83.873194484,"data":"YOLO26n summary: 260 layers, 2,504,190 parameters, 2,504,190 gradients, 5.9 GFLOPs\n"}
+,{"stream_name":"stdout","time":83.87319924,"data":"\n"}
+,{"stream_name":"stdout","time":83.873203215,"data":"Transferred 696/708 items from pretrained weights\n"}
+,{"stream_name":"stdout","time":83.873207262,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mrunning Automatic Mixed Precision (AMP) checks...\n"}
+,{"stream_name":"stdout","time":83.873211844,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mdownloading yolo26n.pt for AMP checks (one-time, not used for training)...\n"}
+,{"stream_name":"stdout","time":83.873216213,"data":"\n"}
+,{"stream_name":"stdout","time":83.87322004,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 100% ━━━━━━━━━━━━ 5.3MB 59.5MB/s 0.1s\n"}
+,{"stream_name":"stdout","time":83.873225351,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mchecks passed ✅\n"}
+,{"stream_name":"stdout","time":83.873229543,"data":"WARNING ⚠️ \u001b[34m\u001b[1mtrain: \u001b[0mSlow image access detected (ping: 0.8±0.3 ms, read: 1.4±0.3 MB/s, size: 295.8 KB). Use local storage instead of remote/mounted storage for better performance. See https://docs.ultralytics.com/guides/model-training-tips\n"}
+,{"stream_name":"stdout","time":83.873234633,"data":"\n"}
+,{"stream_name":"stdout","time":83.873238353,"data":"E1_gum_seed42_smoke.log y: 260 layers, 2,504,970 parameters, 2,504,970 gradients, 5.9 GFLOPs\n"}
+,{"stream_name":"stdout","time":83.873260396,"data":"\n"}
+,{"stream_name":"stdout","time":83.873265108,"data":"Transferred 696/708 items from pretrained weights\n"}
+,{"stream_name":"stdout","time":83.873269906,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mrunning Automatic Mixed Precision (AMP) checks...\n"}
+,{"stream_name":"stdout","time":83.873330993,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mdownloading yolo26n.pt for AMP checks (one-time, not used for training)...\n"}
+,{"stream_name":"stdout","time":83.873335941,"data":"\n"}
+,{"stream_name":"stdout","time":83.873340013,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 13% ━╸────────── 712.0KB/5.3MB 6.9MB/s 0.1s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":83.873362136,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 35% ━━━━──────── 1.9/5.3MB 12.0MB/s 0.2s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":83.873368359,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 70% ━━━━━━━━──── 3.7/5.3MB 18.1MB/s 0.3s\u003c0.1s\n"}
+,{"stream_name":"stdout","time":83.873373117,"data":"\u001b[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt to 'weights/yolo26n.pt': 100% ━━━━━━━━━━━━ 5.3MB 14.5MB/s 0.4s\n"}
+,{"stream_name":"stdout","time":83.873378484,"data":"\u001b[34m\u001b[1mAMP: \u001b[0mchecks passed ✅\n"}
+,{"stream_name":"stdout","time":83.873382251,"data":"WARNING ⚠️ \u001b[34m\u001b[1mtrain: \u001b[0mSlow image access detected (ping: 0.5±0.1 ms, read: 1.4±0.1 MB/s, size: 289.4 KB). Use local storage instead of remote/mounted storage for better performance. See https://docs.ultralytics.com/guides/model-training-tips\n"}
+,{"stream_name":"stdout","time":83.873391801,"data":"\n"}
+,{"stream_name":"stdout","time":83.873395602,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 1 images, 0 backgrounds, 0 corrupt: 0% ──────────── 1/747 1.4s/it 0.4s\u003c17:02\n"}
+,{"stream_name":"stdout","time":113.672070281,"data":"E1_caries_seed42_smoke.log rihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 239 images, 1 backgrounds, 0 corrupt: 15% ━╸────────── 239/1522 9.2it/s 28.7s\u003c2:20\n"}
+,{"stream_name":"stdout","time":113.67210888,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 240 images, 1 backgrounds, 0 corrupt: 15% ━╸────────── 240/1522 7.5it/s 28.9s\u003c2:51\n"}
+,{"stream_name":"stdout","time":113.672120485,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 243 images, 1 backgrounds, 0 corrupt: 15% ━╸────────── 243/1522 9.2it/s 29.2s\u003c2:19\n"}
+,{"stream_name":"stdout","time":113.672125886,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 244 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 244/1522 7.6it/s 29.4s\u003c2:47\n"}
+,{"stream_name":"stdout","time":113.672146404,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 247 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 247/1522 9.7it/s 29.6s\u003c2:11\n"}
+,{"stream_name":"stdout","time":113.6721533,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 248 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 248/1522 8.1it/s 29.8s\u003c2:36\n"}
+,{"stream_name":"stdout","time":113.672160112,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 250 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 250/1522 11.3it/s 30.0s\u003c1:52\n"}
+,{"stream_name":"stdout","time":113.672372759,"data":"E1_gum_seed42_smoke.log aggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 242 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 242/747 10.0it/s 29.3s\u003c50.3s\n"}
+,{"stream_name":"stdout","time":113.672428301,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 243 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 243/747 9.1it/s 29.4s\u003c55.6s\n"}
+,{"stream_name":"stdout","time":113.672436449,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 245 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 245/747 8.6it/s 29.7s\u003c58.3s\n"}
+,{"stream_name":"stdout","time":113.672441827,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 246 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 246/747 8.8it/s 29.8s\u003c56.9s\n"}
+,{"stream_name":"stdout","time":113.672446813,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 248 images, 0 backgrounds, 0 corrupt: 33% ━━━╸──────── 248/747 8.1it/s 30.1s\u003c1:02\n"}
+,{"stream_name":"stdout","time":113.672451633,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 250 images, 0 backgrounds, 0 corrupt: 33% ━━━━──────── 250/747 9.4it/s 30.3s\u003c53.1s\n"}
+,{"stream_name":"stdout","time":113.672456898,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 252 images, 0 backgrounds, 0 corrupt: 33% ━━━━──────── 252/747 9.4it/s 30.5s\u003c52.9s\n"}
+,{"stream_name":"stdout","time":113.877286731,"data":"E1_caries_seed42_smoke.log rihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 239 images, 1 backgrounds, 0 corrupt: 15% ━╸────────── 239/1522 9.2it/s 28.7s\u003c2:20\n"}
+,{"stream_name":"stdout","time":113.877314116,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 240 images, 1 backgrounds, 0 corrupt: 15% ━╸────────── 240/1522 7.5it/s 28.9s\u003c2:51\n"}
+,{"stream_name":"stdout","time":113.877322279,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 243 images, 1 backgrounds, 0 corrupt: 15% ━╸────────── 243/1522 9.2it/s 29.2s\u003c2:19\n"}
+,{"stream_name":"stdout","time":113.877329127,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 244 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 244/1522 7.6it/s 29.4s\u003c2:47\n"}
+,{"stream_name":"stdout","time":113.877335123,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 247 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 247/1522 9.7it/s 29.6s\u003c2:11\n"}
+,{"stream_name":"stdout","time":113.87734054,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 248 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 248/1522 8.1it/s 29.8s\u003c2:36\n"}
+,{"stream_name":"stdout","time":113.877345939,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 250 images, 1 backgrounds, 0 corrupt: 16% ━╸────────── 250/1522 11.3it/s 30.0s\u003c1:52\n"}
+,{"stream_name":"stdout","time":113.87736188,"data":"E1_gum_seed42_smoke.log aggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 242 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 242/747 10.0it/s 29.3s\u003c50.3s\n"}
+,{"stream_name":"stdout","time":113.877367172,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 243 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 243/747 9.1it/s 29.4s\u003c55.6s\n"}
+,{"stream_name":"stdout","time":113.877373582,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 245 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 245/747 8.6it/s 29.7s\u003c58.3s\n"}
+,{"stream_name":"stdout","time":113.877379087,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 246 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 246/747 8.8it/s 29.8s\u003c56.9s\n"}
+,{"stream_name":"stdout","time":113.877386001,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 248 images, 0 backgrounds, 0 corrupt: 33% ━━━╸──────── 248/747 8.1it/s 30.1s\u003c1:02\n"}
+,{"stream_name":"stdout","time":113.877395983,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 250 images, 0 backgrounds, 0 corrupt: 33% ━━━━──────── 250/747 9.4it/s 30.3s\u003c53.1s\n"}
+,{"stream_name":"stdout","time":113.877419186,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 252 images, 0 backgrounds, 0 corrupt: 33% ━━━━──────── 252/747 9.4it/s 30.5s\u003c52.9s\n"}
+,{"stream_name":"stdout","time":143.677795556,"data":"E1_caries_seed42_smoke.log rihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 499 images, 7 backgrounds, 0 corrupt: 32% ━━━╸──────── 499/1522 8.6it/s 58.5s\u003c1:59\n"}
+,{"stream_name":"stdout","time":143.677836875,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 500 images, 7 backgrounds, 0 corrupt: 32% ━━━╸──────── 500/1522 7.2it/s 58.8s\u003c2:22\n"}
+,{"stream_name":"stdout","time":143.677844347,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 502 images, 7 backgrounds, 0 corrupt: 32% ━━━╸──────── 502/1522 7.6it/s 59.0s\u003c2:15\n"}
+,{"stream_name":"stdout","time":143.677850629,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 505 images, 7 backgrounds, 0 corrupt: 33% ━━━╸──────── 505/1522 8.3it/s 59.3s\u003c2:03\n"}
+,{"stream_name":"stdout","time":143.678058199,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 506 images, 7 backgrounds, 0 corrupt: 33% ━━━╸──────── 506/1522 6.9it/s 59.6s\u003c2:28\n"}
+,{"stream_name":"stdout","time":143.678086716,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 508 images, 7 backgrounds, 0 corrupt: 33% ━━━━──────── 508/1522 10.4it/s 59.7s\u003c1:37\n"}
+,{"stream_name":"stdout","time":143.678091637,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 509 images, 7 backgrounds, 0 corrupt: 33% ━━━━──────── 509/1522 9.2it/s 59.8s\u003c1:50\n"}
+,{"stream_name":"stdout","time":143.678231202,"data":"E1_gum_seed42_smoke.log /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 492 images, 0 backgrounds, 0 corrupt: 65% ━━━━━━━╸──── 492/747 8.4it/s 59.0s\u003c30.3s\n"}
+,{"stream_name":"stdout","time":143.678273501,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 495 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 495/747 11.7it/s 59.2s\u003c21.6s\n"}
+,{"stream_name":"stdout","time":143.678279802,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 496 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 496/747 9.9it/s 59.4s\u003c25.5s\n"}
+,{"stream_name":"stdout","time":143.678284234,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 498 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━━──── 498/747 8.3it/s 59.8s\u003c29.8s\n"}
+,{"stream_name":"stdout","time":143.678288724,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 501 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 501/747 9.7it/s 1:00\u003c25.3s\n"}
+,{"stream_name":"stdout","time":143.678293186,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 502 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 502/747 9.5it/s 1:00\u003c25.9s\n"}
+,{"stream_name":"stdout","time":143.678297672,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 504 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 504/747 8.9it/s 1:00\u003c27.3s\n"}
+,{"stream_name":"stdout","time":143.882191582,"data":"E1_caries_seed42_smoke.log rihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 499 images, 7 backgrounds, 0 corrupt: 32% ━━━╸──────── 499/1522 8.6it/s 58.5s\u003c1:59\n"}
+,{"stream_name":"stdout","time":143.882230232,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 500 images, 7 backgrounds, 0 corrupt: 32% ━━━╸──────── 500/1522 7.2it/s 58.8s\u003c2:22\n"}
+,{"stream_name":"stdout","time":143.882235346,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 502 images, 7 backgrounds, 0 corrupt: 32% ━━━╸──────── 502/1522 7.6it/s 59.0s\u003c2:15\n"}
+,{"stream_name":"stdout","time":143.882267644,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 505 images, 7 backgrounds, 0 corrupt: 33% ━━━╸──────── 505/1522 8.3it/s 59.3s\u003c2:03\n"}
+,{"stream_name":"stdout","time":143.882289669,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 506 images, 7 backgrounds, 0 corrupt: 33% ━━━╸──────── 506/1522 6.9it/s 59.6s\u003c2:28\n"}
+,{"stream_name":"stdout","time":143.882294758,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 508 images, 7 backgrounds, 0 corrupt: 33% ━━━━──────── 508/1522 10.4it/s 59.7s\u003c1:37\n"}
+,{"stream_name":"stdout","time":143.882299629,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 509 images, 7 backgrounds, 0 corrupt: 33% ━━━━──────── 509/1522 9.2it/s 59.8s\u003c1:50\n"}
+,{"stream_name":"stdout","time":143.882310996,"data":"E1_gum_seed42_smoke.log /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 492 images, 0 backgrounds, 0 corrupt: 65% ━━━━━━━╸──── 492/747 8.4it/s 59.0s\u003c30.3s\n"}
+,{"stream_name":"stdout","time":143.882314579,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 495 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 495/747 11.7it/s 59.2s\u003c21.6s\n"}
+,{"stream_name":"stdout","time":143.882318826,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 496 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 496/747 9.9it/s 59.4s\u003c25.5s\n"}
+,{"stream_name":"stdout","time":143.882321943,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 498 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━━──── 498/747 8.3it/s 59.8s\u003c29.8s\n"}
+,{"stream_name":"stdout","time":143.882325135,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 501 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 501/747 9.7it/s 1:00\u003c25.3s\n"}
+,{"stream_name":"stdout","time":143.882328133,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 502 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 502/747 9.5it/s 1:00\u003c25.9s\n"}
+,{"stream_name":"stdout","time":143.882331228,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 504 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 504/747 8.9it/s 1:00\u003c27.3s\n"}
+,{"stream_name":"stdout","time":173.684035649,"data":"E1_caries_seed42_smoke.log ihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 757 images, 11 backgrounds, 0 corrupt: 49% ━━━━━╸────── 757/1522 9.1it/s 1:29\u003c1:24\n"}
+,{"stream_name":"stdout","time":173.684079065,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 759 images, 11 backgrounds, 0 corrupt: 49% ━━━━━╸────── 759/1522 8.8it/s 1:29\u003c1:27\n"}
+,{"stream_name":"stdout","time":173.684084261,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 762 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 762/1522 9.3it/s 1:29\u003c1:22\n"}
+,{"stream_name":"stdout","time":173.684120421,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 763 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 763/1522 8.9it/s 1:29\u003c1:25\n"}
+,{"stream_name":"stdout","time":173.684127153,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 766 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 766/1522 12.0it/s 1:30\u003c1:03\n"}
+,{"stream_name":"stdout","time":173.684132686,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 767 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 767/1522 10.3it/s 1:30\u003c1:14\n"}
+,{"stream_name":"stdout","time":173.684137557,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 768 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 768/1522 9.6it/s 1:30\u003c1:18\n"}
+,{"stream_name":"stdout","time":173.684831483,"data":"E1_gum_seed42_smoke.log m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 745 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 745/747 9.7it/s 1:28\u003c0.2s\n"}
+,{"stream_name":"stdout","time":173.684853459,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 746 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 746/747 8.5it/s 1:28\u003c0.1s\n"}
+,{"stream_name":"stdout","time":173.684857608,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 747 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 747/747 8.5it/s 1:28\n"}
+,{"stream_name":"stdout","time":173.684860853,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/1b16b4c9bbc82c4e654c.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.684864211,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/23b11ecef3c1be969457.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.684884119,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/6662ec99f90cfe3d2a69.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.684899326,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/7e3b09868d4415a81769.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.684904588,"data":"WARNING ⚠️ \u001b[34m\u001b[1mtrain: \u001b[0mCache directory /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels is not writable, cache not saved.\n"}
+,{"stream_name":"stdout","time":173.684909182,"data":"\n"}
+,{"stream_name":"stdout","time":173.888539575,"data":"E1_caries_seed42_smoke.log ihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 757 images, 11 backgrounds, 0 corrupt: 49% ━━━━━╸────── 757/1522 9.1it/s 1:29\u003c1:24\n"}
+,{"stream_name":"stdout","time":173.888566274,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 759 images, 11 backgrounds, 0 corrupt: 49% ━━━━━╸────── 759/1522 8.8it/s 1:29\u003c1:27\n"}
+,{"stream_name":"stdout","time":173.888581041,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 762 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 762/1522 9.3it/s 1:29\u003c1:22\n"}
+,{"stream_name":"stdout","time":173.888592581,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 763 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 763/1522 8.9it/s 1:29\u003c1:25\n"}
+,{"stream_name":"stdout","time":173.888595763,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 766 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 766/1522 12.0it/s 1:30\u003c1:03\n"}
+,{"stream_name":"stdout","time":173.888598904,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 767 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 767/1522 10.3it/s 1:30\u003c1:14\n"}
+,{"stream_name":"stdout","time":173.888601867,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 768 images, 11 backgrounds, 0 corrupt: 50% ━━━━━━────── 768/1522 9.6it/s 1:30\u003c1:18\n"}
+,{"stream_name":"stdout","time":173.888605304,"data":"E1_gum_seed42_smoke.log m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 745 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 745/747 9.7it/s 1:28\u003c0.2s\n"}
+,{"stream_name":"stdout","time":173.888609485,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 746 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 746/747 8.5it/s 1:28\u003c0.1s\n"}
+,{"stream_name":"stdout","time":173.888612584,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/train... 747 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 747/747 8.5it/s 1:28\n"}
+,{"stream_name":"stdout","time":173.888615704,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/1b16b4c9bbc82c4e654c.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.888618528,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/23b11ecef3c1be969457.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.888621324,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/6662ec99f90cfe3d2a69.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.888624161,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/images/train/7e3b09868d4415a81769.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":173.888626993,"data":"WARNING ⚠️ \u001b[34m\u001b[1mtrain: \u001b[0mCache directory /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels is not writable, cache not saved.\n"}
+,{"stream_name":"stdout","time":173.888630097,"data":"\n"}
+,{"stream_name":"stdout","time":203.690729598,"data":"E1_caries_seed42_smoke.log talselfie-data-v1/prepared/caries/labels/train... 1018 images, 17 backgrounds, 0 corrupt: 66% ━━━━━━━━──── 1018/1522 7.9it/s 1:59\u003c1:04\n"}
+,{"stream_name":"stdout","time":203.690786891,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1020 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1020/1522 7.3it/s 1:59\u003c1:09\n"}
+,{"stream_name":"stdout","time":203.69079438,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1023 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1023/1522 8.5it/s 1:59\u003c58.8s\n"}
+,{"stream_name":"stdout","time":203.690801124,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1025 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1025/1522 11.6it/s 1:59\u003c43.0s\n"}
+,{"stream_name":"stdout","time":203.691072143,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1026 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1026/1522 9.4it/s 2:00\u003c52.8s\n"}
+,{"stream_name":"stdout","time":203.691089007,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1027 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1027/1522 9.5it/s 2:00\u003c52.2s\n"}
+,{"stream_name":"stdout","time":203.691095441,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1029 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1029/1522 9.3it/s 2:00\u003c52.9s\n"}
+,{"stream_name":"stdout","time":203.69163071,"data":"E1_gum_seed42_smoke.log 0mCaching images (0.1GB RAM): 12% ━─────────── 90/747 6.7it/s 14.8s\u003c1:37\n"}
+,{"stream_name":"stdout","time":203.691655621,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 12% ━─────────── 91/747 5.8it/s 15.0s\u003c1:54\n"}
+,{"stream_name":"stdout","time":203.691662472,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 12% ━╸────────── 94/747 5.3it/s 15.7s\u003c2:02\n"}
+,{"stream_name":"stdout","time":203.69166838,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 12% ━╸────────── 97/747 10.6it/s 15.9s\u003c1:01\n"}
+,{"stream_name":"stdout","time":203.691674025,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 98/747 8.4it/s 16.2s\u003c1:18\n"}
+,{"stream_name":"stdout","time":203.691704952,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 99/747 7.9it/s 16.3s\u003c1:22\n"}
+,{"stream_name":"stdout","time":203.691710947,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 101/747 6.7it/s 16.8s\u003c1:36\n"}
+,{"stream_name":"stdout","time":203.691716391,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 104/747 6.6it/s 17.3s\u003c1:37\n"}
+,{"stream_name":"stdout","time":203.691721934,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 107/747 10.8it/s 17.4s\u003c59.3s\n"}
+,{"stream_name":"stdout","time":203.691743758,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 108/747 8.2it/s 17.9s\u003c1:18\n"}
+,{"stream_name":"stdout","time":203.691748341,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 111/747 7.7it/s 18.4s\u003c1:22\n"}
+,{"stream_name":"stdout","time":203.691752754,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 15% ━╸────────── 114/747 7.3it/s 18.8s\u003c1:27\n"}
+,{"stream_name":"stdout","time":203.691757277,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 15% ━╸────────── 116/747 8.6it/s 19.0s\u003c1:13\n"}
+,{"stream_name":"stdout","time":203.6917618,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 15% ━╸────────── 118/747 7.3it/s 19.5s\u003c1:26\n"}
+,{"stream_name":"stdout","time":203.691766147,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 16% ━╸────────── 121/747 7.1it/s 19.9s\u003c1:28\n"}
+,{"stream_name":"stdout","time":203.89530245,"data":"E1_caries_seed42_smoke.log talselfie-data-v1/prepared/caries/labels/train... 1018 images, 17 backgrounds, 0 corrupt: 66% ━━━━━━━━──── 1018/1522 7.9it/s 1:59\u003c1:04\n"}
+,{"stream_name":"stdout","time":203.895334754,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1020 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1020/1522 7.3it/s 1:59\u003c1:09\n"}
+,{"stream_name":"stdout","time":203.895339434,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1023 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1023/1522 8.5it/s 1:59\u003c58.8s\n"}
+,{"stream_name":"stdout","time":203.895343126,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1025 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1025/1522 11.6it/s 1:59\u003c43.0s\n"}
+,{"stream_name":"stdout","time":203.895346437,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1026 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1026/1522 9.4it/s 2:00\u003c52.8s\n"}
+,{"stream_name":"stdout","time":203.89534952,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1027 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1027/1522 9.5it/s 2:00\u003c52.2s\n"}
+,{"stream_name":"stdout","time":203.895352639,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1029 images, 17 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1029/1522 9.3it/s 2:00\u003c52.9s\n"}
+,{"stream_name":"stdout","time":203.89538586,"data":"E1_gum_seed42_smoke.log 0mCaching images (0.1GB RAM): 12% ━─────────── 90/747 6.7it/s 14.8s\u003c1:37\n"}
+,{"stream_name":"stdout","time":203.895392224,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 12% ━─────────── 91/747 5.8it/s 15.0s\u003c1:54\n"}
+,{"stream_name":"stdout","time":203.895397686,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 12% ━╸────────── 94/747 5.3it/s 15.7s\u003c2:02\n"}
+,{"stream_name":"stdout","time":203.895413217,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 12% ━╸────────── 97/747 10.6it/s 15.9s\u003c1:01\n"}
+,{"stream_name":"stdout","time":203.895417639,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 98/747 8.4it/s 16.2s\u003c1:18\n"}
+,{"stream_name":"stdout","time":203.895421891,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 99/747 7.9it/s 16.3s\u003c1:22\n"}
+,{"stream_name":"stdout","time":203.895426174,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 101/747 6.7it/s 16.8s\u003c1:36\n"}
+,{"stream_name":"stdout","time":203.895430908,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 104/747 6.6it/s 17.3s\u003c1:37\n"}
+,{"stream_name":"stdout","time":203.895435237,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 107/747 10.8it/s 17.4s\u003c59.3s\n"}
+,{"stream_name":"stdout","time":203.895439692,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 108/747 8.2it/s 17.9s\u003c1:18\n"}
+,{"stream_name":"stdout","time":203.89544399,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 111/747 7.7it/s 18.4s\u003c1:22\n"}
+,{"stream_name":"stdout","time":203.895467564,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 15% ━╸────────── 114/747 7.3it/s 18.8s\u003c1:27\n"}
+,{"stream_name":"stdout","time":203.895472144,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 15% ━╸────────── 116/747 8.6it/s 19.0s\u003c1:13\n"}
+,{"stream_name":"stdout","time":203.895478517,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 15% ━╸────────── 118/747 7.3it/s 19.5s\u003c1:26\n"}
+,{"stream_name":"stdout","time":203.89548327400001,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 16% ━╸────────── 121/747 7.1it/s 19.9s\u003c1:28\n"}
+,{"stream_name":"stdout","time":233.697349861,"data":"E1_caries_seed42_smoke.log selfie-data-v1/prepared/caries/labels/train... 1275 images, 23 backgrounds, 0 corrupt: 83% ━━━━━━━━━━── 1275/1522 7.6it/s 2:29\u003c32.5s\n"}
+,{"stream_name":"stdout","time":233.697383359,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1277 images, 23 backgrounds, 0 corrupt: 83% ━━━━━━━━━━── 1277/1522 8.0it/s 2:29\u003c30.5s\n"}
+,{"stream_name":"stdout","time":233.697390058,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1279 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1279/1522 10.0it/s 2:29\u003c24.4s\n"}
+,{"stream_name":"stdout","time":233.697395403,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1280 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1280/1522 8.8it/s 2:29\u003c27.4s\n"}
+,{"stream_name":"stdout","time":233.697400585,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1281 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1281/1522 9.1it/s 2:30\u003c26.6s\n"}
+,{"stream_name":"stdout","time":233.697418693,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1283 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1283/1522 8.5it/s 2:30\u003c28.2s\n"}
+,{"stream_name":"stdout","time":233.697423832,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1285 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1285/1522 10.4it/s 2:30\u003c22.8s\n"}
+,{"stream_name":"stdout","time":233.697857518,"data":"E1_gum_seed42_smoke.log hing images (0.2GB RAM): 36% ━━━━──────── 272/747 6.9it/s 44.6s\u003c1:09\n"}
+,{"stream_name":"stdout","time":233.697886595,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 273/747 5.8it/s 44.9s\u003c1:21\n"}
+,{"stream_name":"stdout","time":233.697890588,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 275/747 8.9it/s 45.0s\u003c53.2s\n"}
+,{"stream_name":"stdout","time":233.697893821,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 276/747 6.9it/s 45.4s\u003c1:08\n"}
+,{"stream_name":"stdout","time":233.697896804,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 37% ━━━━──────── 279/747 6.9it/s 45.9s\u003c1:08\n"}
+,{"stream_name":"stdout","time":233.697899713,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 37% ━━━━╸─────── 282/747 8.6it/s 46.1s\u003c54.3s\n"}
+,{"stream_name":"stdout","time":233.697902635,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 37% ━━━━╸─────── 283/747 7.4it/s 46.3s\u003c1:03\n"}
+,{"stream_name":"stdout","time":233.697905538,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 38% ━━━━╸─────── 286/747 7.4it/s 46.7s\u003c1:03\n"}
+,{"stream_name":"stdout","time":233.697908321,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 38% ━━━━╸─────── 289/747 7.1it/s 47.2s\u003c1:04\n"}
+,{"stream_name":"stdout","time":233.697911092,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 292/747 6.7it/s 47.7s\u003c1:07\n"}
+,{"stream_name":"stdout","time":233.697914825,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 295/747 6.9it/s 48.1s\u003c1:05\n"}
+,{"stream_name":"stdout","time":233.69793369,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 298/747 6.8it/s 48.6s\u003c1:06\n"}
+,{"stream_name":"stdout","time":233.697938892,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 40% ━━━━╸─────── 301/747 6.7it/s 49.0s\u003c1:07\n"}
+,{"stream_name":"stdout","time":233.697943913,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 40% ━━━━╸─────── 304/747 6.7it/s 49.5s\u003c1:07\n"}
+,{"stream_name":"stdout","time":233.697949317,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 41% ━━━━╸─────── 307/747 6.4it/s 50.0s\u003c1:08\n"}
+,{"stream_name":"stdout","time":233.90201504,"data":"E1_caries_seed42_smoke.log selfie-data-v1/prepared/caries/labels/train... 1275 images, 23 backgrounds, 0 corrupt: 83% ━━━━━━━━━━── 1275/1522 7.6it/s 2:29\u003c32.5s\n"}
+,{"stream_name":"stdout","time":233.902056264,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1277 images, 23 backgrounds, 0 corrupt: 83% ━━━━━━━━━━── 1277/1522 8.0it/s 2:29\u003c30.5s\n"}
+,{"stream_name":"stdout","time":233.902067348,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1279 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1279/1522 10.0it/s 2:29\u003c24.4s\n"}
+,{"stream_name":"stdout","time":233.902070909,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1280 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1280/1522 8.8it/s 2:29\u003c27.4s\n"}
+,{"stream_name":"stdout","time":233.902074175,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1281 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1281/1522 9.1it/s 2:30\u003c26.6s\n"}
+,{"stream_name":"stdout","time":233.902077306,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1283 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1283/1522 8.5it/s 2:30\u003c28.2s\n"}
+,{"stream_name":"stdout","time":233.902080472,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1285 images, 23 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1285/1522 10.4it/s 2:30\u003c22.8s\n"}
+,{"stream_name":"stdout","time":233.902084328,"data":"E1_gum_seed42_smoke.log hing images (0.2GB RAM): 36% ━━━━──────── 272/747 6.9it/s 44.6s\u003c1:09\n"}
+,{"stream_name":"stdout","time":233.90208735,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 273/747 5.8it/s 44.9s\u003c1:21\n"}
+,{"stream_name":"stdout","time":233.902090417,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 275/747 8.9it/s 45.0s\u003c53.2s\n"}
+,{"stream_name":"stdout","time":233.902094202,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 276/747 6.9it/s 45.4s\u003c1:08\n"}
+,{"stream_name":"stdout","time":233.902097189,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 37% ━━━━──────── 279/747 6.9it/s 45.9s\u003c1:08\n"}
+,{"stream_name":"stdout","time":233.902100137,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 37% ━━━━╸─────── 282/747 8.6it/s 46.1s\u003c54.3s\n"}
+,{"stream_name":"stdout","time":233.90210313,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 37% ━━━━╸─────── 283/747 7.4it/s 46.3s\u003c1:03\n"}
+,{"stream_name":"stdout","time":233.902106023,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 38% ━━━━╸─────── 286/747 7.4it/s 46.7s\u003c1:03\n"}
+,{"stream_name":"stdout","time":233.902108913,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 38% ━━━━╸─────── 289/747 7.1it/s 47.2s\u003c1:04\n"}
+,{"stream_name":"stdout","time":233.902111797,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 292/747 6.7it/s 47.7s\u003c1:07\n"}
+,{"stream_name":"stdout","time":233.902129802,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 295/747 6.9it/s 48.1s\u003c1:05\n"}
+,{"stream_name":"stdout","time":233.902132814,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 298/747 6.8it/s 48.6s\u003c1:06\n"}
+,{"stream_name":"stdout","time":233.902135591,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 40% ━━━━╸─────── 301/747 6.7it/s 49.0s\u003c1:07\n"}
+,{"stream_name":"stdout","time":233.902138379,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 40% ━━━━╸─────── 304/747 6.7it/s 49.5s\u003c1:07\n"}
+,{"stream_name":"stdout","time":233.902141165,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 41% ━━━━╸─────── 307/747 6.4it/s 50.0s\u003c1:08\n"}
+,{"stream_name":"stdout","time":263.70442214,"data":"E1_caries_seed42_smoke.log cl/dentalselfie-data-v1/prepared/caries/labels/train... 1497 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1497/1522 7.2it/s 2:59\u003c3.5s\n"}
+,{"stream_name":"stdout","time":263.704461655,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1499 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1499/1522 7.7it/s 2:59\u003c3.0s\n"}
+,{"stream_name":"stdout","time":263.704469294,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1501 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1501/1522 8.4it/s 2:59\u003c2.5s\n"}
+,{"stream_name":"stdout","time":263.704475599,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1502 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1502/1522 7.1it/s 2:59\u003c2.8s\n"}
+,{"stream_name":"stdout","time":263.704481973,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1503 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1503/1522 7.2it/s 2:59\u003c2.6s\n"}
+,{"stream_name":"stdout","time":263.704494534,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1505 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1505/1522 6.9it/s 3:00\u003c2.5s\n"}
+,{"stream_name":"stdout","time":263.704500681,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1507 images, 28 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1507/1522 7.8it/s 3:00\u003c1.9s\n"}
+,{"stream_name":"stdout","time":263.705119417,"data":"E1_gum_seed42_smoke.log 0mCaching images (0.3GB RAM): 55% ━━━━━━╸───── 418/747 4.7it/s 1:13\u003c1:10\n"}
+,{"stream_name":"stdout","time":263.705145855,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 56% ━━━━━━╸───── 421/747 4.9it/s 1:14\u003c1:06\n"}
+,{"stream_name":"stdout","time":263.705186671,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 56% ━━━━━━╸───── 424/747 4.8it/s 1:15\u003c1:08\n"}
+,{"stream_name":"stdout","time":263.705207561,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 426/747 8.1it/s 1:15\u003c39.6s\n"}
+,{"stream_name":"stdout","time":263.705212663,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 427/747 6.2it/s 1:15\u003c51.4s\n"}
+,{"stream_name":"stdout","time":263.70521721,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 430/747 6.2it/s 1:16\u003c50.8s\n"}
+,{"stream_name":"stdout","time":263.705221759,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 431/747 5.8it/s 1:16\u003c54.4s\n"}
+,{"stream_name":"stdout","time":263.705226309,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 433/747 8.9it/s 1:16\u003c35.4s\n"}
+,{"stream_name":"stdout","time":263.705230807,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 58% ━━━━━━╸───── 434/747 7.0it/s 1:17\u003c44.4s\n"}
+,{"stream_name":"stdout","time":263.705235206,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 58% ━━━━━━━───── 437/747 6.4it/s 1:17\u003c48.5s\n"}
+,{"stream_name":"stdout","time":263.705239645,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 58% ━━━━━━━───── 440/747 5.8it/s 1:18\u003c53.0s\n"}
+,{"stream_name":"stdout","time":263.705258789,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 59% ━━━━━━━───── 442/747 7.5it/s 1:18\u003c40.5s\n"}
+,{"stream_name":"stdout","time":263.705263435,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 59% ━━━━━━━───── 443/747 5.9it/s 1:19\u003c51.6s\n"}
+,{"stream_name":"stdout","time":263.705284808,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 59% ━━━━━━━───── 446/747 5.5it/s 1:19\u003c54.6s\n"}
+,{"stream_name":"stdout","time":263.705291752,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 60% ━━━━━━━───── 449/747 5.2it/s 1:20\u003c57.5s\n"}
+,{"stream_name":"stdout","time":263.909086578,"data":"E1_caries_seed42_smoke.log cl/dentalselfie-data-v1/prepared/caries/labels/train... 1497 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1497/1522 7.2it/s 2:59\u003c3.5s\n"}
+,{"stream_name":"stdout","time":263.90911496,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1499 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1499/1522 7.7it/s 2:59\u003c3.0s\n"}
+,{"stream_name":"stdout","time":263.909121064,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1501 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1501/1522 8.4it/s 2:59\u003c2.5s\n"}
+,{"stream_name":"stdout","time":263.909126033,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1502 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1502/1522 7.1it/s 2:59\u003c2.8s\n"}
+,{"stream_name":"stdout","time":263.909131105,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1503 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1503/1522 7.2it/s 2:59\u003c2.6s\n"}
+,{"stream_name":"stdout","time":263.90915054,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1505 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1505/1522 6.9it/s 3:00\u003c2.5s\n"}
+,{"stream_name":"stdout","time":263.909153985,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/caries/labels/train... 1507 images, 28 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1507/1522 7.8it/s 3:00\u003c1.9s\n"}
+,{"stream_name":"stdout","time":263.909157054,"data":"E1_gum_seed42_smoke.log 0mCaching images (0.3GB RAM): 55% ━━━━━━╸───── 418/747 4.7it/s 1:13\u003c1:10\n"}
+,{"stream_name":"stdout","time":263.909159832,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 56% ━━━━━━╸───── 421/747 4.9it/s 1:14\u003c1:06\n"}
+,{"stream_name":"stdout","time":263.909162684,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 56% ━━━━━━╸───── 424/747 4.8it/s 1:15\u003c1:08\n"}
+,{"stream_name":"stdout","time":263.909166428,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 426/747 8.1it/s 1:15\u003c39.6s\n"}
+,{"stream_name":"stdout","time":263.909169342,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 427/747 6.2it/s 1:15\u003c51.4s\n"}
+,{"stream_name":"stdout","time":263.909172168,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 430/747 6.2it/s 1:16\u003c50.8s\n"}
+,{"stream_name":"stdout","time":263.909174918,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 431/747 5.8it/s 1:16\u003c54.4s\n"}
+,{"stream_name":"stdout","time":263.909177735,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 57% ━━━━━━╸───── 433/747 8.9it/s 1:16\u003c35.4s\n"}
+,{"stream_name":"stdout","time":263.909180508,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 58% ━━━━━━╸───── 434/747 7.0it/s 1:17\u003c44.4s\n"}
+,{"stream_name":"stdout","time":263.909183263,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 58% ━━━━━━━───── 437/747 6.4it/s 1:17\u003c48.5s\n"}
+,{"stream_name":"stdout","time":263.909186049,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 58% ━━━━━━━───── 440/747 5.8it/s 1:18\u003c53.0s\n"}
+,{"stream_name":"stdout","time":263.909188891,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 59% ━━━━━━━───── 442/747 7.5it/s 1:18\u003c40.5s\n"}
+,{"stream_name":"stdout","time":263.909191674,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 59% ━━━━━━━───── 443/747 5.9it/s 1:19\u003c51.6s\n"}
+,{"stream_name":"stdout","time":263.909194452,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 59% ━━━━━━━───── 446/747 5.5it/s 1:19\u003c54.6s\n"}
+,{"stream_name":"stdout","time":263.909197251,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 60% ━━━━━━━───── 449/747 5.2it/s 1:20\u003c57.5s\n"}
+,{"stream_name":"stdout","time":293.710995061,"data":"E1_caries_seed42_smoke.log 34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 36/1522 4.8it/s 7.9s\u003c5:09\n"}
+,{"stream_name":"stdout","time":293.711044436,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 38/1522 8.2it/s 8.1s\u003c3:00\n"}
+,{"stream_name":"stdout","time":293.711050522,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 39/1522 6.3it/s 8.6s\u003c3:54\n"}
+,{"stream_name":"stdout","time":293.711055257,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 42/1522 5.8it/s 9.2s\u003c4:15\n"}
+,{"stream_name":"stdout","time":293.711059765,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 45/1522 5.4it/s 9.9s\u003c4:32\n"}
+,{"stream_name":"stdout","time":293.711064302,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 48/1522 5.2it/s 10.5s\u003c4:42\n"}
+,{"stream_name":"stdout","time":293.711068859,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 51/1522 5.5it/s 11.0s\u003c4:26\n"}
+,{"stream_name":"stdout","time":293.711073364,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 55/1522 7.1it/s 11.4s\u003c3:27\n"}
+,{"stream_name":"stdout","time":293.711297413,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 56/1522 6.3it/s 11.6s\u003c3:52\n"}
+,{"stream_name":"stdout","time":293.711320484,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 58/1522 5.4it/s 12.2s\u003c4:32\n"}
+,{"stream_name":"stdout","time":293.711325598,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ──────────── 61/1522 5.1it/s 12.9s\u003c4:49\n"}
+,{"stream_name":"stdout","time":293.711330087,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 64/1522 8.5it/s 13.1s\u003c2:52\n"}
+,{"stream_name":"stdout","time":293.711340222,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 65/1522 6.8it/s 13.4s\u003c3:34\n"}
+,{"stream_name":"stdout","time":293.711343681,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 68/1522 11.0it/s 13.6s\u003c2:13\n"}
+,{"stream_name":"stdout","time":293.711346607,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 69/1522 8.2it/s 14.1s\u003c2:56\n"}
+,{"stream_name":"stdout","time":293.711888492,"data":"E1_gum_seed42_smoke.log aching images (0.4GB RAM): 75% ━━━━━━━━━─── 563/747 5.4it/s 1:44\u003c33.9s\n"}
+,{"stream_name":"stdout","time":293.711898904,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 75% ━━━━━━━━━─── 566/747 5.6it/s 1:45\u003c32.1s\n"}
+,{"stream_name":"stdout","time":293.711915477,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 75% ━━━━━━━━━─── 567/747 5.7it/s 1:45\u003c31.4s\n"}
+,{"stream_name":"stdout","time":293.7119203,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 569/747 5.0it/s 1:45\u003c35.8s\n"}
+,{"stream_name":"stdout","time":293.71192494,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 572/747 5.1it/s 1:46\u003c34.5s\n"}
+,{"stream_name":"stdout","time":293.711929876,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 574/747 8.4it/s 1:46\u003c20.5s\n"}
+,{"stream_name":"stdout","time":293.711942304,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 575/747 6.8it/s 1:46\u003c25.5s\n"}
+,{"stream_name":"stdout","time":293.711946759,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 576/747 6.0it/s 1:47\u003c28.3s\n"}
+,{"stream_name":"stdout","time":293.711950715,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 578/747 8.9it/s 1:47\u003c19.0s\n"}
+,{"stream_name":"stdout","time":293.711954711,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 579/747 6.9it/s 1:47\u003c24.4s\n"}
+,{"stream_name":"stdout","time":293.711958707,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 582/747 6.7it/s 1:48\u003c24.6s\n"}
+,{"stream_name":"stdout","time":293.711962742,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 78% ━━━━━━━━━─── 585/747 6.0it/s 1:48\u003c27.0s\n"}
+,{"stream_name":"stdout","time":293.711966674,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 78% ━━━━━━━━━─── 588/747 5.9it/s 1:49\u003c26.9s\n"}
+,{"stream_name":"stdout","time":293.71197066,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 78% ━━━━━━━━━─── 589/747 6.9it/s 1:49\u003c23.0s\n"}
+,{"stream_name":"stdout","time":293.711974669,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 79% ━━━━━━━━━─── 591/747 6.0it/s 1:50\u003c26.0s\n"}
+,{"stream_name":"stdout","time":293.917385403,"data":"E1_caries_seed42_smoke.log 34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 36/1522 4.8it/s 7.9s\u003c5:09\n"}
+,{"stream_name":"stdout","time":293.917417152,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 38/1522 8.2it/s 8.1s\u003c3:00\n"}
+,{"stream_name":"stdout","time":293.917436161,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 39/1522 6.3it/s 8.6s\u003c3:54\n"}
+,{"stream_name":"stdout","time":293.917441708,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 42/1522 5.8it/s 9.2s\u003c4:15\n"}
+,{"stream_name":"stdout","time":293.917447111,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 45/1522 5.4it/s 9.9s\u003c4:32\n"}
+,{"stream_name":"stdout","time":293.917451609,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 48/1522 5.2it/s 10.5s\u003c4:42\n"}
+,{"stream_name":"stdout","time":293.917455965,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 51/1522 5.5it/s 11.0s\u003c4:26\n"}
+,{"stream_name":"stdout","time":293.917460278,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 55/1522 7.1it/s 11.4s\u003c3:27\n"}
+,{"stream_name":"stdout","time":293.917464599,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 56/1522 6.3it/s 11.6s\u003c3:52\n"}
+,{"stream_name":"stdout","time":293.917468923,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 58/1522 5.4it/s 12.2s\u003c4:32\n"}
+,{"stream_name":"stdout","time":293.917486915,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ──────────── 61/1522 5.1it/s 12.9s\u003c4:49\n"}
+,{"stream_name":"stdout","time":293.917490588,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 64/1522 8.5it/s 13.1s\u003c2:52\n"}
+,{"stream_name":"stdout","time":293.917493505,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 65/1522 6.8it/s 13.4s\u003c3:34\n"}
+,{"stream_name":"stdout","time":293.917496373,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 68/1522 11.0it/s 13.6s\u003c2:13\n"}
+,{"stream_name":"stdout","time":293.917499186,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 69/1522 8.2it/s 14.1s\u003c2:56\n"}
+,{"stream_name":"stdout","time":293.91750197,"data":"E1_gum_seed42_smoke.log aching images (0.4GB RAM): 75% ━━━━━━━━━─── 563/747 5.4it/s 1:44\u003c33.9s\n"}
+,{"stream_name":"stdout","time":293.917505032,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 75% ━━━━━━━━━─── 566/747 5.6it/s 1:45\u003c32.1s\n"}
+,{"stream_name":"stdout","time":293.917508743,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 75% ━━━━━━━━━─── 567/747 5.7it/s 1:45\u003c31.4s\n"}
+,{"stream_name":"stdout","time":293.917511916,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 569/747 5.0it/s 1:45\u003c35.8s\n"}
+,{"stream_name":"stdout","time":293.917530445,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 572/747 5.1it/s 1:46\u003c34.5s\n"}
+,{"stream_name":"stdout","time":293.917536175,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 574/747 8.4it/s 1:46\u003c20.5s\n"}
+,{"stream_name":"stdout","time":293.917541418,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 76% ━━━━━━━━━─── 575/747 6.8it/s 1:46\u003c25.5s\n"}
+,{"stream_name":"stdout","time":293.917546673,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 576/747 6.0it/s 1:47\u003c28.3s\n"}
+,{"stream_name":"stdout","time":293.917551441,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 578/747 8.9it/s 1:47\u003c19.0s\n"}
+,{"stream_name":"stdout","time":293.917555838,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 579/747 6.9it/s 1:47\u003c24.4s\n"}
+,{"stream_name":"stdout","time":293.917560202,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 77% ━━━━━━━━━─── 582/747 6.7it/s 1:48\u003c24.6s\n"}
+,{"stream_name":"stdout","time":293.917564577,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 78% ━━━━━━━━━─── 585/747 6.0it/s 1:48\u003c27.0s\n"}
+,{"stream_name":"stdout","time":293.917568804,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 78% ━━━━━━━━━─── 588/747 5.9it/s 1:49\u003c26.9s\n"}
+,{"stream_name":"stdout","time":293.917573074,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 78% ━━━━━━━━━─── 589/747 6.9it/s 1:49\u003c23.0s\n"}
+,{"stream_name":"stdout","time":293.917581472,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 79% ━━━━━━━━━─── 591/747 6.0it/s 1:50\u003c26.0s\n"}
+,{"stream_name":"stdout","time":323.723055072,"data":"E1_caries_seed42_smoke.log 0.2GB RAM): 13% ━╸────────── 202/1522 5.8it/s 39.9s\u003c3:49\n"}
+,{"stream_name":"stdout","time":323.723099784,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 205/1522 5.5it/s 40.5s\u003c3:57\n"}
+,{"stream_name":"stdout","time":323.723107104,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 208/1522 5.2it/s 41.1s\u003c4:11\n"}
+,{"stream_name":"stdout","time":323.723113152,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 211/1522 8.3it/s 41.3s\u003c2:38\n"}
+,{"stream_name":"stdout","time":323.72311973,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 212/1522 7.1it/s 41.6s\u003c3:05\n"}
+,{"stream_name":"stdout","time":323.72312604,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 214/1522 7.6it/s 41.8s\u003c2:52\n"}
+,{"stream_name":"stdout","time":323.723133361,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 215/1522 6.6it/s 42.0s\u003c3:19\n"}
+,{"stream_name":"stdout","time":323.723140505,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 217/1522 9.0it/s 42.2s\u003c2:25\n"}
+,{"stream_name":"stdout","time":323.723147767,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 218/1522 7.3it/s 42.5s\u003c2:59\n"}
+,{"stream_name":"stdout","time":323.72315507,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 219/1522 6.9it/s 42.7s\u003c3:10\n"}
+,{"stream_name":"stdout","time":323.723160847,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 221/1522 6.0it/s 43.2s\u003c3:39\n"}
+,{"stream_name":"stdout","time":323.723166521,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 222/1522 5.6it/s 43.4s\u003c3:52\n"}
+,{"stream_name":"stdout","time":323.723172167,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 224/1522 6.6it/s 43.6s\u003c3:18\n"}
+,{"stream_name":"stdout","time":323.723177781,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 225/1522 5.7it/s 43.9s\u003c3:49\n"}
+,{"stream_name":"stdout","time":323.723183396,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 226/1522 6.0it/s 44.1s\u003c3:37\n"}
+,{"stream_name":"stdout","time":323.723189164,"data":"E1_gum_seed42_smoke.log 4m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 95% ━━━━━━━━━━━╸ 717/747 6.6it/s 2:13\u003c4.5s\n"}
+,{"stream_name":"stdout","time":323.72319489,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 96% ━━━━━━━━━━━╸ 719/747 6.5it/s 2:14\u003c4.3s\n"}
+,{"stream_name":"stdout","time":323.723201627,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 96% ━━━━━━━━━━━╸ 720/747 6.0it/s 2:14\u003c4.5s\n"}
+,{"stream_name":"stdout","time":323.723226077,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 96% ━━━━━━━━━━━╸ 722/747 7.4it/s 2:14\u003c3.4s\n"}
+,{"stream_name":"stdout","time":323.723231158,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 96% ━━━━━━━━━━━╸ 723/747 5.8it/s 2:15\u003c4.1s\n"}
+,{"stream_name":"stdout","time":323.72323578,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 726/747 5.9it/s 2:15\u003c3.6s\n"}
+,{"stream_name":"stdout","time":323.723260211,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 729/747 5.4it/s 2:16\u003c3.3s\n"}
+,{"stream_name":"stdout","time":323.723267447,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 730/747 5.4it/s 2:16\u003c3.1s\n"}
+,{"stream_name":"stdout","time":323.723272367,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 732/747 5.0it/s 2:16\u003c3.0s\n"}
+,{"stream_name":"stdout","time":323.723277659,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 98% ━━━━━━━━━━━╸ 735/747 5.2it/s 2:17\u003c2.3s\n"}
+,{"stream_name":"stdout","time":323.723283156,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 98% ━━━━━━━━━━━╸ 738/747 5.0it/s 2:18\u003c1.8s\n"}
+,{"stream_name":"stdout","time":323.723288091,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 99% ━━━━━━━━━━━╸ 741/747 4.9it/s 2:18\u003c1.2s\n"}
+,{"stream_name":"stdout","time":323.723293473,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 99% ━━━━━━━━━━━╸ 744/747 4.8it/s 2:19\u003c0.6s\n"}
+,{"stream_name":"stdout","time":323.723298988,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 99% ━━━━━━━━━━━╸ 746/747 7.4it/s 2:19\u003c0.1s\n"}
+,{"stream_name":"stdout","time":323.723304715,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 100% ━━━━━━━━━━━━ 747/747 5.4it/s 2:19\n"}
+,{"stream_name":"stdout","time":323.723310323,"data":"\n"}
+,{"stream_name":"stdout","time":323.929137203,"data":"E1_caries_seed42_smoke.log 0.2GB RAM): 13% ━╸────────── 202/1522 5.8it/s 39.9s\u003c3:49\n"}
+,{"stream_name":"stdout","time":323.929163392,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 205/1522 5.5it/s 40.5s\u003c3:57\n"}
+,{"stream_name":"stdout","time":323.92916901,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 208/1522 5.2it/s 41.1s\u003c4:11\n"}
+,{"stream_name":"stdout","time":323.929173895,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 211/1522 8.3it/s 41.3s\u003c2:38\n"}
+,{"stream_name":"stdout","time":323.929178924,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 212/1522 7.1it/s 41.6s\u003c3:05\n"}
+,{"stream_name":"stdout","time":323.929184092,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 214/1522 7.6it/s 41.8s\u003c2:52\n"}
+,{"stream_name":"stdout","time":323.929189164,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 215/1522 6.6it/s 42.0s\u003c3:19\n"}
+,{"stream_name":"stdout","time":323.929214515,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 217/1522 9.0it/s 42.2s\u003c2:25\n"}
+,{"stream_name":"stdout","time":323.929220116,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 218/1522 7.3it/s 42.5s\u003c2:59\n"}
+,{"stream_name":"stdout","time":323.929225418,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 219/1522 6.9it/s 42.7s\u003c3:10\n"}
+,{"stream_name":"stdout","time":323.929230136,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 221/1522 6.0it/s 43.2s\u003c3:39\n"}
+,{"stream_name":"stdout","time":323.929234505,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 222/1522 5.6it/s 43.4s\u003c3:52\n"}
+,{"stream_name":"stdout","time":323.929238458,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 224/1522 6.6it/s 43.6s\u003c3:18\n"}
+,{"stream_name":"stdout","time":323.929264089,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 225/1522 5.7it/s 43.9s\u003c3:49\n"}
+,{"stream_name":"stdout","time":323.929272723,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 226/1522 6.0it/s 44.1s\u003c3:37\n"}
+,{"stream_name":"stdout","time":323.929277598,"data":"E1_gum_seed42_smoke.log 4m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 95% ━━━━━━━━━━━╸ 717/747 6.6it/s 2:13\u003c4.5s\n"}
+,{"stream_name":"stdout","time":323.92928252,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 96% ━━━━━━━━━━━╸ 719/747 6.5it/s 2:14\u003c4.3s\n"}
+,{"stream_name":"stdout","time":323.929288561,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 96% ━━━━━━━━━━━╸ 720/747 6.0it/s 2:14\u003c4.5s\n"}
+,{"stream_name":"stdout","time":323.929292973,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 96% ━━━━━━━━━━━╸ 722/747 7.4it/s 2:14\u003c3.4s\n"}
+,{"stream_name":"stdout","time":323.929297306,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 96% ━━━━━━━━━━━╸ 723/747 5.8it/s 2:15\u003c4.1s\n"}
+,{"stream_name":"stdout","time":323.929301434,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 726/747 5.9it/s 2:15\u003c3.6s\n"}
+,{"stream_name":"stdout","time":323.929307292,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 729/747 5.4it/s 2:16\u003c3.3s\n"}
+,{"stream_name":"stdout","time":323.929315714,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 730/747 5.4it/s 2:16\u003c3.1s\n"}
+,{"stream_name":"stdout","time":323.929319682,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 97% ━━━━━━━━━━━╸ 732/747 5.0it/s 2:16\u003c3.0s\n"}
+,{"stream_name":"stdout","time":323.929322491,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 98% ━━━━━━━━━━━╸ 735/747 5.2it/s 2:17\u003c2.3s\n"}
+,{"stream_name":"stdout","time":323.929325328,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 98% ━━━━━━━━━━━╸ 738/747 5.0it/s 2:18\u003c1.8s\n"}
+,{"stream_name":"stdout","time":323.929337274,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 99% ━━━━━━━━━━━╸ 741/747 4.9it/s 2:18\u003c1.2s\n"}
+,{"stream_name":"stdout","time":323.929340408,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 99% ━━━━━━━━━━━╸ 744/747 4.8it/s 2:19\u003c0.6s\n"}
+,{"stream_name":"stdout","time":323.929343174,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 99% ━━━━━━━━━━━╸ 746/747 7.4it/s 2:19\u003c0.1s\n"}
+,{"stream_name":"stdout","time":323.929345951,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 100% ━━━━━━━━━━━━ 747/747 5.4it/s 2:19\n"}
+,{"stream_name":"stdout","time":323.92934892,"data":"\n"}
+,{"stream_name":"stdout","time":353.72904545,"data":"E1_caries_seed42_smoke.log aching images (0.3GB RAM): 22% ━━╸───────── 335/1522 7.3it/s 1:06\u003c2:44\n"}
+,{"stream_name":"stdout","time":353.729081643,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 336/1522 5.6it/s 1:07\u003c3:30\n"}
+,{"stream_name":"stdout","time":353.729087486,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 339/1522 5.6it/s 1:07\u003c3:32\n"}
+,{"stream_name":"stdout","time":353.729092355,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 342/1522 5.4it/s 1:08\u003c3:40\n"}
+,{"stream_name":"stdout","time":353.729096946,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 345/1522 5.3it/s 1:09\u003c3:44\n"}
+,{"stream_name":"stdout","time":353.729101789,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 348/1522 5.1it/s 1:09\u003c3:49\n"}
+,{"stream_name":"stdout","time":353.729106693,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 351/1522 5.3it/s 1:10\u003c3:41\n"}
+,{"stream_name":"stdout","time":353.729111426,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 354/1522 5.0it/s 1:10\u003c3:51\n"}
+,{"stream_name":"stdout","time":353.729427508,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 357/1522 4.7it/s 1:11\u003c4:07\n"}
+,{"stream_name":"stdout","time":353.729454294,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 360/1522 4.8it/s 1:12\u003c4:00\n"}
+,{"stream_name":"stdout","time":353.729460194,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 363/1522 4.9it/s 1:12\u003c3:56\n"}
+,{"stream_name":"stdout","time":353.729464762,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 366/1522 4.9it/s 1:13\u003c3:54\n"}
+,{"stream_name":"stdout","time":353.729469233,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 369/1522 6.5it/s 1:13\u003c2:57\n"}
+,{"stream_name":"stdout","time":353.729473516,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 370/1522 5.5it/s 1:14\u003c3:28\n"}
+,{"stream_name":"stdout","time":353.72947789,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 373/1522 5.4it/s 1:14\u003c3:35\n"}
+,{"stream_name":"stdout","time":353.730208263,"data":"E1_gum_seed42_smoke.log 94% ━━━━━━━━━━━─ 151/160 8.1it/s 19.3s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":353.730221318,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 152 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 152/160 7.4it/s 19.4s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":353.730227579,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 154 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 154/160 8.2it/s 19.6s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":353.730232804,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 155 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 155/160 7.2it/s 19.8s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":353.730238308,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 157 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 157/160 7.2it/s 20.1s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":353.730264683,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 158 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 158/160 7.4it/s 20.2s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":353.730270553,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 160 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 160/160 7.8it/s 20.5s\n"}
+,{"stream_name":"stdout","time":353.730276477,"data":"WARNING ⚠️ \u001b[34m\u001b[1mval: \u001b[0mCache directory /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels is not writable, cache not saved.\n"}
+,{"stream_name":"stdout","time":353.730281723,"data":"\n"}
+,{"stream_name":"stdout","time":353.936287294,"data":"E1_caries_seed42_smoke.log aching images (0.3GB RAM): 22% ━━╸───────── 335/1522 7.3it/s 1:06\u003c2:44\n"}
+,{"stream_name":"stdout","time":353.936318211,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 336/1522 5.6it/s 1:07\u003c3:30\n"}
+,{"stream_name":"stdout","time":353.936322603,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 339/1522 5.6it/s 1:07\u003c3:32\n"}
+,{"stream_name":"stdout","time":353.936325985,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 342/1522 5.4it/s 1:08\u003c3:40\n"}
+,{"stream_name":"stdout","time":353.936330294,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 345/1522 5.3it/s 1:09\u003c3:44\n"}
+,{"stream_name":"stdout","time":353.936350614,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 22% ━━╸───────── 348/1522 5.1it/s 1:09\u003c3:49\n"}
+,{"stream_name":"stdout","time":353.936371268,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 351/1522 5.3it/s 1:10\u003c3:41\n"}
+,{"stream_name":"stdout","time":353.936376638,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 354/1522 5.0it/s 1:10\u003c3:51\n"}
+,{"stream_name":"stdout","time":353.936390787,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 357/1522 4.7it/s 1:11\u003c4:07\n"}
+,{"stream_name":"stdout","time":353.936395379,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 360/1522 4.8it/s 1:12\u003c4:00\n"}
+,{"stream_name":"stdout","time":353.936402137,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 23% ━━╸───────── 363/1522 4.9it/s 1:12\u003c3:56\n"}
+,{"stream_name":"stdout","time":353.936410429,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 366/1522 4.9it/s 1:13\u003c3:54\n"}
+,{"stream_name":"stdout","time":353.936413375,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 369/1522 6.5it/s 1:13\u003c2:57\n"}
+,{"stream_name":"stdout","time":353.936416263,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 370/1522 5.5it/s 1:14\u003c3:28\n"}
+,{"stream_name":"stdout","time":353.93641921,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 24% ━━╸───────── 373/1522 5.4it/s 1:14\u003c3:35\n"}
+,{"stream_name":"stdout","time":353.936422246,"data":"E1_gum_seed42_smoke.log 94% ━━━━━━━━━━━─ 151/160 8.1it/s 19.3s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":353.936426339,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 152 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 152/160 7.4it/s 19.4s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":353.936430111,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 154 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 154/160 8.2it/s 19.6s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":353.936433317,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 155 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 155/160 7.2it/s 19.8s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":353.936450547,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 157 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 157/160 7.2it/s 20.1s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":353.93645652,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 158 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 158/160 7.4it/s 20.2s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":353.936462317,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels/val... 160 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 160/160 7.8it/s 20.5s\n"}
+,{"stream_name":"stdout","time":353.936468339,"data":"WARNING ⚠️ \u001b[34m\u001b[1mval: \u001b[0mCache directory /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum/labels is not writable, cache not saved.\n"}
+,{"stream_name":"stdout","time":353.936473761,"data":"\n"}
+,{"stream_name":"stdout","time":383.737844845,"data":"E1_caries_seed42_smoke.log aching images (0.4GB RAM): 33% ━━━╸──────── 504/1522 7.2it/s 1:38\u003c2:21\n"}
+,{"stream_name":"stdout","time":383.737943236,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━╸──────── 506/1522 6.5it/s 1:38\u003c2:37\n"}
+,{"stream_name":"stdout","time":383.737950069,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 509/1522 6.0it/s 1:39\u003c2:49\n"}
+,{"stream_name":"stdout","time":383.737954366,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 512/1522 5.3it/s 1:39\u003c3:10\n"}
+,{"stream_name":"stdout","time":383.737958458,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 513/1522 6.2it/s 1:40\u003c2:43\n"}
+,{"stream_name":"stdout","time":383.737962781,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 515/1522 5.5it/s 1:40\u003c3:03\n"}
+,{"stream_name":"stdout","time":383.737966811,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 518/1522 5.5it/s 1:41\u003c3:03\n"}
+,{"stream_name":"stdout","time":383.737970806,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 519/1522 5.5it/s 1:41\u003c3:01\n"}
+,{"stream_name":"stdout","time":383.737974972,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 521/1522 5.2it/s 1:41\u003c3:12\n"}
+,{"stream_name":"stdout","time":383.737984385,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 524/1522 5.3it/s 1:42\u003c3:09\n"}
+,{"stream_name":"stdout","time":383.737987246,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 527/1522 5.0it/s 1:42\u003c3:17\n"}
+,{"stream_name":"stdout","time":383.737989867,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 530/1522 5.2it/s 1:43\u003c3:11\n"}
+,{"stream_name":"stdout","time":383.737992466,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 531/1522 6.1it/s 1:43\u003c2:42\n"}
+,{"stream_name":"stdout","time":383.73800843,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 35% ━━━━──────── 533/1522 5.3it/s 1:44\u003c3:06\n"}
+,{"stream_name":"stdout","time":383.738013245,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 35% ━━━━──────── 536/1522 5.0it/s 1:44\u003c3:18\n"}
+,{"stream_name":"stdout","time":383.738520579,"data":"E1_gum_seed42_smoke.log \u003c7.6s\n"}
+,{"stream_name":"stdout","time":383.738556181,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 72% ━━━━━━━━╸─── 116/160 5.7it/s 18.6s\u003c7.7s\n"}
+,{"stream_name":"stdout","time":383.738563033,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 74% ━━━━━━━━╸─── 119/160 7.1it/s 18.9s\u003c5.8s\n"}
+,{"stream_name":"stdout","time":383.738568259,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 75% ━━━━━━━━━─── 120/160 6.3it/s 19.1s\u003c6.3s\n"}
+,{"stream_name":"stdout","time":383.738572776,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 75% ━━━━━━━━━─── 121/160 5.0it/s 19.6s\u003c7.8s\n"}
+,{"stream_name":"stdout","time":383.738577141,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 77% ━━━━━━━━━─── 124/160 4.8it/s 20.3s\u003c7.5s\n"}
+,{"stream_name":"stdout","time":383.738615143,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 79% ━━━━━━━━━╸── 127/160 5.0it/s 20.9s\u003c6.6s\n"}
+,{"stream_name":"stdout","time":383.738619118,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 80% ━━━━━━━━━╸── 129/160 6.9it/s 21.0s\u003c4.5s\n"}
+,{"stream_name":"stdout","time":383.738621998,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 81% ━━━━━━━━━╸── 130/160 5.5it/s 21.5s\u003c5.5s\n"}
+,{"stream_name":"stdout","time":383.738624838,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 82% ━━━━━━━━━╸── 132/160 7.3it/s 21.7s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":383.738627656,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 83% ━━━━━━━━━╸── 133/160 5.6it/s 22.3s\u003c4.8s\n"}
+,{"stream_name":"stdout","time":383.738630435,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 85% ━━━━━━━━━━── 136/160 5.4it/s 22.9s\u003c4.4s\n"}
+,{"stream_name":"stdout","time":383.738633259,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 86% ━━━━━━━━━━── 139/160 8.0it/s 23.1s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":383.738636046,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 87% ━━━━━━━━━━── 140/160 6.3it/s 23.6s\u003c3.2s\n"}
+,{"stream_name":"stdout","time":383.7386389,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 89% ━━━━━━━━━━╸─ 143/160 8.3it/s 23.8s\u003c2.0s\n"}
+,{"stream_name":"stdout","time":383.738641727,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 90% ━━━━━━━━━━╸─ 144/160 6.5it/s 24.3s\u003c2.5s\n"}
+,{"stream_name":"stdout","time":383.942703959,"data":"E1_caries_seed42_smoke.log aching images (0.4GB RAM): 33% ━━━╸──────── 504/1522 7.2it/s 1:38\u003c2:21\n"}
+,{"stream_name":"stdout","time":383.942739852,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━╸──────── 506/1522 6.5it/s 1:38\u003c2:37\n"}
+,{"stream_name":"stdout","time":383.942744756,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 509/1522 6.0it/s 1:39\u003c2:49\n"}
+,{"stream_name":"stdout","time":383.942747968,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 512/1522 5.3it/s 1:39\u003c3:10\n"}
+,{"stream_name":"stdout","time":383.942750974,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 513/1522 6.2it/s 1:40\u003c2:43\n"}
+,{"stream_name":"stdout","time":383.942753956,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 33% ━━━━──────── 515/1522 5.5it/s 1:40\u003c3:03\n"}
+,{"stream_name":"stdout","time":383.942757254,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 518/1522 5.5it/s 1:41\u003c3:03\n"}
+,{"stream_name":"stdout","time":383.942760074,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 519/1522 5.5it/s 1:41\u003c3:01\n"}
+,{"stream_name":"stdout","time":383.942762937,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 521/1522 5.2it/s 1:41\u003c3:12\n"}
+,{"stream_name":"stdout","time":383.942773989,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 524/1522 5.3it/s 1:42\u003c3:09\n"}
+,{"stream_name":"stdout","time":383.942776942,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 527/1522 5.0it/s 1:42\u003c3:17\n"}
+,{"stream_name":"stdout","time":383.942779783,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 530/1522 5.2it/s 1:43\u003c3:11\n"}
+,{"stream_name":"stdout","time":383.942782571,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 34% ━━━━──────── 531/1522 6.1it/s 1:43\u003c2:42\n"}
+,{"stream_name":"stdout","time":383.942785429,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 35% ━━━━──────── 533/1522 5.3it/s 1:44\u003c3:06\n"}
+,{"stream_name":"stdout","time":383.942788224,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.4GB RAM): 35% ━━━━──────── 536/1522 5.0it/s 1:44\u003c3:18\n"}
+,{"stream_name":"stdout","time":383.94279148,"data":"E1_gum_seed42_smoke.log \u003c7.6s\n"}
+,{"stream_name":"stdout","time":383.942794193,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 72% ━━━━━━━━╸─── 116/160 5.7it/s 18.6s\u003c7.7s\n"}
+,{"stream_name":"stdout","time":383.94279796,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 74% ━━━━━━━━╸─── 119/160 7.1it/s 18.9s\u003c5.8s\n"}
+,{"stream_name":"stdout","time":383.942800846,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 75% ━━━━━━━━━─── 120/160 6.3it/s 19.1s\u003c6.3s\n"}
+,{"stream_name":"stdout","time":383.942803711,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 75% ━━━━━━━━━─── 121/160 5.0it/s 19.6s\u003c7.8s\n"}
+,{"stream_name":"stdout","time":383.94280649,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 77% ━━━━━━━━━─── 124/160 4.8it/s 20.3s\u003c7.5s\n"}
+,{"stream_name":"stdout","time":383.942809282,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 79% ━━━━━━━━━╸── 127/160 5.0it/s 20.9s\u003c6.6s\n"}
+,{"stream_name":"stdout","time":383.942812051,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 80% ━━━━━━━━━╸── 129/160 6.9it/s 21.0s\u003c4.5s\n"}
+,{"stream_name":"stdout","time":383.942814814,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 81% ━━━━━━━━━╸── 130/160 5.5it/s 21.5s\u003c5.5s\n"}
+,{"stream_name":"stdout","time":383.942817569,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 82% ━━━━━━━━━╸── 132/160 7.3it/s 21.7s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":383.942820369,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 83% ━━━━━━━━━╸── 133/160 5.6it/s 22.3s\u003c4.8s\n"}
+,{"stream_name":"stdout","time":383.942823133,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 85% ━━━━━━━━━━── 136/160 5.4it/s 22.9s\u003c4.4s\n"}
+,{"stream_name":"stdout","time":383.942825893,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 86% ━━━━━━━━━━── 139/160 8.0it/s 23.1s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":383.942828661,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 87% ━━━━━━━━━━── 140/160 6.3it/s 23.6s\u003c3.2s\n"}
+,{"stream_name":"stdout","time":383.942842495,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 89% ━━━━━━━━━━╸─ 143/160 8.3it/s 23.8s\u003c2.0s\n"}
+,{"stream_name":"stdout","time":383.94284568,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.1GB RAM): 90% ━━━━━━━━━━╸─ 144/160 6.5it/s 24.3s\u003c2.5s\n"}
+,{"stream_name":"stdout","time":413.74668543,"data":"E1_caries_seed42_smoke.log aching images (0.5GB RAM): 41% ━━━━━─────── 638/1522 5.3it/s 2:05\u003c2:48\n"}
+,{"stream_name":"stdout","time":413.746717982,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 641/1522 5.2it/s 2:06\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.746723186,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 644/1522 5.2it/s 2:07\u003c2:47\n"}
+,{"stream_name":"stdout","time":413.746727791,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 647/1522 5.1it/s 2:07\u003c2:52\n"}
+,{"stream_name":"stdout","time":413.746732169,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 650/1522 5.1it/s 2:08\u003c2:51\n"}
+,{"stream_name":"stdout","time":413.746736401,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 653/1522 5.3it/s 2:08\u003c2:45\n"}
+,{"stream_name":"stdout","time":413.746740628,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 656/1522 5.1it/s 2:09\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.746744926,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 659/1522 4.9it/s 2:10\u003c2:57\n"}
+,{"stream_name":"stdout","time":413.746753563,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 662/1522 4.7it/s 2:10\u003c3:02\n"}
+,{"stream_name":"stdout","time":413.746758674,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 665/1522 4.7it/s 2:11\u003c3:04\n"}
+,{"stream_name":"stdout","time":413.746763048,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 668/1522 4.6it/s 2:12\u003c3:06\n"}
+,{"stream_name":"stdout","time":413.746767392,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 44% ━━━━━─────── 671/1522 4.9it/s 2:12\u003c2:52\n"}
+,{"stream_name":"stdout","time":413.746771906,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 44% ━━━━━─────── 674/1522 5.0it/s 2:13\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.746776417,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 44% ━━━━━─────── 677/1522 5.0it/s 2:13\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.746780797,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 44% ━━━━━─────── 680/1522 5.2it/s 2:14\u003c2:41\n"}
+,{"stream_name":"stdout","time":413.747752023,"data":"E1_gum_seed42_smoke.log ━━━━─────── 11/24 3.8it/s 17.3s\u003c3.4s\n"}
+,{"stream_name":"stdout","time":413.747786875,"data":"\u001b[K        1/3      4.86G      2.536      9.153    0.01372        384        640: 50% ━━━━━━────── 12/24 3.9it/s 17.6s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":413.747791757,"data":"\u001b[K        1/3      4.86G       2.47      8.821    0.01329        384        640: 54% ━━━━━━────── 13/24 3.9it/s 17.8s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":413.747805393,"data":"\u001b[K        1/3      4.86G      2.409      8.497     0.0129        384        640: 58% ━━━━━━━───── 14/24 3.9it/s 18.1s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":413.747810284,"data":"\u001b[K        1/3      4.86G      2.354      8.179    0.01254        384        640: 62% ━━━━━━━───── 15/24 3.9it/s 18.3s\u003c2.3s\n"}
+,{"stream_name":"stdout","time":413.747819507,"data":"\u001b[K        1/3      4.86G      2.301      7.879    0.01223        383        640: 66% ━━━━━━━━──── 16/24 4.0it/s 18.6s\u003c2.0s\n"}
+,{"stream_name":"stdout","time":413.747822407,"data":"\u001b[K        1/3      4.86G      2.257      7.609    0.01194        384        640: 70% ━━━━━━━━──── 17/24 3.9it/s 18.9s\u003c1.8s\n"}
+,{"stream_name":"stdout","time":413.747825293,"data":"\u001b[K        1/3      4.86G      2.218      7.362     0.0117        384        640: 75% ━━━━━━━━━─── 18/24 4.0it/s 19.1s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":413.747828085,"data":"\u001b[K        1/3      4.86G      2.183      7.134    0.01148        385        640: 79% ━━━━━━━━━─── 19/24 4.0it/s 19.3s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":413.747830938,"data":"\u001b[K        1/3      4.86G      2.146      6.924    0.01124        384        640: 83% ━━━━━━━━━━── 20/24 3.9it/s 19.6s\u003c1.0s\n"}
+,{"stream_name":"stdout","time":413.747833707,"data":"\u001b[K        1/3      4.86G      2.111      6.732    0.01103        384        640: 87% ━━━━━━━━━━── 21/24 4.0it/s 19.8s\u003c0.8s\n"}
+,{"stream_name":"stdout","time":413.747836515,"data":"\u001b[K        1/3      4.86G      2.078      6.548    0.01083        384        640: 91% ━━━━━━━━━━━─ 22/24 4.0it/s 20.1s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":413.953503067,"data":"E1_caries_seed42_smoke.log aching images (0.5GB RAM): 41% ━━━━━─────── 638/1522 5.3it/s 2:05\u003c2:48\n"}
+,{"stream_name":"stdout","time":413.953528691,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 641/1522 5.2it/s 2:06\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.953534493,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 644/1522 5.2it/s 2:07\u003c2:47\n"}
+,{"stream_name":"stdout","time":413.953539294,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 647/1522 5.1it/s 2:07\u003c2:52\n"}
+,{"stream_name":"stdout","time":413.95354384,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 650/1522 5.1it/s 2:08\u003c2:51\n"}
+,{"stream_name":"stdout","time":413.953550552,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 42% ━━━━━─────── 653/1522 5.3it/s 2:08\u003c2:45\n"}
+,{"stream_name":"stdout","time":413.953559615,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 656/1522 5.1it/s 2:09\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.953578703,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 659/1522 4.9it/s 2:10\u003c2:57\n"}
+,{"stream_name":"stdout","time":413.953583737,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 662/1522 4.7it/s 2:10\u003c3:02\n"}
+,{"stream_name":"stdout","time":413.953600837,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 665/1522 4.7it/s 2:11\u003c3:04\n"}
+,{"stream_name":"stdout","time":413.953606394,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 43% ━━━━━─────── 668/1522 4.6it/s 2:12\u003c3:06\n"}
+,{"stream_name":"stdout","time":413.95361092,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.5GB RAM): 44% ━━━━━─────── 671/1522 4.9it/s 2:12\u003c2:52\n"}
+,{"stream_name":"stdout","time":413.953615467,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 44% ━━━━━─────── 674/1522 5.0it/s 2:13\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.953619911,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 44% ━━━━━─────── 677/1522 5.0it/s 2:13\u003c2:50\n"}
+,{"stream_name":"stdout","time":413.953624363,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 44% ━━━━━─────── 680/1522 5.2it/s 2:14\u003c2:41\n"}
+,{"stream_name":"stdout","time":413.953628771,"data":"E1_gum_seed42_smoke.log ━━━━─────── 11/24 3.8it/s 17.3s\u003c3.4s\n"}
+,{"stream_name":"stdout","time":413.953633065,"data":"\u001b[K        1/3      4.86G      2.536      9.153    0.01372        384        640: 50% ━━━━━━────── 12/24 3.9it/s 17.6s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":413.953638691,"data":"\u001b[K        1/3      4.86G       2.47      8.821    0.01329        384        640: 54% ━━━━━━────── 13/24 3.9it/s 17.8s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":413.953643196,"data":"\u001b[K        1/3      4.86G      2.409      8.497     0.0129        384        640: 58% ━━━━━━━───── 14/24 3.9it/s 18.1s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":413.953647661,"data":"\u001b[K        1/3      4.86G      2.354      8.179    0.01254        384        640: 62% ━━━━━━━───── 15/24 3.9it/s 18.3s\u003c2.3s\n"}
+,{"stream_name":"stdout","time":413.953652041,"data":"\u001b[K        1/3      4.86G      2.301      7.879    0.01223        383        640: 66% ━━━━━━━━──── 16/24 4.0it/s 18.6s\u003c2.0s\n"}
+,{"stream_name":"stdout","time":413.95365644,"data":"\u001b[K        1/3      4.86G      2.257      7.609    0.01194        384        640: 70% ━━━━━━━━──── 17/24 3.9it/s 18.9s\u003c1.8s\n"}
+,{"stream_name":"stdout","time":413.95366102,"data":"\u001b[K        1/3      4.86G      2.218      7.362     0.0117        384        640: 75% ━━━━━━━━━─── 18/24 4.0it/s 19.1s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":413.953671566,"data":"\u001b[K        1/3      4.86G      2.183      7.134    0.01148        385        640: 79% ━━━━━━━━━─── 19/24 4.0it/s 19.3s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":413.953690196,"data":"\u001b[K        1/3      4.86G      2.146      6.924    0.01124        384        640: 83% ━━━━━━━━━━── 20/24 3.9it/s 19.6s\u003c1.0s\n"}
+,{"stream_name":"stdout","time":413.95369584,"data":"\u001b[K        1/3      4.86G      2.111      6.732    0.01103        384        640: 87% ━━━━━━━━━━── 21/24 4.0it/s 19.8s\u003c0.8s\n"}
+,{"stream_name":"stdout","time":413.953701015,"data":"\u001b[K        1/3      4.86G      2.078      6.548    0.01083        384        640: 91% ━━━━━━━━━━━─ 22/24 4.0it/s 20.1s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":443.76623971,"data":"E1_caries_seed42_smoke.log aching images (0.6GB RAM): 51% ━━━━━━────── 783/1522 4.8it/s 2:36\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.766311748,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 51% ━━━━━━────── 786/1522 5.0it/s 2:36\u003c2:28\n"}
+,{"stream_name":"stdout","time":443.766319661,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 51% ━━━━━━────── 789/1522 5.2it/s 2:37\u003c2:20\n"}
+,{"stream_name":"stdout","time":443.766324271,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 52% ━━━━━━────── 792/1522 5.0it/s 2:37\u003c2:27\n"}
+,{"stream_name":"stdout","time":443.766328231,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 795/1522 4.8it/s 2:38\u003c2:30\n"}
+,{"stream_name":"stdout","time":443.766332364,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 798/1522 4.8it/s 2:39\u003c2:30\n"}
+,{"stream_name":"stdout","time":443.766336597,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 801/1522 4.7it/s 2:39\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.766340768,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 804/1522 4.8it/s 2:40\u003c2:31\n"}
+,{"stream_name":"stdout","time":443.766345034,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 807/1522 4.7it/s 2:41\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.766349646,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 810/1522 4.7it/s 2:41\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.76635416,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 812/1522 6.4it/s 2:41\u003c1:50\n"}
+,{"stream_name":"stdout","time":443.766358212,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 813/1522 5.0it/s 2:42\u003c2:21\n"}
+,{"stream_name":"stdout","time":443.766363166,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 816/1522 5.1it/s 2:43\u003c2:19\n"}
+,{"stream_name":"stdout","time":443.766367955,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 819/1522 4.8it/s 2:43\u003c2:25\n"}
+,{"stream_name":"stdout","time":443.766372612,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 54% ━━━━━━────── 822/1522 4.6it/s 2:44\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.774651184,"data":"E1_gum_seed42_smoke.log       640: 25% ━━━───────── 6/24 3.6it/s 1.7s\u003c5.0s\n"}
+,{"stream_name":"stdout","time":443.774695296,"data":"\u001b[K        3/3      5.33G      1.476      1.759   0.007018        385        640: 29% ━━━───────── 7/24 3.5it/s 2.1s\u003c4.9s\n"}
+,{"stream_name":"stdout","time":443.774701901,"data":"\u001b[K        3/3      5.33G      1.481      1.763   0.007071        384        640: 33% ━━━━──────── 8/24 3.6it/s 2.3s\u003c4.5s\n"}
+,{"stream_name":"stdout","time":443.774706555,"data":"\u001b[K        3/3      5.33G      1.488      1.764   0.007128        384        640: 37% ━━━━──────── 9/24 3.7it/s 2.6s\u003c4.0s\n"}
+,{"stream_name":"stdout","time":443.774734034,"data":"\u001b[K        3/3      5.33G      1.482       1.76   0.007099        384        640: 41% ━━━━━─────── 10/24 3.9it/s 2.8s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":443.774753127,"data":"\u001b[K        3/3      5.33G      1.475      1.754   0.007067        384        640: 45% ━━━━━─────── 11/24 3.8it/s 3.1s\u003c3.4s\n"}
+,{"stream_name":"stdout","time":443.774758442,"data":"\u001b[K        3/3      5.33G      1.477      1.756   0.007072        384        640: 50% ━━━━━━────── 12/24 3.9it/s 3.3s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":443.775354446,"data":"\u001b[K        3/3      5.33G       1.48      1.749   0.007084        384        640: 54% ━━━━━━────── 13/24 3.9it/s 3.6s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":443.775379724,"data":"\u001b[K        3/3      5.33G      1.481      1.743   0.007074        384        640: 58% ━━━━━━━───── 14/24 4.0it/s 3.8s\u003c2.5s\n"}
+,{"stream_name":"stdout","time":443.775384912,"data":"\u001b[K        3/3      5.33G      1.481      1.738   0.007071        384        640: 62% ━━━━━━━───── 15/24 4.0it/s 4.1s\u003c2.2s\n"}
+,{"stream_name":"stdout","time":443.775389077,"data":"\u001b[K        3/3      5.33G      1.479      1.736   0.007054        383        640: 66% ━━━━━━━━──── 16/24 4.0it/s 4.3s\u003c2.0s\n"}
+,{"stream_name":"stdout","time":443.77539332,"data":"\u001b[K        3/3      5.33G      1.478      1.736   0.007062        384        640: 70% ━━━━━━━━──── 17/24 4.0it/s 4.5s\u003c1.7s\n"}
+,{"stream_name":"stdout","time":443.973438936,"data":"E1_caries_seed42_smoke.log aching images (0.6GB RAM): 51% ━━━━━━────── 783/1522 4.8it/s 2:36\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.97347134,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 51% ━━━━━━────── 786/1522 5.0it/s 2:36\u003c2:28\n"}
+,{"stream_name":"stdout","time":443.973478158,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 51% ━━━━━━────── 789/1522 5.2it/s 2:37\u003c2:20\n"}
+,{"stream_name":"stdout","time":443.973482897,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.6GB RAM): 52% ━━━━━━────── 792/1522 5.0it/s 2:37\u003c2:27\n"}
+,{"stream_name":"stdout","time":443.97348728,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 795/1522 4.8it/s 2:38\u003c2:30\n"}
+,{"stream_name":"stdout","time":443.97349158,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 798/1522 4.8it/s 2:39\u003c2:30\n"}
+,{"stream_name":"stdout","time":443.973496005,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 801/1522 4.7it/s 2:39\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.973500432,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 52% ━━━━━━────── 804/1522 4.8it/s 2:40\u003c2:31\n"}
+,{"stream_name":"stdout","time":443.97350496,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 807/1522 4.7it/s 2:41\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.973509424,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 810/1522 4.7it/s 2:41\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.973513629,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 812/1522 6.4it/s 2:41\u003c1:50\n"}
+,{"stream_name":"stdout","time":443.973518152,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 813/1522 5.0it/s 2:42\u003c2:21\n"}
+,{"stream_name":"stdout","time":443.973534369,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 816/1522 5.1it/s 2:43\u003c2:19\n"}
+,{"stream_name":"stdout","time":443.973540277,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 53% ━━━━━━────── 819/1522 4.8it/s 2:43\u003c2:25\n"}
+,{"stream_name":"stdout","time":443.973545692,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.7GB RAM): 54% ━━━━━━────── 822/1522 4.6it/s 2:44\u003c2:33\n"}
+,{"stream_name":"stdout","time":443.973551121,"data":"E1_gum_seed42_smoke.log       640: 25% ━━━───────── 6/24 3.6it/s 1.7s\u003c5.0s\n"}
+,{"stream_name":"stdout","time":443.973556208,"data":"\u001b[K        3/3      5.33G      1.476      1.759   0.007018        385        640: 29% ━━━───────── 7/24 3.5it/s 2.1s\u003c4.9s\n"}
+,{"stream_name":"stdout","time":443.973561812,"data":"\u001b[K        3/3      5.33G      1.481      1.763   0.007071        384        640: 33% ━━━━──────── 8/24 3.6it/s 2.3s\u003c4.5s\n"}
+,{"stream_name":"stdout","time":443.97356609,"data":"\u001b[K        3/3      5.33G      1.488      1.764   0.007128        384        640: 37% ━━━━──────── 9/24 3.7it/s 2.6s\u003c4.0s\n"}
+,{"stream_name":"stdout","time":443.973570384,"data":"\u001b[K        3/3      5.33G      1.482       1.76   0.007099        384        640: 41% ━━━━━─────── 10/24 3.9it/s 2.8s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":443.973574658,"data":"\u001b[K        3/3      5.33G      1.475      1.754   0.007067        384        640: 45% ━━━━━─────── 11/24 3.8it/s 3.1s\u003c3.4s\n"}
+,{"stream_name":"stdout","time":443.973579213,"data":"\u001b[K        3/3      5.33G      1.477      1.756   0.007072        384        640: 50% ━━━━━━────── 12/24 3.9it/s 3.3s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":443.973584192,"data":"\u001b[K        3/3      5.33G       1.48      1.749   0.007084        384        640: 54% ━━━━━━────── 13/24 3.9it/s 3.6s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":443.973588088,"data":"\u001b[K        3/3      5.33G      1.481      1.743   0.007074        384        640: 58% ━━━━━━━───── 14/24 4.0it/s 3.8s\u003c2.5s\n"}
+,{"stream_name":"stdout","time":443.973592272,"data":"\u001b[K        3/3      5.33G      1.481      1.738   0.007071        384        640: 62% ━━━━━━━───── 15/24 4.0it/s 4.1s\u003c2.2s\n"}
+,{"stream_name":"stdout","time":443.973596941,"data":"\u001b[K        3/3      5.33G      1.479      1.736   0.007054        383        640: 66% ━━━━━━━━──── 16/24 4.0it/s 4.3s\u003c2.0s\n"}
+,{"stream_name":"stdout","time":443.973601371,"data":"\u001b[K        3/3      5.33G      1.478      1.736   0.007062        384        640: 70% ━━━━━━━━──── 17/24 4.0it/s 4.5s\u003c1.7s\n"}
+,{"stream_name":"stdout","time":473.782909479,"data":"E1_caries_seed42_smoke.log aching images (0.8GB RAM): 60% ━━━━━━━───── 926/1522 9.9it/s 3:06\u003c1:00\n"}
+,{"stream_name":"stdout","time":473.782964717,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 60% ━━━━━━━───── 927/1522 7.4it/s 3:06\u003c1:20\n"}
+,{"stream_name":"stdout","time":473.782973406,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 930/1522 7.0it/s 3:07\u003c1:25\n"}
+,{"stream_name":"stdout","time":473.782980172,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 933/1522 6.2it/s 3:08\u003c1:35\n"}
+,{"stream_name":"stdout","time":473.783000411,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 936/1522 6.0it/s 3:08\u003c1:37\n"}
+,{"stream_name":"stdout","time":473.78300512,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 939/1522 5.5it/s 3:09\u003c1:46\n"}
+,{"stream_name":"stdout","time":473.783009254,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 942/1522 5.2it/s 3:09\u003c1:52\n"}
+,{"stream_name":"stdout","time":473.783014267,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━───── 945/1522 5.0it/s 3:10\u003c1:57\n"}
+,{"stream_name":"stdout","time":473.783019102,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━───── 948/1522 5.2it/s 3:11\u003c1:50\n"}
+,{"stream_name":"stdout","time":473.783023331,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━───── 951/1522 4.9it/s 3:11\u003c1:56\n"}
+,{"stream_name":"stdout","time":473.78302734,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━╸──── 954/1522 4.8it/s 3:12\u003c1:58\n"}
+,{"stream_name":"stdout","time":473.783031831,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━╸──── 957/1522 4.8it/s 3:13\u003c1:59\n"}
+,{"stream_name":"stdout","time":473.783036387,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 63% ━━━━━━━╸──── 960/1522 5.1it/s 3:13\u003c1:50\n"}
+,{"stream_name":"stdout","time":473.783041116,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 63% ━━━━━━━╸──── 963/1522 4.9it/s 3:14\u003c1:53\n"}
+,{"stream_name":"stdout","time":473.783045611,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 63% ━━━━━━━╸──── 966/1522 4.7it/s 3:15\u003c1:58\n"}
+,{"stream_name":"stdout","time":473.784798068,"data":"E1_gum_seed42_smoke.log .4.183 🚀 Python-3.13.15 torch-2.11.0+cu128 CUDA:0 (Tesla T4, 14912MiB)\n"}
+,{"stream_name":"stdout","time":473.784842866,"data":"YOLO26n summary (fused): 121 layers, 2,390,221 parameters, 0 gradients, 5.4 GFLOPs\n"}
+,{"stream_name":"stdout","time":473.784848871,"data":"\n"}
+,{"stream_name":"stdout","time":473.784853519,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 14.3s/it 4.3s\u003c28.7s\n"}
+,{"stream_name":"stdout","time":473.784858654,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.3s/it 4.7s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":473.784863281,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 2.9s/it 8.8s\n"}
+,{"stream_name":"stdout","time":473.784867917,"data":"                   all        160       1920      0.672      0.585      0.395      0.172\n"}
+,{"stream_name":"stdout","time":473.784891317,"data":"no_visible_inflammation         23         49          1          0      0.065     0.0227\n"}
+,{"stream_name":"stdout","time":473.784896728,"data":"     mild_inflammation        132        932      0.512      0.879      0.557      0.268\n"}
+,{"stream_name":"stdout","time":473.784918837,"data":"   marked_inflammation        133        939      0.505      0.875      0.562      0.224\n"}
+,{"stream_name":"stdout","time":473.784923483,"data":"Speed: 0.1ms preprocess, 50.5ms inference, 0.0ms loss, 1.8ms postprocess per image\n"}
+,{"stream_name":"stdout","time":473.784927527,"data":"{\n"}
+,{"stream_name":"stdout","time":473.784931322,"data":"  \"status\": \"completed\",\n"}
+,{"stream_name":"stdout","time":473.78493974,"data":"  \"smoke_only\": true,\n"}
+,{"stream_name":"stdout","time":473.784947851,"data":"  \"elapsed_seconds\": 403.75502177600004,\n"}
+,{"stream_name":"stdout","time":473.784950654,"data":"  \"epochs_completed\": 3,\n"}
+,{"stream_name":"stdout","time":473.78495344,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":473.784956291,"data":"    \"metrics/precision(B)\": 0.6720526048230359,\n"}
+,{"stream_name":"stdout","time":473.784959043,"data":"    \"metrics/recall(B)\": 0.5848341184299598,\n"}
+,{"stream_name":"stdout","time":473.784961709,"data":"    \"metrics/mAP50(B)\": 0.394787211840979,\n"}
+,{"stream_name":"stdout","time":473.784964346,"data":"    \"metrics/mAP50-95(B)\": 0.17151000697929022\n"}
+,{"stream_name":"stdout","time":473.784967048,"data":"  },\n"}
+,{"stream_name":"stdout","time":473.784969754,"data":"  \"resume_checkpoint\": \"/kaggle/working/experiments/E1_gum_seed42_smoke/weights/resume.pt\"\n"}
+,{"stream_name":"stdout","time":473.784972654,"data":"}\n"}
+,{"stream_name":"stdout","time":473.78497566,"data":"\n"}
+,{"stream_name":"stdout","time":473.988505729,"data":"E1_caries_seed42_smoke.log aching images (0.8GB RAM): 60% ━━━━━━━───── 926/1522 9.9it/s 3:06\u003c1:00\n"}
+,{"stream_name":"stdout","time":473.988540189,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 60% ━━━━━━━───── 927/1522 7.4it/s 3:06\u003c1:20\n"}
+,{"stream_name":"stdout","time":473.98854442,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 930/1522 7.0it/s 3:07\u003c1:25\n"}
+,{"stream_name":"stdout","time":473.98854782,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 933/1522 6.2it/s 3:08\u003c1:35\n"}
+,{"stream_name":"stdout","time":473.988551104,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 936/1522 6.0it/s 3:08\u003c1:37\n"}
+,{"stream_name":"stdout","time":473.988554199,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 939/1522 5.5it/s 3:09\u003c1:46\n"}
+,{"stream_name":"stdout","time":473.988557158,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 61% ━━━━━━━───── 942/1522 5.2it/s 3:09\u003c1:52\n"}
+,{"stream_name":"stdout","time":473.988560096,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━───── 945/1522 5.0it/s 3:10\u003c1:57\n"}
+,{"stream_name":"stdout","time":473.988563033,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━───── 948/1522 5.2it/s 3:11\u003c1:50\n"}
+,{"stream_name":"stdout","time":473.988565919,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━───── 951/1522 4.9it/s 3:11\u003c1:56\n"}
+,{"stream_name":"stdout","time":473.988568792,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━╸──── 954/1522 4.8it/s 3:12\u003c1:58\n"}
+,{"stream_name":"stdout","time":473.988571661,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 62% ━━━━━━━╸──── 957/1522 4.8it/s 3:13\u003c1:59\n"}
+,{"stream_name":"stdout","time":473.988583041,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 63% ━━━━━━━╸──── 960/1522 5.1it/s 3:13\u003c1:50\n"}
+,{"stream_name":"stdout","time":473.988586102,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 63% ━━━━━━━╸──── 963/1522 4.9it/s 3:14\u003c1:53\n"}
+,{"stream_name":"stdout","time":473.988588972,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.8GB RAM): 63% ━━━━━━━╸──── 966/1522 4.7it/s 3:15\u003c1:58\n"}
+,{"stream_name":"stdout","time":473.98859183,"data":"E1_gum_seed42_smoke.log .4.183 🚀 Python-3.13.15 torch-2.11.0+cu128 CUDA:0 (Tesla T4, 14912MiB)\n"}
+,{"stream_name":"stdout","time":473.988594776,"data":"YOLO26n summary (fused): 121 layers, 2,390,221 parameters, 0 gradients, 5.4 GFLOPs\n"}
+,{"stream_name":"stdout","time":473.988597526,"data":"\n"}
+,{"stream_name":"stdout","time":473.988600902,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 14.3s/it 4.3s\u003c28.7s\n"}
+,{"stream_name":"stdout","time":473.988604019,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.3s/it 4.7s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":473.988607023,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 2.9s/it 8.8s\n"}
+,{"stream_name":"stdout","time":473.988609918,"data":"                   all        160       1920      0.672      0.585      0.395      0.172\n"}
+,{"stream_name":"stdout","time":473.988612731,"data":"no_visible_inflammation         23         49          1          0      0.065     0.0227\n"}
+,{"stream_name":"stdout","time":473.988615452,"data":"     mild_inflammation        132        932      0.512      0.879      0.557      0.268\n"}
+,{"stream_name":"stdout","time":473.988618203,"data":"   marked_inflammation        133        939      0.505      0.875      0.562      0.224\n"}
+,{"stream_name":"stdout","time":473.988621285,"data":"Speed: 0.1ms preprocess, 50.5ms inference, 0.0ms loss, 1.8ms postprocess per image\n"}
+,{"stream_name":"stdout","time":473.988623975,"data":"{\n"}
+,{"stream_name":"stdout","time":473.988626558,"data":"  \"status\": \"completed\",\n"}
+,{"stream_name":"stdout","time":473.988629469,"data":"  \"smoke_only\": true,\n"}
+,{"stream_name":"stdout","time":473.988632136,"data":"  \"elapsed_seconds\": 403.75502177600004,\n"}
+,{"stream_name":"stdout","time":473.988635008,"data":"  \"epochs_completed\": 3,\n"}
+,{"stream_name":"stdout","time":473.988637585,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":473.98864027,"data":"    \"metrics/precision(B)\": 0.6720526048230359,\n"}
+,{"stream_name":"stdout","time":473.988643016,"data":"    \"metrics/recall(B)\": 0.5848341184299598,\n"}
+,{"stream_name":"stdout","time":473.988645679,"data":"    \"metrics/mAP50(B)\": 0.394787211840979,\n"}
+,{"stream_name":"stdout","time":473.988648344,"data":"    \"metrics/mAP50-95(B)\": 0.17151000697929022\n"}
+,{"stream_name":"stdout","time":473.988651052,"data":"  },\n"}
+,{"stream_name":"stdout","time":473.988653649,"data":"  \"resume_checkpoint\": \"/kaggle/working/experiments/E1_gum_seed42_smoke/weights/resume.pt\"\n"}
+,{"stream_name":"stdout","time":473.98865652,"data":"}\n"}
+,{"stream_name":"stdout","time":473.988659045,"data":"\n"}
+,{"stream_name":"stdout","time":503.793280765,"data":"E1_caries_seed42_smoke.log 0.9GB RAM): 69% ━━━━━━━━──── 1057/1522 4.7it/s 3:35\u003c1:40\n"}
+,{"stream_name":"stdout","time":503.793319023,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 69% ━━━━━━━━──── 1060/1522 4.5it/s 3:36\u003c1:42\n"}
+,{"stream_name":"stdout","time":503.793325949,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 69% ━━━━━━━━──── 1063/1522 4.4it/s 3:36\u003c1:44\n"}
+,{"stream_name":"stdout","time":503.79334922,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1066/1522 4.2it/s 3:37\u003c1:49\n"}
+,{"stream_name":"stdout","time":503.793354948,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1069/1522 4.4it/s 3:38\u003c1:42\n"}
+,{"stream_name":"stdout","time":503.793359811,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1072/1522 4.4it/s 3:38\u003c1:43\n"}
+,{"stream_name":"stdout","time":503.793364623,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1075/1522 4.4it/s 3:39\u003c1:42\n"}
+,{"stream_name":"stdout","time":503.793369012,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1078/1522 4.5it/s 3:40\u003c1:39\n"}
+,{"stream_name":"stdout","time":503.793705818,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1081/1522 4.6it/s 3:40\u003c1:36\n"}
+,{"stream_name":"stdout","time":503.793717327,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1084/1522 4.5it/s 3:41\u003c1:37\n"}
+,{"stream_name":"stdout","time":503.793722887,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1087/1522 4.5it/s 3:42\u003c1:38\n"}
+,{"stream_name":"stdout","time":503.793728034,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1090/1522 4.7it/s 3:42\u003c1:32\n"}
+,{"stream_name":"stdout","time":503.793732533,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1093/1522 4.6it/s 3:43\u003c1:33\n"}
+,{"stream_name":"stdout","time":503.793737236,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 72% ━━━━━━━━╸─── 1096/1522 4.6it/s 3:44\u003c1:33\n"}
+,{"stream_name":"stdout","time":503.793742563,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 72% ━━━━━━━━╸─── 1099/1522 4.7it/s 3:44\u003c1:31\n"}
+,{"stream_name":"stdout","time":503.795025961,"data":"E1_gum_seed42_smoke.log .4.183 🚀 Python-3.13.15 torch-2.11.0+cu128 CUDA:0 (Tesla T4, 14912MiB)\n"}
+,{"stream_name":"stdout","time":503.79504305,"data":"YOLO26n summary (fused): 121 layers, 2,390,221 parameters, 0 gradients, 5.4 GFLOPs\n"}
+,{"stream_name":"stdout","time":503.795047965,"data":"\n"}
+,{"stream_name":"stdout","time":503.79505203,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 14.3s/it 4.3s\u003c28.7s\n"}
+,{"stream_name":"stdout","time":503.795056956,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.3s/it 4.7s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":503.795062287,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 2.9s/it 8.8s\n"}
+,{"stream_name":"stdout","time":503.795083641,"data":"                   all        160       1920      0.672      0.585      0.395      0.172\n"}
+,{"stream_name":"stdout","time":503.795088316,"data":"no_visible_inflammation         23         49          1          0      0.065     0.0227\n"}
+,{"stream_name":"stdout","time":503.795092386,"data":"     mild_inflammation        132        932      0.512      0.879      0.557      0.268\n"}
+,{"stream_name":"stdout","time":503.795096435,"data":"   marked_inflammation        133        939      0.505      0.875      0.562      0.224\n"}
+,{"stream_name":"stdout","time":503.79510045,"data":"Speed: 0.1ms preprocess, 50.5ms inference, 0.0ms loss, 1.8ms postprocess per image\n"}
+,{"stream_name":"stdout","time":503.795104583,"data":"{\n"}
+,{"stream_name":"stdout","time":503.795108422,"data":"  \"status\": \"completed\",\n"}
+,{"stream_name":"stdout","time":503.795113366,"data":"  \"smoke_only\": true,\n"}
+,{"stream_name":"stdout","time":503.795117933,"data":"  \"elapsed_seconds\": 403.75502177600004,\n"}
+,{"stream_name":"stdout","time":503.795122889,"data":"  \"epochs_completed\": 3,\n"}
+,{"stream_name":"stdout","time":503.795127563,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":503.795131636,"data":"    \"metrics/precision(B)\": 0.6720526048230359,\n"}
+,{"stream_name":"stdout","time":503.795135673,"data":"    \"metrics/recall(B)\": 0.5848341184299598,\n"}
+,{"stream_name":"stdout","time":503.795139618,"data":"    \"metrics/mAP50(B)\": 0.394787211840979,\n"}
+,{"stream_name":"stdout","time":503.795143738,"data":"    \"metrics/mAP50-95(B)\": 0.17151000697929022\n"}
+,{"stream_name":"stdout","time":503.79514785,"data":"  },\n"}
+,{"stream_name":"stdout","time":503.795151712,"data":"  \"resume_checkpoint\": \"/kaggle/working/experiments/E1_gum_seed42_smoke/weights/resume.pt\"\n"}
+,{"stream_name":"stdout","time":503.795156026,"data":"}\n"}
+,{"stream_name":"stdout","time":503.795159848,"data":"\n"}
+,{"stream_name":"stdout","time":503.998871862,"data":"E1_caries_seed42_smoke.log 0.9GB RAM): 69% ━━━━━━━━──── 1057/1522 4.7it/s 3:35\u003c1:40\n"}
+,{"stream_name":"stdout","time":503.998912051,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 69% ━━━━━━━━──── 1060/1522 4.5it/s 3:36\u003c1:42\n"}
+,{"stream_name":"stdout","time":503.998924894,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 69% ━━━━━━━━──── 1063/1522 4.4it/s 3:36\u003c1:44\n"}
+,{"stream_name":"stdout","time":503.998928639,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1066/1522 4.2it/s 3:37\u003c1:49\n"}
+,{"stream_name":"stdout","time":503.998931765,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1069/1522 4.4it/s 3:38\u003c1:42\n"}
+,{"stream_name":"stdout","time":503.998935283,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1072/1522 4.4it/s 3:38\u003c1:43\n"}
+,{"stream_name":"stdout","time":503.998938664,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1075/1522 4.4it/s 3:39\u003c1:42\n"}
+,{"stream_name":"stdout","time":503.998941719,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 70% ━━━━━━━━──── 1078/1522 4.5it/s 3:40\u003c1:39\n"}
+,{"stream_name":"stdout","time":503.998954348,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1081/1522 4.6it/s 3:40\u003c1:36\n"}
+,{"stream_name":"stdout","time":503.998979006,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1084/1522 4.5it/s 3:41\u003c1:37\n"}
+,{"stream_name":"stdout","time":503.998984999,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1087/1522 4.5it/s 3:42\u003c1:38\n"}
+,{"stream_name":"stdout","time":503.998990102,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1090/1522 4.7it/s 3:42\u003c1:32\n"}
+,{"stream_name":"stdout","time":503.998995034,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 71% ━━━━━━━━╸─── 1093/1522 4.6it/s 3:43\u003c1:33\n"}
+,{"stream_name":"stdout","time":503.999000517,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 72% ━━━━━━━━╸─── 1096/1522 4.6it/s 3:44\u003c1:33\n"}
+,{"stream_name":"stdout","time":503.999005103,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.9GB RAM): 72% ━━━━━━━━╸─── 1099/1522 4.7it/s 3:44\u003c1:31\n"}
+,{"stream_name":"stdout","time":503.999009627,"data":"E1_gum_seed42_smoke.log .4.183 🚀 Python-3.13.15 torch-2.11.0+cu128 CUDA:0 (Tesla T4, 14912MiB)\n"}
+,{"stream_name":"stdout","time":503.999013822,"data":"YOLO26n summary (fused): 121 layers, 2,390,221 parameters, 0 gradients, 5.4 GFLOPs\n"}
+,{"stream_name":"stdout","time":503.999017942,"data":"\n"}
+,{"stream_name":"stdout","time":503.999022848,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 14.3s/it 4.3s\u003c28.7s\n"}
+,{"stream_name":"stdout","time":503.999029736,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.3s/it 4.7s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":503.999034356,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 2.9s/it 8.8s\n"}
+,{"stream_name":"stdout","time":503.9990407,"data":"                   all        160       1920      0.672      0.585      0.395      0.172\n"}
+,{"stream_name":"stdout","time":503.999046033,"data":"no_visible_inflammation         23         49          1          0      0.065     0.0227\n"}
+,{"stream_name":"stdout","time":503.999050945,"data":"     mild_inflammation        132        932      0.512      0.879      0.557      0.268\n"}
+,{"stream_name":"stdout","time":503.999057771,"data":"   marked_inflammation        133        939      0.505      0.875      0.562      0.224\n"}
+,{"stream_name":"stdout","time":503.99906286,"data":"Speed: 0.1ms preprocess, 50.5ms inference, 0.0ms loss, 1.8ms postprocess per image\n"}
+,{"stream_name":"stdout","time":503.999067215,"data":"{\n"}
+,{"stream_name":"stdout","time":503.999071024,"data":"  \"status\": \"completed\",\n"}
+,{"stream_name":"stdout","time":503.999075167,"data":"  \"smoke_only\": true,\n"}
+,{"stream_name":"stdout","time":503.999079213,"data":"  \"elapsed_seconds\": 403.75502177600004,\n"}
+,{"stream_name":"stdout","time":503.999083499,"data":"  \"epochs_completed\": 3,\n"}
+,{"stream_name":"stdout","time":503.999087576,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":503.999091624,"data":"    \"metrics/precision(B)\": 0.6720526048230359,\n"}
+,{"stream_name":"stdout","time":503.999095696,"data":"    \"metrics/recall(B)\": 0.5848341184299598,\n"}
+,{"stream_name":"stdout","time":503.999104121,"data":"    \"metrics/mAP50(B)\": 0.394787211840979,\n"}
+,{"stream_name":"stdout","time":503.999108247,"data":"    \"metrics/mAP50-95(B)\": 0.17151000697929022\n"}
+,{"stream_name":"stdout","time":503.999114399,"data":"  },\n"}
+,{"stream_name":"stdout","time":503.999120285,"data":"  \"resume_checkpoint\": \"/kaggle/working/experiments/E1_gum_seed42_smoke/weights/resume.pt\"\n"}
+,{"stream_name":"stdout","time":503.999124659,"data":"}\n"}
+,{"stream_name":"stdout","time":503.999129252,"data":"\n"}
+,{"stream_name":"stdout","time":816.919776123,"data":"E1_caries_seed42_smoke median post-first epoch seconds: 13.87 estimated 100-epoch hours: 0.39\n"}
+,{"stream_name":"stdout","time":816.92715741,"data":"E1_gum_seed42_smoke median post-first epoch seconds: 8.23 estimated 100-epoch hours: 0.23\n"}
+,{"stream_name":"stderr","time":817.392057014,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":817.392922313,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":817.392943342,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=3600)\n"}
+,{"stream_name":"stderr","time":817.392951412,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":817.392957237,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":817.3929626,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":817.392974406,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":817.392978037,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":817.392981447,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":817.392984635,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":817.392987956,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":817.392991611,"data":"Exception encountered at \"In [5]\":\n"}
+,{"stream_name":"stderr","time":817.392994844,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":817.392998034,"data":"ModuleNotFoundError                       Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":817.393001188,"data":"/tmp/ipykernel_23/64091306.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":817.393004648,"data":"      1 import inspect\n"}
+,{"stream_name":"stderr","time":817.39302648,"data":"      2 from IPython.display import Code, display\n"}
+,{"stream_name":"stderr","time":817.393032372,"data":"----\u003e 3 from dentalselfie.checkpoints import CheckpointGuard\n"}
+,{"stream_name":"stderr","time":817.393038247,"data":"      4 import dentalselfie.train as worker\n"}
+,{"stream_name":"stderr","time":817.393043671,"data":"      5 display(Code(inspect.getsource(worker), language=\"python\"))\n"}
+,{"stream_name":"stderr","time":817.393049505,"data":"\n"}
+,{"stream_name":"stderr","time":817.393054125,"data":"ModuleNotFoundError: No module named 'dentalselfie.checkpoints'\n"}
+,{"stream_name":"stderr","time":817.393069723,"data":"\n"}
+,{"stream_name":"stderr","time":820.014498469,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":820.0145501,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":820.217394627,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":820.217429578,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":821.168855106,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":821.268164676,"data":"[NbConvertApp] Writing 84744 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":824.146784337,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":824.800265718,"data":"[NbConvertApp] Writing 365607 bytes to __results__.html\n"}
+]

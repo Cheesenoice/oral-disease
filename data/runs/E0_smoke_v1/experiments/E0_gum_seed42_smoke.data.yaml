@@ -1,0 +1,8 @@
+names:
+- no_visible_inflammation
+- mild_inflammation
+- marked_inflammation
+path: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared/gum
+test: images/test
+train: images/train
+val: images/val

@@ -1,0 +1,5 @@
+split,source_image_id,annotation_id,reason
+train,201882201812125,10135,invalid_box
+train,201883201809131,10225,invalid_box
+val,201869201808305,2803,invalid_box
+val,202128202310081,6610,invalid_box

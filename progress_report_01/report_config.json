@@ -1,0 +1,24 @@
+{
+  "report_title": "FIRST-PHASE PROGRESS REPORT",
+  "subtitle": "GRADUATION THESIS",
+  "research_topic": "Development of an AI-Integrated Mobile Application for Oral Disease Screening and Health Monitoring",
+  "prototype_name": "DentalSelfie",
+  "institution": [
+    "MINISTRY OF SCIENCE AND TECHNOLOGY",
+    "POSTS AND TELECOMMUNICATIONS INSTITUTE OF TECHNOLOGY",
+    "HO CHI MINH CITY BRANCH",
+    "FACULTY OF INFORMATION TECHNOLOGY 2"
+  ],
+  "supervisor": "NGUYEN MINH TUAN, Ph.D.",
+  "students": [
+    {"name": "HUYNH HUU TRI", "student_id": "N22DCCN188", "role": "Team leader"},
+    {"name": "NGUYEN VIET ANH", "student_id": "N22DCAT004", "role": "Team member"},
+    {"name": "DINH TRI TAI", "student_id": "N22DCDK078", "role": "Team member"}
+  ],
+  "class": "E22CQCN02-N",
+  "major": "INFORMATION TECHNOLOGY",
+  "city": "HO CHI MINH CITY",
+  "report_date": "25 OCTOBER 2026",
+  "report_period": "First research and implementation phase",
+  "author_credit_note": "Project records identify work at team level; no individual task percentages are asserted."
+}

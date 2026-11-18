@@ -1,0 +1,112 @@
+[
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P0_raw_frozen_ResNet18/linear_probe.joblib",
+    "bytes": 25865,
+    "sha256": "e91cd7c49d8d7bdd86a4e4e7d34fc4a4fc4899b17f0a1c8018eecd924c1776d4"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P0_raw_frozen_ResNet18/metrics.json",
+    "bytes": 1154,
+    "sha256": "fac2f91ad259ce830f6ffa699ee567f88a68475e2733d5d7c4a446fbfd3f95f0"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P0_raw_frozen_ResNet18/probe_grid.json",
+    "bytes": 3077,
+    "sha256": "c97c38c4478c59e736b13de2497673900703b72ebc8d554db00abc34bc8bc47e"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P0_raw_frozen_ResNet18/validation_predictions.csv",
+    "bytes": 181432,
+    "sha256": "6f2ad1d935ad1658bf016064adaaeb4e42678fc82e59f45cf6ee553efd824d71"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P0_raw_frozen_ResNet18/worker.log",
+    "bytes": 535,
+    "sha256": "42435a3eff19c202bffbe56358c491bc298ca25a182ac95a4237d8a6b459699f"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P1_raw_frozen_DINOv3/linear_probe.joblib",
+    "bytes": 19721,
+    "sha256": "754985442e083f319e460a90c5019ba90a9a671cf0ea046b0833a100cb975675"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P1_raw_frozen_DINOv3/metrics.json",
+    "bytes": 1127,
+    "sha256": "783bf388ccf2f78697a613a3db5ca8a3b4b7d5183163dc754a2fba254712e1be"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P1_raw_frozen_DINOv3/probe_grid.json",
+    "bytes": 3017,
+    "sha256": "b1ec6a5320d9b3dbd0ec09d8417687e8d1eb62efcfc9f5404d37eef8a9dc8f64"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P1_raw_frozen_DINOv3/validation_predictions.csv",
+    "bytes": 180819,
+    "sha256": "9c14c91aea43df0405aac02caf4db9341135d736efeea39dcc72627621452ae1"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/full/P1_raw_frozen_DINOv3/worker.log",
+    "bytes": 524,
+    "sha256": "64fc75f9186b7840eccddcbe37786705f43d40f316170bd5ce6ac153cedd7e22"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P0_raw_frozen_ResNet18/linear_probe.joblib",
+    "bytes": 25865,
+    "sha256": "98713d89f54dc6259f2dc400ea055f8badb010eeee8e2e4c54a356f2d2d90fbd"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P0_raw_frozen_ResNet18/metrics.json",
+    "bytes": 1070,
+    "sha256": "d802e2e58982084f30302c3631fb02848bc513acdfd9e5b70dfbd451c0aa21b4"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P0_raw_frozen_ResNet18/probe_grid.json",
+    "bytes": 712,
+    "sha256": "4b4c3c4c0d648409c02a7c19810d10afd16e6e15be873bbccf3820fa6932a595"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P0_raw_frozen_ResNet18/validation_predictions.csv",
+    "bytes": 9016,
+    "sha256": "ec1d31cc68c5d00b0f41d3b1c51d38ea2806996de8c7043a646e32259eed032f"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P0_raw_frozen_ResNet18/worker.log",
+    "bytes": 731,
+    "sha256": "2009ffd64a145ca9c466362d752ef58f8b1f109c711da42d35d6dc3fe3b48f4c"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P1_raw_frozen_DINOv3/linear_probe.joblib",
+    "bytes": 19721,
+    "sha256": "bba790526764006f9806e7f0b3b02552505ececefe9932510049685359576fec"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P1_raw_frozen_DINOv3/metrics.json",
+    "bytes": 1078,
+    "sha256": "22d1ac4932bebd0b4ea50615edef84e56bfb39b6a80ba7f2e3b6797303247601"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P1_raw_frozen_DINOv3/probe_grid.json",
+    "bytes": 724,
+    "sha256": "86467743a7c404d0c9585319caf0b1b46eee4d51ea76788781c82eecbbd44b5d"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P1_raw_frozen_DINOv3/validation_predictions.csv",
+    "bytes": 9008,
+    "sha256": "6f1786437d688a0d1add95fbc408d4089932b531f6194c0524257e10a8f1cf71"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/smoke/P1_raw_frozen_DINOv3/worker.log",
+    "bytes": 349,
+    "sha256": "c9b77e433fbffb297393bdc12e1096c4a16a9f32acfaab7fcfee3c9f930eddd3"
+  },
+  {
+    "path": "dentalselfie-09-3-foundation-feature-probe/summary.json",
+    "bytes": 2523,
+    "sha256": "4187c1a0a18d893e0bc742bf1ff4c4a627fb254381dab7df39e7dd136197b01b"
+  },
+  {
+    "path": "recovery_config.json",
+    "bytes": 705,
+    "sha256": "98435bfa99caba3721d5b1c9b8ee1341734927c7355715da2475104a44e42479"
+  }
+]

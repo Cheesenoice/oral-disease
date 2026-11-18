@@ -1,0 +1,42 @@
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 1, "train_loss": 0.7466552432251423, "val_loss": 0.748703145980835, "macro_f1": 0.38152719554717107, "accuracy": 0.5895833333333333, "trainable_parameters": 3551619, "seconds": 48.01779948000001}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 2, "train_loss": 0.6652251966941422, "val_loss": 0.7431473533312479, "macro_f1": 0.3843187863080113, "accuracy": 0.5994791666666667, "trainable_parameters": 3551619, "seconds": 96.937075403}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 3, "train_loss": 0.6372926200874302, "val_loss": 0.6974403301874796, "macro_f1": 0.4301260356656711, "accuracy": 0.6473958333333333, "trainable_parameters": 3551619, "seconds": 146.506273576}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 4, "train_loss": 0.6180689429104401, "val_loss": 0.6928486535946529, "macro_f1": 0.4273005984569904, "accuracy": 0.646875, "trainable_parameters": 3551619, "seconds": 194.78661872499993}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 5, "train_loss": 0.6045446479276665, "val_loss": 0.6756273219982784, "macro_f1": 0.4473282989115061, "accuracy": 0.6703125, "trainable_parameters": 3551619, "seconds": 245.2819237000001}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 6, "train_loss": 0.5920700541719145, "val_loss": 0.6526984949906667, "macro_f1": 0.46257787465533945, "accuracy": 0.6869791666666667, "trainable_parameters": 3551619, "seconds": 295.1638624520001}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 7, "train_loss": 0.5852788396936447, "val_loss": 0.6674318174521129, "macro_f1": 0.4517338800410031, "accuracy": 0.6765625, "trainable_parameters": 3551619, "seconds": 345.02640244500003}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 8, "train_loss": 0.5791125578855855, "val_loss": 0.6703639835119247, "macro_f1": 0.4528225216338524, "accuracy": 0.6791666666666667, "trainable_parameters": 3551619, "seconds": 393.06686886700004}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 9, "train_loss": 0.5727178908494925, "val_loss": 0.6716410259405772, "macro_f1": 0.4522716770731893, "accuracy": 0.6791666666666667, "trainable_parameters": 3551619, "seconds": 443.62928113399994}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 10, "train_loss": 0.569661429054908, "val_loss": 0.6324687441190083, "macro_f1": 0.4718956812759158, "accuracy": 0.7, "trainable_parameters": 3551619, "seconds": 493.090860947}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 11, "train_loss": 0.5626888356422525, "val_loss": 0.6262847205003103, "macro_f1": 0.47304368835054755, "accuracy": 0.7, "trainable_parameters": 3551619, "seconds": 543.392161254}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 12, "train_loss": 0.5559052655842807, "val_loss": 0.6262196828921636, "macro_f1": 0.4761959493602143, "accuracy": 0.7046875, "trainable_parameters": 3551619, "seconds": 593.700936576}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 13, "train_loss": 0.5581012414920979, "val_loss": 0.6254958192507426, "macro_f1": 0.4763844467241969, "accuracy": 0.7057291666666666, "trainable_parameters": 3551619, "seconds": 643.441122298}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 14, "train_loss": 0.5512552092919077, "val_loss": 0.6211082706848781, "macro_f1": 0.47309158530915857, "accuracy": 0.7, "trainable_parameters": 3551619, "seconds": 692.921281675}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 15, "train_loss": 0.5505695996581943, "val_loss": 0.6191518147786458, "macro_f1": 0.4757465947529913, "accuracy": 0.7041666666666667, "trainable_parameters": 3551619, "seconds": 743.6886348820001}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 16, "train_loss": 0.5414773142115835, "val_loss": 0.6308802405993144, "macro_f1": 0.47151000070276244, "accuracy": 0.7, "trainable_parameters": 3551619, "seconds": 793.4295937710001}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 17, "train_loss": 0.5367154655667609, "val_loss": 0.6872104813655218, "macro_f1": 0.45035263230893063, "accuracy": 0.6796875, "trainable_parameters": 3551619, "seconds": 843.4086428820001}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 18, "train_loss": 0.535388591045227, "val_loss": 0.6289248287677764, "macro_f1": 0.47214188236747673, "accuracy": 0.7, "trainable_parameters": 3551619, "seconds": 892.5930030449999}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 19, "train_loss": 0.5308309184533322, "val_loss": 0.6209455182154974, "macro_f1": 0.47342198170194805, "accuracy": 0.6994791666666667, "trainable_parameters": 3551619, "seconds": 940.609649864}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 20, "train_loss": 0.5320545786904284, "val_loss": 0.6418400019407272, "macro_f1": 0.46649803812577145, "accuracy": 0.69375, "trainable_parameters": 3551619, "seconds": 987.883890716}
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 21, "train_loss": 0.526224171604277, "val_loss": 0.6236259520053864, "macro_f1": 0.4755124080208219, "accuracy": 0.703125, "trainable_parameters": 3551619, "seconds": 1038.748076503}

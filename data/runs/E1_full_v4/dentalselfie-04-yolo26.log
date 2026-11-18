@@ -1,0 +1,161 @@
+[{"stream_name":"stderr","time":9.221721082,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.221770109,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.221780296,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.221783005,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.972984897,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.973019925,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.973025725,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.973029977,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":35.369856407,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.572782115,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.68514501,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 21.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.780593294,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 82.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.819737513,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 2.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.856643619,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 4.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.886699138,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 21.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.886728159,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 82.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.886733985,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 2.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.886738652,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 4.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":41.504682566,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.504716656,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.504724695,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.504731207,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.504748639,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.504753275,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.504757107,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.504761225,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":41.65869931,"data":"Project: /kaggle/working/dentalselfie\n"}
+,{"stream_name":"stderr","time":41.659991502,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.660006641,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.660011368,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660015392,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660019439,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660024774,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660028858,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660034348,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660038838,"data":"\n"}
+,{"stream_name":"stderr","time":41.66004296,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.660047254,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.66005188,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660056206,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660060626,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660064443,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660068061,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.660071732,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":44.849307964,"data":"Prepared dataset: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared\n"}
+,{"stream_name":"stdout","time":150.047125222,"data":"Verified session-local data staging: {'source': '/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared', 'files': 6492, 'verified_sha256': True, 'workers': 8, 'seconds': 105.30792510399999}\n"}
+,{"stream_name":"stdout","time":150.091141418,"data":"Wed Oct 21 03:49:51 2026       \n"}
+,{"stream_name":"stdout","time":150.091170544,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":150.091177447,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":150.09118513,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":150.091210266,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":150.091214713,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":150.0912191,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":150.091223252,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":150.122331922,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":150.122359396,"data":"| N/A   40C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":150.122365134,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":150.122369934,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":150.122374287,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":150.122378111,"data":"| N/A   40C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":150.122382026,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":150.122385962,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":150.123409821,"data":"\n"}
+,{"stream_name":"stdout","time":150.12342845,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":150.12343384,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":150.123438277,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":150.12344688,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":150.123452446,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":150.125117103,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":150.125133211,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":150.243735987,"data":"Wed Oct 21 03:49:51 2026       \n"}
+,{"stream_name":"stdout","time":150.243777688,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":150.243803292,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":150.243806563,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":150.243809321,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":150.243811883,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":150.243814627,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":150.243817197,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":150.243819804,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":150.243822334,"data":"| N/A   40C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":150.243825123,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":150.243827727,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":150.243830323,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":150.243833007,"data":"| N/A   40C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":150.243835532,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":150.243838067,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":150.243840627,"data":"\n"}
+,{"stream_name":"stdout","time":150.243843085,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":150.24384573,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":150.243848275,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":150.243850789,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":150.243853324,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":150.243855845,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":150.243859426,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":159.065272265,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":159.268132824,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":189.07930178,"data":"E1_caries_seed42.log ━━──── 1021/1522 1.0Kit/s 1.0s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":189.079340985,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1133 images, 21 backgrounds, 0 corrupt: 74% ━━━━━━━━╸─── 1133/1522 1.1Kit/s 1.1s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":189.079368661,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1244 images, 23 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1244/1522 1.1Kit/s 1.2s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":189.079374106,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1353 images, 25 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1353/1522 1.1Kit/s 1.3s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":189.079378639,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1499 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1499/1522 1.2Kit/s 1.4s\u003c0.0s\n"}
+,{"stream_name":"stdout","time":189.080426283,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1522 images, 28 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 1522/1522 1.1Kit/s 1.4s\n"}
+,{"stream_name":"stdout","time":189.080448643,"data":"\u001b[34m\u001b[1mtrain: \u001b[0mNew cache created: /tmp/dentalselfie_prepared/caries/labels/train.cache\n"}
+,{"stream_name":"stdout","time":189.080453678,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":189.080458314,"data":"\n"}
+,{"stream_name":"stdout","time":189.080480159,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 0% ──────────── 10/1522 25.4it/s 0.1s\u003c59.4s\n"}
+,{"stream_name":"stdout","time":189.080484783,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 1% ──────────── 23/1522 56.4it/s 0.2s\u003c26.6s\n"}
+,{"stream_name":"stdout","time":189.080488889,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 36/1522 78.2it/s 0.3s\u003c19.0s\n"}
+,{"stream_name":"stdout","time":189.080493786,"data":"E1_gum_seed42.log /dentalselfie_prepared/gum/images/train/6662ec99f90cfe3d2a69.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":189.080498337,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/tmp/dentalselfie_prepared/gum/images/train/7e3b09868d4415a81769.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":189.080502834,"data":"\u001b[34m\u001b[1mtrain: \u001b[0mNew cache created: /tmp/dentalselfie_prepared/gum/labels/train.cache\n"}
+,{"stream_name":"stdout","time":189.080508067,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":189.080512883,"data":"\n"}
+,{"stream_name":"stdout","time":189.080517251,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 15/747 42.5it/s 0.1s\u003c17.2s\n"}
+,{"stream_name":"stdout","time":189.080521263,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ╸─────────── 33/747 82.1it/s 0.2s\u003c8.7s\n"}
+,{"stream_name":"stdout","time":189.080526961,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 6% ╸─────────── 51/747 110.2it/s 0.3s\u003c6.3s\n"}
+,{"stream_name":"stdout","time":189.080531893,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 9% ━─────────── 70/747 129.2it/s 0.4s\u003c5.2s\n"}
+,{"stream_name":"stdout","time":189.080537479,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 11% ━─────────── 89/747 146.7it/s 0.5s\u003c4.5s\n"}
+,{"stream_name":"stdout","time":189.080553392,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 108/747 156.5it/s 0.6s\u003c4.1s\n"}
+,{"stream_name":"stdout","time":189.080559598,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 17% ━━────────── 128/747 155.9it/s 0.8s\u003c4.0s\n"}
+,{"stream_name":"stdout","time":189.080566386,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 19% ━━────────── 145/747 152.7it/s 0.9s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":189.080572287,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 21% ━━╸───────── 157/747 141.3it/s 1.0s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":189.080577265,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 23% ━━╸───────── 172/747 140.1it/s 1.1s\u003c4.1s\n"}
+,{"stream_name":"stdout","time":189.298059323,"data":"E1_caries_seed42.log ━━──── 1021/1522 1.0Kit/s 1.0s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":189.298102986,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1133 images, 21 backgrounds, 0 corrupt: 74% ━━━━━━━━╸─── 1133/1522 1.1Kit/s 1.1s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":189.298108589,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1244 images, 23 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1244/1522 1.1Kit/s 1.2s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":189.298113449,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1353 images, 25 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1353/1522 1.1Kit/s 1.3s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":189.298117991,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1499 images, 28 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1499/1522 1.2Kit/s 1.4s\u003c0.0s\n"}
+,{"stream_name":"stdout","time":189.298122389,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1522 images, 28 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 1522/1522 1.1Kit/s 1.4s\n"}
+,{"stream_name":"stdout","time":189.298127256,"data":"\u001b[34m\u001b[1mtrain: \u001b[0mNew cache created: /tmp/dentalselfie_prepared/caries/labels/train.cache\n"}
+,{"stream_name":"stdout","time":189.298131472,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":189.29815229,"data":"\n"}
+,{"stream_name":"stdout","time":189.298155965,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 0% ──────────── 10/1522 25.4it/s 0.1s\u003c59.4s\n"}
+,{"stream_name":"stdout","time":189.298160522,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 1% ──────────── 23/1522 56.4it/s 0.2s\u003c26.6s\n"}
+,{"stream_name":"stdout","time":189.29816491,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 36/1522 78.2it/s 0.3s\u003c19.0s\n"}
+,{"stream_name":"stdout","time":189.298169339,"data":"E1_gum_seed42.log /dentalselfie_prepared/gum/images/train/6662ec99f90cfe3d2a69.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":189.298184528,"data":"\u001b[34m\u001b[1mtrain: \u001b[0m/tmp/dentalselfie_prepared/gum/images/train/7e3b09868d4415a81769.jpg: 1 duplicate labels removed\n"}
+,{"stream_name":"stdout","time":189.29818889,"data":"\u001b[34m\u001b[1mtrain: \u001b[0mNew cache created: /tmp/dentalselfie_prepared/gum/labels/train.cache\n"}
+,{"stream_name":"stdout","time":189.298193963,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":189.298198355,"data":"\n"}
+,{"stream_name":"stdout","time":189.29820208,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 15/747 42.5it/s 0.1s\u003c17.2s\n"}
+,{"stream_name":"stdout","time":189.298206525,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ╸─────────── 33/747 82.1it/s 0.2s\u003c8.7s\n"}
+,{"stream_name":"stdout","time":189.298210905,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 6% ╸─────────── 51/747 110.2it/s 0.3s\u003c6.3s\n"}
+,{"stream_name":"stdout","time":189.298215353,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 9% ━─────────── 70/747 129.2it/s 0.4s\u003c5.2s\n"}
+,{"stream_name":"stdout","time":189.298219836,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 11% ━─────────── 89/747 146.7it/s 0.5s\u003c4.5s\n"}
+,{"stream_name":"stdout","time":189.298224273,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 14% ━╸────────── 108/747 156.5it/s 0.6s\u003c4.1s\n"}
+,{"stream_name":"stdout","time":189.298228717,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 17% ━━────────── 128/747 155.9it/s 0.8s\u003c4.0s\n"}
+,{"stream_name":"stdout","time":189.29823314,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 19% ━━────────── 145/747 152.7it/s 0.9s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":189.298237784,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 21% ━━╸───────── 157/747 141.3it/s 1.0s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":189.298241795,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 23% ━━╸───────── 172/747 140.1it/s 1.1s\u003c4.1s\n"}
+,{"stream_name":"stdout","time":638.251138578,"data":"E1_caries_seed42 median post-first epoch seconds: 15.33 estimated 100-epoch hours: 0.43\n"}
+,{"stream_name":"stdout","time":638.258404024,"data":"E1_gum_seed42 median post-first epoch seconds: 10.79 estimated 100-epoch hours: 0.3\n"}
+,{"stream_name":"stderr","time":641.473761741,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":641.473800983,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":641.671238916,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":641.671268161,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":642.509033858,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":642.602003834,"data":"[NbConvertApp] Writing 159271 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":645.343679461,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":645.97373342,"data":"[NbConvertApp] Writing 377605 bytes to __results__.html\n"}
+]

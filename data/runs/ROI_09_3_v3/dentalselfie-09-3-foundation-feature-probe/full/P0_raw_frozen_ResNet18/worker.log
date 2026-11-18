@@ -1,0 +1,5 @@
+{"trial": {"id": "P0_raw_frozen_ResNet18", "kind": "probe", "data": "raw", "encoder": "resnet18"}, "rows": 10889, "gpu": "Tesla T4", "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06"}
+{"trial": "P0_raw_frozen_ResNet18", "C": 0.01, "macro_f1": 0.45809406964841853}
+{"trial": "P0_raw_frozen_ResNet18", "C": 0.1, "macro_f1": 0.4725194841207154}
+{"trial": "P0_raw_frozen_ResNet18", "C": 1.0, "macro_f1": 0.4916745480953079}
+{"trial": "P0_raw_frozen_ResNet18", "C": 10.0, "macro_f1": 0.5008303256730197}

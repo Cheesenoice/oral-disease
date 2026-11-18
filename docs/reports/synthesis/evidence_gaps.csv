@@ -1,0 +1,6 @@
+gap,status
+Independent phone capture domain,Pending real images; no accuracy without reference labels
+Gingival no-visible recognition,Unresolved; do not describe no-visible as verified healthy
+11.2 inference checkpoint,Not collected: Kaggle temp checkpoints were not exported
+Repeated seeds and final test,Not completed; test stays locked
+Android inference,Deferred; desktop CPU timing is not phone latency

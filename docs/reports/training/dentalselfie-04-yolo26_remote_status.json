@@ -1,0 +1,9 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-04-yolo26",
+  "version": 1,
+  "private": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "status": {
+    "status": "RUNNING"
+  }
+}

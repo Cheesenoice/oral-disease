@@ -1,0 +1,58 @@
+{
+  "data": {
+    "dataset": "trihuynhviprovcl/dentalselfie-data-v1",
+    "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-data-v1",
+    "version": 1,
+    "private": false,
+    "status": "ready",
+    "artifact_sha256": "8b7107a59c81e647bdfdd72bc5bf95806087cf3b686b684d09d21ff8e77fb2a7",
+    "artifact_bytes": 1022817704,
+    "mode": "create",
+    "log": ".venv/work/kaggle/upload_logs/data_1792508001.log"
+  },
+  "code": {
+    "dataset": "trihuynhviprovcl/dentalselfie-code",
+    "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-code",
+    "version": 14,
+    "private": false,
+    "status": "ready",
+    "artifact_sha256": "fd4b8bf843a405a4f6d5539c1bcaaf8980f35c5670661d1bb20ec3d28b5daa00",
+    "artifact_bytes": 24386375,
+    "mode": "version",
+    "log": ".venv/work/kaggle/upload_logs/code_1792590037.log"
+  },
+  "roi": {
+    "dataset": "trihuynhviprovcl/dentalselfie-gum-roi-v1",
+    "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-gum-roi-v1",
+    "version": 1,
+    "private": false,
+    "status": "ready",
+    "artifact_sha256": "7be1b280f2d30998328d5f3f9a8d258a5e1d8f83acae1780e4ff2b43ed6d05c0",
+    "artifact_bytes": 240211396,
+    "mode": "create",
+    "log": ".venv/work/kaggle/upload_logs/roi_1792557859.log",
+    "recovery": "Recovered after search index lag; direct metadata verified and remote content_manifest bytes match local ZIP"
+  },
+  "results": {
+    "dataset": "trihuynhviprovcl/dentalselfie-yolo-v4-results",
+    "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-yolo-v4-results",
+    "version": 1,
+    "private": false,
+    "status": "ready",
+    "artifact_sha256": "7041b714caaa4bb3bf27f949770c9c405914329c92f8c6e99782fd7f28c564e0",
+    "artifact_bytes": 685933916,
+    "mode": "create",
+    "log": ".venv/work/kaggle/upload_logs/results_1792558517.log"
+  },
+  "raw_roi": {
+    "dataset": "trihuynhviprovcl/dentalselfie-gum-raw-roi-v1",
+    "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-gum-raw-roi-v1",
+    "version": 1,
+    "private": false,
+    "status": "ready",
+    "artifact_sha256": "fb15c0b877079fb8a6fdb937f8f9768ccb5b809e9250d89919bee60429c04b8b",
+    "artifact_bytes": 149185155,
+    "mode": "create",
+    "log": ".venv/work/kaggle/upload_logs/raw_roi_1792589470.log"
+  }
+}

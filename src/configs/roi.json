@@ -1,0 +1,11 @@
+{
+  "protocol": "gingival-roi-context-v1",
+  "splits": ["train", "val"],
+  "size": 224,
+  "context_multiplier": 1.5,
+  "padding_rgb": [128, 128, 128],
+  "jpeg_quality": 95,
+  "jpeg_subsampling": 0,
+  "classes": ["no_visible_inflammation", "mild_inflammation", "marked_inflammation"],
+  "notes": "Central ROI label only. Context is auxiliary. Test images are not opened. No crop is an independent patient."
+}

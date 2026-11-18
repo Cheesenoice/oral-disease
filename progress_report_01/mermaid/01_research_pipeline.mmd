@@ -1,0 +1,10 @@
+flowchart LR
+    A[Public intraoral datasets] --> B[Audit and lock grouped splits]
+    B --> C[Full-image YOLO detection]
+    B --> D[Verified gingival ROI crops]
+    D --> E[Scratch CNN and ResNet baselines]
+    E --> F[Context, ordinal and imbalance comparisons]
+    F --> G[DINOv3 feature probe and partial adaptation]
+    C --> H[Validation evidence and failure review]
+    G --> H
+    H -. pending ordinary phone captures .-> I[Offline mobile feasibility]

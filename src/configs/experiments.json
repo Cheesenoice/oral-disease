@@ -1,0 +1,35 @@
+{
+  "protocol_version": "screening-2-bounded",
+  "screening_seed": 42,
+  "final_seeds": [42, 137, 2026],
+  "common": {
+    "epochs": 30,
+    "patience": 8,
+    "imgsz": 640,
+    "batch": 32,
+    "workers": 2,
+    "amp": true,
+    "deterministic": true,
+    "save_period": 5,
+    "cache": "ram",
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "weight_decay": 0.0005,
+    "hsv_h": 0.0,
+    "hsv_s": 0.1,
+    "hsv_v": 0.15,
+    "degrees": 5.0,
+    "translate": 0.05,
+    "scale": 0.15,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0
+  },
+  "experiments": {
+    "E0": {"model": "yolov8n.pt", "overrides": {}, "ready": true},
+    "E1": {"model": "yolo26n.pt", "overrides": {}, "ready": true},
+    "E2": {"model": "yolo26n.pt", "overrides": {}, "ready": false, "reason": "Requires pilot-dev and augmentation protocol; not an alias of E1"}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "protocol": "roi-recovery-screen-v1",
+  "seed": 42,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "patience": 8,
+  "lr": 0.0003,
+  "weight_decay": 0.0005,
+  "worker_seconds": 5400,
+  "manifest_hashes": {
+    "old": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+    "raw": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06"
+  },
+  "trials": [
+    {
+      "id": "R2_raw_CBCE",
+      "kind": "finetune",
+      "data": "raw",
+      "loss": "class_balanced"
+    },
+    {
+      "id": "R3_raw_BalancedSoftmax",
+      "kind": "finetune",
+      "data": "raw",
+      "loss": "balanced_softmax"
+    }
+  ],
+  "output_root": "/kaggle/working/dentalselfie-09-2-imbalance-ablation"
+}

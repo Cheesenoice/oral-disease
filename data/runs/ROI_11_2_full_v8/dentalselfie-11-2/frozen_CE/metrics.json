@@ -1,0 +1,66 @@
+{
+  "trial": "frozen_CE",
+  "phase": "full",
+  "seed": 42,
+  "metrics": {
+    "accuracy": 0.6604166666666667,
+    "macro_f1": 0.4415691274597306,
+    "balanced_accuracy": 0.45146268593045596,
+    "class_precision": [
+      0.0,
+      0.6991643454038997,
+      0.6383333333333333
+    ],
+    "class_recall": [
+      0.0,
+      0.5386266094420601,
+      0.8157614483493077
+    ],
+    "class_f1": [
+      0.0,
+      0.6084848484848485,
+      0.7162225338943432
+    ],
+    "support": [
+      49,
+      932,
+      939
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        43,
+        6
+      ],
+      [
+        2,
+        502,
+        428
+      ],
+      [
+        0,
+        173,
+        766
+      ]
+    ]
+  },
+  "val_loss": 0.6951408922672272,
+  "epochs_completed": 30,
+  "selected_epoch": 22,
+  "stop_reason": "max_epochs",
+  "elapsed_seconds": 1287.596406707,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.1",
+  "model_id": "facebook/dinov3-vits16-pretrain-lvd1689m",
+  "model_revision": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "trainable_parameters": 1155,
+  "total_parameters": 21597699,
+  "trainable_names": [
+    "head.weight",
+    "head.bias"
+  ],
+  "test_images_opened": 0,
+  "signature": "3bd226b73b0f67a70a27a3c8d531c32290956cfbb7a6fc49cc62fa84b5dfa204"
+}

@@ -1,0 +1,3 @@
+task,archive,archive_bytes,extracted_files,checksum,status
+caries,data\raw\caries\Dataset.zip,1576115314,13003,Publisher MD5 matched,extracted and verified
+gum,data\raw\gum\Dataset.rar,6552111937,2195,Local SHA-256 recorded,extracted and verified

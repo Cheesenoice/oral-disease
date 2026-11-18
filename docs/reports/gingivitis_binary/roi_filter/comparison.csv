@@ -1,0 +1,3 @@
+method,boxes,positive_found,mild_found,marked_found,ambiguous_found,grade0_flagged,unmatched_predictions
+YOLOv8n,2060,1814,908,905,1,49,246
+YOLOv8n + R1,2005,1776,875,900,1,40,229

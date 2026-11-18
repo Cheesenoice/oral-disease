@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/kaggle/working/dinov3_partial_worker.py", line 171, in <module>
+    worker_main()
+    ~~~~~~~~~~~^^
+  File "/kaggle/working/dinov3_partial_worker.py", line 168, in worker_main
+    run_trial(args.trial,config)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/dinov3_partial_worker.py", line 71, in run_trial
+    for block in model.backbone.model.layer[-2:]:
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1968, in __getattr__
+    raise AttributeError(
+        f"'{type(self).__name__}' object has no attribute '{name}'"
+    )
+AttributeError: 'DINOv3ViTModel' object has no attribute 'model'

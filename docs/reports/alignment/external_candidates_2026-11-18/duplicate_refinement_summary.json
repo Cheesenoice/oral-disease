@@ -1,0 +1,50 @@
+{
+  "input_manifest_rows": 8238,
+  "evaluated_candidate_pairs": 976,
+  "review_tiers": {
+    "strong_visual_match_candidate": 972,
+    "dhash_collision_or_weak_match": 4
+  },
+  "cross_source": {
+    "pairs": 644,
+    "strong_candidates": 642,
+    "cross_split_pairs": 206,
+    "cross_split_strong_candidates": 206
+  },
+  "within_source_train_valid": {
+    "crowded_teeth_fipdz_v1": {
+      "pairs": 1,
+      "strong_candidates": 1
+    },
+    "dental_app_v8": {
+      "pairs": 1,
+      "strong_candidates": 1
+    },
+    "gigikita_discloration_v1": {
+      "pairs": 101,
+      "strong_candidates": 101
+    }
+  },
+  "threshold_note": "Threshold is an engineering triage rule, not proof of same patient or identical capture. Visual review remains required.",
+  "test_content_opened": false,
+  "cross_source_crowding_annotation_agreement": {
+    "strong_cross_source_pairs_audited": 642,
+    "train_validation_conflict_pairs": 206,
+    "target_presence_agreement_fraction": 1.0,
+    "target_box_count_agreement_fraction": 0.543613707165109,
+    "pairs_with_target_boxes_in_both_sources": 642,
+    "both_source_pairs_with_at_least_one_iou50_box_match": 517,
+    "mean_matched_iou50_when_match_exists": 0.7171484503054092,
+    "details_csv": "docs\\reports\\alignment\\external_candidates_2026-11-18\\cross_source_crowding_label_agreement.csv",
+    "interpretation": "Annotation similarity is measured on visually matched images; low agreement can reflect different box rules, annotation incompleteness, or transform differences. It is not clinical adjudication."
+  },
+  "gigikita_within_source_crowding_annotation_agreement": {
+    "strong_gigikita_duplicate_pairs": 320,
+    "train_validation_pairs": 101,
+    "same_split_pairs": 219,
+    "target_presence_agreement_fraction": 1.0,
+    "box_count_agreement_fraction": 0.984375,
+    "both_positive_pairs_with_iou50_match": 9,
+    "details_csv": "docs\\reports\\alignment\\external_candidates_2026-11-18\\gigikita_duplicate_crowding_label_agreement.csv"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "kernel": "trihuynhviprovcl/dentalselfie-03-baseline",
+    "old_version": 4,
+    "public_version": 5,
+    "execution_type": "QUICK_SAVE",
+    "public": true,
+    "training_outputs_version": 4
+  },
+  {
+    "kernel": "trihuynhviprovcl/dentalselfie-04-yolo26",
+    "old_version": 4,
+    "public_version": 5,
+    "execution_type": "QUICK_SAVE",
+    "public": true,
+    "training_outputs_version": 4
+  }
+]

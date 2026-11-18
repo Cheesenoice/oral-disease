@@ -1,0 +1,7 @@
+split,class_id,class_name,crops,parents,groups
+train,0,no_visible_inflammation,210,87,87
+train,1,mild_inflammation,3829,592,592
+train,2,marked_inflammation,4930,651,651
+val,0,no_visible_inflammation,49,23,23
+val,1,mild_inflammation,932,132,132
+val,2,marked_inflammation,939,133,133

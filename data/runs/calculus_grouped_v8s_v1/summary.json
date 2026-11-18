@@ -1,0 +1,13 @@
+{
+  "model": "yolov8s",
+  "manifest_sha256": "831e8768df7ed11d7608b008297380a2014be4a1badeb56c21a1d0f70e828a50",
+  "completed_epochs": 60,
+  "best_sha256": "128b6d13e6b2152552be718b9b85da0450a6daaf759498e9ffbaf5dfb537fa75",
+  "metrics": {
+    "metrics/precision(B)": 0.551065987910016,
+    "metrics/recall(B)": 0.49732977303070763,
+    "metrics/mAP50(B)": 0.49334983596190085,
+    "metrics/mAP50-95(B)": 0.22147883033710572,
+    "fitness": 0.22147883033710572
+  }
+}

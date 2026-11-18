@@ -1,0 +1,7 @@
+{
+  "reviewed": false,
+  "manifest_sha256": "REPLACE_WITH_ACTUAL_HASH",
+  "grouping_evidence": "PENDING: patient/session IDs, duplicate review, filenames and source evidence",
+  "independence_claim": "PENDING: do not claim patient-disjoint without verified IDs",
+  "near_duplicate_review": "PENDING"
+}

@@ -1,0 +1,7 @@
+{
+  "epoch": 2,
+  "checkpoint_sha256": "da64b730332c8d8d00f27080565def3d139e557eb4b1cf101d0a87d3b15433e4",
+  "state_sha256": "9a0da3960f8892babc867d82bd23e1d5c8309105c016ca8b87e23c90ec40886b",
+  "elapsed_seconds": 66.28165278300003,
+  "rng_limit": "Worker/prefetch RNG state is not serialized; resumption is not bitwise identical"
+}

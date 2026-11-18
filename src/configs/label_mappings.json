@@ -1,0 +1,16 @@
+{
+  "caries": {
+    "approved": true,
+    "box_format": "labelme_xyxy_pixels",
+    "classes": {"D": 0, "d": 0},
+    "names": ["visible_caries"],
+    "evidence": "2026-10-20: actual LabelMe names, VOC cross-check and source overlays reviewed. Use named rectangles, not shared COCO IDs. Unknown M/m labels and non-rectangle shapes quarantine the image. Stored pixels match source dimensions, including reviewed orientation-0 examples."
+  },
+  "gum": {
+    "approved": true,
+    "box_format": "yolo_cxcywh_normalized",
+    "classes": {"0": null, "1": null, "2": 0, "3": 1, "4": 1, "5": 2, "6": 2},
+    "names": ["no_visible_inflammation", "mild_inflammation", "marked_inflammation"],
+    "evidence": "2026-10-20: source Table 2 and labeling section, caption checks 00929/00001/00733, and standard-versus-swapped overlays. Standard normalized width/height align anatomically; jaw ROIs 0/1 are excluded. Measured counts are reported separately from published counts."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-03-baseline/1",
+  "state": "ERROR",
+  "collected_utc": "2026-10-20T16:35:18.079968+00:00",
+  "completed_workers": 2,
+  "outputs": "data\\runs\\E0_smoke_v1",
+  "phase": "smoke",
+  "note": "Smoke metrics are not final experiment results"
+}

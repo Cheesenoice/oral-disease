@@ -1,0 +1,12 @@
+flowchart LR
+    A[YOLOv8n baseline] --> B[YOLO26n comparison]
+    C[Scratch CNN] --> D[Scratch ResNet18]
+    D --> E[ImageNet ResNet18]
+    E --> F[Local plus context fusion]
+    F --> G[Ordinal and imbalance objectives]
+    G --> H[Original-source crop recovery]
+    H --> I[Frozen ResNet and DINO probes]
+    I --> J[DINO patch readout]
+    J --> K[Partial DINO adaptation]
+    B --> L[Evidence-based limits and next phase]
+    K --> L

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "id": "trihuynhviprovcl/dentalselfie-04-yolo26",
+    "title": "Dentalselfie 04 Yolo26",
+    "code_file": "04_yolo26n_comparison.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "machine_shape": "NvidiaTeslaT4",
+    "dataset_sources": [
+      "trihuynhviprovcl/dentalselfie-code/5",
+      "trihuynhviprovcl/dentalselfie-data-v1/1"
+    ],
+    "competition_sources": [],
+    "kernel_sources": []
+  },
+  "timeout_seconds": 3600,
+  "training_budget_seconds": 1800,
+  "purpose": "Three-epoch YOLO26 integration and throughput check; excluded from research comparisons"
+}

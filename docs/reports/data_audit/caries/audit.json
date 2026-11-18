@@ -1,0 +1,12 @@
+{
+  "source": "data\\raw\\caries\\Dataset.zip",
+  "files": 13003,
+  "uncompressed_bytes": 1745853273,
+  "extensions": {
+    ".txt": 2245,
+    ".json": 2248,
+    ".xml": 2245,
+    ".jpg": 6265
+  },
+  "annotation_mapping_verified": false
+}

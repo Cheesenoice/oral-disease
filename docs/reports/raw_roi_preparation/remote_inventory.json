@@ -1,0 +1,9 @@
+{
+  "dataset": "trihuynhviprovcl/dentalselfie-gum-raw-roi-v1",
+  "version": 1,
+  "checked_files": 10895,
+  "remote_files": 10897,
+  "prefix": "raw_roi/",
+  "mismatches": [],
+  "verification": "Expanded remote filenames and byte sizes; local archive CRC and per-file hashes checked separately."
+}

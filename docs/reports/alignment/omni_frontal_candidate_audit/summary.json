@@ -1,0 +1,12 @@
+{
+  "images": 724,
+  "train": 538,
+  "val": 186,
+  "exact_cross_split_hashes": 0,
+  "shared_first_folder_keys": [
+    "2021.11"
+  ],
+  "cross_split_dhash_le4_pairs": 66,
+  "conservative_train_exclusions": 34,
+  "caution": "Folder and dHash candidates are not verified patient identities or confirmed same-scene pairs."
+}

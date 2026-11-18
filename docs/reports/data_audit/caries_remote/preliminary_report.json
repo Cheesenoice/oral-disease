@@ -1,0 +1,55 @@
+{
+  "preliminary": true,
+  "full_archive_checksum_verified": false,
+  "files": 13082,
+  "extensions": {
+    "": 79,
+    ".txt": 2245,
+    ".json": 2248,
+    ".xml": 2245,
+    ".jpg": 6265
+  },
+  "class_files": [],
+  "image_examples": [
+    {
+      "xml": "Dataset/Annotations/pascal-voc/no_retractors/Frontal/anonymous_003-007-1214-00_1732862917124_Frontal_View.xml",
+      "image": "Dataset/Images/no_retractors/Frontal/anonymous_003-007-1214-00_1732862917124_Frontal_View.jpg",
+      "actual_size": [
+        1583,
+        889
+      ],
+      "exif_orientation": null,
+      "xml_size": [
+        "1583",
+        "889"
+      ]
+    },
+    {
+      "xml": "Dataset/Annotations/pascal-voc/no_retractors/Frontal/anonymous_003-007-673-00_1729239709286_Frontal_View.xml",
+      "image": "Dataset/Images/no_retractors/Frontal/anonymous_003-007-673-00_1729239709286_Frontal_View.jpg",
+      "actual_size": [
+        1317,
+        740
+      ],
+      "exif_orientation": null,
+      "xml_size": [
+        "1317",
+        "740"
+      ]
+    },
+    {
+      "xml": "Dataset/Annotations/pascal-voc/no_retractors/Frontal/anonymous_003-007-848-00_1730185308013_Frontal_View.xml",
+      "image": "Dataset/Images/no_retractors/Frontal/anonymous_003-007-848-00_1730185308013_Frontal_View.jpg",
+      "actual_size": [
+        1296,
+        728
+      ],
+      "exif_orientation": null,
+      "xml_size": [
+        "1296",
+        "728"
+      ]
+    }
+  ],
+  "warning": "Missing labels are not confirmed negatives; invalid boxes must be quarantined, not clipped."
+}

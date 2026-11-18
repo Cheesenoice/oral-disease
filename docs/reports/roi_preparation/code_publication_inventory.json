@@ -1,0 +1,11 @@
+{
+  "dataset": "trihuynhviprovcl/dentalselfie-code",
+  "version": 12,
+  "private": true,
+  "status": "ready",
+  "local_archive_sha256": "ba53143db504355676fe34ee7d3d998aabdc580f45899a7d3002e8922341509f",
+  "expanded_members_checked": 48,
+  "mismatches": [],
+  "verification": "Expanded remote filenames and byte sizes; no remote content SHA-256 claim",
+  "data_version": 1
+}

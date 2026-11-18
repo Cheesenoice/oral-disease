@@ -1,0 +1,3 @@
+Gradient routing check passed: last2_blocks_norm_CE
+{"trial": "last2_blocks_norm_CE", "epoch": 1, "train_loss": 1.1160995165507, "val_loss": 1.0696414709091187, "macro_f1": 0.2653907496012759, "accuracy": 0.3541666666666667, "trainable_parameters": 3551619, "seconds": 23.375111230000016}
+SMOKE_CHECKPOINT_RESTORE_OK

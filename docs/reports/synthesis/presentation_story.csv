@@ -1,0 +1,7 @@
+stage,research_question,measured_conclusion
+6.x,Can a learned CNN and residual learning establish a reference?,Scratch and ImageNet controls completed.
+07.x,"Do wider context, gating or ordinal loss help?",Controlled variants did not surpass C2.
+08-09.x,Are source detail and imbalance limiting performance?,Small observed gains; R1/R2 remain near-tied.
+10.x,"Are errors shared, and does caries detection localize lesions?",Technical audit passed; clinical and capture-domain review pending.
+11.x,Do spatial foundation features or limited adaptation help?,"Matched gains, but below ResNet18; minority failures persist."
+12.x,Can ordinary phone captures support the intended workflow?,Local feasibility study prepared; real captures required.

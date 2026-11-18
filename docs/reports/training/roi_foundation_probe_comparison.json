@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "status": "COMPLETE",
+  "latest_v4": "CANCEL_ACKNOWLEDGED; no output",
+  "probes": [
+    {
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.5008303256730197,
+      "balanced_accuracy": 0.501045972741046,
+      "ordinal_mae": 0.33958333333333335,
+      "quadratic_kappa": 0.4140845070422535,
+      "confusion_matrix": [
+        [
+          7,
+          37,
+          5
+        ],
+        [
+          33,
+          573,
+          326
+        ],
+        [
+          7,
+          232,
+          700
+        ]
+      ],
+      "class_precision": [
+        0.14893617021276595,
+        0.6805225653206651,
+        0.6789524733268671
+      ],
+      "class_recall": [
+        0.14285714285714285,
+        0.6148068669527897,
+        0.7454739084132055
+      ],
+      "class_f1": [
+        0.14583333333333334,
+        0.6459977452085682,
+        0.7106598984771574
+      ],
+      "support": [
+        49,
+        932,
+        939
+      ],
+      "trial": {
+        "id": "P0_raw_frozen_ResNet18",
+        "kind": "probe",
+        "data": "raw",
+        "encoder": "resnet18"
+      },
+      "seed": 42,
+      "selected_C": 10.0,
+      "elapsed_seconds": 54.539253116000054,
+      "gpu": "Tesla T4",
+      "feature_dim": 512,
+      "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+      "test_images_opened": 0,
+      "stop_reason": "grid_complete",
+      "signature": "a18c27ca5913c9faab35c2c30b6739a1f4b2be6eb7453cd4e6a4418ed4ce07b2",
+      "verification": "1920 labels/IDs, decoded probabilities, confusion/metrics, grid selection and smoke verified"
+    },
+    {
+      "accuracy": 0.6796875,
+      "macro_f1": 0.4783265918266246,
+      "balanced_accuracy": 0.47768732699330557,
+      "ordinal_mae": 0.325,
+      "quadratic_kappa": 0.4199777899075834,
+      "confusion_matrix": [
+        [
+          2,
+          43,
+          4
+        ],
+        [
+          14,
+          575,
+          343
+        ],
+        [
+          5,
+          206,
+          728
+        ]
+      ],
+      "class_precision": [
+        0.09523809523809523,
+        0.6978155339805825,
+        0.6772093023255814
+      ],
+      "class_recall": [
+        0.04081632653061224,
+        0.6169527896995708,
+        0.7752928647497338
+      ],
+      "class_f1": [
+        0.05714285714285714,
+        0.6548974943052391,
+        0.7229394240317776
+      ],
+      "support": [
+        49,
+        932,
+        939
+      ],
+      "trial": {
+        "id": "P1_raw_frozen_DINOv3",
+        "kind": "probe",
+        "data": "raw",
+        "encoder": "dinov3"
+      },
+      "seed": 42,
+      "selected_C": 1.0,
+      "elapsed_seconds": 52.26852768399999,
+      "gpu": "Tesla T4",
+      "feature_dim": 384,
+      "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+      "test_images_opened": 0,
+      "stop_reason": "grid_complete",
+      "signature": "999e3da9f6f6059a7c88c39c3bf4f3052a3e15487d5c3e843af232927493fa31",
+      "verification": "1920 labels/IDs, decoded probabilities, confusion/metrics, grid selection and smoke verified"
+    }
+  ],
+  "paired_group_bootstrap_delta_DINO_minus_ResNet_macro_f1_pp": [
+    -6.885624697105587,
+    2.382177415616694
+  ],
+  "bootstrap_replicates": 2000,
+  "groups": 160,
+  "limitation": "Conditional on validation-selected heads; excludes model-selection and training variability"
+}

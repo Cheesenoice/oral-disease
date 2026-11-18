@@ -1,0 +1,7 @@
+file,category_id,name,images_in_file,boxes_in_file
+test.json,1,D,232,690
+test.json,2,d,232,690
+train.json,1,d,1781,5386
+train.json,2,D,1781,5386
+valid.json,1,d,214,652
+valid.json,2,D,214,652

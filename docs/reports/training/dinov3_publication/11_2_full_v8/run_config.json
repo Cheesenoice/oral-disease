@@ -1,0 +1,30 @@
+{
+  "image_size": 224,
+  "patch_size": 16,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "patience": 8,
+  "head_lr": 0.0003,
+  "encoder_lr": 1e-05,
+  "weight_decay": 0.0005,
+  "seed": 42,
+  "worker_seconds": 3600,
+  "phase": "full",
+  "model_id": "facebook/dinov3-vits16-pretrain-lvd1689m",
+  "model_revision": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "trials": [
+    "frozen_CE",
+    "last2_blocks_norm_CE"
+  ],
+  "runtime_packages": [
+    "transformers==4.57.1",
+    "huggingface-hub==0.36.2",
+    "tokenizers==0.22.1",
+    "safetensors==0.6.2"
+  ],
+  "data_root": "/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-gum-raw-roi-v1/raw_roi",
+  "manifest_path": "/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-gum-raw-roi-v1/raw_roi/manifest.csv",
+  "output_root": "/kaggle/working/dentalselfie-11-2",
+  "temp_root": "/kaggle/temp/dentalselfie-11-2"
+}

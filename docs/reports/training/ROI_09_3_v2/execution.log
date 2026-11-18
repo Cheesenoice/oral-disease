@@ -1,0 +1,60 @@
+[{"stream_name":"stderr","time":8.028597096,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.028668783,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.028675944,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.028680167,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.66798869,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.668046427,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.668053205,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.668057675,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.873297251,"data":"{\n"}
+,{"stream_name":"stdout","time":9.873324238,"data":"  \"protocol\": \"roi-recovery-screen-v1\",\n"}
+,{"stream_name":"stdout","time":9.87333025,"data":"  \"seed\": 42,\n"}
+,{"stream_name":"stdout","time":9.873334456,"data":"  \"batch_size\": 32,\n"}
+,{"stream_name":"stdout","time":9.87333845,"data":"  \"max_epochs\": 30,\n"}
+,{"stream_name":"stdout","time":9.8733424,"data":"  \"patience\": 8,\n"}
+,{"stream_name":"stdout","time":9.873346193,"data":"  \"lr\": 0.0003,\n"}
+,{"stream_name":"stdout","time":9.873350111,"data":"  \"weight_decay\": 0.0005,\n"}
+,{"stream_name":"stdout","time":9.873354383,"data":"  \"worker_seconds\": 5400,\n"}
+,{"stream_name":"stdout","time":9.87335862,"data":"  \"manifest_hashes\": {\n"}
+,{"stream_name":"stdout","time":9.873363204,"data":"    \"old\": \"8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1\",\n"}
+,{"stream_name":"stdout","time":9.873367203,"data":"    \"raw\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"\n"}
+,{"stream_name":"stdout","time":9.873371234,"data":"  },\n"}
+,{"stream_name":"stdout","time":9.873374857,"data":"  \"trials\": [\n"}
+,{"stream_name":"stdout","time":9.873378803,"data":"    {\n"}
+,{"stream_name":"stdout","time":9.873382543,"data":"      \"id\": \"P0_raw_frozen_ResNet18\",\n"}
+,{"stream_name":"stdout","time":9.8733864,"data":"      \"kind\": \"probe\",\n"}
+,{"stream_name":"stdout","time":9.873390439,"data":"      \"data\": \"raw\",\n"}
+,{"stream_name":"stdout","time":9.873394648,"data":"      \"encoder\": \"resnet18\"\n"}
+,{"stream_name":"stdout","time":9.873398569,"data":"    },\n"}
+,{"stream_name":"stdout","time":9.873402625,"data":"    {\n"}
+,{"stream_name":"stdout","time":9.873406245,"data":"      \"id\": \"P1_raw_frozen_DINOv3\",\n"}
+,{"stream_name":"stdout","time":9.873410295,"data":"      \"kind\": \"probe\",\n"}
+,{"stream_name":"stdout","time":9.873414058,"data":"      \"data\": \"raw\",\n"}
+,{"stream_name":"stdout","time":9.87341793,"data":"      \"encoder\": \"dinov3\"\n"}
+,{"stream_name":"stdout","time":9.873422202,"data":"    }\n"}
+,{"stream_name":"stdout","time":9.873425955,"data":"  ],\n"}
+,{"stream_name":"stdout","time":9.873429692,"data":"  \"output_root\": \"/kaggle/working/dentalselfie-09-3-foundation-feature-probe\"\n"}
+,{"stream_name":"stdout","time":9.873433755,"data":"}\n"}
+,{"stream_name":"stdout","time":9.891881803,"data":"DINOv3 access is required; no alternate model is silently substituted.\n"}
+,{"stream_name":"stdout","time":26.089569337,"data":"Registered worker section: Imports and deterministic setup\n"}
+,{"stream_name":"stdout","time":26.113277779,"data":"Registered worker section: Dataset and matched image preprocessing\n"}
+,{"stream_name":"stdout","time":26.133139833,"data":"Registered worker section: Models and independent class-imbalance objectives\n"}
+,{"stream_name":"stdout","time":26.160817813,"data":"Registered worker section: Metrics and atomic checkpoints\n"}
+,{"stream_name":"stdout","time":26.194609257,"data":"Registered worker section: Fine-tuning, GPU smoke and exact-protocol resumption\n"}
+,{"stream_name":"stdout","time":26.220998921,"data":"Registered worker section: Frozen-feature probes and train-only feature standardization\n"}
+,{"stream_name":"stdout","time":26.243242416,"data":"Registered worker section: Isolated worker entry point\n"}
+,{"stream_name":"stdout","time":1009.177892824,"data":"Input tensor: (3, 224, 224) float range: -1.3879550695419312 0.6391814351081848\n"}
+,{"stream_name":"stdout","time":1009.21419268,"data":"Training disabled: review/fork without GPU consumption.\n"}
+,{"stream_name":"stdout","time":1009.242711125,"data":"P0_raw_frozen_ResNet18 : no full result yet\n"}
+,{"stream_name":"stdout","time":1009.242744125,"data":"P1_raw_frozen_DINOv3 : no full result yet\n"}
+,{"stream_name":"stderr","time":1014.996441046,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1014.996483861,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1015.186918054,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1015.186977086,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1016.013978002,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1016.109553155,"data":"[NbConvertApp] Writing 336449 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1018.640927239,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1019.41949506,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":1019.419523505,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1019.419870897,"data":"[NbConvertApp] Writing 439748 bytes to __results__.html\n"}
+]

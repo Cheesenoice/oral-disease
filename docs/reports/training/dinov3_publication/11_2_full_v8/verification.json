@@ -1,0 +1,125 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-11-2-dinov3-partial-adaptation",
+  "version": 8,
+  "script_version_id": 361136686,
+  "state": "COMPLETE",
+  "phase": "full",
+  "runtime_seconds": 2054.6,
+  "collected_utc": "2026-10-22T14:07:26.814168+00:00",
+  "collection_method": "Public browser exact-version download",
+  "archive_sha256": "8a1b44b5b1c2b0c267527ea8f798e502b6ab7282c783a06c5e86394a3cff839d",
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "verified_results": [
+    {
+      "trial": "frozen_CE",
+      "accuracy": 0.6604166666666667,
+      "macro_f1": 0.4415691274597306,
+      "balanced_accuracy": 0.45146268593045596,
+      "class_precision": [
+        0.0,
+        0.6991643454038997,
+        0.6383333333333333
+      ],
+      "class_recall": [
+        0.0,
+        0.5386266094420601,
+        0.8157614483493077
+      ],
+      "class_f1": [
+        0.0,
+        0.6084848484848485,
+        0.7162225338943432
+      ],
+      "support": [
+        49,
+        932,
+        939
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          43,
+          6
+        ],
+        [
+          2,
+          502,
+          428
+        ],
+        [
+          0,
+          173,
+          766
+        ]
+      ],
+      "epochs_completed": 30,
+      "selected_epoch": 22,
+      "stop_reason": "max_epochs",
+      "elapsed_seconds": 1287.596406707,
+      "trainable_parameters": 1155
+    },
+    {
+      "trial": "last2_blocks_norm_CE",
+      "accuracy": 0.7057291666666666,
+      "macro_f1": 0.4763844467241969,
+      "balanced_accuracy": 0.48267721573950917,
+      "class_precision": [
+        0.0,
+        0.7081447963800905,
+        0.7063953488372093
+      ],
+      "class_recall": [
+        0.0,
+        0.6716738197424893,
+        0.7763578274760383
+      ],
+      "class_f1": [
+        0.0,
+        0.6894273127753304,
+        0.7397260273972602
+      ],
+      "support": [
+        49,
+        932,
+        939
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          48,
+          1
+        ],
+        [
+          4,
+          626,
+          302
+        ],
+        [
+          0,
+          210,
+          729
+        ]
+      ],
+      "epochs_completed": 21,
+      "selected_epoch": 13,
+      "stop_reason": "early_stopping",
+      "elapsed_seconds": 1045.450026305,
+      "trainable_parameters": 3551619
+    }
+  ],
+  "group_bootstrap": {
+    "comparison": "last2_blocks_norm_CE minus frozen_CE",
+    "repetitions": 2000,
+    "seed": 42,
+    "observable_groups": 160,
+    "macro_f1_delta_pp": 3.481531926446629,
+    "percentile_95_interval_pp": [
+      2.069718286499622,
+      4.973484352725981
+    ],
+    "note": "Exploratory reused validation; observable groups are not verified patient IDs. Not seed-repeat uncertainty."
+  },
+  "executed_notebook_code_cells": 13,
+  "test_images_opened": 0,
+  "exported_weights_present": false
+}

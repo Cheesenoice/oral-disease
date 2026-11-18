@@ -1,0 +1,241 @@
+[{"stream_name":"stderr","time":7.7576549230000005,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.757702411,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.757708728,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.757712789,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.412742225,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.412776954,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.412783498,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.41278781,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":34.094558258,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":34.297280552,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.478762972,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 8.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.680120074,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 8.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.249854199,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 8.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.337339601,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 858.3 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.380872764,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 3.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.452050382,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 8.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.452086537,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 858.3 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.452092777,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 3.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":41.047082262,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.04711468,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.047121787,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.04712725,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.047142795,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.047146966,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.047150885,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.047154845,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":41.248259711,"data":"Project: /kaggle/working/dentalselfie\n"}
+,{"stream_name":"stderr","time":41.249304035,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.249317891,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.249322874,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249326661,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249330279,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249333765,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249337131,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249341162,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249345081,"data":"\n"}
+,{"stream_name":"stderr","time":41.249349086,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.249353551,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.249362393,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249366181,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249369745,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249373408,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249377045,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.249380498,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":44.688249133,"data":"Prepared dataset: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared\n"}
+,{"stream_name":"stdout","time":141.026939227,"data":"Verified session-local data staging: {'source': '/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared', 'files': 6492, 'verified_sha256': True, 'workers': 8, 'seconds': 96.46312146899999}\n"}
+,{"stream_name":"stdout","time":141.069813389,"data":"Tue Oct 20 16:39:15 2026       \n"}
+,{"stream_name":"stdout","time":141.069891855,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":141.069899309,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":141.069904291,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":141.069908458,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":141.069912534,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":141.069916543,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":141.069920451,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":141.102506366,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":141.102536475,"data":"| N/A   43C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":141.102542496,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":141.10254811,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":141.10255333,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":141.102577964,"data":"| N/A   35C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":141.102582538,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":141.102587221,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":141.103811782,"data":"\n"}
+,{"stream_name":"stdout","time":141.103864004,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":141.103871134,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":141.103875781,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":141.103879799,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":141.103884338,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":141.104823856,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":141.104841609,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":141.22456461,"data":"Tue Oct 20 16:39:15 2026       \n"}
+,{"stream_name":"stdout","time":141.224605764,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":141.224626111,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":141.224631314,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":141.224636749,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":141.224642359,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":141.224647817,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":141.224653341,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":141.224658864,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":141.224664443,"data":"| N/A   43C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":141.224669946,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":141.224675628,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":141.224681294,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":141.224686757,"data":"| N/A   35C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":141.224692376,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":141.224697857,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":141.224703476,"data":"\n"}
+,{"stream_name":"stdout","time":141.224709081,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":141.224714772,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":141.224720354,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":141.224726015,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":141.224731606,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":141.224737256,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":141.224743786,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":149.261700921,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":149.464651067,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":179.271862305,"data":"E1_caries_seed42_smoke.log 1255 images, 23 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1255/1522 979.3it/s 1.3s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":179.271911358,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1353 images, 25 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1353/1522 977.6it/s 1.4s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":179.271934863,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1485 images, 28 backgrounds, 0 corrupt: 97% ━━━━━━━━━━━╸ 1485/1522 1.1Kit/s 1.5s\u003c0.0s\n"}
+,{"stream_name":"stdout","time":179.271940346,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1522 images, 28 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 1522/1522 996.0it/s 1.5s\n"}
+,{"stream_name":"stdout","time":179.271945335,"data":"\u001b[34m\u001b[1mtrain: \u001b[0mNew cache created: /tmp/dentalselfie_prepared/caries/labels/train.cache\n"}
+,{"stream_name":"stdout","time":179.271949832,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":179.271954286,"data":"\n"}
+,{"stream_name":"stdout","time":179.27236853,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 0% ──────────── 9/1522 20.6it/s 0.1s\u003c1:14\n"}
+,{"stream_name":"stdout","time":179.272389431,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 1% ──────────── 21/1522 40.4it/s 0.3s\u003c37.2s\n"}
+,{"stream_name":"stdout","time":179.27239531,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 33/1522 59.8it/s 0.4s\u003c24.9s\n"}
+,{"stream_name":"stdout","time":179.272400393,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 48/1522 80.7it/s 0.5s\u003c18.3s\n"}
+,{"stream_name":"stdout","time":179.272404534,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ──────────── 61/1522 91.3it/s 0.6s\u003c16.0s\n"}
+,{"stream_name":"stdout","time":179.272408982,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 73/1522 95.0it/s 0.7s\u003c15.3s\n"}
+,{"stream_name":"stdout","time":179.272414027,"data":"E1_gum_seed42_smoke.log rain.cache\n"}
+,{"stream_name":"stdout","time":179.272418581,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":179.272422936,"data":"\n"}
+,{"stream_name":"stdout","time":179.272426704,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 1% ──────────── 14/747 41.7it/s 0.1s\u003c17.6s\n"}
+,{"stream_name":"stdout","time":179.272431424,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ──────────── 30/747 76.9it/s 0.2s\u003c9.3s\n"}
+,{"stream_name":"stdout","time":179.27243644,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 6% ╸─────────── 48/747 105.6it/s 0.3s\u003c6.6s\n"}
+,{"stream_name":"stdout","time":179.27244137899999,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 8% ━─────────── 67/747 125.4it/s 0.4s\u003c5.4s\n"}
+,{"stream_name":"stdout","time":179.272445977,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 11% ━─────────── 86/747 141.2it/s 0.5s\u003c4.7s\n"}
+,{"stream_name":"stdout","time":179.272450721,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 104/747 151.6it/s 0.6s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.27246599,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 16% ━╸────────── 121/747 149.4it/s 0.7s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.272470498,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 18% ━━────────── 137/747 151.3it/s 0.8s\u003c4.0s\n"}
+,{"stream_name":"stdout","time":179.272475113,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 20% ━━────────── 152/747 145.9it/s 1.0s\u003c4.1s\n"}
+,{"stream_name":"stdout","time":179.272480476,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 22% ━━╸───────── 167/747 138.8it/s 1.1s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.272485247,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 23% ━━╸───────── 176/747 123.6it/s 1.2s\u003c4.6s\n"}
+,{"stream_name":"stdout","time":179.272489876,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 25% ━━━───────── 190/747 125.8it/s 1.3s\u003c4.4s\n"}
+,{"stream_name":"stdout","time":179.272494536,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 27% ━━━───────── 204/747 129.7it/s 1.4s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.487053694,"data":"E1_caries_seed42_smoke.log 1255 images, 23 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1255/1522 979.3it/s 1.3s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":179.48708237,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1353 images, 25 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1353/1522 977.6it/s 1.4s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":179.487238717,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1485 images, 28 backgrounds, 0 corrupt: 97% ━━━━━━━━━━━╸ 1485/1522 1.1Kit/s 1.5s\u003c0.0s\n"}
+,{"stream_name":"stdout","time":179.487245612,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mScanning /tmp/dentalselfie_prepared/caries/labels/train... 1522 images, 28 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 1522/1522 996.0it/s 1.5s\n"}
+,{"stream_name":"stdout","time":179.487251119,"data":"\u001b[34m\u001b[1mtrain: \u001b[0mNew cache created: /tmp/dentalselfie_prepared/caries/labels/train.cache\n"}
+,{"stream_name":"stdout","time":179.487256344,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":179.487261234,"data":"\n"}
+,{"stream_name":"stdout","time":179.48726568,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 0% ──────────── 9/1522 20.6it/s 0.1s\u003c1:14\n"}
+,{"stream_name":"stdout","time":179.487270872,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 1% ──────────── 21/1522 40.4it/s 0.3s\u003c37.2s\n"}
+,{"stream_name":"stdout","time":179.487275377,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 2% ──────────── 33/1522 59.8it/s 0.4s\u003c24.9s\n"}
+,{"stream_name":"stdout","time":179.487279847,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 3% ──────────── 48/1522 80.7it/s 0.5s\u003c18.3s\n"}
+,{"stream_name":"stdout","time":179.487294375,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ──────────── 61/1522 91.3it/s 0.6s\u003c16.0s\n"}
+,{"stream_name":"stdout","time":179.487308284,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 4% ╸─────────── 73/1522 95.0it/s 0.7s\u003c15.3s\n"}
+,{"stream_name":"stdout","time":179.48731293,"data":"E1_gum_seed42_smoke.log rain.cache\n"}
+,{"stream_name":"stdout","time":179.487316798,"data":"WARNING ⚠️ cache='ram' may produce non-deterministic training results. Consider cache='disk' as a deterministic alternative if your disk space allows.\n"}
+,{"stream_name":"stdout","time":179.487320887,"data":"\n"}
+,{"stream_name":"stdout","time":179.487324652,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 1% ──────────── 14/747 41.7it/s 0.1s\u003c17.6s\n"}
+,{"stream_name":"stdout","time":179.487330943,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 4% ──────────── 30/747 76.9it/s 0.2s\u003c9.3s\n"}
+,{"stream_name":"stdout","time":179.487335894,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.0GB RAM): 6% ╸─────────── 48/747 105.6it/s 0.3s\u003c6.6s\n"}
+,{"stream_name":"stdout","time":179.487341299,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 8% ━─────────── 67/747 125.4it/s 0.4s\u003c5.4s\n"}
+,{"stream_name":"stdout","time":179.48734667,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 11% ━─────────── 86/747 141.2it/s 0.5s\u003c4.7s\n"}
+,{"stream_name":"stdout","time":179.487351811,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 13% ━╸────────── 104/747 151.6it/s 0.6s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.48735623,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 16% ━╸────────── 121/747 149.4it/s 0.7s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.487360639,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 18% ━━────────── 137/747 151.3it/s 0.8s\u003c4.0s\n"}
+,{"stream_name":"stdout","time":179.487365084,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 20% ━━────────── 152/747 145.9it/s 1.0s\u003c4.1s\n"}
+,{"stream_name":"stdout","time":179.487369462,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 22% ━━╸───────── 167/747 138.8it/s 1.1s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":179.487373846,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 23% ━━╸───────── 176/747 123.6it/s 1.2s\u003c4.6s\n"}
+,{"stream_name":"stdout","time":179.487378274,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 25% ━━━───────── 190/747 125.8it/s 1.3s\u003c4.4s\n"}
+,{"stream_name":"stdout","time":179.487382745,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 27% ━━━───────── 204/747 129.7it/s 1.4s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":209.280709904,"data":"E1_caries_seed42_smoke.log images (0.2GB RAM): 64% ━━━━━━━╸──── 210/327 163.2it/s 1.2s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":209.280787889,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 70% ━━━━━━━━╸─── 232/327 178.3it/s 1.3s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":209.280796482,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 76% ━━━━━━━━━─── 250/327 175.3it/s 1.4s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":209.280821302,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 81% ━━━━━━━━━╸── 268/327 175.6it/s 1.5s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":209.280826816,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 87% ━━━━━━━━━━╸─ 287/327 178.7it/s 1.6s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":209.280831215,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 93% ━━━━━━━━━━━─ 306/327 180.9it/s 1.7s\u003c0.1s\n"}
+,{"stream_name":"stdout","time":209.280835949,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.3GB RAM): 98% ━━━━━━━━━━━╸ 323/327 172.0it/s 1.8s\u003c0.0s\n"}
+,{"stream_name":"stdout","time":209.280840392,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.3GB RAM): 100% ━━━━━━━━━━━━ 327/327 180.3it/s 1.8s\n"}
+,{"stream_name":"stdout","time":209.281106912,"data":"\u001b[34m\u001b[1moptimizer:\u001b[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 114 weight(decay=0.0), 126 weight(decay=0.0005), 126 bias(decay=0.0)\n"}
+,{"stream_name":"stdout","time":209.281129123,"data":"Using 1522 train, 327 val images for fraction=1.0 at imgsz=640\n"}
+,{"stream_name":"stdout","time":209.281133605,"data":"Using 2 dataloader workers\n"}
+,{"stream_name":"stdout","time":209.281137739,"data":"Logging results to \u001b[1m/kaggle/working/experiments/E1_caries_seed42_smoke\u001b[0m\n"}
+,{"stream_name":"stdout","time":209.281142135,"data":"Starting training for 3 epochs...\n"}
+,{"stream_name":"stdout","time":209.281146215,"data":"Closing dataloader mosaic\n"}
+,{"stream_name":"stdout","time":209.281150187,"data":"\u001b[34m\u001b[1malbumentations: \u001b[0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))\n"}
+,{"stream_name":"stdout","time":209.281155295,"data":"\n"}
+,{"stream_name":"stdout","time":209.28115923,"data":"      Epoch    GPU_mem   box_loss   cls_loss    l1_loss  Instances       Size\n"}
+,{"stream_name":"stdout","time":209.28116331,"data":"\n"}
+,{"stream_name":"stdout","time":209.281167019,"data":"E1_gum_seed42_smoke.log mem   box_loss   cls_loss    l1_loss  Instances       Size\n"}
+,{"stream_name":"stdout","time":209.281171358,"data":"\n"}
+,{"stream_name":"stdout","time":209.28117519,"data":"\u001b[K        1/3      4.85G      2.706      10.07    0.01527        384        640: 0% ──────────── 0/24  17.1s\n"}
+,{"stream_name":"stdout","time":209.281179975,"data":"\u001b[K        1/3      4.86G      2.776       9.94    0.01576        384        640: 4% ──────────── 1/24 1.1it/s 17.3s\u003c21.2s\n"}
+,{"stream_name":"stdout","time":209.281226532,"data":"\u001b[K        1/3      4.86G      2.788      9.884    0.01576        384        640: 8% ━─────────── 2/24 2.0it/s 17.6s\u003c11.3s\n"}
+,{"stream_name":"stdout","time":209.28127764,"data":"\u001b[K        1/3      4.86G        2.8      9.895    0.01573        384        640: 12% ━─────────── 3/24 2.6it/s 17.8s\u003c8.0s\n"}
+,{"stream_name":"stdout","time":209.28128307,"data":"\u001b[K        1/3      4.86G      2.784      9.895    0.01545        384        640: 16% ━━────────── 4/24 3.0it/s 18.1s\u003c6.7s\n"}
+,{"stream_name":"stdout","time":209.281287713,"data":"\u001b[K        1/3      4.86G      2.786      9.899    0.01542        384        640: 20% ━━────────── 5/24 3.4it/s 18.3s\u003c5.7s\n"}
+,{"stream_name":"stdout","time":209.281292058,"data":"\u001b[K        1/3      4.86G      2.779      9.903     0.0154        384        640: 25% ━━━───────── 6/24 3.5it/s 18.6s\u003c5.2s\n"}
+,{"stream_name":"stdout","time":209.281308099,"data":"\u001b[K        1/3      4.86G       2.77       9.91    0.01531        384        640: 29% ━━━───────── 7/24 3.7it/s 18.8s\u003c4.6s\n"}
+,{"stream_name":"stdout","time":209.281397959,"data":"\u001b[K        1/3      4.86G      2.751      9.886    0.01514        384        640: 33% ━━━━──────── 8/24 3.8it/s 19.1s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":209.281406245,"data":"\u001b[K        1/3      4.86G      2.754      9.895    0.01513        384        640: 37% ━━━━──────── 9/24 3.9it/s 19.3s\u003c3.8s\n"}
+,{"stream_name":"stdout","time":209.281410573,"data":"\u001b[K        1/3      4.86G      2.692      9.723    0.01474        385        640: 41% ━━━━━─────── 10/24 3.9it/s 19.6s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":209.499156768,"data":"E1_caries_seed42_smoke.log images (0.2GB RAM): 64% ━━━━━━━╸──── 210/327 163.2it/s 1.2s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":209.499226928,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 70% ━━━━━━━━╸─── 232/327 178.3it/s 1.3s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":209.499235968,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 76% ━━━━━━━━━─── 250/327 175.3it/s 1.4s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":209.499241368,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 81% ━━━━━━━━━╸── 268/327 175.6it/s 1.5s\u003c0.3s\n"}
+,{"stream_name":"stdout","time":209.499246107,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 87% ━━━━━━━━━━╸─ 287/327 178.7it/s 1.6s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":209.499251123,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.2GB RAM): 93% ━━━━━━━━━━━─ 306/327 180.9it/s 1.7s\u003c0.1s\n"}
+,{"stream_name":"stdout","time":209.499256315,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.3GB RAM): 98% ━━━━━━━━━━━╸ 323/327 172.0it/s 1.8s\u003c0.0s\n"}
+,{"stream_name":"stdout","time":209.499261196,"data":"\u001b[K\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.3GB RAM): 100% ━━━━━━━━━━━━ 327/327 180.3it/s 1.8s\n"}
+,{"stream_name":"stdout","time":209.499265875,"data":"\u001b[34m\u001b[1moptimizer:\u001b[0m AdamW(lr=0.001, momentum=0.937) with parameter groups 114 weight(decay=0.0), 126 weight(decay=0.0005), 126 bias(decay=0.0)\n"}
+,{"stream_name":"stdout","time":209.499270595,"data":"Using 1522 train, 327 val images for fraction=1.0 at imgsz=640\n"}
+,{"stream_name":"stdout","time":209.499636996,"data":"Using 2 dataloader workers\n"}
+,{"stream_name":"stdout","time":209.499643816,"data":"Logging results to \u001b[1m/kaggle/working/experiments/E1_caries_seed42_smoke\u001b[0m\n"}
+,{"stream_name":"stdout","time":209.499648912,"data":"Starting training for 3 epochs...\n"}
+,{"stream_name":"stdout","time":209.499664193,"data":"Closing dataloader mosaic\n"}
+,{"stream_name":"stdout","time":209.499668454,"data":"\u001b[34m\u001b[1malbumentations: \u001b[0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))\n"}
+,{"stream_name":"stdout","time":209.499675156,"data":"\n"}
+,{"stream_name":"stdout","time":209.499679092,"data":"      Epoch    GPU_mem   box_loss   cls_loss    l1_loss  Instances       Size\n"}
+,{"stream_name":"stdout","time":209.499694084,"data":"\n"}
+,{"stream_name":"stdout","time":209.499698032,"data":"E1_gum_seed42_smoke.log mem   box_loss   cls_loss    l1_loss  Instances       Size\n"}
+,{"stream_name":"stdout","time":209.499702136,"data":"\n"}
+,{"stream_name":"stdout","time":209.499705972,"data":"\u001b[K        1/3      4.85G      2.706      10.07    0.01527        384        640: 0% ──────────── 0/24  17.1s\n"}
+,{"stream_name":"stdout","time":209.499710823,"data":"\u001b[K        1/3      4.86G      2.776       9.94    0.01576        384        640: 4% ──────────── 1/24 1.1it/s 17.3s\u003c21.2s\n"}
+,{"stream_name":"stdout","time":209.499735702,"data":"\u001b[K        1/3      4.86G      2.788      9.884    0.01576        384        640: 8% ━─────────── 2/24 2.0it/s 17.6s\u003c11.3s\n"}
+,{"stream_name":"stdout","time":209.499740892,"data":"\u001b[K        1/3      4.86G        2.8      9.895    0.01573        384        640: 12% ━─────────── 3/24 2.6it/s 17.8s\u003c8.0s\n"}
+,{"stream_name":"stdout","time":209.499745482,"data":"\u001b[K        1/3      4.86G      2.784      9.895    0.01545        384        640: 16% ━━────────── 4/24 3.0it/s 18.1s\u003c6.7s\n"}
+,{"stream_name":"stdout","time":209.499750166,"data":"\u001b[K        1/3      4.86G      2.786      9.899    0.01542        384        640: 20% ━━────────── 5/24 3.4it/s 18.3s\u003c5.7s\n"}
+,{"stream_name":"stdout","time":209.499754764,"data":"\u001b[K        1/3      4.86G      2.779      9.903     0.0154        384        640: 25% ━━━───────── 6/24 3.5it/s 18.6s\u003c5.2s\n"}
+,{"stream_name":"stdout","time":209.499759398,"data":"\u001b[K        1/3      4.86G       2.77       9.91    0.01531        384        640: 29% ━━━───────── 7/24 3.7it/s 18.8s\u003c4.6s\n"}
+,{"stream_name":"stdout","time":209.499764068,"data":"\u001b[K        1/3      4.86G      2.751      9.886    0.01514        384        640: 33% ━━━━──────── 8/24 3.8it/s 19.1s\u003c4.2s\n"}
+,{"stream_name":"stdout","time":209.499768716,"data":"\u001b[K        1/3      4.86G      2.754      9.895    0.01513        384        640: 37% ━━━━──────── 9/24 3.9it/s 19.3s\u003c3.8s\n"}
+,{"stream_name":"stdout","time":209.49977332,"data":"\u001b[K        1/3      4.86G      2.692      9.723    0.01474        385        640: 41% ━━━━━─────── 10/24 3.9it/s 19.6s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":239.293403121,"data":"E1_caries_seed42_smoke.log % ━━━━━━━━━─── 37/48 3.9it/s 26.1s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":239.293453359,"data":"\u001b[K        1/3      4.81G      1.189      8.302   0.009913         91        640: 79% ━━━━━━━━━─── 38/48 4.0it/s 26.4s\u003c2.5s\n"}
+,{"stream_name":"stdout","time":239.293461363,"data":"\u001b[K        1/3      4.81G      1.186      8.122   0.009878         84        640: 81% ━━━━━━━━━╸── 39/48 4.0it/s 26.6s\u003c2.3s\n"}
+,{"stream_name":"stdout","time":239.293467308,"data":"\u001b[K        1/3      4.81G      1.181      7.952   0.009826         75        640: 83% ━━━━━━━━━━── 40/48 3.9it/s 26.9s\u003c2.1s\n"}
+,{"stream_name":"stdout","time":239.293473065,"data":"\u001b[K        1/3      4.81G      1.176       7.79    0.00977        130        640: 85% ━━━━━━━━━━── 41/48 4.0it/s 27.1s\u003c1.8s\n"}
+,{"stream_name":"stdout","time":239.293478643,"data":"\u001b[K        1/3      4.81G      1.172      7.635   0.009723         99        640: 87% ━━━━━━━━━━── 42/48 4.1it/s 27.3s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":239.293484372,"data":"\u001b[K        1/3      4.81G       1.17      7.485   0.009707         89        640: 89% ━━━━━━━━━━╸─ 43/48 4.1it/s 27.6s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":239.495968731,"data":"\u001b[K        1/3      4E1_caries_seed42_smoke.log % ━━━━━━━━━─── 37/48 3.9it/s 26.1s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":239.496014542,"data":"\u001b[K        1/3      4.81G      1.189      8.302   0.009913         91        640: 79% ━━━━━━━━━─── 38/48 4.0it/s 26.4s\u003c2.5s\n"}
+,{"stream_name":"stdout","time":239.496021427,"data":"\u001b[K        1/3      4.81G      1.186      8.122   0.009878         84        640: 81% ━━━━━━━━━╸── 39/48 4.0it/s 26.6s\u003c2.3s\n"}
+,{"stream_name":"stdout","time":239.4960264,"data":"\u001b[K        1/3      4.81G      1.181      7.952   0.009826         75        640: 83% ━━━━━━━━━━── 40/48 3.9it/s 26.9s\u003c2.1s\n"}
+,{"stream_name":"stdout","time":239.496030902,"data":"\u001b[K        1/3      4.81G      1.176       7.79    0.00977        130        640: 85% ━━━━━━━━━━── 41/48 4.0it/s 27.1s\u003c1.8s\n"}
+,{"stream_name":"stdout","time":239.496035897,"data":"\u001b[K        1/3      4.81G      1.172      7.635   0.009723         99        640: 87% ━━━━━━━━━━── 42/48 4.1it/s 27.3s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":239.496040367,"data":"\u001b[K        1/3      4.81G       1.17      7.485   0.009707         89        640: 89% ━━━━━━━━━━╸─ 43/48 4.1it/s 27.6s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":316.250019724,"data":"\u001b[K        1/3      4E1_caries_seed42_smoke median post-first epoch seconds: 14.3 estimated 100-epoch hours: 0.4\n"}
+,{"stream_name":"stdout","time":316.257611769,"data":"E1_gum_seed42_smoke median post-first epoch seconds: 8.64 estimated 100-epoch hours: 0.24\n"}
+,{"stream_name":"stderr","time":319.626307263,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":319.626402689,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":319.827110931,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":319.827170531,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":320.704044856,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":320.807030281,"data":"[NbConvertApp] Writing 133603 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":323.636844351,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":324.283641711,"data":"[NbConvertApp] Writing 368716 bytes to __results__.html\n"}
+]

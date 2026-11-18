@@ -1,0 +1,22 @@
+[
+  {
+    "path": "dentalselfie-09-1-resolution-control/full/R0_old_CE/best.pt",
+    "bytes": 44780363,
+    "sha256": "96b467f90a44e80106e588cd861af143d180f8b6918b63d047d8f4c57089c289"
+  },
+  {
+    "path": "dentalselfie-09-1-resolution-control/full/R0_old_CE/resume.pt",
+    "bytes": 179066793,
+    "sha256": "ee4856a253d1075243beb5cb87281f2f42b8a0251024826548dbfcb82880ac68"
+  },
+  {
+    "path": "dentalselfie-09-1-resolution-control/full/R1_raw_CE/best.pt",
+    "bytes": 44780363,
+    "sha256": "4f9b1e67ef03bdbf7fd535ffd59b83085fa7470bb3b96627ce6b9555f87fc4e0"
+  },
+  {
+    "path": "dentalselfie-09-1-resolution-control/full/R1_raw_CE/resume.pt",
+    "bytes": 179066345,
+    "sha256": "51ab17edc8f71341785ae5d0a021cc2f28ea2bc53960824bc44d98c89d802bfa"
+  }
+]

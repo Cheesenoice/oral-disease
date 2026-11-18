@@ -1,0 +1,23 @@
+{
+  "verified_on": "2026-10-20",
+  "caries": {
+    "record": "https://zenodo.org/records/14827784",
+    "metadata_api": "https://zenodo.org/api/records/14827784",
+    "doi": "10.5281/zenodo.14827784",
+    "license": "CC-BY-4.0",
+    "filename": "Dataset.zip",
+    "url": "https://zenodo.org/api/records/14827784/files/Dataset.zip/content",
+    "size": 1576115314,
+    "md5": "89307871ac2f08f4a8f3a7da1f18db31"
+  },
+  "gum": {
+    "record": "https://data.mendeley.com/datasets/3253gj88rr/1",
+    "doi": "10.17632/3253gj88rr.1",
+    "license": "CC-BY-4.0",
+    "acquisition": "user_downloaded_then_moved_from_downloads",
+    "local_archive": "data/raw/gum/Dataset.rar",
+    "local_size_bytes": 6552111937,
+    "expected_images_from_paper": 1096,
+    "published_checksum": null
+  }
+}

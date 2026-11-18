@@ -1,0 +1,176 @@
+{
+  "6.1": {
+    "kernel_version": 3,
+    "model": "DentalSelfie 6.1 - Custom CNN Baseline",
+    "initialization": "Random initialization",
+    "seed": 42,
+    "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+    "device": "cuda",
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "epochs_completed": 27,
+    "selected_epoch": 19,
+    "elapsed_seconds": 1221.489,
+    "validation": {
+      "confusion_matrix": [
+        [
+          0,
+          48,
+          1
+        ],
+        [
+          0,
+          648,
+          284
+        ],
+        [
+          0,
+          212,
+          727
+        ]
+      ],
+      "accuracy": 0.7161458333333334,
+      "macro_precision": 0.47734527810183813,
+      "macro_recall": 0.48983562399350355,
+      "macro_f1": 0.4832022225688795,
+      "balanced_accuracy": 0.48983562399350355,
+      "per_class_precision": [
+        0.0,
+        0.7136563876651982,
+        0.7183794466403162
+      ],
+      "per_class_recall": [
+        0.0,
+        0.6952789699570815,
+        0.7742279020234292
+      ],
+      "per_class_f1": [
+        0.0,
+        0.7043478260869565,
+        0.7452588416196821
+      ],
+      "loss": 0.6118557274341583
+    },
+    "train_macro_f1_at_selected_epoch": 0.4731417284798951,
+    "val_macro_f1_at_selected_epoch": 0.4832022225688795,
+    "history_sha256": "8dfe819d0864060f5b7959ab098ef853bc54bf5b6cc29a208ddc09186d8ea805"
+  },
+  "6.2": {
+    "kernel_version": 3,
+    "model": "DentalSelfie 6.2 - ResNet18 from Scratch",
+    "initialization": "Random initialization",
+    "seed": 42,
+    "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+    "device": "cuda",
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "epochs_completed": 30,
+    "selected_epoch": 29,
+    "elapsed_seconds": 1581.789,
+    "validation": {
+      "confusion_matrix": [
+        [
+          10,
+          38,
+          1
+        ],
+        [
+          22,
+          684,
+          226
+        ],
+        [
+          0,
+          293,
+          646
+        ]
+      ],
+      "accuracy": 0.6979166666666666,
+      "macro_precision": 0.5754562387027726,
+      "macro_recall": 0.5419843777483203,
+      "macro_f1": 0.5541857590971472,
+      "balanced_accuracy": 0.5419843777483203,
+      "per_class_precision": [
+        0.3125,
+        0.6738916256157635,
+        0.7399770904925544
+      ],
+      "per_class_recall": [
+        0.20408163265306123,
+        0.7339055793991416,
+        0.6879659211927582
+      ],
+      "per_class_f1": [
+        0.2469135802469136,
+        0.7026194144838214,
+        0.7130242825607064
+      ],
+      "loss": 0.6674027740955353
+    },
+    "train_macro_f1_at_selected_epoch": 0.5881744341701275,
+    "val_macro_f1_at_selected_epoch": 0.5541857590971472,
+    "history_sha256": "d9677b5445072bd16429addf030ed9578a48ce627d1a3b422be2d221499161f3"
+  },
+  "6.3": {
+    "kernel_version": 2,
+    "model": "DentalSelfie 6.3 - ImageNet Pretrained ResNet18",
+    "initialization": "Torchvision IMAGENET1K_V1",
+    "seed": 42,
+    "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+    "device": "cuda",
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "epochs_completed": 19,
+    "selected_epoch": 11,
+    "elapsed_seconds": 1598.133,
+    "validation": {
+      "confusion_matrix": [
+        [
+          11,
+          38,
+          0
+        ],
+        [
+          24,
+          706,
+          202
+        ],
+        [
+          0,
+          320,
+          619
+        ]
+      ],
+      "accuracy": 0.6958333333333333,
+      "macro_precision": 0.5772593786536988,
+      "macro_recall": 0.5470708177048786,
+      "macro_f1": 0.5575762274910572,
+      "balanced_accuracy": 0.5470708177048786,
+      "per_class_precision": [
+        0.3142857142857143,
+        0.6635338345864662,
+        0.7539585870889159
+      ],
+      "per_class_recall": [
+        0.22448979591836735,
+        0.7575107296137339,
+        0.6592119275825347
+      ],
+      "per_class_f1": [
+        0.26190476190476186,
+        0.7074148296593187,
+        0.7034090909090909
+      ],
+      "loss": 0.7924691130717595
+    },
+    "train_macro_f1_at_selected_epoch": 0.7916200713666711,
+    "val_macro_f1_at_selected_epoch": 0.5575762274910572,
+    "history_sha256": "bdfcb604b95d6aaa9e469caf50ea90b74d0dc92ed3be2bdf3f33f011781a557e"
+  }
+}

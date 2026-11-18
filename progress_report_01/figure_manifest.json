@@ -1,0 +1,25 @@
+{
+  "generated_at_note": "Regenerate at report preparation; timestamps intentionally omitted.",
+  "evidence_sha256": {
+    "mermaid/01_research_pipeline.mmd": "aa82ba55a1f615daac5711d2969d9647d8d4747a305e1d712c29f80caff7a1c7",
+    "figure/01_research_pipeline.png": "aca0aa6ebc496a766a7c2167462adfa672ab58dc91851de1d584ae4f2dce31c2",
+    "mermaid/02_data_split.mmd": "dc33bc7f0b5c5018d6a3dbed96121afecf0c9988a231263fd052d850658dedaa",
+    "figure/02_data_split.png": "343b35ce55ac5a2458417e2350e52f9d17449035d36f298752db5204d1733e40",
+    "mermaid/03_model_progression.mmd": "3d80f6fc6af29a927f37fbc60dd524a7bbfac235886bc47a79329ffda571c9fa",
+    "figure/03_model_progression.png": "c5301c774d579dcde84879e63929648b4c6e3fd4d65359fb964d04d1237decfd",
+    "mermaid/04_next_phase.mmd": "862fe5d54eb425adaf47a9c61f38e5b9ede9c9ad4e4e29f69eabc069932e814b",
+    "figure/04_next_phase.png": "74fed8bf59b112e43f34493d20f395fd13da717cba422742d72f93f1b64c4dfd",
+    "report/figure/technical_01_bbox_crop.png": "353780062ca017056b131f2747b36b29f67aa282eb039586ccfa4d977f71dc69",
+    "figure/02_bbox_crop.png": "353780062ca017056b131f2747b36b29f67aa282eb039586ccfa4d977f71dc69",
+    "report/figure/technical_04_augmentation.png": "fe60c2165b8659c206f6dbd7115c29532b7c0a27e495d3e6cef73648a11f4b38",
+    "figure/03_augmentation.png": "fe60c2165b8659c206f6dbd7115c29532b7c0a27e495d3e6cef73648a11f4b38",
+    "report/figure/technical_08_dino_predictions.png": "357b3fd7654be830c6ddb7cdceafbf1ae9206cca41986867df138012534416e5",
+    "figure/04_dino_prediction.png": "357b3fd7654be830c6ddb7cdceafbf1ae9206cca41986867df138012534416e5",
+    "report/figure/technical_11_fresh_yolo.png": "19eff7a5bb95274d60824b32a10b218d8c6c4ec400530db4923a67c220140478",
+    "figure/06_caries_demo.png": "19eff7a5bb95274d60824b32a10b218d8c6c4ec400530db4923a67c220140478",
+    "docs/reports/synthesis/roi_experiment_matrix.csv": "d7abefbb102a4744c94d1bc60afe1276944b1c3b5d2d7377d390ef0e9eb5dbdb",
+    "figure/05_roi_results.png": "f33c020a0a508ef736ba84b9fce8ba1660a868e7aec4bf874222312a21027a68"
+  },
+  "mermaid_renderer": "https://mermaid.ink",
+  "test_images_opened": 0
+}

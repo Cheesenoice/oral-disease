@@ -1,0 +1,42 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-03-baseline",
+  "version": 4,
+  "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-03-baseline",
+  "phase": "full",
+  "submitted_utc": "2026-10-21T03:47:03.457492+00:00",
+  "quota_before": [
+    {
+      "resource": "GPU",
+      "used": "22.33h",
+      "remaining": "7.67h",
+      "total": "30.00h",
+      "refreshAt": "2026-10-24T00:00:00"
+    },
+    {
+      "resource": "TPU",
+      "used": "0.00h",
+      "remaining": "20.00h",
+      "total": "20.00h",
+      "refreshAt": "2026-10-24T00:00:00"
+    }
+  ],
+  "estimated_wall_hours_with_margin": 0.9910729166666666,
+  "timeout_seconds": 7200,
+  "metadata": {
+    "id": "trihuynhviprovcl/dentalselfie-03-baseline",
+    "title": "Dentalselfie 03 Baseline",
+    "code_file": "03_yolov8n_baseline.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "machine_shape": "NvidiaTeslaT4",
+    "dataset_sources": [
+      "trihuynhviprovcl/dentalselfie-code/10",
+      "trihuynhviprovcl/dentalselfie-data-v1/1"
+    ],
+    "competition_sources": [],
+    "kernel_sources": []
+  }
+}

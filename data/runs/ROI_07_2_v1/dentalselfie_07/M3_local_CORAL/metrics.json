@@ -1,0 +1,38 @@
+{
+  "experiment": "M3_local_CORAL",
+  "method": "local",
+  "ordinal": true,
+  "gpu": "Tesla T4",
+  "epochs": 12,
+  "selected_epoch": 7,
+  "runtime_seconds": 1383.8,
+  "accuracy": 0.6328125,
+  "macro_f1": 0.5145931174270859,
+  "balanced_accuracy": 0.6386158777295557,
+  "ordinal_mae": 0.3734375,
+  "quadratic_kappa": 0.4782034636797746,
+  "confusion_matrix": [
+    [
+      32,
+      12,
+      5
+    ],
+    [
+      138,
+      367,
+      427
+    ],
+    [
+      7,
+      116,
+      816
+    ]
+  ],
+  "class_recall": [
+    0.6530612244897959,
+    0.3937768240343348,
+    0.8690095846645367
+  ],
+  "gate_mean": null,
+  "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1"
+}

@@ -1,0 +1,119 @@
+[{"stream_name":"stderr","time":7.92844802,"data":"0.01s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.928504785,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.92851078,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.928515309,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.579397799,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.57943224,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.579437123,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.57944068,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.732777958,"data":"{\n"}
+,{"stream_name":"stdout","time":9.732811914,"data":"  \"protocol\": \"roi-recovery-screen-v1\",\n"}
+,{"stream_name":"stdout","time":9.732830505999999,"data":"  \"seed\": 42,\n"}
+,{"stream_name":"stdout","time":9.732834871,"data":"  \"batch_size\": 32,\n"}
+,{"stream_name":"stdout","time":9.732838703,"data":"  \"max_epochs\": 30,\n"}
+,{"stream_name":"stdout","time":9.732847526,"data":"  \"patience\": 8,\n"}
+,{"stream_name":"stdout","time":9.732850806,"data":"  \"lr\": 0.0003,\n"}
+,{"stream_name":"stdout","time":9.732854361,"data":"  \"weight_decay\": 0.0005,\n"}
+,{"stream_name":"stdout","time":9.732857562,"data":"  \"worker_seconds\": 5400,\n"}
+,{"stream_name":"stdout","time":9.732861034999999,"data":"  \"manifest_hashes\": {\n"}
+,{"stream_name":"stdout","time":9.732864503,"data":"    \"old\": \"8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1\",\n"}
+,{"stream_name":"stdout","time":9.732868132,"data":"    \"raw\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"\n"}
+,{"stream_name":"stdout","time":9.732871397,"data":"  },\n"}
+,{"stream_name":"stdout","time":9.732874867,"data":"  \"trials\": [\n"}
+,{"stream_name":"stdout","time":9.732878323,"data":"    {\n"}
+,{"stream_name":"stdout","time":9.732882527,"data":"      \"id\": \"P0_raw_frozen_ResNet18\",\n"}
+,{"stream_name":"stdout","time":9.732886296,"data":"      \"kind\": \"probe\",\n"}
+,{"stream_name":"stdout","time":9.732890353,"data":"      \"data\": \"raw\",\n"}
+,{"stream_name":"stdout","time":9.732893696,"data":"      \"encoder\": \"resnet18\"\n"}
+,{"stream_name":"stdout","time":9.732897066,"data":"    },\n"}
+,{"stream_name":"stdout","time":9.732900427,"data":"    {\n"}
+,{"stream_name":"stdout","time":9.732903573,"data":"      \"id\": \"P1_raw_frozen_DINOv3\",\n"}
+,{"stream_name":"stdout","time":9.732907061,"data":"      \"kind\": \"probe\",\n"}
+,{"stream_name":"stdout","time":9.73291046,"data":"      \"data\": \"raw\",\n"}
+,{"stream_name":"stdout","time":9.732913685,"data":"      \"encoder\": \"dinov3\"\n"}
+,{"stream_name":"stdout","time":9.732917071,"data":"    }\n"}
+,{"stream_name":"stdout","time":9.732920457,"data":"  ],\n"}
+,{"stream_name":"stdout","time":9.732923682,"data":"  \"output_root\": \"/kaggle/working/dentalselfie-09-3-foundation-feature-probe\"\n"}
+,{"stream_name":"stdout","time":9.732927294,"data":"}\n"}
+,{"stream_name":"stdout","time":12.298455134,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.500305626,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.430602194,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 98.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.465523737,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.521716571,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 78.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.632709608999999,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 98.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.632736385,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.632742766,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 78.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":28.090368629,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":28.090395666,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.090400706,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":28.192988121,"data":"DINOv3 access is required; no alternate model is silently substituted.\n"}
+,{"stream_name":"stderr","time":28.194093753,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":28.19412174,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.194127248,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.194131501,"data":"\n"}
+,{"stream_name":"stderr","time":28.194134996,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":28.194139054,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.19414386,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":44.696076525,"data":"Registered worker section: Imports and deterministic setup\n"}
+,{"stream_name":"stdout","time":44.719597055,"data":"Registered worker section: Dataset and matched image preprocessing\n"}
+,{"stream_name":"stdout","time":44.737847966,"data":"Registered worker section: Models and independent class-imbalance objectives\n"}
+,{"stream_name":"stdout","time":44.760587863,"data":"Registered worker section: Metrics and atomic checkpoints\n"}
+,{"stream_name":"stdout","time":44.797540277,"data":"Registered worker section: Fine-tuning, GPU smoke and exact-protocol resumption\n"}
+,{"stream_name":"stdout","time":44.822823675,"data":"Registered worker section: Frozen-feature probes and train-only feature standardization\n"}
+,{"stream_name":"stdout","time":44.844553399,"data":"Registered worker section: Isolated worker entry point\n"}
+,{"stream_name":"stdout","time":936.883651153,"data":"Input tensor: (3, 224, 224) float range: -1.3879550695419312 0.6391814351081848\n"}
+,{"stream_name":"stdout","time":936.959970951,"data":"Started P0_raw_frozen_ResNet18 on physical GPU 0 smoke\n"}
+,{"stream_name":"stdout","time":936.96142728,"data":"Started P1_raw_frozen_DINOv3 on physical GPU 1 smoke\n"}
+,{"stream_name":"stdout","time":950.967923857,"data":"{\"trial\": {\"id\": \"P0_raw_frozen_ResNet18\", \"kind\": \"probe\", \"data\": \"raw\", \"encoder\": \"resnet18\"}, \"rows\": 192, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":950.967958697,"data":"Downloading: \"https://download.pytorch.org/models/resnet18-f37072fd.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth\n"}
+,{"stream_name":"stdout","time":950.967965849,"data":"\n"}
+,{"stream_name":"stdout","time":950.967971032,"data":"  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stdout","time":950.967976221,"data":" 23%|██▎       | 10.2M/44.7M [00:00\u003c00:00, 107MB/s]\n"}
+,{"stream_name":"stdout","time":950.96798183,"data":" 76%|███████▋  | 34.1M/44.7M [00:00\u003c00:00, 191MB/s]\n"}
+,{"stream_name":"stdout","time":950.967986909,"data":"100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 193MB/s]\n"}
+,{"stream_name":"stdout","time":950.967992337,"data":"\n"}
+,{"stream_name":"stdout","time":950.968999558,"data":"{\"trial\": {\"id\": \"P1_raw_frozen_DINOv3\", \"kind\": \"probe\", \"data\": \"raw\", \"encoder\": \"dinov3\"}, \"rows\": 192, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":950.969047138,"data":"\n"}
+,{"stream_name":"stdout","time":952.970127324,"data":"{\"trial\": \"P0_raw_frozen_ResNet18\", \"C\": 0.1, \"macro_f1\": 0.5418470418470419}\n"}
+,{"stream_name":"stdout","time":952.970163877,"data":"SMOKE_OK: feature extraction and train-fitted linear probe\n"}
+,{"stream_name":"stdout","time":952.970168301,"data":"\n"}
+,{"stream_name":"stdout","time":976.981691413,"data":"{\"trial\": \"P1_raw_frozen_DINOv3\", \"C\": 0.1, \"macro_f1\": 0.4669975186104218}\n"}
+,{"stream_name":"stdout","time":976.981726947,"data":"SMOKE_OK: feature extraction and train-fitted linear probe\n"}
+,{"stream_name":"stdout","time":976.981732234,"data":"\n"}
+,{"stream_name":"stdout","time":978.977896251,"data":"All smoke workers passed in 42.0s. Starting fresh, independent full runs.\n"}
+,{"stream_name":"stdout","time":978.979851978,"data":"Started P0_raw_frozen_ResNet18 on physical GPU 0 full\n"}
+,{"stream_name":"stdout","time":978.981443632,"data":"Started P1_raw_frozen_DINOv3 on physical GPU 1 full\n"}
+,{"stream_name":"stdout","time":992.988790642,"data":"{\"trial\": {\"id\": \"P0_raw_frozen_ResNet18\", \"kind\": \"probe\", \"data\": \"raw\", \"encoder\": \"resnet18\"}, \"rows\": 10889, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":992.98885511,"data":"\n"}
+,{"stream_name":"stdout","time":992.990903554,"data":"{\"trial\": {\"id\": \"P1_raw_frozen_DINOv3\", \"kind\": \"probe\", \"data\": \"raw\", \"encoder\": \"dinov3\"}, \"rows\": 10889, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":992.990946298,"data":"\n"}
+,{"stream_name":"stdout","time":1025.036063657,"data":"{\"trial\": \"P0_raw_frozen_ResNet18\", \"C\": 0.01, \"macro_f1\": 0.45809406964841853}\n"}
+,{"stream_name":"stdout","time":1025.036105054,"data":"\n"}
+,{"stream_name":"stdout","time":1029.018168198,"data":"{\"trial\": \"P0_raw_frozen_ResNet18\", \"C\": 0.1, \"macro_f1\": 0.4725194841207154}\n"}
+,{"stream_name":"stdout","time":1029.018232434,"data":"\n"}
+,{"stream_name":"stdout","time":1037.028277211,"data":"{\"trial\": \"P0_raw_frozen_ResNet18\", \"C\": 1.0, \"macro_f1\": 0.4916745480953079}\n"}
+,{"stream_name":"stdout","time":1037.028311851,"data":"\n"}
+,{"stream_name":"stdout","time":1045.032580895,"data":"{\"trial\": \"P1_raw_frozen_DINOv3\", \"C\": 0.01, \"macro_f1\": 0.46456164292898644}\n"}
+,{"stream_name":"stdout","time":1045.032613648,"data":"\n"}
+,{"stream_name":"stdout","time":1047.033545513,"data":"{\"trial\": \"P0_raw_frozen_ResNet18\", \"C\": 10.0, \"macro_f1\": 0.5008303256730197}\n"}
+,{"stream_name":"stdout","time":1047.033575189,"data":"\n"}
+,{"stream_name":"stdout","time":1049.037836636,"data":"{\"trial\": \"P1_raw_frozen_DINOv3\", \"C\": 0.1, \"macro_f1\": 0.4591129186717422}\n"}
+,{"stream_name":"stdout","time":1049.037900237,"data":"\n"}
+,{"stream_name":"stdout","time":1051.042651159,"data":"{\"trial\": \"P1_raw_frozen_DINOv3\", \"C\": 1.0, \"macro_f1\": 0.4783265918266246}\n"}
+,{"stream_name":"stdout","time":1051.042685514,"data":"\n"}
+,{"stream_name":"stdout","time":1055.051340357,"data":"{\"trial\": \"P1_raw_frozen_DINOv3\", \"C\": 10.0, \"macro_f1\": 0.47539423853139734}\n"}
+,{"stream_name":"stdout","time":1055.051366807,"data":"\n"}
+,{"stream_name":"stdout","time":1057.047604475,"data":"Full experiments finished in 1.3 minutes.\n"}
+,{"stream_name":"stdout","time":1057.085407086,"data":"P0_raw_frozen_ResNet18 | macro-F1 0.5008 | recall [0.143 0.615 0.745]\n"}
+,{"stream_name":"stdout","time":1057.113170748,"data":"P1_raw_frozen_DINOv3 | macro-F1 0.4783 | recall [0.041 0.617 0.775]\n"}
+,{"stream_name":"stderr","time":1060.465100869,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1060.46513586,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1060.630361809,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1060.630386855,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1061.441050436,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1061.534737056,"data":"[NbConvertApp] Writing 356083 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1063.947438875,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1064.686920221,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":1064.686945205,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1064.687290036,"data":"[NbConvertApp] Writing 452037 bytes to __results__.html\n"}
+]

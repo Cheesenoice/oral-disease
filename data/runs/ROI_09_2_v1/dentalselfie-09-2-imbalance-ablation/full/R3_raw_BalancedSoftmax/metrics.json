@@ -1,0 +1,61 @@
+{
+  "accuracy": 0.6703125,
+  "macro_f1": 0.5336254819079255,
+  "balanced_accuracy": 0.5615098292878835,
+  "ordinal_mae": 0.3385416666666667,
+  "quadratic_kappa": 0.4454428754813864,
+  "confusion_matrix": [
+    [
+      16,
+      26,
+      7
+    ],
+    [
+      62,
+      554,
+      316
+    ],
+    [
+      10,
+      212,
+      717
+    ]
+  ],
+  "class_precision": [
+    0.18181818181818182,
+    0.6994949494949495,
+    0.6894230769230769
+  ],
+  "class_recall": [
+    0.32653061224489793,
+    0.5944206008583691,
+    0.7635782747603834
+  ],
+  "class_f1": [
+    0.23357664233576642,
+    0.642691415313225,
+    0.7246083880747852
+  ],
+  "support": [
+    49,
+    932,
+    939
+  ],
+  "trial": {
+    "id": "R3_raw_BalancedSoftmax",
+    "kind": "finetune",
+    "data": "raw",
+    "loss": "balanced_softmax"
+  },
+  "signature": "68b114a0feb72b97ef75852d89e3e55438e8aea4cc4e5aa838b00b9443a67ff8",
+  "seed": 42,
+  "epochs": 22,
+  "selected_epoch": 14,
+  "stop_reason": "early_stopping",
+  "elapsed_seconds": 880.561662651,
+  "gpu": "Tesla T4",
+  "torch_version": "2.11.0+cu128",
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "parameters": 11178051,
+  "test_images_opened": 0
+}

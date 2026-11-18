@@ -1,0 +1,29 @@
+{
+  "protocol": "roi-recovery-screen-v1",
+  "seed": 42,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "patience": 8,
+  "lr": 0.0003,
+  "weight_decay": 0.0005,
+  "worker_seconds": 5400,
+  "manifest_hashes": {
+    "old": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+    "raw": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06"
+  },
+  "trials": [
+    {
+      "id": "P0_raw_frozen_ResNet18",
+      "kind": "probe",
+      "data": "raw",
+      "encoder": "resnet18"
+    },
+    {
+      "id": "P1_raw_frozen_DINOv3",
+      "kind": "probe",
+      "data": "raw",
+      "encoder": "dinov3"
+    }
+  ],
+  "output_root": "/kaggle/working/dentalselfie-09-3-foundation-feature-probe"
+}

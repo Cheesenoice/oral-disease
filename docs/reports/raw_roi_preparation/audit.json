@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "crop_count": 10889,
+  "parents": 907,
+  "test_images_opened": 0,
+  "same_membership": true,
+  "clinical_relabeling": false,
+  "quality_exclusions": 0,
+  "hypothesis": "Preserving native pixels before resizing may improve grading; training comparison pending."
+}

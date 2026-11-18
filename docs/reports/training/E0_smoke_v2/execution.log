@@ -1,0 +1,295 @@
+[{"stream_name":"stderr","time":8.82694064,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.826979045,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.82698477,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.826988754,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.490831029,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.490862147,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.490868635,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.490873675,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":35.197458729,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.400410485,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 1.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.43266389,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 21.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.517395704,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 95.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.551929727,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 2.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.584258535000004,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 4.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.634485663,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 21.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.634506209,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 95.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.634511513,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 2.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.634515418,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 4.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":40.945318355,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":40.945346677,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":40.945352795,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":40.945357368,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":40.945385693,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":40.945397425,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":40.945400301,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":40.945402635,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":41.076191852,"data":"Project: /kaggle/working/dentalselfie\n"}
+,{"stream_name":"stderr","time":41.077425082,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.077452315,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.077458016,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077462478,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077466342,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077469885,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077473713,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077477876,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077482042,"data":"\n"}
+,{"stream_name":"stderr","time":41.077485942,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":41.077489749,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":41.077494196,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077498204,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077502321,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077505858,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077509389,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":41.077512816,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":43.947244252,"data":"Prepared dataset: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared\n"}
+,{"stream_name":"stdout","time":143.788105962,"data":"Verified session-local data staging: {'source': '/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared', 'files': 6492, 'verified_sha256': True, 'workers': 8, 'seconds': 99.96742979500002}\n"}
+,{"stream_name":"stdout","time":143.829471121,"data":"Tue Oct 20 16:38:55 2026       \n"}
+,{"stream_name":"stdout","time":143.829498227,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":143.829503532,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":143.829507258,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":143.829510944,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":143.829514427,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":143.829517887,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":143.829521374,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":143.860852121,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":143.860869736,"data":"| N/A   50C    P8             14W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":143.860873981,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":143.860877574,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":143.860881824,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":143.860885739,"data":"| N/A   46C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":143.860889847,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":143.86089385,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":143.861619468,"data":"\n"}
+,{"stream_name":"stdout","time":143.861631318,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":143.861635579,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":143.861638994,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":143.861642477,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":143.861645873,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":143.863220189,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":143.863232348,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":143.985415261,"data":"Tue Oct 20 16:38:55 2026       \n"}
+,{"stream_name":"stdout","time":143.985441155,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":143.985460171,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":143.985465445,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":143.985471016,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":143.985476597,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":143.985482075,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":143.985487764,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":143.985493238,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":143.985498746,"data":"| N/A   50C    P8             14W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":143.985504232,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":143.985509755,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":143.985515245,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":143.985520848,"data":"| N/A   46C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":143.985526315,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":143.9855318,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":143.985537444,"data":"\n"}
+,{"stream_name":"stdout","time":143.985543072,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":143.985548678,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":143.98555414,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":143.985559602,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":143.985565077,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":143.985570572,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":143.985576957,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":152.373964627,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":152.577264985,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":182.383305331,"data":"E0_caries_seed42_smoke.log ────────── 85/1522 106.7it/s 0.8s\u003c13.5s\n"}
+,{"stream_name":"stdout","time":182.383375343,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 6% ╸─────────── 100/1522 113.1it/s 0.9s\u003c12.6s\n"}
+,{"stream_name":"stdout","time":182.383395153,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 7% ╸─────────── 115/1522 118.0it/s 1.0s\u003c11.9s\n"}
+,{"stream_name":"stdout","time":182.383399589,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 8% ━─────────── 128/1522 119.7it/s 1.1s\u003c11.6s\n"}
+,{"stream_name":"stdout","time":182.383403657,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 9% ━─────────── 144/1522 129.2it/s 1.2s\u003c10.7s\n"}
+,{"stream_name":"stdout","time":182.383407654,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 10% ━─────────── 157/1522 129.1it/s 1.3s\u003c10.6s\n"}
+,{"stream_name":"stdout","time":182.383411713,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 11% ━─────────── 171/1522 131.9it/s 1.4s\u003c10.2s\n"}
+,{"stream_name":"stdout","time":182.383415611,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 12% ━─────────── 187/1522 138.1it/s 1.5s\u003c9.7s\n"}
+,{"stream_name":"stdout","time":182.383419564,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 200/1522 134.0it/s 1.6s\u003c9.9s\n"}
+,{"stream_name":"stdout","time":182.383423443,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 213/1522 131.5it/s 1.7s\u003c10.0s\n"}
+,{"stream_name":"stdout","time":182.383427379,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 227/1522 131.3it/s 1.8s\u003c9.9s\n"}
+,{"stream_name":"stdout","time":182.383431282,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 15% ━╸────────── 241/1522 131.6it/s 1.9s\u003c9.7s\n"}
+,{"stream_name":"stdout","time":182.383435277,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 16% ━━────────── 257/1522 136.1it/s 2.0s\u003c9.3s\n"}
+,{"stream_name":"stdout","time":182.38343923,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 18% ━━────────── 275/1522 138.1it/s 2.2s\u003c9.0s\n"}
+,{"stream_name":"stdout","time":182.383443162,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 18% ━━────────── 289/1522 136.6it/s 2.3s\u003c9.0s\n"}
+,{"stream_name":"stdout","time":182.383496796,"data":"E0_gum_seed42_smoke.log 0.2GB RAM): 30% ━━━╸──────── 230/747 142.5it/s 1.4s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.383501842,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 32% ━━━╸──────── 241/747 131.3it/s 1.5s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":182.38350586,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 34% ━━━━──────── 258/747 136.8it/s 1.6s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.383509814,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 273/747 133.1it/s 1.7s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.38351365,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 38% ━━━━╸─────── 284/747 125.8it/s 1.8s\u003c3.7s\n"}
+,{"stream_name":"stdout","time":182.383517621,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 294/747 115.9it/s 1.9s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":182.383525064,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 41% ━━━━╸─────── 309/747 120.5it/s 2.0s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.383529033,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 43% ━━━━━─────── 325/747 124.6it/s 2.1s\u003c3.4s\n"}
+,{"stream_name":"stdout","time":182.383770907,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 45% ━━━━━─────── 342/747 131.7it/s 2.3s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":182.383778094,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 48% ━━━━━╸────── 359/747 139.0it/s 2.4s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":182.383795423,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 50% ━━━━━━────── 374/747 141.1it/s 2.5s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":182.383799848,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 51% ━━━━━━────── 386/747 134.4it/s 2.6s\u003c2.7s\n"}
+,{"stream_name":"stdout","time":182.383804055,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 53% ━━━━━━────── 399/747 129.9it/s 2.7s\u003c2.7s\n"}
+,{"stream_name":"stdout","time":182.383808361,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 55% ━━━━━━╸───── 412/747 129.3it/s 2.8s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":182.38381252,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 56% ━━━━━━╸───── 424/747 125.6it/s 2.9s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":182.593252295,"data":"E0_caries_seed42_smoke.log ────────── 85/1522 106.7it/s 0.8s\u003c13.5s\n"}
+,{"stream_name":"stdout","time":182.593278131,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 6% ╸─────────── 100/1522 113.1it/s 0.9s\u003c12.6s\n"}
+,{"stream_name":"stdout","time":182.593283694,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 7% ╸─────────── 115/1522 118.0it/s 1.0s\u003c11.9s\n"}
+,{"stream_name":"stdout","time":182.593313322,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 8% ━─────────── 128/1522 119.7it/s 1.1s\u003c11.6s\n"}
+,{"stream_name":"stdout","time":182.593317867,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 9% ━─────────── 144/1522 129.2it/s 1.2s\u003c10.7s\n"}
+,{"stream_name":"stdout","time":182.593321979,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 10% ━─────────── 157/1522 129.1it/s 1.3s\u003c10.6s\n"}
+,{"stream_name":"stdout","time":182.593325985,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.1GB RAM): 11% ━─────────── 171/1522 131.9it/s 1.4s\u003c10.2s\n"}
+,{"stream_name":"stdout","time":182.593329879,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 12% ━─────────── 187/1522 138.1it/s 1.5s\u003c9.7s\n"}
+,{"stream_name":"stdout","time":182.593333831,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 200/1522 134.0it/s 1.6s\u003c9.9s\n"}
+,{"stream_name":"stdout","time":182.593337809,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 13% ━╸────────── 213/1522 131.5it/s 1.7s\u003c10.0s\n"}
+,{"stream_name":"stdout","time":182.593341699,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 14% ━╸────────── 227/1522 131.3it/s 1.8s\u003c9.9s\n"}
+,{"stream_name":"stdout","time":182.593353722,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 15% ━╸────────── 241/1522 131.6it/s 1.9s\u003c9.7s\n"}
+,{"stream_name":"stdout","time":182.593357795,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 16% ━━────────── 257/1522 136.1it/s 2.0s\u003c9.3s\n"}
+,{"stream_name":"stdout","time":182.593363528,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 18% ━━────────── 275/1522 138.1it/s 2.2s\u003c9.0s\n"}
+,{"stream_name":"stdout","time":182.59371591,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 18% ━━────────── 289/1522 136.6it/s 2.3s\u003c9.0s\n"}
+,{"stream_name":"stdout","time":182.593736584,"data":"E0_gum_seed42_smoke.log 0.2GB RAM): 30% ━━━╸──────── 230/747 142.5it/s 1.4s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.593740981,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 32% ━━━╸──────── 241/747 131.3it/s 1.5s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":182.59374777,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 34% ━━━━──────── 258/747 136.8it/s 1.6s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.593751979,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 36% ━━━━──────── 273/747 133.1it/s 1.7s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.593756165,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 38% ━━━━╸─────── 284/747 125.8it/s 1.8s\u003c3.7s\n"}
+,{"stream_name":"stdout","time":182.593760317,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 39% ━━━━╸─────── 294/747 115.9it/s 1.9s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":182.593937751,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 41% ━━━━╸─────── 309/747 120.5it/s 2.0s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":182.59394262,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.2GB RAM): 43% ━━━━━─────── 325/747 124.6it/s 2.1s\u003c3.4s\n"}
+,{"stream_name":"stdout","time":182.593946802,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 45% ━━━━━─────── 342/747 131.7it/s 2.3s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":182.593950926,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 48% ━━━━━╸────── 359/747 139.0it/s 2.4s\u003c2.8s\n"}
+,{"stream_name":"stdout","time":182.593955086,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 50% ━━━━━━────── 374/747 141.1it/s 2.5s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":182.593959205,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 51% ━━━━━━────── 386/747 134.4it/s 2.6s\u003c2.7s\n"}
+,{"stream_name":"stdout","time":182.593963355,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 53% ━━━━━━────── 399/747 129.9it/s 2.7s\u003c2.7s\n"}
+,{"stream_name":"stdout","time":182.593967697,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 55% ━━━━━━╸───── 412/747 129.3it/s 2.8s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":182.593971839,"data":"\u001b[K\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (0.3GB RAM): 56% ━━━━━━╸───── 424/747 125.6it/s 2.9s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":212.395013047,"data":"E0_caries_seed42_smoke.log ━━━━━━━──── 33/48 3.3it/s 11.9s\u003c4.6s\n"}
+,{"stream_name":"stdout","time":212.395097109,"data":"\u001b[K        1/3      3.86G      1.084      2.028      1.178        112        640: 70% ━━━━━━━━──── 34/48 3.8it/s 12.1s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":212.395103738,"data":"\u001b[K        1/3      3.86G      1.082      1.998      1.177         81        640: 72% ━━━━━━━━╸─── 35/48 3.4it/s 12.5s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":212.395108433,"data":"\u001b[K        1/3      3.86G      1.078      1.966      1.174        105        640: 75% ━━━━━━━━━─── 36/48 3.9it/s 12.7s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":212.395112722,"data":"\u001b[K        1/3      3.86G      1.073      1.934       1.17        102        640: 77% ━━━━━━━━━─── 37/48 3.6it/s 13.1s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":212.395117207,"data":"\u001b[K        1/3      3.86G      1.068      1.905      1.167         91        640: 79% ━━━━━━━━━─── 38/48 3.9it/s 13.3s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":212.395121274,"data":"\u001b[K        1/3      3.86G      1.065      1.877      1.166         84        640: 81% ━━━━━━━━━╸── 39/48 3.3it/s 13.8s\u003c2.7s\n"}
+,{"stream_name":"stdout","time":212.395920479,"data":"\u001b[K        1/3      3.86G       1.06      1.852      1.162         75        640: 83% ━━━━━━━━━━── 40/48 3.8it/s 14.0s\u003c2.1s\n"}
+,{"stream_name":"stdout","time":212.395943255,"data":"\u001b[K        1/3      3.86G      1.056      1.825      1.159        130        640: 85% ━━━━━━━━━━── 41/48 3.7it/s 14.3s\u003c1.9s\n"}
+,{"stream_name":"stdout","time":212.395949211,"data":"\u001b[K        1/3      3.86G      1.053      1.801      1.157         99        640: 87% ━━━━━━━━━━── 42/48 4.0it/s 14.5s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":212.395980882,"data":"\u001b[K        1/3      3.86G      1.049      1.777      1.155         89        640: 89% ━━━━━━━━━━╸─ 43/48 3.3it/s 15.0s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":212.39598661,"data":"\u001b[K        1/3      3.86G      1.045      1.753      1.153         95        640: 91% ━━━━━━━━━━━─ 44/48 3.4it/s 15.3s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":212.39599193,"data":"E0_gum_seed42_smoke.log ━━━───── 15/24 4.9it/s 3.5s\u003c1.8s\n"}
+,{"stream_name":"stdout","time":212.395996899,"data":"\u001b[K        2/3       4.1G      1.544      1.436      1.436        384        640: 66% ━━━━━━━━──── 16/24 4.9it/s 3.7s\u003c1.6s\n"}
+,{"stream_name":"stdout","time":212.39653414,"data":"\u001b[K        2/3       4.1G      1.545       1.43      1.437        385        640: 70% ━━━━━━━━──── 17/24 4.8it/s 3.9s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":212.396553501,"data":"\u001b[K        2/3       4.1G      1.546      1.428      1.435        384        640: 75% ━━━━━━━━━─── 18/24 4.9it/s 4.1s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":212.396559511,"data":"\u001b[K        2/3       4.1G      1.543       1.43      1.429        384        640: 79% ━━━━━━━━━─── 19/24 4.2it/s 4.6s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":212.396564746,"data":"\u001b[K        2/3       4.1G      1.545      1.428      1.429        384        640: 83% ━━━━━━━━━━── 20/24 4.6it/s 4.7s\u003c0.9s\n"}
+,{"stream_name":"stdout","time":212.396596627,"data":"\u001b[K        2/3       4.1G       1.55      1.429      1.434        384        640: 87% ━━━━━━━━━━── 21/24 3.9it/s 5.2s\u003c0.8s\n"}
+,{"stream_name":"stdout","time":212.396617167,"data":"\u001b[K        2/3       4.1G      1.547      1.425      1.431        384        640: 91% ━━━━━━━━━━━─ 22/24 4.2it/s 5.4s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":212.396622546,"data":"\u001b[K        2/3      4.11G      1.543      1.421      1.429        132        640: 95% ━━━━━━━━━━━─ 23/24 4.3it/s 5.6s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":212.397177428,"data":"\u001b[K        2/3      4.11G      1.543      1.421      1.429        132        640: 100% ━━━━━━━━━━━━ 24/24 4.3it/s 5.6s\n"}
+,{"stream_name":"stdout","time":212.397188342,"data":"\n"}
+,{"stream_name":"stdout","time":212.397192059,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.9s/it 0.6s\u003c3.7s\n"}
+,{"stream_name":"stdout","time":212.397196212,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.4s/it 1.5s\u003c1.4s\n"}
+,{"stream_name":"stdout","time":212.614840697,"data":"E0_caries_seed42_smoke.log ━━━━━━━──── 33/48 3.3it/s 11.9s\u003c4.6s\n"}
+,{"stream_name":"stdout","time":212.614869707,"data":"\u001b[K        1/3      3.86G      1.084      2.028      1.178        112        640: 70% ━━━━━━━━──── 34/48 3.8it/s 12.1s\u003c3.6s\n"}
+,{"stream_name":"stdout","time":212.614875423,"data":"\u001b[K        1/3      3.86G      1.082      1.998      1.177         81        640: 72% ━━━━━━━━╸─── 35/48 3.4it/s 12.5s\u003c3.9s\n"}
+,{"stream_name":"stdout","time":212.614880286,"data":"\u001b[K        1/3      3.86G      1.078      1.966      1.174        105        640: 75% ━━━━━━━━━─── 36/48 3.9it/s 12.7s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":212.614884954,"data":"\u001b[K        1/3      3.86G      1.073      1.934       1.17        102        640: 77% ━━━━━━━━━─── 37/48 3.6it/s 13.1s\u003c3.1s\n"}
+,{"stream_name":"stdout","time":212.614889594,"data":"\u001b[K        1/3      3.86G      1.068      1.905      1.167         91        640: 79% ━━━━━━━━━─── 38/48 3.9it/s 13.3s\u003c2.6s\n"}
+,{"stream_name":"stdout","time":212.614894197,"data":"\u001b[K        1/3      3.86G      1.065      1.877      1.166         84        640: 81% ━━━━━━━━━╸── 39/48 3.3it/s 13.8s\u003c2.7s\n"}
+,{"stream_name":"stdout","time":212.614898903,"data":"\u001b[K        1/3      3.86G       1.06      1.852      1.162         75        640: 83% ━━━━━━━━━━── 40/48 3.8it/s 14.0s\u003c2.1s\n"}
+,{"stream_name":"stdout","time":212.61490352,"data":"\u001b[K        1/3      3.86G      1.056      1.825      1.159        130        640: 85% ━━━━━━━━━━── 41/48 3.7it/s 14.3s\u003c1.9s\n"}
+,{"stream_name":"stdout","time":212.614908804,"data":"\u001b[K        1/3      3.86G      1.053      1.801      1.157         99        640: 87% ━━━━━━━━━━── 42/48 4.0it/s 14.5s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":212.614913528,"data":"\u001b[K        1/3      3.86G      1.049      1.777      1.155         89        640: 89% ━━━━━━━━━━╸─ 43/48 3.3it/s 15.0s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":212.61491819,"data":"\u001b[K        1/3      3.86G      1.045      1.753      1.153         95        640: 91% ━━━━━━━━━━━─ 44/48 3.4it/s 15.3s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":212.614922729,"data":"E0_gum_seed42_smoke.log ━━━───── 15/24 4.9it/s 3.5s\u003c1.8s\n"}
+,{"stream_name":"stdout","time":212.614936682,"data":"\u001b[K        2/3       4.1G      1.544      1.436      1.436        384        640: 66% ━━━━━━━━──── 16/24 4.9it/s 3.7s\u003c1.6s\n"}
+,{"stream_name":"stdout","time":212.614942546,"data":"\u001b[K        2/3       4.1G      1.545       1.43      1.437        385        640: 70% ━━━━━━━━──── 17/24 4.8it/s 3.9s\u003c1.5s\n"}
+,{"stream_name":"stdout","time":212.61494737,"data":"\u001b[K        2/3       4.1G      1.546      1.428      1.435        384        640: 75% ━━━━━━━━━─── 18/24 4.9it/s 4.1s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":212.614951833,"data":"\u001b[K        2/3       4.1G      1.543       1.43      1.429        384        640: 79% ━━━━━━━━━─── 19/24 4.2it/s 4.6s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":212.614956163,"data":"\u001b[K        2/3       4.1G      1.545      1.428      1.429        384        640: 83% ━━━━━━━━━━── 20/24 4.6it/s 4.7s\u003c0.9s\n"}
+,{"stream_name":"stdout","time":212.614961056,"data":"\u001b[K        2/3       4.1G       1.55      1.429      1.434        384        640: 87% ━━━━━━━━━━── 21/24 3.9it/s 5.2s\u003c0.8s\n"}
+,{"stream_name":"stdout","time":212.614965837,"data":"\u001b[K        2/3       4.1G      1.547      1.425      1.431        384        640: 91% ━━━━━━━━━━━─ 22/24 4.2it/s 5.4s\u003c0.5s\n"}
+,{"stream_name":"stdout","time":212.614970069,"data":"\u001b[K        2/3      4.11G      1.543      1.421      1.429        132        640: 95% ━━━━━━━━━━━─ 23/24 4.3it/s 5.6s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":212.614974428,"data":"\u001b[K        2/3      4.11G      1.543      1.421      1.429        132        640: 100% ━━━━━━━━━━━━ 24/24 4.3it/s 5.6s\n"}
+,{"stream_name":"stdout","time":212.614978877,"data":"\n"}
+,{"stream_name":"stdout","time":212.614982652,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.9s/it 0.6s\u003c3.7s\n"}
+,{"stream_name":"stdout","time":212.614987055,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.4s/it 1.5s\u003c1.4s\n"}
+,{"stream_name":"stdout","time":242.404330671,"data":"E0_caries_seed42_smoke.log it/s 7.9s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":242.404390913,"data":"\u001b[K        3/3      5.04G     0.8309     0.6194      1.012         85        640: 87% ━━━━━━━━━━── 42/48 5.3it/s 8.0s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":242.404399919,"data":"\u001b[K        3/3      5.04G     0.8316     0.6182      1.012        112        640: 89% ━━━━━━━━━━╸─ 43/48 5.2it/s 8.3s\u003c1.0s\n"}
+,{"stream_name":"stdout","time":242.404409674,"data":"\u001b[K        3/3      5.04G     0.8306     0.6172      1.013         86        640: 91% ━━━━━━━━━━━─ 44/48 5.2it/s 8.4s\u003c0.8s\n"}
+,{"stream_name":"stdout","time":242.404414806,"data":"\u001b[K        3/3      5.04G     0.8295     0.6151      1.012        103        640: 93% ━━━━━━━━━━━─ 45/48 5.1it/s 8.7s\u003c0.6s\n"}
+,{"stream_name":"stdout","time":242.404419772,"data":"\u001b[K        3/3      5.04G     0.8294     0.6132      1.012         89        640: 95% ━━━━━━━━━━━─ 46/48 5.2it/s 8.8s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":242.404424888,"data":"\u001b[K        3/3      5.04G     0.8291     0.6112      1.012         57        640: 97% ━━━━━━━━━━━╸ 47/48 5.8it/s 9.0s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":242.40480825,"data":"\u001b[K        3/3      5.04G     0.8291     0.6112      1.012         57        640: 100% ━━━━━━━━━━━━ 48/48 5.3it/s 9.0s\n"}
+,{"stream_name":"stdout","time":242.404817785,"data":"\n"}
+,{"stream_name":"stdout","time":242.404821478,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 1/6 1.2s/it 0.4s\u003c6.0s\n"}
+,{"stream_name":"stdout","time":242.404825643,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 2/6 1.8it/s 0.6s\u003c2.3s\n"}
+,{"stream_name":"stdout","time":242.404839651,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 3/6 2.5it/s 0.9s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":242.404844062,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 4/6 2.9it/s 1.1s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":242.404996825,"data":"E0_gum_seed42_smoke.log lytics 8.4.183 🚀 Python-3.13.15 torch-2.11.0+cu128 CUDA:0 (Tesla T4, 14912MiB)\n"}
+,{"stream_name":"stdout","time":242.405003918,"data":"Model summary (fused): 73 layers, 3,133,193 parameters, 0 gradients, 8.6 GFLOPs\n"}
+,{"stream_name":"stdout","time":242.405007765,"data":"\n"}
+,{"stream_name":"stdout","time":242.405048097,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 2.6s/it 0.8s\u003c5.2s\n"}
+,{"stream_name":"stdout","time":242.405052836,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.1s/it 1.2s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":242.405056996,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.8it/s 1.7s\n"}
+,{"stream_name":"stdout","time":242.405062976,"data":"                   all        160       1920      0.673      0.554      0.449      0.225\n"}
+,{"stream_name":"stdout","time":242.405066779,"data":"no_visible_inflammation         23         49          1          0      0.109     0.0629\n"}
+,{"stream_name":"stdout","time":242.405070817,"data":"     mild_inflammation        132        932      0.504      0.865      0.611      0.326\n"}
+,{"stream_name":"stdout","time":242.405268391,"data":"   marked_inflammation        133        939      0.516      0.798      0.628      0.285\n"}
+,{"stream_name":"stdout","time":242.405286567,"data":"Speed: 0.2ms preprocess, 5.6ms inference, 0.0ms loss, 1.6ms postprocess per image\n"}
+,{"stream_name":"stdout","time":242.405290688,"data":"{\n"}
+,{"stream_name":"stdout","time":242.405293992,"data":"  \"status\": \"completed\",\n"}
+,{"stream_name":"stdout","time":242.405297639,"data":"  \"smoke_only\": true,\n"}
+,{"stream_name":"stdout","time":242.405301064,"data":"  \"elapsed_seconds\": 69.98430768200001,\n"}
+,{"stream_name":"stdout","time":242.405304663,"data":"  \"epochs_completed\": 3,\n"}
+,{"stream_name":"stdout","time":242.405308284,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":242.405311591,"data":"    \"metrics/precision(B)\": 0.6733364307004343,\n"}
+,{"stream_name":"stdout","time":242.405315136,"data":"    \"metrics/recall(B)\": 0.55415464965164,\n"}
+,{"stream_name":"stdout","time":242.4053185,"data":"    \"metrics/mAP50(B)\": 0.44933747668548835,\n"}
+,{"stream_name":"stdout","time":242.405332475,"data":"    \"metrics/mAP50-95(B)\": 0.2247282628331684\n"}
+,{"stream_name":"stdout","time":242.40533668,"data":"  },\n"}
+,{"stream_name":"stdout","time":242.405340356,"data":"  \"resume_checkpoint\": \"/kaggle/working/experiments/E0_gum_seed42_smoke/weights/resume.pt\"\n"}
+,{"stream_name":"stdout","time":242.405343965,"data":"}\n"}
+,{"stream_name":"stdout","time":242.405347249,"data":"\n"}
+,{"stream_name":"stdout","time":242.607642298,"data":"E0_caries_seed42_smoke.log it/s 7.9s\u003c1.3s\n"}
+,{"stream_name":"stdout","time":242.607669555,"data":"\u001b[K        3/3      5.04G     0.8309     0.6194      1.012         85        640: 87% ━━━━━━━━━━── 42/48 5.3it/s 8.0s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":242.607675562,"data":"\u001b[K        3/3      5.04G     0.8316     0.6182      1.012        112        640: 89% ━━━━━━━━━━╸─ 43/48 5.2it/s 8.3s\u003c1.0s\n"}
+,{"stream_name":"stdout","time":242.607907529,"data":"\u001b[K        3/3      5.04G     0.8306     0.6172      1.013         86        640: 91% ━━━━━━━━━━━─ 44/48 5.2it/s 8.4s\u003c0.8s\n"}
+,{"stream_name":"stdout","time":242.607918675,"data":"\u001b[K        3/3      5.04G     0.8295     0.6151      1.012        103        640: 93% ━━━━━━━━━━━─ 45/48 5.1it/s 8.7s\u003c0.6s\n"}
+,{"stream_name":"stdout","time":242.607923131,"data":"\u001b[K        3/3      5.04G     0.8294     0.6132      1.012         89        640: 95% ━━━━━━━━━━━─ 46/48 5.2it/s 8.8s\u003c0.4s\n"}
+,{"stream_name":"stdout","time":242.607927291,"data":"\u001b[K        3/3      5.04G     0.8291     0.6112      1.012         57        640: 97% ━━━━━━━━━━━╸ 47/48 5.8it/s 9.0s\u003c0.2s\n"}
+,{"stream_name":"stdout","time":242.607931463,"data":"\u001b[K        3/3      5.04G     0.8291     0.6112      1.012         57        640: 100% ━━━━━━━━━━━━ 48/48 5.3it/s 9.0s\n"}
+,{"stream_name":"stdout","time":242.607935572,"data":"\n"}
+,{"stream_name":"stdout","time":242.607939125,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 1/6 1.2s/it 0.4s\u003c6.0s\n"}
+,{"stream_name":"stdout","time":242.607942911,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 2/6 1.8it/s 0.6s\u003c2.3s\n"}
+,{"stream_name":"stdout","time":242.607946843,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 3/6 2.5it/s 0.9s\u003c1.2s\n"}
+,{"stream_name":"stdout","time":242.608066,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 4/6 2.9it/s 1.1s\u003c0.7s\n"}
+,{"stream_name":"stdout","time":242.608186859,"data":"E0_gum_seed42_smoke.log lytics 8.4.183 🚀 Python-3.13.15 torch-2.11.0+cu128 CUDA:0 (Tesla T4, 14912MiB)\n"}
+,{"stream_name":"stdout","time":242.608205933,"data":"Model summary (fused): 73 layers, 3,133,193 parameters, 0 gradients, 8.6 GFLOPs\n"}
+,{"stream_name":"stdout","time":242.608210364,"data":"\n"}
+,{"stream_name":"stdout","time":242.608214035,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 2.6s/it 0.8s\u003c5.2s\n"}
+,{"stream_name":"stdout","time":242.608222209,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 2/3 1.1s/it 1.2s\u003c1.1s\n"}
+,{"stream_name":"stdout","time":242.608239762,"data":"\u001b[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.8it/s 1.7s\n"}
+,{"stream_name":"stdout","time":242.608244087,"data":"                   all        160       1920      0.673      0.554      0.449      0.225\n"}
+,{"stream_name":"stdout","time":242.608247694,"data":"no_visible_inflammation         23         49          1          0      0.109     0.0629\n"}
+,{"stream_name":"stdout","time":242.608251281,"data":"     mild_inflammation        132        932      0.504      0.865      0.611      0.326\n"}
+,{"stream_name":"stdout","time":242.608254939,"data":"   marked_inflammation        133        939      0.516      0.798      0.628      0.285\n"}
+,{"stream_name":"stdout","time":242.608258458,"data":"Speed: 0.2ms preprocess, 5.6ms inference, 0.0ms loss, 1.6ms postprocess per image\n"}
+,{"stream_name":"stdout","time":242.608262349,"data":"{\n"}
+,{"stream_name":"stdout","time":242.608265768,"data":"  \"status\": \"completed\",\n"}
+,{"stream_name":"stdout","time":242.608269436,"data":"  \"smoke_only\": true,\n"}
+,{"stream_name":"stdout","time":242.608272883,"data":"  \"elapsed_seconds\": 69.98430768200001,\n"}
+,{"stream_name":"stdout","time":242.608276438,"data":"  \"epochs_completed\": 3,\n"}
+,{"stream_name":"stdout","time":242.608279988,"data":"  \"metrics\": {\n"}
+,{"stream_name":"stdout","time":242.608283389,"data":"    \"metrics/precision(B)\": 0.6733364307004343,\n"}
+,{"stream_name":"stdout","time":242.608287281,"data":"    \"metrics/recall(B)\": 0.55415464965164,\n"}
+,{"stream_name":"stdout","time":242.608290845,"data":"    \"metrics/mAP50(B)\": 0.44933747668548835,\n"}
+,{"stream_name":"stdout","time":242.608294628,"data":"    \"metrics/mAP50-95(B)\": 0.2247282628331684\n"}
+,{"stream_name":"stdout","time":242.60829851,"data":"  },\n"}
+,{"stream_name":"stdout","time":242.608301994,"data":"  \"resume_checkpoint\": \"/kaggle/working/experiments/E0_gum_seed42_smoke/weights/resume.pt\"\n"}
+,{"stream_name":"stdout","time":242.608305816,"data":"}\n"}
+,{"stream_name":"stdout","time":242.608309145,"data":"\n"}
+,{"stream_name":"stdout","time":248.405931703,"data":"Both workers finished. Outputs: /kaggle/working/experiments\n"}
+,{"stream_name":"stdout","time":248.610834123,"data":"Both workers finished. Outputs: /kaggle/working/experiments\n"}
+,{"stream_name":"stdout","time":249.210833758,"data":"E0_caries_seed42_smoke median post-first epoch seconds: 11.79 estimated 100-epoch hours: 0.33\n"}
+,{"stream_name":"stdout","time":249.216435105,"data":"E0_gum_seed42_smoke median post-first epoch seconds: 8.88 estimated 100-epoch hours: 0.25\n"}
+,{"stream_name":"stderr","time":251.867673829,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":251.867712832,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":252.037609035,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":252.037643218,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":252.830003761,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":252.913941348,"data":"[NbConvertApp] Writing 135985 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":255.375984688,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":255.911481039,"data":"[NbConvertApp] Writing 370636 bytes to __results__.html\n"}
+]

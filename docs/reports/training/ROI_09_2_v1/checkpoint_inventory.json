@@ -1,0 +1,22 @@
+[
+  {
+    "path": "dentalselfie-09-2-imbalance-ablation/full/R2_raw_CBCE/best.pt",
+    "bytes": 44780363,
+    "sha256": "510b2c9ee7dc6c6f758a0ab06f9b44f58cb3fb40f48ee17d70a32a4639325679"
+  },
+  {
+    "path": "dentalselfie-09-2-imbalance-ablation/full/R2_raw_CBCE/resume.pt",
+    "bytes": 179066409,
+    "sha256": "1ae32d209ec7537aaa7d421d5eacf0a0859ae13cb03582f87468959ed6fe729a"
+  },
+  {
+    "path": "dentalselfie-09-2-imbalance-ablation/full/R3_raw_BalancedSoftmax/best.pt",
+    "bytes": 44780363,
+    "sha256": "3f249109187650c48aeb51811c1ee95ad695a21a11b81c405692daf9e3cf1ca3"
+  },
+  {
+    "path": "dentalselfie-09-2-imbalance-ablation/full/R3_raw_BalancedSoftmax/resume.pt",
+    "bytes": 179067241,
+    "sha256": "9e4b062d4f58965e152781f9e9da5d6335b70a1e6153158a6610e965eff1e08c"
+  }
+]

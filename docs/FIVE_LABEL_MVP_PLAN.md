@@ -1,0 +1,35 @@
+# DentalSelfie five-label MVP | 12 November 2026
+
+## Product and model decision
+
+Two user-selected capture modes share one offline ONNX detection screen. Health accepts a close oral view and reports visible caries, visible calculus and visible gingival inflammation. Alignment accepts a frontal bite photograph and reports upper midline diastema and anterior crowding. Return zero or more boxes with label, score and original-image coordinates. Dentist review records accept, edit or dismiss for each box. A patient may share the case for review and request an appointment.
+
+Target two nano detectors, one per mode. Ship the existing YOLO26n caries checkpoint through the integration path first. Keep independent health specialists as the fallback if joint training lacks complete labels or loses recall. Use sequential inference only for the active mode and a shared overlay. No cloud inference dependency.
+
+## Data and evidence
+
+| Target | Source and evidence | Action |
+|---|---|---|
+| Caries | [Zenodo D1](https://zenodo.org/records/14827784), existing locked YOLOv8n and YOLO26n experiments | Reuse weights. YOLO26n validation AP50 94.12%, AP50-95 73.01% on 327 images. Check phone capture transfer. |
+| Visible inflammation | [D2 Mendeley](https://data.mendeley.com/datasets/3253gj88rr/1), [dataset paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11462013/) | Map mild and marked ROIs to positive after visual review. No-visible ROIs supply reviewed negative examples. Box represents a gingival region. Re-evaluate on full images. |
+| Calculus | [Singh868 detection dataset](https://www.kaggle.com/datasets/singh868/multi-class-oral-disease-detection-dataset), audited v1 YAML ID 0. [Mobile classification precedent](https://arxiv.org/abs/2308.15705) | Count boxes by split, inspect RGB views, empty files, duplicates and source rights. Use original boxes. Classification scores do not validate localization. |
+| Diastema and crowding | [YOLOv11 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12839579/) reports 97.9% and 90.1% AP50 on standardized photographs. Data available by request. Roboflow Universe lists MGR CDE AI / OCCLSAL ORTHO AI (338 images), a candidate only. | Verify rights, frontal views, per-class box counts and box definitions. Check that crowding is anterior and diastema is upper midline. [Bite2Text](https://ditto.ing.unimore.it/bite2text/) provides photos and reports; detector boxes need review/annotation if used. Fallback: dentist boxes on consented frontal captures. |
+| Joint health model | [MouthCare](https://huggingface.co/datasets/MouthCare/intraoral-sample) offers a gated evaluation sample. | Train the joint arm on separately authorized, completely reviewed three-label images. Missing cross-disease annotations are unknown. Preserve historical split locks. |
+
+## Notebook milestones (planned)
+
+1. **13_source_and_box_audit** (local). Record provenance, permissions, label coverage, unique original photographs, view, split and class counts. Show random box overlays, quarantine conflicts and group duplicate families before freezing new splits. Keep original test partitions locked.
+2. **14.1_health** and **14.2_alignment** (parallel Kaggle T4 x2 after each data audit). Reuse existing caries weights. Train calculus and binary gum baselines with YOLOv8n or YOLO26n. Fit two-label alignment baseline on approved data. Compare nano models on the same split, resolution and augmentation. One bounded worker per GPU, save last/best and optimizer state, restore and skip completed arms. Publish only permitted assets.
+3. **15_joint_and_phone_eval**. Compare a joint health detector with specialist predictions on the same fully annotated images. Report per-label precision, recall, AP50, AP50-95 and false boxes per image on confirmed negatives. Freeze thresholds on validation. Phone evaluation uses consented held-out people, dentist boxes, repeated captures and ungradable cases. Report counts, missed findings, false positives and retakes by view and label, with uncertainty.
+4. **16_export_and_device**. Export selected detector to ONNX at the validated fixed input size. Record class order, letterbox parameters and output format. Compare decoded boxes and scores against Python on the same photos. Account for orientation, padding, scaling, preview crop and mirroring. Apply NMS only if the export requires it. Start CPU FP32, compare INT8 only after measuring speed and recall, calibrating on training images.
+5. **Clinical demo**. On OnePlus Ace 5, measure cold start, median and p95 capture-to-overlay latency, memory and model size per mode. Demonstrate airplane-mode inference, retake, multiple boxes and no findings. With consent, send original photo, boxes, model version and notes to a clinic inbox. Dentist reviews and responds; patient requests an appointment. Record which labels passed the independent phone pilot.
+
+Fastest parallel work: audit new datasets while porting the existing caries detector into the teammate's React Native app. First deliverable is the same caries box drawn in Python and Android on the same correctly oriented image. Training and mobile implementation are subsequent stages.
+
+## Parallel team handoff and new alignment source
+
+The local product checkout oral-disease-ai is on pr-7 at b895e2c. The mobile classifier already calls ONNX Runtime. The research repository owns data, notebook execution, checkpoint selection and export. The product repository owns the camera, detector adapter, overlay and dentist review. Exchange a versioned ONNX file, its checksum, a model card, exact input/output metadata and a shareable reference image with expected boxes. Use original oriented-image pixel coordinates (left, top, right, bottom) plus image dimensions. Include an empty detection list as a valid result.
+
+OMNI provides an alternative source of frontal training views if the research-use terms allow local reannotation. The [official repository](https://github.com/RoundFaceJ/OMNI) links the archive and describes 4,166 RGB images, including 534 frontal training views. Table I of the [paper](https://arxiv.org/html/2505.15637v1) combines crowding and spacing within tooth misalignment. Boxes follow individual teeth. Select permitted frontal training photos and draw separate boxes for the midline gap and the anterior crowded group with dentist review. Verify age/dentition, rights and participant grouping before selection. Retain the source test split. Neither existing tooth boxes nor absent labels identify either MVP class. Archive contents, permissions and target prevalence still require verification.
+
+Start notebook 13 with local D1/D2, original Singh868 YAML and a small source-stratified overlay gallery. In parallel inspect the MGR CDE AI candidate for directly reusable frontal boxes, then use OMNI reannotation if that route fails. Track accepted image counts per label and view, reviewed negatives, split overlap, rights and outstanding human annotation. Choose the alignment training source only after this evidence is available. The app team can implement and verify the overlay against a research reference while data review proceeds.

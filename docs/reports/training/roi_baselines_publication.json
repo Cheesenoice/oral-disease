@@ -1,0 +1,336 @@
+{
+  "updated_local": "2026-10-21",
+  "publication": "Kaggle public kernels; version 1 each",
+  "input_dataset": "trihuynhviprovcl/dentalselfie-gum-roi-v1/1",
+  "roi_manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+  "training_flag_default": false,
+  "gpu_quota_consumed": 0,
+  "preflight_checks": [
+    "ROI receipt and manifest SHA-256 matched",
+    "10,889 ROIs loaded: 8,969 train and 1,920 validation",
+    "group IDs remained within a single split",
+    "224x224 RGB batch had shape [64, 3, 224, 224]",
+    "model forward pass returned [2, 3] logits",
+    "training skipped by default"
+  ],
+  "limitations": "These are publication/preflight runs only. No CNN/ResNet metrics, checkpoints, or training throughput have been produced.",
+  "kernels": [
+    {
+      "experiment": "6.1",
+      "notebook": "dentalselfie-06-1-cnn.ipynb",
+      "slug": "dentalselfie-6-1-custom-cnn-baseline",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-6-1-custom-cnn-baseline",
+      "cpu_preflight_seconds": 46.0,
+      "kernel_version": 3,
+      "kernel_status": "COMPLETE",
+      "notebook_sha256": "fc2b8b04506b40cf1680d3c05647d985a4d55a6e3586e053bae66e4b25b63c48",
+      "gpu_enabled_for_publication": false,
+      "training_ran": false,
+      "model_parameters_checked": 389667,
+      "ascii_dash_fix": "published in version 2",
+      "gpu_enabled_for_run": true,
+      "run_type": "GPU training",
+      "submitted_notebook_sha256": "4cee5ad5fae94bca4a63d079977e14e2d24c5fb30c13662385d41eabb434bc48",
+      "final_metrics": {
+        "selected_epoch": 19,
+        "epochs_completed": 27,
+        "elapsed_seconds": 1221.489,
+        "validation_macro_f1": 0.4832022225688795,
+        "validation_balanced_accuracy": 0.48983562399350355,
+        "validation_accuracy": 0.7161458333333334,
+        "validation_per_class_recall": [
+          0.0,
+          0.6952789699570815,
+          0.7742279020234292
+        ]
+      }
+    },
+    {
+      "experiment": "6.2",
+      "notebook": "dentalselfie-06-2-resnet18-scratch.ipynb",
+      "slug": "dentalselfie-6-2-resnet18-from-scratch",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-6-2-resnet18-from-scratch",
+      "cpu_preflight_seconds": 95.0,
+      "kernel_version": 3,
+      "kernel_status": "COMPLETE",
+      "notebook_sha256": "6241e2154a82dc5be40b3c47a51e15c0509fb07903849007caf7f3fca1e43807",
+      "gpu_enabled_for_publication": false,
+      "training_ran": true,
+      "model_parameters_checked": 11178051,
+      "gpu_enabled_for_run": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "ascii_dash_fix": "published in version 2",
+      "run_type": "corrected scratch GPU training",
+      "submitted_notebook_sha256": "5a7ddf5532827884ebda531dfb8f3874fc98819e97138cafd1c70b3e0362633c",
+      "prior_version_2_status": "COMPLETE_BUT_INVALID_SCRATCH_INITIALIZATION",
+      "final_metrics": {
+        "selected_epoch": 29,
+        "epochs_completed": 30,
+        "elapsed_seconds": 1581.789,
+        "validation_macro_f1": 0.5541857590971472,
+        "validation_balanced_accuracy": 0.5419843777483203,
+        "validation_accuracy": 0.6979166666666666,
+        "validation_per_class_recall": [
+          0.20408163265306123,
+          0.7339055793991416,
+          0.6879659211927582
+        ]
+      }
+    },
+    {
+      "experiment": "6.3",
+      "notebook": "dentalselfie-06-3-resnet18-pretrained.ipynb",
+      "slug": "dentalselfie-6-3-imagenet-pretrained-resnet18",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-6-3-imagenet-pretrained-resnet18",
+      "cpu_preflight_seconds": 53.0,
+      "kernel_version": 2,
+      "kernel_status": "COMPLETE",
+      "notebook_sha256": "a67685b208a697cf90f8bdb70c1f1b74f4931a5ae1628ac7d793851961e1b03f",
+      "gpu_enabled_for_publication": false,
+      "training_ran": true,
+      "model_parameters_checked": 11178051,
+      "gpu_enabled_for_run": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "ascii_dash_fix": "published in version 2",
+      "run_type": "ImageNet-pretrained GPU training",
+      "submitted_notebook_sha256": "8036c0fb804b206e638ad2f80ab4cf9e80f65a62ee41103b2a15284e601e9537",
+      "final_metrics": {
+        "selected_epoch": 11,
+        "epochs_completed": 19,
+        "elapsed_seconds": 1598.133,
+        "validation_macro_f1": 0.5575762274910572,
+        "validation_balanced_accuracy": 0.5470708177048786,
+        "validation_accuracy": 0.6958333333333333,
+        "validation_per_class_recall": [
+          0.22448979591836735,
+          0.7575107296137339,
+          0.6592119275825347
+        ]
+      }
+    }
+  ],
+  "latest_training_submission": {
+    "experiments": [
+      "6.1",
+      "6.2 corrected scratch",
+      "6.3 ImageNet pretrained"
+    ],
+    "versions": {
+      "6.1": 3,
+      "6.2": 3,
+      "6.3": 2
+    },
+    "status": "COMPLETE",
+    "machine_shape": "NvidiaTeslaT4",
+    "roi_input": "trihuynhviprovcl/dentalselfie-gum-roi-v1/1",
+    "training_flag": true
+  },
+  "quota_after_submission": {
+    "gpu_used": "22.93h",
+    "gpu_remaining": "7.07h",
+    "quota_refreshed_at": "2026-10-24T00:00:00"
+  },
+  "next_action": {
+    "notebook": "07_context_ordinal_ablation.ipynb",
+    "condition": "Implement and screen predeclared M1-M4 controlled ablations; keep test unopened until protocol freeze."
+  },
+  "integrity_finding": {
+    "experiment": "6.2 version 2",
+    "status": "excluded from scratch comparison",
+    "evidence": [
+      "The source cell intended to keep random initialization instead constructs a reference ResNet18 and loads torchvision IMAGENET1K_V1 weights when RUN_TRAINING is true.",
+      "6.2 v2 and 6.3 v2 training_history.csv SHA-256 values are identical: bdfcb604b95d6aaa9e469caf50ea90b74d0dc92ed3be2bdf3f33f011781a557e.",
+      "Collected validation reports and all 19 epoch metrics match exactly."
+    ],
+    "correction": "Notebook source and public Kaggle kernel version 3 now explicitly initialize 6.2 from scratch; its GPU run is active."
+  },
+  "results_collected": {
+    "6.1_v3": {
+      "kernel_version": 3,
+      "model": "DentalSelfie 6.1 - Custom CNN Baseline",
+      "initialization": "Random initialization",
+      "seed": 42,
+      "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+      "device": "cuda",
+      "gpu_names": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "epochs_completed": 27,
+      "selected_epoch": 19,
+      "elapsed_seconds": 1221.489,
+      "validation": {
+        "confusion_matrix": [
+          [
+            0,
+            48,
+            1
+          ],
+          [
+            0,
+            648,
+            284
+          ],
+          [
+            0,
+            212,
+            727
+          ]
+        ],
+        "accuracy": 0.7161458333333334,
+        "macro_precision": 0.47734527810183813,
+        "macro_recall": 0.48983562399350355,
+        "macro_f1": 0.4832022225688795,
+        "balanced_accuracy": 0.48983562399350355,
+        "per_class_precision": [
+          0.0,
+          0.7136563876651982,
+          0.7183794466403162
+        ],
+        "per_class_recall": [
+          0.0,
+          0.6952789699570815,
+          0.7742279020234292
+        ],
+        "per_class_f1": [
+          0.0,
+          0.7043478260869565,
+          0.7452588416196821
+        ],
+        "loss": 0.6118557274341583
+      },
+      "train_macro_f1_at_selected_epoch": 0.4731417284798951,
+      "val_macro_f1_at_selected_epoch": 0.4832022225688795,
+      "history_sha256": "8dfe819d0864060f5b7959ab098ef853bc54bf5b6cc29a208ddc09186d8ea805"
+    },
+    "6.2_v2_invalid_scratch": {
+      "selected_epoch": 11,
+      "validation_accuracy": 0.6958333333,
+      "validation_macro_f1": 0.5575762275,
+      "validation_balanced_accuracy": 0.5470708177,
+      "per_class_recall": [
+        0.2244897959,
+        0.7575107296,
+        0.6592119276
+      ],
+      "epochs": 19,
+      "elapsed_seconds": 933.84
+    },
+    "6.2_v3_corrected_scratch": {
+      "kernel_version": 3,
+      "model": "DentalSelfie 6.2 - ResNet18 from Scratch",
+      "initialization": "Random initialization",
+      "seed": 42,
+      "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+      "device": "cuda",
+      "gpu_names": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "epochs_completed": 30,
+      "selected_epoch": 29,
+      "elapsed_seconds": 1581.789,
+      "validation": {
+        "confusion_matrix": [
+          [
+            10,
+            38,
+            1
+          ],
+          [
+            22,
+            684,
+            226
+          ],
+          [
+            0,
+            293,
+            646
+          ]
+        ],
+        "accuracy": 0.6979166666666666,
+        "macro_precision": 0.5754562387027726,
+        "macro_recall": 0.5419843777483203,
+        "macro_f1": 0.5541857590971472,
+        "balanced_accuracy": 0.5419843777483203,
+        "per_class_precision": [
+          0.3125,
+          0.6738916256157635,
+          0.7399770904925544
+        ],
+        "per_class_recall": [
+          0.20408163265306123,
+          0.7339055793991416,
+          0.6879659211927582
+        ],
+        "per_class_f1": [
+          0.2469135802469136,
+          0.7026194144838214,
+          0.7130242825607064
+        ],
+        "loss": 0.6674027740955353
+      },
+      "train_macro_f1_at_selected_epoch": 0.5881744341701275,
+      "val_macro_f1_at_selected_epoch": 0.5541857590971472,
+      "history_sha256": "d9677b5445072bd16429addf030ed9578a48ce627d1a3b422be2d221499161f3"
+    },
+    "6.3_v2_imagenet": {
+      "kernel_version": 2,
+      "model": "DentalSelfie 6.3 - ImageNet Pretrained ResNet18",
+      "initialization": "Torchvision IMAGENET1K_V1",
+      "seed": 42,
+      "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+      "device": "cuda",
+      "gpu_names": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "epochs_completed": 19,
+      "selected_epoch": 11,
+      "elapsed_seconds": 1598.133,
+      "validation": {
+        "confusion_matrix": [
+          [
+            11,
+            38,
+            0
+          ],
+          [
+            24,
+            706,
+            202
+          ],
+          [
+            0,
+            320,
+            619
+          ]
+        ],
+        "accuracy": 0.6958333333333333,
+        "macro_precision": 0.5772593786536988,
+        "macro_recall": 0.5470708177048786,
+        "macro_f1": 0.5575762274910572,
+        "balanced_accuracy": 0.5470708177048786,
+        "per_class_precision": [
+          0.3142857142857143,
+          0.6635338345864662,
+          0.7539585870889159
+        ],
+        "per_class_recall": [
+          0.22448979591836735,
+          0.7575107296137339,
+          0.6592119275825347
+        ],
+        "per_class_f1": [
+          0.26190476190476186,
+          0.7074148296593187,
+          0.7034090909090909
+        ],
+        "loss": 0.7924691130717595
+      },
+      "train_macro_f1_at_selected_epoch": 0.7916200713666711,
+      "val_macro_f1_at_selected_epoch": 0.5575762274910572,
+      "history_sha256": "bdfcb604b95d6aaa9e469caf50ea90b74d0dc92ed3be2bdf3f33f011781a557e"
+    }
+  }
+}

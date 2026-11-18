@@ -1,0 +1,41 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/kaggle_web_client.py", line 46, in make_post_request
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/kaggle/working/dinov3_partial_worker.py", line 171, in <module>
+    worker_main()
+    ~~~~~~~~~~~^^
+  File "/kaggle/working/dinov3_partial_worker.py", line 168, in worker_main
+    run_trial(args.trial,config)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/dinov3_partial_worker.py", line 64, in run_trial
+    token=token_from_secret()
+  File "/kaggle/working/dinov3_partial_worker.py", line 53, in token_from_secret
+    return UserSecretsClient().get_secret('HF_TOKEN')
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/kaggle_secrets.py", line 64, in get_secret
+    response_json = self.web_client.make_post_request(request_body, self.GET_USER_SECRET_BY_LABEL_ENDPOINT)
+  File "/usr/local/lib/python3.13/dist-packages/kaggle_web_client.py", line 58, in make_post_request
+    raise ConnectionError(
+        'Connection error trying to communicate with service.') from e
+ConnectionError: Connection error trying to communicate with service.

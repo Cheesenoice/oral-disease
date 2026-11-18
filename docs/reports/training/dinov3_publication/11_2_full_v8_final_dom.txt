@@ -1,0 +1,949 @@
+- navigation "Main Kaggle page navigation":
+  - button "Navigation menu": menu
+  - link "Skip to content":
+    - /url: "#site-content"
+    - text: Skip to
+    - text: content
+  - link "Return to Kaggle home page":
+    - /url: /
+  - button "Create on Kaggle":
+    - paragraph: Create
+  - list:
+    - listitem "Home List Item":
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - listitem "Competitions List Item":
+      - link "Competitions":
+        - /url: /competitions
+        - paragraph: Competitions
+    - listitem "Benchmarks List Item":
+      - link "Benchmarks":
+        - /url: /benchmarks
+        - paragraph: Benchmarks
+    - listitem "Arenas List Item":
+      - link "Arenas":
+        - /url: /arenas
+        - paragraph: Arenas
+    - listitem "Game Arena List Item":
+      - link "Game Arena":
+        - /url: /game-arena
+        - paragraph: Game Arena
+  - list:
+    - listitem "Data Hub List Item":
+      - link "Data Hub":
+        - /url: "#"
+        - paragraph: Data Hub
+      - button "Expand"
+  - list:
+    - listitem "More on Kaggle List Item":
+      - link "More on Kaggle":
+        - /url: "#"
+        - paragraph: More
+      - button "Expand"
+- navigation "Main menu, search and your account":
+  - textbox "Search"
+  - link "Login":
+    - /url: /account/login?phase=startSignInTab&returnUrl=%2Fcode%2Ftrihuynhviprovcl%2Fdentalselfie-11-2-dinov3-partial-adaptation%2Flog%3FscriptVersionId%3D361136686
+    - button "Login":
+      - generic: Login
+  - link "Sign Up":
+    - /url: /account/login?phase=startRegisterTab&returnUrl=%2Fcode%2Ftrihuynhviprovcl%2Fdentalselfie-11-2-dinov3-partial-adaptation%2Flog%3FscriptVersionId%3D361136686
+    - button "Sign Up":
+      - generic: Sign Up
+- main:
+  - link "Tri Huynh's profile":
+    - /url: /trihuynhviprovcl
+    - generic "Tri Huynh"
+  - generic: Tri Huynh
+  - generic: · 2h ago · 24 views
+  - button "Upvote":
+    - generic: arrow_drop_up
+  - button "0 votes": "0"
+  - link "Copy & Edit":
+    - /url: /kernels/fork-version/361136686
+    - button "Copy & Edit":
+      - generic: Copy & Edit
+  - button "Download":
+    - generic: file_download
+    - generic: Download
+  - button "More options for this notebook": more_vert
+  - heading "Dentalselfie 11 2 Dinov3 Partial Adaptation" [level=1]
+  - tablist:
+    - tab "Notebook, 1 of 5":
+      - generic: Notebook
+    - tab "Input, 2 of 5":
+      - generic: Input
+    - tab "Output, 3 of 5":
+      - generic: Output
+    - tab "Logs, 4 of 5" [active] [selected]:
+      - generic: Logs
+    - tab "Comments (0), 5 of 5":
+      - generic: Comments (0)
+  - separator
+  - heading "Logs" [level=2]
+  - link "Download logs":
+    - /url: data:text/plain;charset=utf-8,7.3s%201%200.00s%20-%20Debugger%20warning%3A%20It%20seems%20that%20frozen%20modules%20are%20being%20used%2C%20which%20may%0A7.3s%202%200.00s%20-%20make%20the%20debugger%20miss%20breakpoints.%20Please%20pass%20-Xfrozen_modules%3Doff%0A7.3s%203%200.00s%20-%20to%20python%20to%20disable%20frozen%20modules.%0A7.3s%204%200.00s%20-%20Note%3A%20Debugging%20will%20proceed.%20Set%20PYDEVD_DISABLE_FILE_VALIDATION%3D1%20to%20disable%20this%20validation.%0A7.9s%205%200.00s%20-%20Debugger%20warning%3A%20It%20seems%20that%20frozen%20modules%20are%20being%20used%2C%20which%20may%0A7.9s%206%200.00s%20-%20make%20the%20debugger%20miss%20breakpoints.%20Please%20pass%20-Xfrozen_modules%3Doff%0A7.9s%207%200.00s%20-%20to%20python%20to%20disable%20frozen%20modules.%0A7.9s%208%200.00s%20-%20Note%3A%20Debugging%20will%20proceed.%20Set%20PYDEVD_DISABLE_FILE_VALIDATION%3D1%20to%20disable%20this%20validation.%0A24.8s%209%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%2044.0%2F44.0%20kB%201.6%20MB%2Fs%20eta%200%3A00%3A00%0A25.0s%2010%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%2044.0%2F44.0%20kB%201.6%20MB%2Fs%20eta%200%3A00%3A00%0A26.1s%2011%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%2012.0%2F12.0%20MB%2097.7%20MB%2Fs%20eta%200%3A00%3A00%0A26.2s%2012%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%20566.4%2F566.4%20kB%2027.5%20MB%2Fs%20eta%200%3A00%3A00%0A26.2s%2013%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%203.3%2F3.3%20MB%2081.2%20MB%2Fs%20eta%200%3A00%3A00%0A26.3s%2014%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%20485.8%2F485.8%20kB%2020.5%20MB%2Fs%20eta%200%3A00%3A00%0A26.3s%2015%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%2012.0%2F12.0%20MB%2097.7%20MB%2Fs%20eta%200%3A00%3A00%0A26.3s%2016%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%20566.4%2F566.4%20kB%2027.5%20MB%2Fs%20eta%200%3A00%3A00%0A26.3s%2017%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%203.3%2F3.3%20MB%2081.2%20MB%2Fs%20eta%200%3A00%3A00%0A26.3s%2018%20%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%20485.8%2F485.8%20kB%2020.5%20MB%2Fs%20eta%200%3A00%3A00%0A36.8s%2019%20Thu%20Oct%2022%2012%3A47%3A21%202026%0A36.8s%2020%20%2B-----------------------------------------------------------------------------------------%2B%0A36.8s%2021%20%7C%20NVIDIA-SMI%20580.178.04%20%20%20%20%20%20%20%20%20%20%20%20%20Driver%20Version%3A%20580.178.04%20%20%20%20%20CUDA%20Version%3A%2013.0%20%20%20%20%20%7C%0A36.8s%2022%20%2B-----------------------------------------%2B------------------------%2B----------------------%2B%0A36.8s%2023%20%7C%20GPU%20%20Name%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Persistence-M%20%7C%20Bus-Id%20%20%20%20%20%20%20%20%20%20Disp.A%20%7C%20Volatile%20Uncorr.%20ECC%20%7C%0A36.8s%2024%20%7C%20Fan%20%20Temp%20%20%20Perf%20%20%20%20%20%20%20%20%20%20Pwr%3AUsage%2FCap%20%7C%20%20%20%20%20%20%20%20%20%20%20Memory-Usage%20%7C%20GPU-Util%20%20Compute%20M.%20%7C%0A36.8s%2025%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20MIG%20M.%20%7C%0A36.8s%2026%20%7C%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%2B%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%2B%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%7C%0A36.8s%2027%20%7C%20%20%200%20%20Tesla%20T4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Off%20%7C%20%20%2000000000%3A00%3A04.0%20Off%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%7C%0A36.8s%2028%20%7C%20N%2FA%20%20%2047C%20%20%20%20P8%20%20%20%20%20%20%20%20%20%20%20%20%2011W%20%2F%20%20%2070W%20%7C%20%20%20%20%20%20%203MiB%20%2F%20%2015360MiB%20%7C%20%20%20%20%20%200%25%20%20%20%20%20%20Default%20%7C%0A36.8s%2029%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20N%2FA%20%7C%0A36.8s%2030%20%2B-----------------------------------------%2B------------------------%2B----------------------%2B%0A36.8s%2031%20%7C%20%20%201%20%20Tesla%20T4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Off%20%7C%20%20%2000000000%3A00%3A05.0%20Off%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%7C%0A36.8s%2032%20%7C%20N%2FA%20%20%2044C%20%20%20%20P8%20%20%20%20%20%20%20%20%20%20%20%20%2012W%20%2F%20%20%2070W%20%7C%20%20%20%20%20%20%203MiB%20%2F%20%2015360MiB%20%7C%20%20%20%20%20%200%25%20%20%20%20%20%20Default%20%7C%0A36.8s%2033%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20N%2FA%20%7C%0A36.8s%2034%20%2B-----------------------------------------%2B------------------------%2B----------------------%2B%0A36.8s%2035%20%0A36.8s%2036%20%2B-----------------------------------------------------------------------------------------%2B%0A36.8s%2037%20%7C%20Processes%3A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%0A36.8s%2038%20%7C%20%20GPU%20%20%20GI%20%20%20CI%20%20%20%20%20%20%20%20%20%20%20%20%20%20PID%20%20%20Type%20%20%20Process%20name%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20GPU%20Memory%20%7C%0A36.8s%2039%20%7C%20%20%20%20%20%20%20%20ID%20%20%20ID%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Usage%20%20%20%20%20%20%7C%0A36.8s%2040%20%7C%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%7C%0A36.8s%2041%20%7C%20%20No%20running%20processes%20found%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%0A36.8s%2042%20%2B-----------------------------------------------------------------------------------------%2B%0A37.0s%2043%20Thu%20Oct%2022%2012%3A47%3A21%202026%0A37.0s%2044%20%2B-----------------------------------------------------------------------------------------%2B%0A37.0s%2045%20%7C%20NVIDIA-SMI%20580.178.04%20%20%20%20%20%20%20%20%20%20%20%20%20Driver%20Version%3A%20580.178.04%20%20%20%20%20CUDA%20Version%3A%2013.0%20%20%20%20%20%7C%0A37.0s%2046%20%2B-----------------------------------------%2B------------------------%2B----------------------%2B%0A37.0s%2047%20%7C%20GPU%20%20Name%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Persistence-M%20%7C%20Bus-Id%20%20%20%20%20%20%20%20%20%20Disp.A%20%7C%20Volatile%20Uncorr.%20ECC%20%7C%0A37.0s%2048%20%7C%20Fan%20%20Temp%20%20%20Perf%20%20%20%20%20%20%20%20%20%20Pwr%3AUsage%2FCap%20%7C%20%20%20%20%20%20%20%20%20%20%20Memory-Usage%20%7C%20GPU-Util%20%20Compute%20M.%20%7C%0A37.0s%2049%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20MIG%20M.%20%7C%0A37.0s%2050%20%7C%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%2B%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%2B%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%7C%0A37.0s%2051%20%7C%20%20%200%20%20Tesla%20T4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Off%20%7C%20%20%2000000000%3A00%3A04.0%20Off%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%7C%0A37.0s%2052%20%7C%20N%2FA%20%20%2047C%20%20%20%20P8%20%20%20%20%20%20%20%20%20%20%20%20%2011W%20%2F%20%20%2070W%20%7C%20%20%20%20%20%20%203MiB%20%2F%20%2015360MiB%20%7C%20%20%20%20%20%200%25%20%20%20%20%20%20Default%20%7C%0A37.0s%2053%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20N%2FA%20%7C%0A37.0s%2054%20%2B-----------------------------------------%2B------------------------%2B----------------------%2B%0A37.0s%2055%20%7C%20%20%201%20%20Tesla%20T4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Off%20%7C%20%20%2000000000%3A00%3A05.0%20Off%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%7C%0A37.0s%2056%20%7C%20N%2FA%20%20%2044C%20%20%20%20P8%20%20%20%20%20%20%20%20%20%20%20%20%2012W%20%2F%20%20%2070W%20%7C%20%20%20%20%20%20%203MiB%20%2F%20%2015360MiB%20%7C%20%20%20%20%20%200%25%20%20%20%20%20%20Default%20%7C%0A37.0s%2057%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20N%2FA%20%7C%0A37.0s%2058%20%2B-----------------------------------------%2B------------------------%2B----------------------%2B%0A37.0s%2059%20%0A37.0s%2060%20%2B-----------------------------------------------------------------------------------------%2B%0A37.0s%2061%20%7C%20Processes%3A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%0A37.0s%2062%20%7C%20%20GPU%20%20%20GI%20%20%20CI%20%20%20%20%20%20%20%20%20%20%20%20%20%20PID%20%20%20Type%20%20%20Process%20name%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20GPU%20Memory%20%7C%0A37.0s%2063%20%7C%20%20%20%20%20%20%20%20ID%20%20%20ID%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Usage%20%20%20%20%20%20%7C%0A37.0s%2064%20%7C%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%7C%0A37.0s%2065%20%7C%20%20No%20running%20processes%20found%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%0A37.0s%2066%20%2B-----------------------------------------------------------------------------------------%2B%0A37.2s%2067%20%7B'python'%3A%20'3.13.15'%2C%20'torch'%3A%20'2.11.0%2Bcu128'%2C%20'torchvision'%3A%20'0.26.0%2Bcu128'%2C%20'gpu_count'%3A%202%2C%20'gpus'%3A%20%5B'Tesla%20T4'%2C%20'Tesla%20T4'%5D%7D%0A40.4s%2068%20Pinned%20manifest%20verified%3A%20b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06%20test%20rows%3A%200%0A722.7s%2069%20Verified%20all%2010889%20crop%20files%20in%20682.5%20seconds%0A723.5s%2070%20HF_TOKEN%20preflight%20passed%3B%20token%20value%20is%20never%20logged.%0A723.5s%2071%20Official%20model%3A%20facebook%2Fdinov3-vits16-pretrain-lvd1689m%20%7C%20pinned%20revision%3A%20114c1379950215c8b35dfcd4e90a5c251dde0d32%0A724.5s%2072%20Classifier%20head%3A%20384%20-%3E%203%20logits%3B%20patched%20backbone%20structure%20will%20be%20checked%20against%20the%20downloaded%20model.%0A724.7s%2073%20Worker%20source%20SHA256%3A%2082e831347f7daadd6c5a6a76706baf79d60b7479d6cfc8874e077402c9798c2e%20%7C%20source%20sections%3A%203%0A744.8s%2074%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%2020%20sec%0A744.8s%2075%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%2020%20sec%0A764.8s%2076%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A764.8s%2077%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%201%20sec%0A784.8s%2078%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A784.8s%2079%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A804.8s%2080%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A804.8s%2081%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%202%20sec%0A824.8s%2082%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A824.8s%2083%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A844.8s%2084%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%207%20sec%0A844.8s%2085%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%204%20sec%0A864.8s%2086%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%202%20sec%0A864.8s%2087%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%205%20sec%0A884.8s%2088%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A884.8s%2089%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A904.8s%2090%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A904.8s%2091%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A924.8s%2092%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A924.8s%2093%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%202%20sec%0A944.8s%2094%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A944.8s%2095%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A964.8s%2096%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A964.8s%2097%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%200%20sec%0A984.8s%2098%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A984.8s%2099%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%204%20sec%0A1004.8s%20100%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A1004.9s%20101%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%205%20sec%0A1024.8s%20102%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1024.8s%20103%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%202%20sec%0A1044.8s%20104%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A1044.8s%20105%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1064.8s%20106%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1064.8s%20107%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A1084.9s%20108%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A1084.9s%20109%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%204%20sec%0A1104.8s%20110%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1104.8s%20111%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%205%20sec%0A1124.9s%20112%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1124.9s%20113%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A1144.8s%20114%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%207%20sec%0A1144.9s%20115%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%208%20sec%0A1164.9s%20116%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1164.9s%20117%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%201%20sec%0A1184.9s%20118%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%207%20sec%0A1184.9s%20119%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%205%20sec%0A1204.9s%20120%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1204.9s%20121%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1224.9s%20122%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A1224.9s%20123%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%204%20sec%0A1244.9s%20124%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1244.9s%20125%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%208%20sec%0A1264.9s%20126%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A1264.9s%20127%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%201%20sec%0A1284.9s%20128%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1284.9s%20129%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1304.9s%20130%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1304.9s%20131%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1324.9s%20132%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%207%20sec%0A1324.9s%20133%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A1344.9s%20134%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1344.9s%20135%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%208%20sec%0A1364.9s%20136%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A1364.9s%20137%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%201%20sec%0A1384.9s%20138%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1384.9s%20139%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1404.9s%20140%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A1404.9s%20141%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A1424.9s%20142%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1424.9s%20143%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%204%20sec%0A1444.9s%20144%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A1445.0s%20145%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%209%20sec%0A1464.9s%20146%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1464.9s%20147%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%202%20sec%0A1485.0s%20148%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A1485.0s%20149%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1504.9s%20150%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%2010%20sec%0A1504.9s%20151%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1525.0s%20152%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1525.0s%20153%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A1545.0s%20154%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A1545.0s%20155%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%208%20sec%0A1565.0s%20156%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1565.0s%20157%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%201%20sec%0A1585.0s%20158%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A1585.0s%20159%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%206%20sec%0A1605.0s%20160%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1605.0s%20161%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A1625.0s%20162%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A1625.0s%20163%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%204%20sec%0A1645.0s%20164%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%2010%20sec%0A1645.0s%20165%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%208%20sec%0A1665.0s%20166%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A1665.0s%20167%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A1685.0s%20168%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%202%20sec%0A1685.0s%20169%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%201%20sec%0A1705.0s%20170%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1705.0s%20171%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%202%20sec%0A1725.0s%20172%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A1725.0s%20173%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%200%20sec%0A1745.0s%20174%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A1745.0s%20175%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%202%20sec%0A1765.0s%20176%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A1765.0s%20177%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%207%20sec%0A1785.0s%20178%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%208%20sec%0A1785.0s%20179%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%203%20sec%0A1805.0s%20180%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A1805.1s%20181%20last2_blocks_norm_CE%20GPU%201%20return%20None%20heartbeat%20age%2012%20sec%0A1825.0s%20182%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%202%20sec%0A1825.0s%20183%20last2_blocks_norm_CE%20GPU%201%20return%200%20heartbeat%20age%2032%20sec%0A1845.1s%20184%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A1865.0s%20185%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A1885.1s%20186%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A1905.0s%20187%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%201%20sec%0A1925.1s%20188%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A1945.0s%20189%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%206%20sec%0A1965.1s%20190%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%200%20sec%0A1985.0s%20191%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%203%20sec%0A2005.2s%20192%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%205%20sec%0A2025.0s%20193%20frozen_CE%20GPU%200%20return%20None%20heartbeat%20age%204%20sec%0A2045.1s%20194%20frozen_CE%20GPU%200%20return%200%20heartbeat%20age%207%20sec%0A2045.1s%20195%20Worker%20wall%20minutes%3A%2022.01%0A2045.8s%20196%20Saved%20outputs%3A%20%5B'comparison.csv'%2C%20'frozen_CE'%2C%20'frozen_CE.log'%2C%20'last2_blocks_norm_CE'%2C%20'last2_blocks_norm_CE.log'%2C%20'run_config.json'%5D%0A2049.5s%20197%20%2Fusr%2Flocal%2Flib%2Fpython3.13%2Fdist-packages%2Fmistune.py%3A435%3A%20SyntaxWarning%3A%20invalid%20escape%20sequence%20'%5C%7C'%0A2049.5s%20198%20cells%5Bi%5D%5Bc%5D%20%3D%20re.sub('%5C%5C%5C%5C%5C%7C'%2C%20'%7C'%2C%20cell)%0A2049.7s%20199%20%2Fusr%2Flocal%2Flib%2Fpython3.13%2Fdist-packages%2Fnbconvert%2Ffilters%2Ffilter_links.py%3A36%3A%20SyntaxWarning%3A%20invalid%20escape%20sequence%20'%5C_'%0A2049.7s%20200%20text%20%3D%20re.sub(r'_'%2C%20'%5C_'%2C%20text)%20%23%20Escape%20underscores%20in%20display%20text%0A2050.5s%20201%20%5BNbConvertApp%5D%20Converting%20notebook%20__notebook__.ipynb%20to%20notebook%0A2050.6s%20202%20%5BNbConvertApp%5D%20Writing%20840829%20bytes%20to%20__notebook__.ipynb%0A2053.1s%20203%20%5BNbConvertApp%5D%20Converting%20notebook%20__notebook__.ipynb%20to%20html%0A2053.9s%20204%20%5BNbConvertApp%5D%20Support%20files%20will%20be%20in%20__results___files%2F%0A2053.9s%20205%20%5BNbConvertApp%5D%20Making%20directory%20__results___files%0A2053.9s%20206%20%5BNbConvertApp%5D%20Making%20directory%20__results___files%0A2053.9s%20207%20%5BNbConvertApp%5D%20Making%20directory%20__results___files%0A2053.9s%20208%20%5BNbConvertApp%5D%20Making%20directory%20__results___files%0A2053.9s%20209%20%5BNbConvertApp%5D%20Writing%20469440%20bytes%20to%20__results__.html
+    - button "Download logs":
+      - generic: file_download
+      - generic: Download Logs
+  - generic: check_circle
+  - heading "Successfully ran in 2054.6s" [level=5]
+  - generic: Accelerator
+  - paragraph: GPU T4 x2
+  - generic: Environment
+  - paragraph:
+    - link "Latest Container Image opens in new window":
+      - /url: https://gcr.io/kaggle-gpu-images/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f
+      - text: Latest Container Image
+    - button
+  - generic: Output
+  - paragraph: 395.64 kB
+  - separator
+  - table:
+    - rowgroup:
+      - 'row "Time # Log Message"':
+        - columnheader "Time":
+          - generic: Time
+        - columnheader "#":
+          - generic: "#"
+        - columnheader "Log Message":
+          - generic: Log Message
+    - rowgroup:
+      - 'row "7.3s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may"':
+        - cell "7.3s"
+        - cell "1"
+        - 'cell "0.00s - Debugger warning: It seems that frozen modules are being used, which may"'
+      - row "7.3s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off":
+        - cell "7.3s"
+        - cell "2"
+        - cell "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off"
+      - row "7.3s 3 0.00s - to python to disable frozen modules.":
+        - cell "7.3s"
+        - cell "3"
+        - cell "0.00s - to python to disable frozen modules."
+      - 'row "7.3s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."':
+        - cell "7.3s"
+        - cell "4"
+        - 'cell "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."'
+      - 'row "7.9s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may"':
+        - cell "7.9s"
+        - cell "5"
+        - 'cell "0.00s - Debugger warning: It seems that frozen modules are being used, which may"'
+      - row "7.9s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off":
+        - cell "7.9s"
+        - cell "6"
+        - cell "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off"
+      - row "7.9s 7 0.00s - to python to disable frozen modules.":
+        - cell "7.9s"
+        - cell "7"
+        - cell "0.00s - to python to disable frozen modules."
+      - 'row "7.9s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."':
+        - cell "7.9s"
+        - cell "8"
+        - 'cell "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation."'
+      - row "24.8s 9 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00":
+        - cell "24.8s"
+        - cell "9"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00"
+      - row "25.0s 10 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00":
+        - cell "25.0s"
+        - cell "10"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.6 MB/s eta 0:00:00"
+      - row "26.1s 11 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00":
+        - cell "26.1s"
+        - cell "11"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00"
+      - row "26.2s 12 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00":
+        - cell "26.2s"
+        - cell "12"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00"
+      - row "26.2s 13 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00":
+        - cell "26.2s"
+        - cell "13"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00"
+      - row "26.3s 14 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "14"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00"
+      - row "26.3s 15 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "15"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 97.7 MB/s eta 0:00:00"
+      - row "26.3s 16 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "16"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.5 MB/s eta 0:00:00"
+      - row "26.3s 17 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "17"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 81.2 MB/s eta 0:00:00"
+      - row "26.3s 18 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00":
+        - cell "26.3s"
+        - cell "18"
+        - cell "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 485.8/485.8 kB 20.5 MB/s eta 0:00:00"
+      - row "36.8s 19 Thu Oct 22 12:47:21 2026":
+        - cell "36.8s"
+        - cell "19"
+        - cell "Thu Oct 22 12:47:21 2026"
+      - row "36.8s 20 +-----------------------------------------------------------------------------------------+":
+        - cell "36.8s"
+        - cell "20"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "36.8s 21 | NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"':
+        - cell "36.8s"
+        - cell "21"
+        - 'cell "| NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"'
+      - row "36.8s 22 +-----------------------------------------+------------------------+----------------------+":
+        - cell "36.8s"
+        - cell "22"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "36.8s 23 | GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |":
+        - cell "36.8s"
+        - cell "23"
+        - cell "| GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |"
+      - row "36.8s 24 | Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |":
+        - cell "36.8s"
+        - cell "24"
+        - cell "| Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |"
+      - row "36.8s 25 | | | MIG M. |":
+        - cell "36.8s"
+        - cell "25"
+        - cell "| | | MIG M. |"
+      - row "36.8s 26 |=========================================+========================+======================|":
+        - cell "36.8s"
+        - cell "26"
+        - cell "|=========================================+========================+======================|"
+      - row "36.8s 27 | 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |":
+        - cell "36.8s"
+        - cell "27"
+        - cell "| 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |"
+      - row "36.8s 28 | N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "36.8s"
+        - cell "28"
+        - cell "| N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "36.8s 29 | | | N/A |":
+        - cell "36.8s"
+        - cell "29"
+        - cell "| | | N/A |"
+      - row "36.8s 30 +-----------------------------------------+------------------------+----------------------+":
+        - cell "36.8s"
+        - cell "30"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "36.8s 31 | 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |":
+        - cell "36.8s"
+        - cell "31"
+        - cell "| 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |"
+      - row "36.8s 32 | N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "36.8s"
+        - cell "32"
+        - cell "| N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "36.8s 33 | | | N/A |":
+        - cell "36.8s"
+        - cell "33"
+        - cell "| | | N/A |"
+      - row "36.8s 34 +-----------------------------------------+------------------------+----------------------+":
+        - cell "36.8s"
+        - cell "34"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "36.8s 35":
+        - cell "36.8s"
+        - cell "35"
+        - cell
+      - row "36.8s 36 +-----------------------------------------------------------------------------------------+":
+        - cell "36.8s"
+        - cell "36"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "36.8s 37 | Processes: |"':
+        - cell "36.8s"
+        - cell "37"
+        - 'cell "| Processes: |"'
+      - row "36.8s 38 | GPU GI CI PID Type Process name GPU Memory |":
+        - cell "36.8s"
+        - cell "38"
+        - cell "| GPU GI CI PID Type Process name GPU Memory |"
+      - row "36.8s 39 | ID ID Usage |":
+        - cell "36.8s"
+        - cell "39"
+        - cell "| ID ID Usage |"
+      - row "36.8s 40 |=========================================================================================|":
+        - cell "36.8s"
+        - cell "40"
+        - cell "|=========================================================================================|"
+      - row "36.8s 41 | No running processes found |":
+        - cell "36.8s"
+        - cell "41"
+        - cell "| No running processes found |"
+      - row "36.8s 42 +-----------------------------------------------------------------------------------------+":
+        - cell "36.8s"
+        - cell "42"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - row "37.0s 43 Thu Oct 22 12:47:21 2026":
+        - cell "37.0s"
+        - cell "43"
+        - cell "Thu Oct 22 12:47:21 2026"
+      - row "37.0s 44 +-----------------------------------------------------------------------------------------+":
+        - cell "37.0s"
+        - cell "44"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "37.0s 45 | NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"':
+        - cell "37.0s"
+        - cell "45"
+        - 'cell "| NVIDIA-SMI 580.178.04 Driver Version: 580.178.04 CUDA Version: 13.0 |"'
+      - row "37.0s 46 +-----------------------------------------+------------------------+----------------------+":
+        - cell "37.0s"
+        - cell "46"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "37.0s 47 | GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |":
+        - cell "37.0s"
+        - cell "47"
+        - cell "| GPU Name Persistence-M | Bus-Id Disp.A | Volatile Uncorr. ECC |"
+      - row "37.0s 48 | Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |":
+        - cell "37.0s"
+        - cell "48"
+        - cell "| Fan Temp Perf Pwr:Usage/Cap | Memory-Usage | GPU-Util Compute M. |"
+      - row "37.0s 49 | | | MIG M. |":
+        - cell "37.0s"
+        - cell "49"
+        - cell "| | | MIG M. |"
+      - row "37.0s 50 |=========================================+========================+======================|":
+        - cell "37.0s"
+        - cell "50"
+        - cell "|=========================================+========================+======================|"
+      - row "37.0s 51 | 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |":
+        - cell "37.0s"
+        - cell "51"
+        - cell "| 0 Tesla T4 Off | 00000000:00:04.0 Off | 0 |"
+      - row "37.0s 52 | N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "37.0s"
+        - cell "52"
+        - cell "| N/A 47C P8 11W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "37.0s 53 | | | N/A |":
+        - cell "37.0s"
+        - cell "53"
+        - cell "| | | N/A |"
+      - row "37.0s 54 +-----------------------------------------+------------------------+----------------------+":
+        - cell "37.0s"
+        - cell "54"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "37.0s 55 | 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |":
+        - cell "37.0s"
+        - cell "55"
+        - cell "| 1 Tesla T4 Off | 00000000:00:05.0 Off | 0 |"
+      - row "37.0s 56 | N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |":
+        - cell "37.0s"
+        - cell "56"
+        - cell "| N/A 44C P8 12W / 70W | 3MiB / 15360MiB | 0% Default |"
+      - row "37.0s 57 | | | N/A |":
+        - cell "37.0s"
+        - cell "57"
+        - cell "| | | N/A |"
+      - row "37.0s 58 +-----------------------------------------+------------------------+----------------------+":
+        - cell "37.0s"
+        - cell "58"
+        - cell "+-----------------------------------------+------------------------+----------------------+"
+      - row "37.0s 59":
+        - cell "37.0s"
+        - cell "59"
+        - cell
+      - row "37.0s 60 +-----------------------------------------------------------------------------------------+":
+        - cell "37.0s"
+        - cell "60"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "37.0s 61 | Processes: |"':
+        - cell "37.0s"
+        - cell "61"
+        - 'cell "| Processes: |"'
+      - row "37.0s 62 | GPU GI CI PID Type Process name GPU Memory |":
+        - cell "37.0s"
+        - cell "62"
+        - cell "| GPU GI CI PID Type Process name GPU Memory |"
+      - row "37.0s 63 | ID ID Usage |":
+        - cell "37.0s"
+        - cell "63"
+        - cell "| ID ID Usage |"
+      - row "37.0s 64 |=========================================================================================|":
+        - cell "37.0s"
+        - cell "64"
+        - cell "|=========================================================================================|"
+      - row "37.0s 65 | No running processes found |":
+        - cell "37.0s"
+        - cell "65"
+        - cell "| No running processes found |"
+      - row "37.0s 66 +-----------------------------------------------------------------------------------------+":
+        - cell "37.0s"
+        - cell "66"
+        - cell "+-----------------------------------------------------------------------------------------+"
+      - 'row "37.2s 67 {''python'': ''3.13.15'', ''torch'': ''2.11.0+cu128'', ''torchvision'': ''0.26.0+cu128'', ''gpu_count'': 2, ''gpus'': [''Tesla T4'', ''Tesla T4'']}"':
+        - cell "37.2s"
+        - cell "67"
+        - 'cell "{''python'': ''3.13.15'', ''torch'': ''2.11.0+cu128'', ''torchvision'': ''0.26.0+cu128'', ''gpu_count'': 2, ''gpus'': [''Tesla T4'', ''Tesla T4'']}"'
+      - 'row "40.4s 68 Pinned manifest verified: b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06 test rows: 0"':
+        - cell "40.4s"
+        - cell "68"
+        - 'cell "Pinned manifest verified: b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06 test rows: 0"'
+      - row "722.7s 69 Verified all 10889 crop files in 682.5 seconds":
+        - cell "722.7s"
+        - cell "69"
+        - cell "Verified all 10889 crop files in 682.5 seconds"
+      - row "723.5s 70 HF_TOKEN preflight passed; token value is never logged.":
+        - cell "723.5s"
+        - cell "70"
+        - cell "HF_TOKEN preflight passed; token value is never logged."
+      - 'row "723.5s 71 Official model: facebook/dinov3-vits16-pretrain-lvd1689m | pinned revision: 114c1379950215c8b35dfcd4e90a5c251dde0d32"':
+        - cell "723.5s"
+        - cell "71"
+        - 'cell "Official model: facebook/dinov3-vits16-pretrain-lvd1689m | pinned revision: 114c1379950215c8b35dfcd4e90a5c251dde0d32"'
+      - 'row "724.5s 72 Classifier head: 384 -> 3 logits; patched backbone structure will be checked against the downloaded model."':
+        - cell "724.5s"
+        - cell "72"
+        - 'cell "Classifier head: 384 -> 3 logits; patched backbone structure will be checked against the downloaded model."'
+      - 'row "724.7s 73 Worker source SHA256: 82e831347f7daadd6c5a6a76706baf79d60b7479d6cfc8874e077402c9798c2e | source sections: 3"':
+        - cell "724.7s"
+        - cell "73"
+        - 'cell "Worker source SHA256: 82e831347f7daadd6c5a6a76706baf79d60b7479d6cfc8874e077402c9798c2e | source sections: 3"'
+      - row "744.8s 74 frozen_CE GPU 0 return None heartbeat age 20 sec":
+        - cell "744.8s"
+        - cell "74"
+        - cell "frozen_CE GPU 0 return None heartbeat age 20 sec"
+      - row "744.8s 75 last2_blocks_norm_CE GPU 1 return None heartbeat age 20 sec":
+        - cell "744.8s"
+        - cell "75"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 20 sec"
+      - row "764.8s 76 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "764.8s"
+        - cell "76"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "764.8s 77 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "764.8s"
+        - cell "77"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "784.8s 78 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "784.8s"
+        - cell "78"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "784.8s 79 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "784.8s"
+        - cell "79"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "804.8s 80 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "804.8s"
+        - cell "80"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "804.8s 81 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "804.8s"
+        - cell "81"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+      - row "824.8s 82 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "824.8s"
+        - cell "82"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "824.8s 83 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "824.8s"
+        - cell "83"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "844.8s 84 frozen_CE GPU 0 return None heartbeat age 7 sec":
+        - cell "844.8s"
+        - cell "84"
+        - cell "frozen_CE GPU 0 return None heartbeat age 7 sec"
+      - row "844.8s 85 last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec":
+        - cell "844.8s"
+        - cell "85"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec"
+      - row "864.8s 86 frozen_CE GPU 0 return None heartbeat age 2 sec":
+        - cell "864.8s"
+        - cell "86"
+        - cell "frozen_CE GPU 0 return None heartbeat age 2 sec"
+      - row "864.8s 87 last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec":
+        - cell "864.8s"
+        - cell "87"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec"
+      - row "884.8s 88 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "884.8s"
+        - cell "88"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "884.8s 89 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "884.8s"
+        - cell "89"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "904.8s 90 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "904.8s"
+        - cell "90"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "904.8s 91 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "904.8s"
+        - cell "91"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "924.8s 92 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "924.8s"
+        - cell "92"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "924.8s 93 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "924.8s"
+        - cell "93"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+      - row "944.8s 94 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "944.8s"
+        - cell "94"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "944.8s 95 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "944.8s"
+        - cell "95"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "964.8s 96 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "964.8s"
+        - cell "96"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "964.8s 97 last2_blocks_norm_CE GPU 1 return None heartbeat age 0 sec":
+        - cell "964.8s"
+        - cell "97"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 0 sec"
+      - row "984.8s 98 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "984.8s"
+        - cell "98"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "984.8s 99 last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec":
+        - cell "984.8s"
+        - cell "99"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec"
+      - row "1004.8s 100 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "1004.8s"
+        - cell "100"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "1004.9s 101 last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec":
+        - cell "1004.9s"
+        - cell "101"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec"
+      - row "1024.8s 102 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1024.8s"
+        - cell "102"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1024.8s 103 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "1024.8s"
+        - cell "103"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+      - row "1044.8s 104 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "1044.8s"
+        - cell "104"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "1044.8s 105 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1044.8s"
+        - cell "105"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1064.8s 106 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1064.8s"
+        - cell "106"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1064.8s 107 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "1064.8s"
+        - cell "107"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "1084.9s 108 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "1084.9s"
+        - cell "108"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "1084.9s 109 last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec":
+        - cell "1084.9s"
+        - cell "109"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec"
+      - row "1104.8s 110 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1104.8s"
+        - cell "110"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1104.8s 111 last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec":
+        - cell "1104.8s"
+        - cell "111"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec"
+      - row "1124.9s 112 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1124.9s"
+        - cell "112"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1124.9s 113 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "1124.9s"
+        - cell "113"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "1144.8s 114 frozen_CE GPU 0 return None heartbeat age 7 sec":
+        - cell "1144.8s"
+        - cell "114"
+        - cell "frozen_CE GPU 0 return None heartbeat age 7 sec"
+      - row "1144.9s 115 last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec":
+        - cell "1144.9s"
+        - cell "115"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec"
+      - row "1164.9s 116 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1164.9s"
+        - cell "116"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1164.9s 117 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "1164.9s"
+        - cell "117"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "1184.9s 118 frozen_CE GPU 0 return None heartbeat age 7 sec":
+        - cell "1184.9s"
+        - cell "118"
+        - cell "frozen_CE GPU 0 return None heartbeat age 7 sec"
+      - row "1184.9s 119 last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec":
+        - cell "1184.9s"
+        - cell "119"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 5 sec"
+      - row "1204.9s 120 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1204.9s"
+        - cell "120"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1204.9s 121 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1204.9s"
+        - cell "121"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1224.9s 122 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "1224.9s"
+        - cell "122"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "1224.9s 123 last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec":
+        - cell "1224.9s"
+        - cell "123"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec"
+      - row "1244.9s 124 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1244.9s"
+        - cell "124"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1244.9s 125 last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec":
+        - cell "1244.9s"
+        - cell "125"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec"
+      - row "1264.9s 126 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "1264.9s"
+        - cell "126"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "1264.9s 127 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "1264.9s"
+        - cell "127"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "1284.9s 128 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1284.9s"
+        - cell "128"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1284.9s 129 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1284.9s"
+        - cell "129"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1304.9s 130 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1304.9s"
+        - cell "130"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1304.9s 131 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1304.9s"
+        - cell "131"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1324.9s 132 frozen_CE GPU 0 return None heartbeat age 7 sec":
+        - cell "1324.9s"
+        - cell "132"
+        - cell "frozen_CE GPU 0 return None heartbeat age 7 sec"
+      - row "1324.9s 133 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "1324.9s"
+        - cell "133"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "1344.9s 134 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1344.9s"
+        - cell "134"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1344.9s 135 last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec":
+        - cell "1344.9s"
+        - cell "135"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec"
+      - row "1364.9s 136 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "1364.9s"
+        - cell "136"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "1364.9s 137 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "1364.9s"
+        - cell "137"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "1384.9s 138 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1384.9s"
+        - cell "138"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1384.9s 139 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1384.9s"
+        - cell "139"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1404.9s 140 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "1404.9s"
+        - cell "140"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "1404.9s 141 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "1404.9s"
+        - cell "141"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "1424.9s 142 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1424.9s"
+        - cell "142"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1424.9s 143 last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec":
+        - cell "1424.9s"
+        - cell "143"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec"
+      - row "1444.9s 144 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "1444.9s"
+        - cell "144"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "1445.0s 145 last2_blocks_norm_CE GPU 1 return None heartbeat age 9 sec":
+        - cell "1445.0s"
+        - cell "145"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 9 sec"
+      - row "1464.9s 146 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1464.9s"
+        - cell "146"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1464.9s 147 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "1464.9s"
+        - cell "147"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+      - row "1485.0s 148 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "1485.0s"
+        - cell "148"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "1485.0s 149 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1485.0s"
+        - cell "149"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1504.9s 150 frozen_CE GPU 0 return None heartbeat age 10 sec":
+        - cell "1504.9s"
+        - cell "150"
+        - cell "frozen_CE GPU 0 return None heartbeat age 10 sec"
+      - row "1504.9s 151 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1504.9s"
+        - cell "151"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1525.0s 152 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1525.0s"
+        - cell "152"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1525.0s 153 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "1525.0s"
+        - cell "153"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "1545.0s 154 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1545.0s"
+        - cell "154"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "1545.0s 155 last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec":
+        - cell "1545.0s"
+        - cell "155"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec"
+      - row "1565.0s 156 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1565.0s"
+        - cell "156"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1565.0s 157 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "1565.0s"
+        - cell "157"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "1585.0s 158 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1585.0s"
+        - cell "158"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "1585.0s 159 last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec":
+        - cell "1585.0s"
+        - cell "159"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 6 sec"
+      - row "1605.0s 160 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1605.0s"
+        - cell "160"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1605.0s 161 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "1605.0s"
+        - cell "161"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "1625.0s 162 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "1625.0s"
+        - cell "162"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "1625.0s 163 last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec":
+        - cell "1625.0s"
+        - cell "163"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 4 sec"
+      - row "1645.0s 164 frozen_CE GPU 0 return None heartbeat age 10 sec":
+        - cell "1645.0s"
+        - cell "164"
+        - cell "frozen_CE GPU 0 return None heartbeat age 10 sec"
+      - row "1645.0s 165 last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec":
+        - cell "1645.0s"
+        - cell "165"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 8 sec"
+      - row "1665.0s 166 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "1665.0s"
+        - cell "166"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "1665.0s 167 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "1665.0s"
+        - cell "167"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "1685.0s 168 frozen_CE GPU 0 return None heartbeat age 2 sec":
+        - cell "1685.0s"
+        - cell "168"
+        - cell "frozen_CE GPU 0 return None heartbeat age 2 sec"
+      - row "1685.0s 169 last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec":
+        - cell "1685.0s"
+        - cell "169"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 1 sec"
+      - row "1705.0s 170 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1705.0s"
+        - cell "170"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1705.0s 171 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "1705.0s"
+        - cell "171"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+      - row "1725.0s 172 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1725.0s"
+        - cell "172"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "1725.0s 173 last2_blocks_norm_CE GPU 1 return None heartbeat age 0 sec":
+        - cell "1725.0s"
+        - cell "173"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 0 sec"
+      - row "1745.0s 174 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "1745.0s"
+        - cell "174"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "1745.0s 175 last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec":
+        - cell "1745.0s"
+        - cell "175"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 2 sec"
+      - row "1765.0s 176 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1765.0s"
+        - cell "176"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "1765.0s 177 last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec":
+        - cell "1765.0s"
+        - cell "177"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 7 sec"
+      - row "1785.0s 178 frozen_CE GPU 0 return None heartbeat age 8 sec":
+        - cell "1785.0s"
+        - cell "178"
+        - cell "frozen_CE GPU 0 return None heartbeat age 8 sec"
+      - row "1785.0s 179 last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec":
+        - cell "1785.0s"
+        - cell "179"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 3 sec"
+      - row "1805.0s 180 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1805.0s"
+        - cell "180"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "1805.1s 181 last2_blocks_norm_CE GPU 1 return None heartbeat age 12 sec":
+        - cell "1805.1s"
+        - cell "181"
+        - cell "last2_blocks_norm_CE GPU 1 return None heartbeat age 12 sec"
+      - row "1825.0s 182 frozen_CE GPU 0 return None heartbeat age 2 sec":
+        - cell "1825.0s"
+        - cell "182"
+        - cell "frozen_CE GPU 0 return None heartbeat age 2 sec"
+      - row "1825.0s 183 last2_blocks_norm_CE GPU 1 return 0 heartbeat age 32 sec":
+        - cell "1825.0s"
+        - cell "183"
+        - cell "last2_blocks_norm_CE GPU 1 return 0 heartbeat age 32 sec"
+      - row "1845.1s 184 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1845.1s"
+        - cell "184"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "1865.0s 185 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "1865.0s"
+        - cell "185"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "1885.1s 186 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "1885.1s"
+        - cell "186"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "1905.0s 187 frozen_CE GPU 0 return None heartbeat age 1 sec":
+        - cell "1905.0s"
+        - cell "187"
+        - cell "frozen_CE GPU 0 return None heartbeat age 1 sec"
+      - row "1925.1s 188 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "1925.1s"
+        - cell "188"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "1945.0s 189 frozen_CE GPU 0 return None heartbeat age 6 sec":
+        - cell "1945.0s"
+        - cell "189"
+        - cell "frozen_CE GPU 0 return None heartbeat age 6 sec"
+      - row "1965.1s 190 frozen_CE GPU 0 return None heartbeat age 0 sec":
+        - cell "1965.1s"
+        - cell "190"
+        - cell "frozen_CE GPU 0 return None heartbeat age 0 sec"
+      - row "1985.0s 191 frozen_CE GPU 0 return None heartbeat age 3 sec":
+        - cell "1985.0s"
+        - cell "191"
+        - cell "frozen_CE GPU 0 return None heartbeat age 3 sec"
+      - row "2005.2s 192 frozen_CE GPU 0 return None heartbeat age 5 sec":
+        - cell "2005.2s"
+        - cell "192"
+        - cell "frozen_CE GPU 0 return None heartbeat age 5 sec"
+      - row "2025.0s 193 frozen_CE GPU 0 return None heartbeat age 4 sec":
+        - cell "2025.0s"
+        - cell "193"
+        - cell "frozen_CE GPU 0 return None heartbeat age 4 sec"
+      - row "2045.1s 194 frozen_CE GPU 0 return 0 heartbeat age 7 sec":
+        - cell "2045.1s"
+        - cell "194"
+        - cell "frozen_CE GPU 0 return 0 heartbeat age 7 sec"
+      - 'row "2045.1s 195 Worker wall minutes: 22.01"':
+        - cell "2045.1s"
+        - cell "195"
+        - 'cell "Worker wall minutes: 22.01"'
+      - 'row "2045.8s 196 Saved outputs: [''comparison.csv'', ''frozen_CE'', ''frozen_CE.log'', ''last2_blocks_norm_CE'', ''last2_blocks_norm_CE.log'', ''run_config.json'']"':
+        - cell "2045.8s"
+        - cell "196"
+        - 'cell "Saved outputs: [''comparison.csv'', ''frozen_CE'', ''frozen_CE.log'', ''last2_blocks_norm_CE'', ''last2_blocks_norm_CE.log'', ''run_config.json'']"'
+      - 'row "2049.5s 197 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence ''\\|''"':
+        - cell "2049.5s"
+        - cell "197"
+        - 'cell "/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence ''\\|''"'
+      - row "2049.5s 198 cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)":
+        - cell "2049.5s"
+        - cell "198"
+        - cell "cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)"
+      - 'row "2049.7s 199 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence ''\\_''"':
+        - cell "2049.7s"
+        - cell "199"
+        - 'cell "/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence ''\\_''"'
+      - 'row "2049.7s 200 text = re.sub(r''_'', ''\\_'', text) # Escape underscores in display text"':
+        - cell "2049.7s"
+        - cell "200"
+        - 'cell "text = re.sub(r''_'', ''\\_'', text) # Escape underscores in display text"'
+      - row "2050.5s 201 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook":
+        - cell "2050.5s"
+        - cell "201"
+        - cell "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook"
+      - row "2050.6s 202 [NbConvertApp] Writing 840829 bytes to __notebook__.ipynb":
+        - cell "2050.6s"
+        - cell "202"
+        - cell "[NbConvertApp] Writing 840829 bytes to __notebook__.ipynb"
+      - row "2053.1s 203 [NbConvertApp] Converting notebook __notebook__.ipynb to html":
+        - cell "2053.1s"
+        - cell "203"
+        - cell "[NbConvertApp] Converting notebook __notebook__.ipynb to html"
+      - row "2053.9s 204 [NbConvertApp] Support files will be in __results___files/":
+        - cell "2053.9s"
+        - cell "204"
+        - cell "[NbConvertApp] Support files will be in __results___files/"
+      - row "2053.9s 205 [NbConvertApp] Making directory __results___files":
+        - cell "2053.9s"
+        - cell "205"
+        - cell "[NbConvertApp] Making directory __results___files"
+      - row "2053.9s 206 [NbConvertApp] Making directory __results___files":
+        - cell "2053.9s"
+        - cell "206"
+        - cell "[NbConvertApp] Making directory __results___files"
+      - row "2053.9s 207 [NbConvertApp] Making directory __results___files":
+        - cell "2053.9s"
+        - cell "207"
+        - cell "[NbConvertApp] Making directory __results___files"
+      - row "2053.9s 208 [NbConvertApp] Making directory __results___files":
+        - cell "2053.9s"
+        - cell "208"
+        - cell "[NbConvertApp] Making directory __results___files"
+      - row "2053.9s 209 [NbConvertApp] Writing 469440 bytes to __results__.html":
+        - cell "2053.9s"
+        - cell "209"
+        - cell "[NbConvertApp] Writing 469440 bytes to __results__.html"
+- alert

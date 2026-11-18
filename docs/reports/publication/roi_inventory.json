@@ -1,0 +1,7 @@
+{
+  "dataset": "trihuynhviprovcl/dentalselfie-gum-roi-v1",
+  "version": 1,
+  "archive_members": 21784,
+  "remote_content_manifest_sha256": "93ca2adc48918db543b61dc2b2208fd9ee63fea3fbc5f5e5e93149b352670280",
+  "verification": "Downloaded remote content manifest matches local ZIP exactly; individual remote crop bytes not downloaded"
+}

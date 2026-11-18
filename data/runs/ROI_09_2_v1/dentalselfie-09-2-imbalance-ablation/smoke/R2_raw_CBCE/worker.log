@@ -1,0 +1,5 @@
+{"trial": {"id": "R2_raw_CBCE", "kind": "finetune", "data": "raw", "loss": "class_balanced"}, "rows": 10889, "gpu": "Tesla T4", "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06"}
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  0%|          | 0.00/44.7M [00:00<?, ?B/s] 15%|█▍        | 6.62M/44.7M [00:00<00:00, 66.0MB/s] 66%|██████▋   | 29.6M/44.7M [00:00<00:00, 167MB/s] 100%|██████████| 44.7M/44.7M [00:00<00:00, 178MB/s]
+{"trial": "R2_raw_CBCE", "epoch": 1, "train_loss": 1.1081382036209106, "val_loss": 1.345675766468048, "macro_f1": 0.2040072859744991, "accuracy": 0.4375, "lr": 0.0003, "seconds": 3.499476925999943}
+SMOKE_OK: finite training, validation and checkpoint restore

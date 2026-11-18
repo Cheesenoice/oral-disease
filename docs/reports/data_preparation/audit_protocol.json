@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "caries_source": "LabelMe named rectangles",
+  "gum_columns": "class cx cy width height",
+  "near_duplicate_rule": "pHash<=4 AND dHash<=4 AND aspect ratio within 10%",
+  "quarantine_policy": "Any invalid annotation excludes the whole image; missing is not negative",
+  "independence_limit": "Observable filename/hash/visual groups; not certified patient-disjoint",
+  "orientation_policy": "Stored pixels for EXIF 0/1 with dimension checks; quarantine other rotations"
+}

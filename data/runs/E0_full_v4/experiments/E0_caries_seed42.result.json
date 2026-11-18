@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "smoke_only": false,
+  "elapsed_seconds": 366.020564591,
+  "epochs_completed": 21,
+  "metrics": {
+    "metrics/precision(B)": 0.8573101777352244,
+    "metrics/recall(B)": 0.8835602205621181,
+    "metrics/mAP50(B)": 0.9354916444429581,
+    "metrics/mAP50-95(B)": 0.7284790475701698
+  },
+  "resume_checkpoint": "/kaggle/working/experiments/E0_caries_seed42/weights/resume.pt"
+}

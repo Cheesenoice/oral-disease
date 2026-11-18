@@ -1,0 +1,23 @@
+{
+  "protocol": "gingival-roi-context-v1",
+  "roi_rows": 10889,
+  "view_files": 21778,
+  "parents": 907,
+  "splits": [
+    "train",
+    "val"
+  ],
+  "test_images_opened": 0,
+  "parent_split_sha256": "17951a893d64d81ad5d8318abac5fb004c791cc3b411d07adaa387cb1ca39bd3",
+  "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+  "validation_minority_instances": [
+    49,
+    49
+  ],
+  "limitations": [
+    "Per-instance detection error attribution is pending prediction export",
+    "Correlated crops are not independent patients",
+    "No real phone generalization evidence"
+  ],
+  "next": "Implement notebook 06 and benchmark ROI classification throughput on Kaggle T4 x2"
+}

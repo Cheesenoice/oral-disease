@@ -1,0 +1,209 @@
+{
+  "created_at_utc": "2026-10-21T11:44:08Z",
+  "owner": "trihuynhviprovcl",
+  "visibility": "public",
+  "input": "trihuynhviprovcl/dentalselfie-gum-roi-v1/1",
+  "input_manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+  "quota_at_submission": {
+    "gpu_remaining_hours": "5.75",
+    "source": "kaggle quota --format json"
+  },
+  "runs": [
+    {
+      "notebook": "notebooks/07_1_context_gated_fusion.ipynb",
+      "kernel": "trihuynhviprovcl/dentalselfie-7-1-context-and-gated-fusion",
+      "version": 1,
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-7-1-context-and-gated-fusion",
+      "submitted_at_utc": "2026-10-21T11:42:26Z",
+      "accelerator": "NvidiaTeslaT4 (T4 x2)",
+      "state": "COMPLETE",
+      "experiments": [
+        "M1_concat_CE on GPU 0",
+        "M2_gate_CE on GPU 1"
+      ],
+      "max_epochs": 20,
+      "early_stopping_patience": 5,
+      "per_experiment_budget_seconds": 4200,
+      "collected": true,
+      "collection_root": "data/runs/ROI_07_1_v1",
+      "version_verified": 1,
+      "artifact_inventory": [
+        {
+          "path": "dentalselfie-7-1-context-and-gated-fusion.log",
+          "bytes": 10169,
+          "sha256": "6a0d252d6bdbb3d8b97cee0ed4f243f61b60eddcaaf4ce0585e7b55a8a3d7986"
+        },
+        {
+          "path": "dentalselfie_07/M1_concat_CE/best.pt",
+          "bytes": 46884993,
+          "sha256": "61fbe77b6ead023f9dd25e9f4e727c11f58941d592cffdd17a96784461d0bc71"
+        },
+        {
+          "path": "dentalselfie_07/M1_concat_CE/history.csv",
+          "bytes": 1153,
+          "sha256": "7f7cddee032f8aa993ef1bb732dbf9bdc1965154a76a2dc3afb42ddf5f917ba0"
+        },
+        {
+          "path": "dentalselfie_07/M1_concat_CE/last.pt",
+          "bytes": 46884993,
+          "sha256": "3627f1c85a9fdba90a7efb07520d9333289ef22766a662cad0afa83799ab7f65"
+        },
+        {
+          "path": "dentalselfie_07/M1_concat_CE/metrics.json",
+          "bytes": 694,
+          "sha256": "c73e3c1e15caf355d647932275c0b047f001ad1645c298dc781586e092c0e18e"
+        },
+        {
+          "path": "dentalselfie_07/M1_concat_CE/resume.pt",
+          "bytes": 140566149,
+          "sha256": "7913dd5064e450e24a12f38836d8643ee5c582a4005e5537cb34255f456248fc"
+        },
+        {
+          "path": "dentalselfie_07/M1_concat_CE/validation_predictions.csv",
+          "bytes": 158809,
+          "sha256": "711b9c76f8c2a6efe788cad237ffae3e972ae1a12c9ea760f14d686c00a4608a"
+        },
+        {
+          "path": "dentalselfie_07/M2_gate_CE/best.pt",
+          "bytes": 46362231,
+          "sha256": "3208b4587f9edc25d444a54b24482142438c8b05df1c407af80e3aabe52e1515"
+        },
+        {
+          "path": "dentalselfie_07/M2_gate_CE/history.csv",
+          "bytes": 1533,
+          "sha256": "0f1858940a71aaaceacc19de274ca53d3671a452dc13552efe180b016c2a7018"
+        },
+        {
+          "path": "dentalselfie_07/M2_gate_CE/last.pt",
+          "bytes": 46362231,
+          "sha256": "eeeee3b052fc9ecbae0d8d4a2d77a9e5043cd9af884a239e15ddf4a65e3c31ca"
+        },
+        {
+          "path": "dentalselfie_07/M2_gate_CE/metrics.json",
+          "bytes": 720,
+          "sha256": "d57931d3a3a5d73797bdbd871a8922972d547311516a9546bea92c18cb70c124"
+        },
+        {
+          "path": "dentalselfie_07/M2_gate_CE/resume.pt",
+          "bytes": 138999213,
+          "sha256": "e9b9df5c690388da9fa2c8e2b96a5a00cdd4a1d284d837f004c38a993cb9c604"
+        },
+        {
+          "path": "dentalselfie_07/M2_gate_CE/validation_predictions.csv",
+          "bytes": 161915,
+          "sha256": "979b6a1d635436c2083feff125895f376b32837e5360622db1cc2c7bbb544f51"
+        },
+        {
+          "path": "dentalselfie_07/summary.csv",
+          "bytes": 700,
+          "sha256": "3970687649fb91292d37073d2553ac69322c9b3a0685d4134b69ec9607b187ab"
+        },
+        {
+          "path": "dentalselfie_07/summary.json",
+          "bytes": 1572,
+          "sha256": "d8cac6b0fb54a63f24b5ac829906dd652240758cd566f50814a87ebd80bbbb1e"
+        }
+      ]
+    },
+    {
+      "notebook": "notebooks/07_2_ordinal_combined_method.ipynb",
+      "kernel": "trihuynhviprovcl/dentalselfie-7-2-ordinal-combined-method",
+      "version": 1,
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-7-2-ordinal-combined-method",
+      "submitted_at_utc": "2026-10-21T11:43:13Z",
+      "accelerator": "NvidiaTeslaT4 (T4 x2)",
+      "state": "COMPLETE",
+      "experiments": [
+        "M3_local_CORAL on GPU 0",
+        "M4_gate_CORAL on GPU 1"
+      ],
+      "max_epochs": 20,
+      "early_stopping_patience": 5,
+      "per_experiment_budget_seconds": 4200,
+      "collected": true,
+      "collection_root": "data/runs/ROI_07_2_v1",
+      "version_verified": 1,
+      "artifact_inventory": [
+        {
+          "path": "dentalselfie-7-2-ordinal-combined-method.log",
+          "bytes": 11147,
+          "sha256": "4bddf1cc21adbd637e1be309760bf49020bc50f10a7daa9d72202693f9728843"
+        },
+        {
+          "path": "dentalselfie_07/M3_local_CORAL/best.pt",
+          "bytes": 44783430,
+          "sha256": "afb8b1d7316e45c34729059f3a835f3697185fa280a45c80ffe6f026bc075ee0"
+        },
+        {
+          "path": "dentalselfie_07/M3_local_CORAL/history.csv",
+          "bytes": 1509,
+          "sha256": "9e89b2823b12305f54f10e4deec6a20389525589bfc40c141159124d6489e947"
+        },
+        {
+          "path": "dentalselfie_07/M3_local_CORAL/last.pt",
+          "bytes": 44783430,
+          "sha256": "b92b2ccb04f056fc8f262b57a52547d67f7ba71150e1149c07114c877d89d4cb"
+        },
+        {
+          "path": "dentalselfie_07/M3_local_CORAL/metrics.json",
+          "bytes": 699,
+          "sha256": "a523c9b6368f7c74ce1b43de28f158f5a4063213434078c5fe402d36a6a9104f"
+        },
+        {
+          "path": "dentalselfie_07/M3_local_CORAL/resume.pt",
+          "bytes": 134261713,
+          "sha256": "b4da85e695a71d222aa6d0f43833224b0eeafb5d4ca87ffef225a67b1c788e10"
+        },
+        {
+          "path": "dentalselfie_07/M3_local_CORAL/validation_predictions.csv",
+          "bytes": 115786,
+          "sha256": "062203ba8be7508e9a6093df3250d1b4610ea75390decfaadbca199bd0b1c8d5"
+        },
+        {
+          "path": "dentalselfie_07/M4_gate_CORAL/best.pt",
+          "bytes": 46360498,
+          "sha256": "c5a5dcd3e023bc37ee800337bc4f2bfb53dd2e444edd3be8f5e49efadaf1935d"
+        },
+        {
+          "path": "dentalselfie_07/M4_gate_CORAL/history.csv",
+          "bytes": 1877,
+          "sha256": "0a32697ca0532a11ca8f800203aed629d44ceead8137c1a47fbf9b14c34b4c8d"
+        },
+        {
+          "path": "dentalselfie_07/M4_gate_CORAL/last.pt",
+          "bytes": 46360498,
+          "sha256": "b0058a7cb2bd75bd805a03f4dbb090112254d2d50a84bf7f43cf13b92084ba40"
+        },
+        {
+          "path": "dentalselfie_07/M4_gate_CORAL/metrics.json",
+          "bytes": 730,
+          "sha256": "4cb482947827d774346dd8799e9e2cc3d5f238364388cbdf3e9959b179ac1302"
+        },
+        {
+          "path": "dentalselfie_07/M4_gate_CORAL/resume.pt",
+          "bytes": 138994721,
+          "sha256": "a9465a5ce3446f8c00224e03e9b398412204ee86dc1bf7537d28de081e76f5a3"
+        },
+        {
+          "path": "dentalselfie_07/M4_gate_CORAL/validation_predictions.csv",
+          "bytes": 113948,
+          "sha256": "3f913e2445ca873fef0594bbd6af49aa2bff97c3acae56df45ba3924f7c86dbb"
+        },
+        {
+          "path": "dentalselfie_07/summary.csv",
+          "bytes": 712,
+          "sha256": "2cea824ce8aa3bfca470ea71a9aaf523772e5a02b2e5c6b520b0eb878fcd9aba"
+        },
+        {
+          "path": "dentalselfie_07/summary.json",
+          "bytes": 1587,
+          "sha256": "98df93e64151063d7424c411421878780f5666245d65b26de8edd3915b462e28"
+        }
+      ]
+    }
+  ],
+  "methodology": "ImageNet ResNet18; paired, synchronized flip/rotation augmentation; batch size 32 per GPU with gradient accumulation 2; AdamW; AMP; checkpoint every epoch; train/validation only. CORAL is a literature-derived cumulative ordinal method with monotone thresholds. Context gating is an adaptation of global/local fusion; no novelty or performance gain is claimed.",
+  "validation": "Both COMPLETE v1 versions verified through authenticated Kaggle metadata. Predictions, labels, matrices, metrics, monotone ordinal decoding and checkpoint archive CRCs checked locally. All raw outputs and logs collected. See findings for protocol limitations.",
+  "collected_at_utc": "2026-10-21T12:48:57.873883+00:00",
+  "analysis": "docs/reports/training/ROI_METHOD_FINDINGS_2026-10-21.md"
+}

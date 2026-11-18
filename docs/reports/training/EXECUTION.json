@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "tracks": {
+    "E0": {
+      "phase": "full",
+      "version": 4,
+      "status": "collected"
+    },
+    "E1": {
+      "phase": "full",
+      "version": 4,
+      "status": "collected"
+    }
+  },
+  "updated_utc": "2026-10-21T04:01:26.976072+00:00",
+  "error": null
+}

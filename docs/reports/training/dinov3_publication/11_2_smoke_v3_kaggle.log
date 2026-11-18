@@ -1,0 +1,120 @@
+[{"stream_name":"stderr","time":8.102897266,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.102944177,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.102948586,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.102951103,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.746889354,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.746922308,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.746927501,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.746933613,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":29.537067033,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 608.9 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":29.739338358,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 608.9 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.753027042,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 90.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.792937162,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 25.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.855524533,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 83.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.953490451,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 90.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.953515063,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 25.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.953520339,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 83.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":47.419302056,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":47.419341798,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":47.419350268,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":47.804703734,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":47.804739670000004,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":47.804746805,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":47.804765826,"data":"\n"}
+,{"stream_name":"stderr","time":47.804770252,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":47.804789005,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":47.804795094,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":47.862361583,"data":"Thu Oct 22 11:46:54 2026       \n"}
+,{"stream_name":"stdout","time":47.862394087,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":47.862399259,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":47.862403237,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":47.862408735,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":47.862416778,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":47.862432481,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":47.862437368,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":47.893961606,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":47.894005806,"data":"| N/A   50C    P8              9W /   70W |       3MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":47.894011674,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":47.894016279,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":47.89402082,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":47.894025177,"data":"| N/A   51C    P8             10W /   70W |       3MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":47.89402916,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":47.894032989,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":47.894631033,"data":"\n"}
+,{"stream_name":"stdout","time":47.894639799,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":47.894642568,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":47.894645067,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":47.894647669,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":47.894660332,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":47.896265229,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":47.896283562,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":48.065141856,"data":"Thu Oct 22 11:46:54 2026       \n"}
+,{"stream_name":"stdout","time":48.065178797,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":48.065182455,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":48.065185213,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":48.065187915,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":48.065190511,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":48.065193009,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":48.065195468,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":48.065198,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":48.065200463,"data":"| N/A   50C    P8              9W /   70W |       3MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":48.065202928,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":48.065205376,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":48.065207915,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":48.065210366,"data":"| N/A   51C    P8             10W /   70W |       3MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":48.06521282,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":48.065215267,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":48.065219405,"data":"\n"}
+,{"stream_name":"stdout","time":48.065222023,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":48.065224486,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":48.065226943,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":48.065229483,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":48.065231934,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":48.065234399,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":48.065237689,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":48.239010779,"data":"{'python': '3.13.15', 'torch': '2.11.0+cu128', 'torchvision': '0.26.0+cu128', 'gpu_count': 2, 'gpus': ['Tesla T4', 'Tesla T4']}\n"}
+,{"stream_name":"stdout","time":51.222542103,"data":"Pinned manifest verified: b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06 test rows: 0\n"}
+,{"stream_name":"stdout","time":52.705453791,"data":"Official model: facebook/dinov3-vits16-pretrain-lvd1689m | pinned revision: 114c1379950215c8b35dfcd4e90a5c251dde0d32 | token value is never logged\n"}
+,{"stream_name":"stdout","time":55.019191565,"data":"Classifier head: 384 -\u003e 3 logits; patched backbone structure will be checked against the downloaded model.\n"}
+,{"stream_name":"stdout","time":55.219800661,"data":"Worker source SHA256: 1a6fc751887b56775a38d4483fd6ca02dfb07d37ee1d8442a7ad39cce333f5b6 | source sections: 3\n"}
+,{"stream_name":"stdout","time":75.286275032,"data":"frozen_CE GPU 0 return 1 heartbeat age 20 sec\n"}
+,{"stream_name":"stderr","time":78.037264053,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":78.038044165,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":78.038069903,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=3600)\n"}
+,{"stream_name":"stderr","time":78.038077832,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":78.03808268,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":78.038087502,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":78.038092114,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":78.038097109,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":78.038101398,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":78.038105847,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":78.038110218,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":78.038114254,"data":"Exception encountered at \"In [12]\":\n"}
+,{"stream_name":"stderr","time":78.038118232,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":78.038122096,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":78.038125997,"data":"/tmp/ipykernel_23/4267580734.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":78.038130225,"data":"     21     print('Worker wall minutes:',round((time.monotonic()-started)/60,2))\n"}
+,{"stream_name":"stderr","time":78.038136122,"data":"     22 \n"}
+,{"stream_name":"stderr","time":78.038143378,"data":"---\u003e 23 if RUN_EXPERIMENT:launch_workers()\n"}
+,{"stream_name":"stderr","time":78.038146278,"data":"     24 else:print('Execution disabled until staged as smoke/full.')\n"}
+,{"stream_name":"stderr","time":78.038148896,"data":"\n"}
+,{"stream_name":"stderr","time":78.03815137,"data":"/tmp/ipykernel_23/4267580734.py in launch_workers()\n"}
+,{"stream_name":"stderr","time":78.038166216,"data":"     18             if process.poll() is not None:\n"}
+,{"stream_name":"stderr","time":78.038169156,"data":"     19                 logs[trial].close();del processes[trial]\n"}
+,{"stream_name":"stderr","time":78.038171975,"data":"---\u003e 20                 if process.returncode:raise RuntimeError(f'{trial} failed; inspect {OUTPUT/trial}.log')\n"}
+,{"stream_name":"stderr","time":78.038189999,"data":"     21     print('Worker wall minutes:',round((time.monotonic()-started)/60,2))\n"}
+,{"stream_name":"stderr","time":78.038194897,"data":"     22 \n"}
+,{"stream_name":"stderr","time":78.038199281,"data":"\n"}
+,{"stream_name":"stderr","time":78.038203552,"data":"RuntimeError: frozen_CE failed; inspect /kaggle/working/dentalselfie-11-2/frozen_CE.log\n"}
+,{"stream_name":"stderr","time":78.038208105,"data":"\n"}
+,{"stream_name":"stderr","time":80.477414498,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":80.47746265,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":80.648940673,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":80.648967771,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":81.488318759,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":81.589073514,"data":"[NbConvertApp] Writing 645826 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":84.241828419,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":85.08922744,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":85.08926222,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":85.089831197,"data":"[NbConvertApp] Writing 442671 bytes to __results__.html\n"}
+]

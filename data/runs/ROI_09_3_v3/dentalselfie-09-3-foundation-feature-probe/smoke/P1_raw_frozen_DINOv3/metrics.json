@@ -1,0 +1,59 @@
+{
+  "accuracy": 0.46875,
+  "macro_f1": 0.4669975186104218,
+  "balanced_accuracy": 0.46875,
+  "ordinal_mae": 0.6458333333333334,
+  "quadratic_kappa": 0.3538461538461538,
+  "confusion_matrix": [
+    [
+      17,
+      9,
+      6
+    ],
+    [
+      11,
+      11,
+      10
+    ],
+    [
+      5,
+      10,
+      17
+    ]
+  ],
+  "class_precision": [
+    0.5151515151515151,
+    0.36666666666666664,
+    0.5151515151515151
+  ],
+  "class_recall": [
+    0.53125,
+    0.34375,
+    0.53125
+  ],
+  "class_f1": [
+    0.5230769230769231,
+    0.3548387096774194,
+    0.5230769230769231
+  ],
+  "support": [
+    32,
+    32,
+    32
+  ],
+  "trial": {
+    "id": "P1_raw_frozen_DINOv3",
+    "kind": "probe",
+    "data": "raw",
+    "encoder": "dinov3"
+  },
+  "seed": 42,
+  "selected_C": 0.1,
+  "elapsed_seconds": 2.0010730429999057,
+  "gpu": "Tesla T4",
+  "feature_dim": 384,
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "test_images_opened": 0,
+  "stop_reason": "smoke",
+  "signature": "999e3da9f6f6059a7c88c39c3bf4f3052a3e15487d5c3e843af232927493fa31"
+}

@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,macro_f1,accuracy,trainable_parameters,seconds
+1,1.116260290145874,1.0713201761245728,0.2771929824561404,0.375,1155,23.381672928

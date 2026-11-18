@@ -1,0 +1,37 @@
+{
+  "protocol": {
+    "imgsz": 640,
+    "batch": 8,
+    "workers": 0,
+    "device": "cpu",
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "augment": false,
+    "split": "val",
+    "diagnostic_confidence": 0.25,
+    "diagnostic_iou": 0.5,
+    "variants": [
+      "clean",
+      "blur_r1_5",
+      "dark_0_65",
+      "jpeg_q35"
+    ]
+  },
+  "validation_images": 327,
+  "validation_lesions": 1054,
+  "test_images_opened": 0,
+  "split_sha256": "6e446143aa483e5af2937fdfde197204098911a602187b29428462b6344d0665",
+  "models": [
+    "YOLOv8n",
+    "YOLO26n"
+  ],
+  "runs": 8,
+  "limitations": [
+    "source-domain validation only",
+    "observable groups are not verified patients",
+    "synthetic corruptions are not external phone images",
+    "unmatched detections require annotation review"
+  ]
+}

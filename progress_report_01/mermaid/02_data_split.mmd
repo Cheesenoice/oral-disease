@@ -1,0 +1,12 @@
+flowchart LR
+    A[Immutable source archive] --> B[Audit labels and image geometry]
+    B --> C{Valid schema and box?}
+    C -- no --> D[Quarantine with reason]
+    C -- yes --> E[Normalize RGB image and labels]
+    E --> F[Group observable duplicates]
+    F --> G[Lock parent image split]
+    G --> H[Train: augment and learn]
+    G --> I[Validation: compare and select]
+    G --> J[Test: reserved]
+    H --> K[Derived ROIs inherit parent split]
+    I --> K

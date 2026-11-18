@@ -1,0 +1,1 @@
+experiment,task,seed,split,split_sha256,checkpoint_sha256,model_head,precision,recall,map50,map50_95,model_mb,device,latency_p50_ms,latency_p95_ms,status,artifact_path

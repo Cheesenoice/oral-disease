@@ -1,0 +1,163 @@
+[{"stream_name":"stderr","time":8.391092742,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.39123188,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.391243275,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.391247368,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.017087987,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.017122586,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.017127727,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.017135917,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.195425324,"data":"{\n"}
+,{"stream_name":"stdout","time":10.195451877,"data":"  \"protocol\": \"roi-recovery-screen-v1\",\n"}
+,{"stream_name":"stdout","time":10.195457128,"data":"  \"seed\": 42,\n"}
+,{"stream_name":"stdout","time":10.195460634,"data":"  \"batch_size\": 32,\n"}
+,{"stream_name":"stdout","time":10.195464073,"data":"  \"max_epochs\": 30,\n"}
+,{"stream_name":"stdout","time":10.195467907,"data":"  \"patience\": 8,\n"}
+,{"stream_name":"stdout","time":10.195471713,"data":"  \"lr\": 0.0003,\n"}
+,{"stream_name":"stdout","time":10.195475495,"data":"  \"weight_decay\": 0.0005,\n"}
+,{"stream_name":"stdout","time":10.195479594,"data":"  \"worker_seconds\": 5400,\n"}
+,{"stream_name":"stdout","time":10.195483577,"data":"  \"manifest_hashes\": {\n"}
+,{"stream_name":"stdout","time":10.195486748,"data":"    \"old\": \"8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1\",\n"}
+,{"stream_name":"stdout","time":10.195490127,"data":"    \"raw\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"\n"}
+,{"stream_name":"stdout","time":10.195493611,"data":"  },\n"}
+,{"stream_name":"stdout","time":10.19549658,"data":"  \"trials\": [\n"}
+,{"stream_name":"stdout","time":10.195499849,"data":"    {\n"}
+,{"stream_name":"stdout","time":10.19550326,"data":"      \"id\": \"R2_raw_CBCE\",\n"}
+,{"stream_name":"stdout","time":10.195506622,"data":"      \"kind\": \"finetune\",\n"}
+,{"stream_name":"stdout","time":10.195509885,"data":"      \"data\": \"raw\",\n"}
+,{"stream_name":"stdout","time":10.195513444,"data":"      \"loss\": \"class_balanced\"\n"}
+,{"stream_name":"stdout","time":10.195517322,"data":"    },\n"}
+,{"stream_name":"stdout","time":10.195521544,"data":"    {\n"}
+,{"stream_name":"stdout","time":10.19552468,"data":"      \"id\": \"R3_raw_BalancedSoftmax\",\n"}
+,{"stream_name":"stdout","time":10.195528163,"data":"      \"kind\": \"finetune\",\n"}
+,{"stream_name":"stdout","time":10.19553187,"data":"      \"data\": \"raw\",\n"}
+,{"stream_name":"stdout","time":10.19553585,"data":"      \"loss\": \"balanced_softmax\"\n"}
+,{"stream_name":"stdout","time":10.195539202,"data":"    }\n"}
+,{"stream_name":"stdout","time":10.195542372,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10.195545879,"data":"  \"output_root\": \"/kaggle/working/dentalselfie-09-2-imbalance-ablation\"\n"}
+,{"stream_name":"stdout","time":10.195550652,"data":"}\n"}
+,{"stream_name":"stdout","time":26.288783763,"data":"Registered worker section: Imports and deterministic setup\n"}
+,{"stream_name":"stdout","time":26.312900235,"data":"Registered worker section: Dataset and matched image preprocessing\n"}
+,{"stream_name":"stdout","time":26.331210778,"data":"Registered worker section: Models and independent class-imbalance objectives\n"}
+,{"stream_name":"stdout","time":26.354468059,"data":"Registered worker section: Metrics and atomic checkpoints\n"}
+,{"stream_name":"stdout","time":26.387605378,"data":"Registered worker section: Fine-tuning, GPU smoke and exact-protocol resumption\n"}
+,{"stream_name":"stdout","time":26.412120855,"data":"Registered worker section: Frozen-feature probes and train-only feature standardization\n"}
+,{"stream_name":"stdout","time":26.432470165,"data":"Registered worker section: Isolated worker entry point\n"}
+,{"stream_name":"stdout","time":1030.942301764,"data":"Input tensor: (3, 224, 224) float range: -1.3879550695419312 0.6391814351081848\n"}
+,{"stream_name":"stdout","time":1031.015637263,"data":"Started R2_raw_CBCE on physical GPU 0 smoke\n"}
+,{"stream_name":"stdout","time":1031.017155493,"data":"Started R3_raw_BalancedSoftmax on physical GPU 1 smoke\n"}
+,{"stream_name":"stdout","time":1045.021120746,"data":"{\"trial\": {\"id\": \"R2_raw_CBCE\", \"kind\": \"finetune\", \"data\": \"raw\", \"loss\": \"class_balanced\"}, \"rows\": 10889, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":1045.021155847,"data":"Downloading: \"https://download.pytorch.org/models/resnet18-f37072fd.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth\n"}
+,{"stream_name":"stdout","time":1045.021161769,"data":"\n"}
+,{"stream_name":"stdout","time":1045.021166871,"data":"  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stdout","time":1045.021172743,"data":" 15%|█▍        | 6.62M/44.7M [00:00\u003c00:00, 66.0MB/s]\n"}
+,{"stream_name":"stdout","time":1045.021179637,"data":" 66%|██████▋   | 29.6M/44.7M [00:00\u003c00:00, 167MB/s] \n"}
+,{"stream_name":"stdout","time":1045.021185053,"data":"100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 178MB/s]\n"}
+,{"stream_name":"stdout","time":1045.021189771,"data":"\n"}
+,{"stream_name":"stdout","time":1045.022219803,"data":"{\"trial\": {\"id\": \"R3_raw_BalancedSoftmax\", \"kind\": \"finetune\", \"data\": \"raw\", \"loss\": \"balanced_softmax\"}, \"rows\": 10889, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":1045.022240409,"data":"Downloading: \"https://download.pytorch.org/models/resnet18-f37072fd.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth\n"}
+,{"stream_name":"stdout","time":1045.022246336,"data":"\n"}
+,{"stream_name":"stdout","time":1045.022271458,"data":"  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stdout","time":1045.022279921,"data":" 19%|█▉        | 8.62M/44.7M [00:00\u003c00:00, 89.7MB/s]\n"}
+,{"stream_name":"stdout","time":1045.022285658,"data":" 54%|█████▍    | 24.1M/44.7M [00:00\u003c00:00, 132MB/s] \n"}
+,{"stream_name":"stdout","time":1045.022290735,"data":" 89%|████████▉ | 39.9M/44.7M [00:00\u003c00:00, 147MB/s]\n"}
+,{"stream_name":"stdout","time":1045.022295806,"data":"100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 145MB/s]\n"}
+,{"stream_name":"stdout","time":1045.022300706,"data":"\n"}
+,{"stream_name":"stdout","time":1049.025339018,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 1, \"train_loss\": 1.1081382036209106, \"val_loss\": 1.345675766468048, \"macro_f1\": 0.2040072859744991, \"accuracy\": 0.4375, \"lr\": 0.0003, \"seconds\": 3.499476925999943}\n"}
+,{"stream_name":"stdout","time":1049.025395534,"data":"SMOKE_OK: finite training, validation and checkpoint restore\n"}
+,{"stream_name":"stdout","time":1049.025416957,"data":"\n"}
+,{"stream_name":"stdout","time":1049.026329855,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 1, \"train_loss\": 0.7355775833129883, \"val_loss\": 1.0112923681735992, \"macro_f1\": 0.21339695733600142, \"accuracy\": 0.4453125, \"lr\": 0.0003, \"seconds\": 3.4828261909999583}\n"}
+,{"stream_name":"stdout","time":1049.026347897,"data":"SMOKE_OK: finite training, validation and checkpoint restore\n"}
+,{"stream_name":"stdout","time":1049.026352337,"data":"\n"}
+,{"stream_name":"stdout","time":1055.027721518,"data":"All smoke workers passed in 24.0s. Starting fresh, independent full runs.\n"}
+,{"stream_name":"stdout","time":1055.029079245,"data":"Started R2_raw_CBCE on physical GPU 0 full\n"}
+,{"stream_name":"stdout","time":1055.031738004,"data":"Started R3_raw_BalancedSoftmax on physical GPU 1 full\n"}
+,{"stream_name":"stdout","time":1069.06294146,"data":"{\"trial\": {\"id\": \"R2_raw_CBCE\", \"kind\": \"finetune\", \"data\": \"raw\", \"loss\": \"class_balanced\"}, \"rows\": 10889, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":1069.063004022,"data":"\n"}
+,{"stream_name":"stdout","time":1069.063010215,"data":"{\"trial\": {\"id\": \"R3_raw_BalancedSoftmax\", \"kind\": \"finetune\", \"data\": \"raw\", \"loss\": \"balanced_softmax\"}, \"rows\": 10889, \"gpu\": \"Tesla T4\", \"manifest_sha256\": \"b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06\"}\n"}
+,{"stream_name":"stdout","time":1069.063016671,"data":"\n"}
+,{"stream_name":"stdout","time":1115.072098544,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 1, \"train_loss\": 0.7663425349254833, \"val_loss\": 0.7606878131628036, \"macro_f1\": 0.5311054308665238, \"accuracy\": 0.6786458333333333, \"lr\": 0.0003, \"seconds\": 46.63025268000001}\n"}
+,{"stream_name":"stdout","time":1115.07214933,"data":"\n"}
+,{"stream_name":"stdout","time":1117.063806589,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 1, \"train_loss\": 0.6496135789005104, \"val_loss\": 0.6251218318939209, \"macro_f1\": 0.4143393941604172, \"accuracy\": 0.49895833333333334, \"lr\": 0.0003, \"seconds\": 46.609182465}\n"}
+,{"stream_name":"stdout","time":1117.06383789,"data":"\n"}
+,{"stream_name":"stdout","time":1163.104672188,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 2, \"train_loss\": 0.6917741454482305, \"val_loss\": 0.9350192914406459, \"macro_f1\": 0.47692708310607257, \"accuracy\": 0.6369791666666667, \"lr\": 0.0003, \"seconds\": 92.91127700099992}\n"}
+,{"stream_name":"stdout","time":1163.104706129,"data":"\n"}
+,{"stream_name":"stdout","time":1163.106111378,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 2, \"train_loss\": 0.5887390559487072, \"val_loss\": 0.6838646461566289, \"macro_f1\": 0.48574116764547143, \"accuracy\": 0.6166666666666667, \"lr\": 0.0003, \"seconds\": 92.88673620000009}\n"}
+,{"stream_name":"stdout","time":1163.106144105,"data":"\n"}
+,{"stream_name":"stdout","time":1209.1352858,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 3, \"train_loss\": 0.6686484364113396, \"val_loss\": 0.7338268250226975, \"macro_f1\": 0.5393455372026187, \"accuracy\": 0.6536458333333334, \"lr\": 0.0003, \"seconds\": 139.39788218600006}\n"}
+,{"stream_name":"stdout","time":1209.135331219,"data":"\n"}
+,{"stream_name":"stdout","time":1209.136918727,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 3, \"train_loss\": 0.5727272310016652, \"val_loss\": 0.6083361605803171, \"macro_f1\": 0.4599075874974449, \"accuracy\": 0.5526041666666667, \"lr\": 0.0003, \"seconds\": 138.99587495700007}\n"}
+,{"stream_name":"stdout","time":1209.136975918,"data":"\n"}
+,{"stream_name":"stdout","time":1255.167688864,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 4, \"train_loss\": 0.6520810878812463, \"val_loss\": 0.7994347592194875, \"macro_f1\": 0.5167841266986648, \"accuracy\": 0.6494791666666667, \"lr\": 0.0003, \"seconds\": 185.84624091799992}\n"}
+,{"stream_name":"stdout","time":1255.167757916,"data":"\n"}
+,{"stream_name":"stdout","time":1255.169597146,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 4, \"train_loss\": 0.5577102734042007, \"val_loss\": 0.6667321920394897, \"macro_f1\": 0.4458688425045582, \"accuracy\": 0.5755208333333334, \"lr\": 0.0003, \"seconds\": 185.41818010200018}\n"}
+,{"stream_name":"stdout","time":1255.169631666,"data":"\n"}
+,{"stream_name":"stdout","time":1301.196843682,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 5, \"train_loss\": 0.6462142815596816, \"val_loss\": 0.7327753484249115, \"macro_f1\": 0.5739608140110337, \"accuracy\": 0.6911458333333333, \"lr\": 0.0003, \"seconds\": 232.32706763700003}\n"}
+,{"stream_name":"stdout","time":1301.198149233,"data":"\n"}
+,{"stream_name":"stdout","time":1301.198245643,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 5, \"train_loss\": 0.5393198405550613, \"val_loss\": 0.6346558491388957, \"macro_f1\": 0.4939053735116408, \"accuracy\": 0.603125, \"lr\": 0.0003, \"seconds\": 232.084321543}\n"}
+,{"stream_name":"stdout","time":1301.198279473,"data":"\n"}
+,{"stream_name":"stdout","time":1347.218430649,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 6, \"train_loss\": 0.6363881320003841, \"val_loss\": 0.8222419679164886, \"macro_f1\": 0.5060518796266559, \"accuracy\": 0.6208333333333333, \"lr\": 0.0003, \"seconds\": 278.77773361000004}\n"}
+,{"stream_name":"stdout","time":1347.21848947,"data":"\n"}
+,{"stream_name":"stdout","time":1347.219868996,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 6, \"train_loss\": 0.5359730452302441, \"val_loss\": 0.6389251927534739, \"macro_f1\": 0.5126218719904977, \"accuracy\": 0.6296875, \"lr\": 0.0003, \"seconds\": 278.55277517600007}\n"}
+,{"stream_name":"stdout","time":1347.219886499,"data":"\n"}
+,{"stream_name":"stdout","time":1393.249092383,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 7, \"train_loss\": 0.626812360573538, \"val_loss\": 0.7830884138743083, \"macro_f1\": 0.5543995888545791, \"accuracy\": 0.678125, \"lr\": 0.0003, \"seconds\": 324.42476533600006}\n"}
+,{"stream_name":"stdout","time":1393.249131233,"data":"\n"}
+,{"stream_name":"stdout","time":1395.23994729,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 7, \"train_loss\": 0.5192228956144913, \"val_loss\": 0.7198426286379497, \"macro_f1\": 0.524710339531033, \"accuracy\": 0.6625, \"lr\": 0.0003, \"seconds\": 325.12453240000013}\n"}
+,{"stream_name":"stdout","time":1395.239989111,"data":"\n"}
+,{"stream_name":"stdout","time":1439.276402353,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 8, \"train_loss\": 0.6098802702816876, \"val_loss\": 0.7304179976383846, \"macro_f1\": 0.5460781504157225, \"accuracy\": 0.6666666666666666, \"lr\": 0.00015, \"seconds\": 370.6183550389999}\n"}
+,{"stream_name":"stdout","time":1439.276439806,"data":"\n"}
+,{"stream_name":"stdout","time":1441.266449435,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 8, \"train_loss\": 0.508505827999923, \"val_loss\": 0.6644972383975982, \"macro_f1\": 0.46103153363044225, \"accuracy\": 0.5546875, \"lr\": 0.0003, \"seconds\": 371.796047908}\n"}
+,{"stream_name":"stdout","time":1441.266528858,"data":"\n"}
+,{"stream_name":"stdout","time":1485.305395483,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 9, \"train_loss\": 0.5597941427309785, \"val_loss\": 0.7379046271244685, \"macro_f1\": 0.5434501095928529, \"accuracy\": 0.6833333333333333, \"lr\": 0.00015, \"seconds\": 416.6876028669999}\n"}
+,{"stream_name":"stdout","time":1485.305491345,"data":"\n"}
+,{"stream_name":"stdout","time":1487.298069403,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 9, \"train_loss\": 0.4923358720033939, \"val_loss\": 0.6758159299691519, \"macro_f1\": 0.49312958075131696, \"accuracy\": 0.6140625, \"lr\": 0.0003, \"seconds\": 418.4655028950001}\n"}
+,{"stream_name":"stdout","time":1487.298114136,"data":"\n"}
+,{"stream_name":"stdout","time":1533.333800084,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 10, \"train_loss\": 0.5253538749916842, \"val_loss\": 0.7711317420005799, \"macro_f1\": 0.5530375597520435, \"accuracy\": 0.684375, \"lr\": 0.00015, \"seconds\": 463.196159633}\n"}
+,{"stream_name":"stdout","time":1533.333838597,"data":"\n"}
+,{"stream_name":"stdout","time":1533.334985194,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 10, \"train_loss\": 0.47121349253547085, \"val_loss\": 0.6988159487644832, \"macro_f1\": 0.4640411021847952, \"accuracy\": 0.5765625, \"lr\": 0.00015, \"seconds\": 464.23410452400003}\n"}
+,{"stream_name":"stdout","time":1533.33500723,"data":"\n"}
+,{"stream_name":"stdout","time":1579.373701899,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 11, \"train_loss\": 0.48832189008694904, \"val_loss\": 0.8626080324252446, \"macro_f1\": 0.562948979455374, \"accuracy\": 0.6848958333333334, \"lr\": 7.5e-05, \"seconds\": 509.796277359}\n"}
+,{"stream_name":"stdout","time":1579.373746092,"data":"\n"}
+,{"stream_name":"stdout","time":1579.375046661,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 11, \"train_loss\": 0.4005006205272696, \"val_loss\": 0.750398826599121, \"macro_f1\": 0.4957617801990793, \"accuracy\": 0.6307291666666667, \"lr\": 0.00015, \"seconds\": 510.36160410800017}\n"}
+,{"stream_name":"stdout","time":1579.375071317,"data":"\n"}
+,{"stream_name":"stdout","time":1625.392611534,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 12, \"train_loss\": 0.44566611745761836, \"val_loss\": 0.8661963293949763, \"macro_f1\": 0.5664441347440546, \"accuracy\": 0.696875, \"lr\": 7.5e-05, \"seconds\": 556.385891401}\n"}
+,{"stream_name":"stdout","time":1625.392707197,"data":"\n"}
+,{"stream_name":"stdout","time":1625.397227571,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 12, \"train_loss\": 0.3620748308632921, \"val_loss\": 0.8542544563611348, \"macro_f1\": 0.49938465281903643, \"accuracy\": 0.6411458333333333, \"lr\": 0.00015, \"seconds\": 556.6301540940001}\n"}
+,{"stream_name":"stdout","time":1625.397274554,"data":"\n"}
+,{"stream_name":"stdout","time":1671.411170867,"data":"{\"trial\": \"R2_raw_CBCE\", \"epoch\": 13, \"train_loss\": 0.40048618355992516, \"val_loss\": 0.9783752391735713, \"macro_f1\": 0.5637526148416379, \"accuracy\": 0.6828125, \"lr\": 7.5e-05, \"seconds\": 602.323321633}\n"}
+,{"stream_name":"stdout","time":1671.411217673,"data":"\n"}
+,{"stream_name":"stdout","time":1671.412448225,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 13, \"train_loss\": 0.31696404637481235, \"val_loss\": 0.7916080633799235, \"macro_f1\": 0.5087886019613909, \"accuracy\": 0.64375, \"lr\": 7.5e-05, \"seconds\": 602.503264769}\n"}
+,{"stream_name":"stdout","time":1671.412526882,"data":"\n"}
+,{"stream_name":"stdout","time":1705.41843591,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 14, \"train_loss\": 0.23900950243739144, \"val_loss\": 0.9598841071128845, \"macro_f1\": 0.5336254819079255, \"accuracy\": 0.6703125, \"lr\": 7.5e-05, \"seconds\": 635.0432735320001}\n"}
+,{"stream_name":"stdout","time":1705.418525376,"data":"\n"}
+,{"stream_name":"stdout","time":1735.432291347,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 15, \"train_loss\": 0.18577269410403202, \"val_loss\": 1.1260081191857656, \"macro_f1\": 0.5241737730161669, \"accuracy\": 0.65, \"lr\": 7.5e-05, \"seconds\": 665.6112674160001}\n"}
+,{"stream_name":"stdout","time":1735.4323379,"data":"\n"}
+,{"stream_name":"stdout","time":1765.429310211,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 16, \"train_loss\": 0.16389512023263944, \"val_loss\": 1.0975397487481435, \"macro_f1\": 0.5283919945171053, \"accuracy\": 0.6682291666666667, \"lr\": 7.5e-05, \"seconds\": 695.8839208030001}\n"}
+,{"stream_name":"stdout","time":1765.429385681,"data":"\n"}
+,{"stream_name":"stdout","time":1795.449355394,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 17, \"train_loss\": 0.13414716630865064, \"val_loss\": 1.3308661123116812, \"macro_f1\": 0.519328710858948, \"accuracy\": 0.6625, \"lr\": 3.75e-05, \"seconds\": 725.9514634720001}\n"}
+,{"stream_name":"stdout","time":1795.449412922,"data":"\n"}
+,{"stream_name":"stdout","time":1825.443793167,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 18, \"train_loss\": 0.09241690637109963, \"val_loss\": 1.3591636399428049, \"macro_f1\": 0.5146733169304928, \"accuracy\": 0.659375, \"lr\": 3.75e-05, \"seconds\": 756.2564501300001}\n"}
+,{"stream_name":"stdout","time":1825.443834314,"data":"\n"}
+,{"stream_name":"stdout","time":1855.463891933,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 19, \"train_loss\": 0.0737913444639083, \"val_loss\": 1.4581517775853474, \"macro_f1\": 0.5083495193754253, \"accuracy\": 0.6526041666666667, \"lr\": 3.75e-05, \"seconds\": 786.4733783510001}\n"}
+,{"stream_name":"stdout","time":1855.463923135,"data":"\n"}
+,{"stream_name":"stdout","time":1885.460784748,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 20, \"train_loss\": 0.07051659172488264, \"val_loss\": 1.4450660208861033, \"macro_f1\": 0.5112392471558714, \"accuracy\": 0.6765625, \"lr\": 1.875e-05, \"seconds\": 816.6656432980003}\n"}
+,{"stream_name":"stdout","time":1885.460827979,"data":"\n"}
+,{"stream_name":"stdout","time":1915.476624368,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 21, \"train_loss\": 0.04800808791790566, \"val_loss\": 1.4855430901050568, \"macro_f1\": 0.5305630534749329, \"accuracy\": 0.671875, \"lr\": 1.875e-05, \"seconds\": 846.6896958490001}\n"}
+,{"stream_name":"stdout","time":1915.476665433,"data":"\n"}
+,{"stream_name":"stdout","time":1945.485759827,"data":"{\"trial\": \"R3_raw_BalancedSoftmax\", \"epoch\": 22, \"train_loss\": 0.044769645875722935, \"val_loss\": 1.494010982910792, \"macro_f1\": 0.513377302553751, \"accuracy\": 0.6583333333333333, \"lr\": 1.875e-05, \"seconds\": 876.7553804019999}\n"}
+,{"stream_name":"stdout","time":1945.485798069,"data":"\n"}
+,{"stream_name":"stdout","time":1951.478832249,"data":"Full experiments finished in 14.9 minutes.\n"}
+,{"stream_name":"stdout","time":1951.522294595,"data":"R2_raw_CBCE | macro-F1 0.574 | recall [0.408 0.634 0.763]\n"}
+,{"stream_name":"stdout","time":1951.767202415,"data":"R3_raw_BalancedSoftmax | macro-F1 0.5336 | recall [0.327 0.594 0.764]\n"}
+,{"stream_name":"stderr","time":1955.609517624,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1955.60958072,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1955.789770684,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1955.789809892,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1956.59801223,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1956.702580984,"data":"[NbConvertApp] Writing 459653 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1959.177963929,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1959.96257479,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":1959.962633255,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1959.963042707,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1959.963141307,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":1959.963413531,"data":"[NbConvertApp] Writing 456641 bytes to __results__.html\n"}
+]

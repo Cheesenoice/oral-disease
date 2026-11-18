@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "smoke_only": true,
+  "elapsed_seconds": 403.75502177600004,
+  "epochs_completed": 3,
+  "metrics": {
+    "metrics/precision(B)": 0.6720526048230359,
+    "metrics/recall(B)": 0.5848341184299598,
+    "metrics/mAP50(B)": 0.394787211840979,
+    "metrics/mAP50-95(B)": 0.17151000697929022
+  },
+  "resume_checkpoint": "/kaggle/working/experiments/E1_gum_seed42_smoke/weights/resume.pt"
+}

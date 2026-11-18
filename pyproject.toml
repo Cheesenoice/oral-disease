@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dentalselfie"
+version = "0.1.0"
+description = "Reproducible data and Kaggle tooling for offline dental screening research"
+requires-python = ">=3.11"
+dependencies = ["Pillow==11.3.0", "PyYAML==6.0.3", "requests==2.32.5"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2", "nbformat==5.10.4"]
+research = [
+    "imagehash==4.3.2",
+    "ipykernel==6.30.1",
+    "kaggle==2.2.3",
+    "matplotlib==3.10.7",
+    "nbclient==0.10.2",
+    "numpy==2.2.6",
+    "pandas==2.3.3",
+    "rarfile==4.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["dentalselfie*"]
+
+[tool.pytest.ini_options]
+testpaths = ["src/tests"]
+cache_dir = ".venv/work/pytest_cache"

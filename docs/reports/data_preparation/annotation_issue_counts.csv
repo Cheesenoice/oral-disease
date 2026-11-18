@@ -1,0 +1,6 @@
+task,reasons,images
+caries,invalid_box_geometry,14
+caries,missing_annotation_not_a_negative,4038
+caries,nonstandard_exif_orientation_requires_review,5
+caries,unknown_caries_shape_or_class,38
+gum,invalid_box_geometry,1

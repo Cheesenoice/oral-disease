@@ -1,0 +1,68 @@
+{
+  "verified_utc": "2026-10-21T05:00:08.516984+00:00",
+  "datasets": {
+    "data": {
+      "ref": "trihuynhviprovcl/dentalselfie-data-v1",
+      "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-data-v1",
+      "version": 1,
+      "public": true,
+      "ready": true,
+      "archive_sha256": "8b7107a59c81e647bdfdd72bc5bf95806087cf3b686b684d09d21ff8e77fb2a7"
+    },
+    "code": {
+      "ref": "trihuynhviprovcl/dentalselfie-code",
+      "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-code",
+      "version": 13,
+      "public": true,
+      "ready": true,
+      "archive_sha256": "52cc99e855858abdf364813f88d9d72165d032a4d3f627d99189e87953640eaa",
+      "remote_inventory_members": 65,
+      "inventory_mismatches": 0
+    },
+    "roi": {
+      "ref": "trihuynhviprovcl/dentalselfie-gum-roi-v1",
+      "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-gum-roi-v1",
+      "version": 1,
+      "public": true,
+      "ready": true,
+      "archive_sha256": "7be1b280f2d30998328d5f3f9a8d258a5e1d8f83acae1780e4ff2b43ed6d05c0"
+    },
+    "results": {
+      "ref": "trihuynhviprovcl/dentalselfie-yolo-v4-results",
+      "url": "https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-yolo-v4-results",
+      "version": 1,
+      "public": true,
+      "ready": true,
+      "archive_sha256": "7041b714caaa4bb3bf27f949770c9c405914329c92f8c6e99782fd7f28c564e0",
+      "remote_inventory_members": 185,
+      "inventory_mismatches": 0
+    }
+  },
+  "notebooks": [
+    {
+      "ref": "trihuynhviprovcl/dentalselfie-03-baseline",
+      "version": 5,
+      "public": true,
+      "execution_type": "QUICK_SAVE",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-03-baseline",
+      "training_version": 4
+    },
+    {
+      "ref": "trihuynhviprovcl/dentalselfie-04-yolo26",
+      "version": 5,
+      "public": true,
+      "execution_type": "QUICK_SAVE",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-04-yolo26",
+      "training_version": 4
+    },
+    {
+      "ref": "trihuynhviprovcl/dentalselfie-05-roi-audit",
+      "version": 1,
+      "public": true,
+      "execution_type": "QUICK_SAVE",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-05-roi-audit",
+      "note": "Lightweight local-execution review copy; full figures retained in code dataset; no Kaggle execution"
+    }
+  ],
+  "training_started_by_publication": false
+}

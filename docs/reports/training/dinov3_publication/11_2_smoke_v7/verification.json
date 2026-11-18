@@ -1,0 +1,26 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-11-2-dinov3-partial-adaptation",
+  "version": 7,
+  "state": "COMPLETE",
+  "phase": "smoke",
+  "verified_arms": [
+    {
+      "trial": "frozen_CE",
+      "prediction_rows": 48,
+      "accuracy": 0.375,
+      "macro_f1": 0.2771929824561404,
+      "gradient_check": true,
+      "checkpoint_restore": true
+    },
+    {
+      "trial": "last2_blocks_norm_CE",
+      "prediction_rows": 48,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.2653907496012759,
+      "gradient_check": true,
+      "checkpoint_restore": true
+    }
+  ],
+  "full_results": false,
+  "pip_conflicts": "Gradio and Diffusers require newer huggingface-hub; unused in this experiment; both workers completed."
+}

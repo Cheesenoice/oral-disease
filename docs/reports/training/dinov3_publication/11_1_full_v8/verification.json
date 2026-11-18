@@ -1,0 +1,38 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-11-1-dinov3-patch-probe",
+  "version": 8,
+  "script_version_id": 361137081,
+  "phase": "full",
+  "state": "COMPLETE",
+  "collected_utc": "2026-10-22T12:52:51.180494+00:00",
+  "collection_method": "Authenticated browser output archive",
+  "archive_sha256": "e72a6057000426be2dabd5b6b5054b58b33bfb1e1cfec489b89a382d118b8822",
+  "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "verified_results": [
+    {
+      "feature": "CLS",
+      "selected_C": 1.0,
+      "accuracy": 0.6796875,
+      "macro_f1": 0.4783265918266246,
+      "class_recall": [
+        0.04081632653061224,
+        0.6169527896995708,
+        0.7752928647497338
+      ],
+      "rows": 1920
+    },
+    {
+      "feature": "CLS_plus_patch_mean",
+      "selected_C": 0.1,
+      "accuracy": 0.6854166666666667,
+      "macro_f1": 0.5220933934792359,
+      "class_recall": [
+        0.12244897959183673,
+        0.6266094420600858,
+        0.7731629392971247
+      ],
+      "rows": 1920
+    }
+  ],
+  "test_images_opened": 0
+}

@@ -1,0 +1,6 @@
+# Keep Kaggle's preinstalled CUDA-compatible torch/torchvision stack.
+# Record pip freeze + nvidia-smi on every run; do not replace torch blindly.
+ultralytics==8.4.183
+Pillow==11.3.0
+PyYAML==6.0.3
+requests==2.32.5

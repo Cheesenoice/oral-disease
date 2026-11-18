@@ -1,0 +1,8 @@
+names:
+- no_visible_inflammation
+- mild_inflammation
+- marked_inflammation
+path: /tmp/dentalselfie_prepared/gum
+test: images/test
+train: images/train
+val: images/val

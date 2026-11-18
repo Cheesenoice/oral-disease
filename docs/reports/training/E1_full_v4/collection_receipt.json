@@ -1,0 +1,9 @@
+{
+  "kernel": "trihuynhviprovcl/dentalselfie-04-yolo26/4",
+  "state": "COMPLETE",
+  "collected_utc": "2026-10-21T04:01:26.855776+00:00",
+  "completed_workers": 2,
+  "outputs": "data\\runs\\E1_full_v4",
+  "phase": "full",
+  "note": "Smoke metrics are not final experiment results"
+}

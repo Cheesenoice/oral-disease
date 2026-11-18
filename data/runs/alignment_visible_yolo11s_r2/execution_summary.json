@@ -1,0 +1,20 @@
+{
+  "model": "YOLO11s",
+  "kernel": "trihuynhviprovcl/ds-align-y11s-r2-20261118",
+  "source_run_dir": "16_18_visible_yolo11s_comparison",
+  "epochs_completed": 32,
+  "best_epoch": 24,
+  "best_precision": 0.5021,
+  "best_recall": 0.46622,
+  "best_map50": 0.44091,
+  "best_map50_95": 0.20845,
+  "last_map50": 0.4285,
+  "last_map50_95": 0.19996,
+  "train_time_seconds": 5163.81,
+  "checkpoint_bytes": 19176026,
+  "checkpoint_sha256": "d238b1fa2496648c08e4aae42dce655df7087d55d1c4795fd3f51aaa130720a1",
+  "results_csv_sha256": "0c039c40bc2ef9dda484254872d7122d630fc08a88ecf5fdb8fcd61517163887",
+  "data_manifest_sha256": "38cba07194707131b629b020ea9078d487dd397e13221d88075ca8d9cf7a3e9b",
+  "final_validation_cell_ran": false,
+  "notebook_final_error": "AttributeError: 'NoneType' object has no attribute 'save_dir' after model.train returned None"
+}

@@ -1,0 +1,119 @@
+{
+  "selection": "First validation row in raw ROI manifest; first sorted caries validation ID. Not selected for prediction correctness.",
+  "test_images_opened": 0,
+  "inputs": {
+    "data/processed/gum_raw_roi_v1/manifest.csv": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+    "data/processed/gum_roi_v1/manifest.csv": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1",
+    "data/raw/gum/Dataset/Training/Images/00129.jpg": "211f5fb8ce1e6b8d94142563a7f82fd268a190136ae7658cd97c2675c0991e50",
+    "data/processed/gum_raw_roi_v1/val/local/0115edb823d4b9eee24f_00.jpg": "65efb1256189c3c00362df954d7747eb1f67712ed78614bc2e6a1132555e6010",
+    "data/processed/gum_roi_v1/val/local/0115edb823d4b9eee24f_00.jpg": "8f78e50911339047a98dca46e9df5a2d85674f40cc69e6ce34fc62e252a563f9",
+    "data/processed/gum_roi_v1/val/context/0115edb823d4b9eee24f_00.jpg": "17df0e385b37ebdd3a1a8358272fd54ec11a661c6bc320ee9e5aed096682dec7",
+    "data/processed/gum/dataset/images/val/0115edb823d4b9eee24f.jpg": "4efa189ae9e20ec5e56481cb3588c657de50461765d18e54b86abc9a20f18a91",
+    "data/processed/gum_raw_roi_v1/train/local/00294ba7a545d3ec9455_00.jpg": "656074da902443344ef7fef38e758240b747000316df642dd171f82081c6d383",
+    "data/runs/ROI_11_1_full_v8/__results___files/__results___18_0.png": "8d48ec848c9f1ca73a99a341f806d89189bc173cd497c847f07305e16c6ab8db",
+    "data/runs/ROI_11_1_full_v8/dentalselfie-11-1/CLS_validation_predictions.csv": "9c14c91aea43df0405aac02caf4db9341135d736efeea39dcc72627621452ae1",
+    "data/runs/ROI_11_1_full_v8/dentalselfie-11-1/CLS_plus_patch_mean_validation_predictions.csv": "2cd16be04d6fe3a3cdcbc95495b56517226daef83a7db324672455f98a28f540",
+    "data/runs/ROI_11_2_full_v8/dentalselfie-11-2/last2_blocks_norm_CE/validation_predictions.csv": "9b7cfef0728e28e020d6c59c958fc9014c666e19aaf585c637a3dd9b567d7e3b",
+    "data/runs/ROI_11_2_full_v8/dentalselfie-11-2/frozen_CE/history.csv": "887e297e4c0673e6143fc96c7aa73eb078a51c830f9d33e38a1a5d463f85fdbc",
+    "data/runs/ROI_11_2_full_v8/dentalselfie-11-2/last2_blocks_norm_CE/history.csv": "6eb0712c8c4e634eef9999d7cfe905715af117c70db04eb54c043832a674d837",
+    "data/manifests/caries.lock.json": "28505e2b6d41051be26a479a0839d659ca8d0d3fc189b747500b368c2328c775",
+    "data/manifests/caries.splits.csv": "6e446143aa483e5af2937fdfde197204098911a602187b29428462b6344d0665",
+    "data/processed/caries/images/014f6255c69d00613d65.jpg": "395d197ff4c588055a6f6440ea62a2c7893cfb8b52a220ab515dd59a22799187",
+    "data/processed/caries/labels/014f6255c69d00613d65.txt": "eb808db0763a9452941a83c8aa785a4cc300bd8098897f02dd395ddced37cd19",
+    "docs/reports/post09/caries/YOLOv8n_clean/audit_receipt.json": "4d4e6c35d622f44757c9f208a2fefe80ee992511d43597c0d2cb797898a1e8eb",
+    "data/runs/E0_full_v4/experiments/E0_caries_seed42/weights/best.pt": "7b360c3f59d8bf8af4900a0fd861d477bdc05aab327ca0f00cadbc229d018a75",
+    "docs/reports/post09/caries/YOLO26n_clean/audit_receipt.json": "60e15ddfb2aca7ebd9cc7c4cad629a61ed791122cfa45f579f7311bb39719bba",
+    "data/runs/E1_full_v4/experiments/E1_caries_seed42/weights/best.pt": "f9430665d7aae18b7d112beaf55921686784e804464e13aa10b6391c96c5e345"
+  },
+  "dino_execution": "Archived full v8 outputs; no new encoder inference.",
+  "gingival_demo": {
+    "crop_id": "0115edb823d4b9eee24f_00",
+    "split": "val",
+    "class_name": "mild_inflammation",
+    "bounds": [
+      1944,
+      1323,
+      2615,
+      1925
+    ],
+    "recorded_predictions": [
+      {
+        "model": "Frozen CLS / logistic",
+        "probabilities": [
+          0.001777298496388141,
+          0.5046655925784699,
+          0.493557108925142
+        ]
+      },
+      {
+        "model": "CLS + patch / logistic",
+        "probabilities": [
+          0.00044033449625756387,
+          0.5019576619369417,
+          0.4976020035668008
+        ]
+      },
+      {
+        "model": "Last 2 blocks / CE",
+        "probabilities": [
+          0.014138293452560902,
+          0.6070751547813416,
+          0.378786563873291
+        ]
+      }
+    ]
+  },
+  "fresh_yolo": {
+    "sample_id": "014f6255c69d00613d65",
+    "split": "val",
+    "ultralytics": "8.4.183",
+    "settings": {
+      "device": "cpu",
+      "imgsz": 640,
+      "conf": 0.25,
+      "iou": 0.7,
+      "max_det": 300,
+      "augment": false
+    },
+    "models": [
+      {
+        "model": "YOLOv8n",
+        "boxes": [
+          {
+            "xyxy": [
+              974.1414184570312,
+              489.72998046875,
+              1194.072021484375,
+              685.4261474609375
+            ],
+            "confidence": 0.9429324269294739
+          }
+        ],
+        "speed_ms": {
+          "preprocess": 6.75150000006397,
+          "inference": 89.03470000041125,
+          "postprocess": 9.826800000155345
+        }
+      },
+      {
+        "model": "YOLO26n",
+        "boxes": [
+          {
+            "xyxy": [
+              978.0853271484375,
+              496.5718688964844,
+              1194.4832763671875,
+              682.5333251953125
+            ],
+            "confidence": 0.8676872849464417
+          }
+        ],
+        "speed_ms": {
+          "preprocess": 2.1561000003202935,
+          "inference": 41.19410000021162,
+          "postprocess": 0.42099999973288504
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": 145706738,
+  "ref": "trihuynhviprovcl/dentalselfie-alignment-occlusal-20261118",
+  "title": "DentalSelfie Alignment Occlusal 20261118",
+  "author": "Tri Huynh",
+  "slug": "dentalselfie-alignment-occlusal-20261118",
+  "lastRunTime": "2026-11-15T03:44:10.329Z",
+  "language": "python",
+  "kernelType": "notebook",
+  "isPrivate": false,
+  "enableGpu": true,
+  "enableInternet": true,
+  "categoryIds": [
+    "gpu"
+  ],
+  "datasetDataSources": [
+    "trihuynhviprovcl/dentalselfie-alignment-occlusal-source"
+  ],
+  "enableTpu": false,
+  "currentVersionNumber": 1,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machineShape": "NvidiaTeslaT4"
+}

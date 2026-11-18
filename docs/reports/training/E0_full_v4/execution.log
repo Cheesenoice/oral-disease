@@ -1,0 +1,107 @@
+[{"stream_name":"stderr","time":7.548755687,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.548805518,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.548810195,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.548812975,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.170563622,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.170593743,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.170599162,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.170606573,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":33.532880519,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 773.6 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":33.73628011,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.0/47.0 kB 773.6 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":34.995186686,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 10.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.142316103,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 61.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.197315217,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 10.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.197348625,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 61.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.199051523,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 2.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.252138467,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 5.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.401559607,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 2.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.401588565,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 5.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":39.761618696,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":39.76164608,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":39.761657831,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.761661053,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.761714173,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.76171996,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.76172492,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.761729764,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":39.912830922,"data":"Project: /kaggle/working/dentalselfie\n"}
+,{"stream_name":"stderr","time":39.914188072,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":39.914208018,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":39.914213753,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914218244,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914222564,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914226649,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914230709,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914234866,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914239142,"data":"\n"}
+,{"stream_name":"stderr","time":39.914242835,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":39.914265289,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":39.914271449,"data":"nilearn 0.14.1 requires requests\u003e=2.33.0, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914279458,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914282149,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 2.3.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914284685,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.32.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914287341,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":39.914290106,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":43.165563241,"data":"Prepared dataset: /kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared\n"}
+,{"stream_name":"stdout","time":164.5252979,"data":"Verified session-local data staging: {'source': '/kaggle/input/datasets/trihuynhviprovcl/dentalselfie-data-v1/prepared', 'files': 6492, 'verified_sha256': True, 'workers': 8, 'seconds': 121.48344794500002}\n"}
+,{"stream_name":"stdout","time":164.565037955,"data":"Wed Oct 21 03:49:51 2026       \n"}
+,{"stream_name":"stdout","time":164.565079282,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":164.565087139,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":164.565091018,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":164.565094668,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":164.565098267,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":164.565101626,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":164.565105051,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":164.597172896,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":164.597192124,"data":"| N/A   41C    P8             11W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":164.597211685,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":164.597216796,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":164.597222085,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":164.597227513,"data":"| N/A   46C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":164.597232954,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":164.597238379,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":164.598030948,"data":"\n"}
+,{"stream_name":"stdout","time":164.59804479,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":164.598049918,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":164.598054934,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":164.598059093,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":164.598063626,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":164.599700971,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":164.5997145,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":164.721750051,"data":"Wed Oct 21 03:49:51 2026       \n"}
+,{"stream_name":"stdout","time":164.721768934,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":164.721784511,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":164.72178925,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":164.721794299,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":164.721799384,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":164.721804481,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":164.721809453,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":164.721814532,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":164.721819612,"data":"| N/A   41C    P8             11W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":164.721824698,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":164.721829762,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":164.721834858,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":164.721839932,"data":"| N/A   46C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":164.721845002,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":164.721850079,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":164.721855239,"data":"\n"}
+,{"stream_name":"stdout","time":164.721860308,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":164.721865388,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":164.721870457,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":164.721875604,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":164.721880527,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":164.721885472,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":164.721891717,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":171.575628909,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":171.77864421,"data":"GPUs: ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":544.647022256,"data":"E0_caries_seed42 median post-first epoch seconds: 15.29 estimated 100-epoch hours: 0.42\n"}
+,{"stream_name":"stdout","time":544.655882726,"data":"E0_gum_seed42 median post-first epoch seconds: 8.97 estimated 100-epoch hours: 0.25\n"}
+,{"stream_name":"stderr","time":547.330662839,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":547.33071042,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":547.503191395,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":547.503216019,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":548.283821717,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":548.370826669,"data":"[NbConvertApp] Writing 158420 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":550.932223327,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":551.513891157,"data":"[NbConvertApp] Writing 375001 bytes to __results__.html\n"}
+]

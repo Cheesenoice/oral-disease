@@ -1,0 +1,60 @@
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 1, "train_loss": 0.7673407296417203, "val_loss": 0.7687638878822327, "macro_f1": 0.3419508154138849, "accuracy": 0.5552083333333333, "trainable_parameters": 1155, "seconds": 47.26866725400009}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 2, "train_loss": 0.6945733264851217, "val_loss": 0.7727143466472626, "macro_f1": 0.34135227829495346, "accuracy": 0.5604166666666667, "trainable_parameters": 1155, "seconds": 93.30338139900005}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 3, "train_loss": 0.676700769386266, "val_loss": 0.744530455271403, "macro_f1": 0.386795614506533, "accuracy": 0.6, "trainable_parameters": 1155, "seconds": 139.65692529800003}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 4, "train_loss": 0.6635098340041077, "val_loss": 0.758524289727211, "macro_f1": 0.3660271185984832, "accuracy": 0.5828125, "trainable_parameters": 1155, "seconds": 186.91517046700005}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 5, "train_loss": 0.6563509132620456, "val_loss": 0.7221372107664744, "macro_f1": 0.41464028777665635, "accuracy": 0.6260416666666667, "trainable_parameters": 1155, "seconds": 235.08684061100007}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 6, "train_loss": 0.6473826466562065, "val_loss": 0.7236673255761464, "macro_f1": 0.41387454541608254, "accuracy": 0.6270833333333333, "trainable_parameters": 1155, "seconds": 281.988674597}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 7, "train_loss": 0.6428513477871763, "val_loss": 0.7228773554166158, "macro_f1": 0.4191429485547133, "accuracy": 0.634375, "trainable_parameters": 1155, "seconds": 329.0103264300001}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 8, "train_loss": 0.6420367495353597, "val_loss": 0.7404518634080887, "macro_f1": 0.38907931595890277, "accuracy": 0.6052083333333333, "trainable_parameters": 1155, "seconds": 376.3133152600001}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 9, "train_loss": 0.6360213729447114, "val_loss": 0.7506607790788015, "macro_f1": 0.38206156588509527, "accuracy": 0.6005208333333333, "trainable_parameters": 1155, "seconds": 422.80614546100014}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 10, "train_loss": 0.6352231845248036, "val_loss": 0.7064222117265065, "macro_f1": 0.4325919571806091, "accuracy": 0.6473958333333333, "trainable_parameters": 1155, "seconds": 469.63538738600005}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 11, "train_loss": 0.6312030008942643, "val_loss": 0.733493282397588, "macro_f1": 0.4037407247986424, "accuracy": 0.6213541666666667, "trainable_parameters": 1155, "seconds": 516.255187145}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 12, "train_loss": 0.6262564186282162, "val_loss": 0.7402615090211232, "macro_f1": 0.3949666407759256, "accuracy": 0.6135416666666667, "trainable_parameters": 1155, "seconds": 563.3559674850001}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 13, "train_loss": 0.6278169400743291, "val_loss": 0.7175126393636068, "macro_f1": 0.4266180989624609, "accuracy": 0.6453125, "trainable_parameters": 1155, "seconds": 610.4968161030001}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 14, "train_loss": 0.6260403025667329, "val_loss": 0.7098947515090307, "macro_f1": 0.43265175760250596, "accuracy": 0.6510416666666666, "trainable_parameters": 1155, "seconds": 657.264647683}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 15, "train_loss": 0.6253562351774513, "val_loss": 0.7059482663869858, "macro_f1": 0.43685533177939034, "accuracy": 0.65625, "trainable_parameters": 1155, "seconds": 704.268051237}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 16, "train_loss": 0.6233981293384706, "val_loss": 0.7090816150108973, "macro_f1": 0.43187381084603826, "accuracy": 0.6505208333333333, "trainable_parameters": 1155, "seconds": 751.112016689}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 17, "train_loss": 0.6192426994328303, "val_loss": 0.7317910154660543, "macro_f1": 0.40646677811517745, "accuracy": 0.6260416666666667, "trainable_parameters": 1155, "seconds": 797.5197592290001}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 18, "train_loss": 0.6181810644840181, "val_loss": 0.7125843524932861, "macro_f1": 0.42778544997432766, "accuracy": 0.646875, "trainable_parameters": 1155, "seconds": 844.756744107}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 19, "train_loss": 0.6171330864087357, "val_loss": 0.7054980973402659, "macro_f1": 0.43308229043775953, "accuracy": 0.6515625, "trainable_parameters": 1155, "seconds": 891.308180363}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 20, "train_loss": 0.6176652038445613, "val_loss": 0.7023474802573522, "macro_f1": 0.43676907125550296, "accuracy": 0.6552083333333333, "trainable_parameters": 1155, "seconds": 938.529298877}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 21, "train_loss": 0.6138327737452128, "val_loss": 0.703026435772578, "macro_f1": 0.4360590665969884, "accuracy": 0.6552083333333333, "trainable_parameters": 1155, "seconds": 985.6421488149999}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 22, "train_loss": 0.6137450523088842, "val_loss": 0.6951408922672272, "macro_f1": 0.4415691274597306, "accuracy": 0.6604166666666667, "trainable_parameters": 1155, "seconds": 1032.906327444}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 23, "train_loss": 0.6153976713844148, "val_loss": 0.7059651017189026, "macro_f1": 0.43231458239926485, "accuracy": 0.6510416666666666, "trainable_parameters": 1155, "seconds": 1068.61289237}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 24, "train_loss": 0.6120869960789165, "val_loss": 0.7032686988512675, "macro_f1": 0.4332306731655547, "accuracy": 0.6515625, "trainable_parameters": 1155, "seconds": 1099.49307483}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 25, "train_loss": 0.6111585649044196, "val_loss": 0.720245451728503, "macro_f1": 0.42116791416554133, "accuracy": 0.6411458333333333, "trainable_parameters": 1155, "seconds": 1129.9994242980001}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 26, "train_loss": 0.6131619250166973, "val_loss": 0.7029678513606389, "macro_f1": 0.4382804950670245, "accuracy": 0.6583333333333333, "trainable_parameters": 1155, "seconds": 1160.7462903710002}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 27, "train_loss": 0.6110722409906642, "val_loss": 0.6990498224894206, "macro_f1": 0.4412771994454392, "accuracy": 0.6619791666666667, "trainable_parameters": 1155, "seconds": 1191.5211439600002}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 28, "train_loss": 0.6072633422089602, "val_loss": 0.705766569574674, "macro_f1": 0.4335794388305055, "accuracy": 0.653125, "trainable_parameters": 1155, "seconds": 1222.2333254179998}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 29, "train_loss": 0.6106557698370235, "val_loss": 0.6979286869366964, "macro_f1": 0.44135652124371516, "accuracy": 0.6619791666666667, "trainable_parameters": 1155, "seconds": 1252.8695507450002}
+Gradient routing check passed: frozen_CE
+{"trial": "frozen_CE", "epoch": 30, "train_loss": 0.6052877580405797, "val_loss": 0.6994410951932272, "macro_f1": 0.4372672020057233, "accuracy": 0.6567708333333333, "trainable_parameters": 1155, "seconds": 1283.465390979}

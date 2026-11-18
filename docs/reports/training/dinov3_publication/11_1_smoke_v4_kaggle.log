@@ -1,0 +1,130 @@
+[{"stream_name":"stderr","time":8.501842385,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.501885544,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.501891616,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.501895773,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.15793374,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.157965532,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.157971268,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.157975194,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":28.453877464,"data":"Run enabled: True\n"}
+,{"stream_name":"stdout","time":31.049188328,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":31.252139566,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 1.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":32.309234717,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 92.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":32.352322232,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 23.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":32.4074845,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 87.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":32.511920202,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 92.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":32.511952909,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 23.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":32.511957154,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 87.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":48.092447208,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":48.092476324,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":48.092482822,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":48.519009741,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":48.519046809,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":48.519080544,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":48.519086042,"data":"\n"}
+,{"stream_name":"stderr","time":48.519089802,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":48.519093972,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":48.51909801,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":48.519885882,"data":"{'python': '3.13.15', 'torch': '2.11.0+cu128', 'torchvision': '0.26.0+cu128', 'cuda': '12.8', 'gpu_count': 2, 'gpu_names': ['Tesla T4', 'Tesla T4']}\n"}
+,{"stream_name":"stdout","time":49.556611146,"data":"Manifest: 10889 rows | hash: b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06 | test rows: 0\n"}
+,{"stream_name":"stderr","time":55.748283602,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":55.748790766,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":55.748824826,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=3600)\n"}
+,{"stream_name":"stderr","time":55.748832616,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":55.748837938,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":55.748842546,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":55.748846496,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":55.748850485,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":55.748854969,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":55.748873869,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":55.748877781,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":55.748881385,"data":"Exception encountered at \"In [6]\":\n"}
+,{"stream_name":"stderr","time":55.748885138,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":55.748905435,"data":"HTTPError                                 Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":55.7489112,"data":"/usr/local/lib/python3.13/dist-packages/kaggle_web_client.py in make_post_request(self, data, endpoint, timeout)\n"}
+,{"stream_name":"stderr","time":55.748918757,"data":"     45         try:\n"}
+,{"stream_name":"stderr","time":55.748921222999996,"data":"---\u003e 46             with urllib.request.urlopen(req, timeout=timeout) as response:\n"}
+,{"stream_name":"stderr","time":55.748923867,"data":"     47                 response_json = json.loads(response.read())\n"}
+,{"stream_name":"stderr","time":55.748926403,"data":"\n"}
+,{"stream_name":"stderr","time":55.748954975,"data":"/usr/lib/python3.13/urllib/request.py in urlopen(url, data, timeout, context)\n"}
+,{"stream_name":"stderr","time":55.74896042,"data":"    188         opener = _opener\n"}
+,{"stream_name":"stderr","time":55.74896488,"data":"--\u003e 189     return opener.open(url, data, timeout)\n"}
+,{"stream_name":"stderr","time":55.748969425,"data":"    190 \n"}
+,{"stream_name":"stderr","time":55.748973088,"data":"\n"}
+,{"stream_name":"stderr","time":55.748976647,"data":"/usr/lib/python3.13/urllib/request.py in open(self, fullurl, data, timeout)\n"}
+,{"stream_name":"stderr","time":55.74898109,"data":"    494             meth = getattr(processor, meth_name)\n"}
+,{"stream_name":"stderr","time":55.748984899999996,"data":"--\u003e 495             response = meth(req, response)\n"}
+,{"stream_name":"stderr","time":55.748988775,"data":"    496 \n"}
+,{"stream_name":"stderr","time":55.748992329000004,"data":"\n"}
+,{"stream_name":"stderr","time":55.748995918,"data":"/usr/lib/python3.13/urllib/request.py in http_response(self, request, response)\n"}
+,{"stream_name":"stderr","time":55.748999869,"data":"    603         if not (200 \u003c= code \u003c 300):\n"}
+,{"stream_name":"stderr","time":55.749003756,"data":"--\u003e 604             response = self.parent.error(\n"}
+,{"stream_name":"stderr","time":55.749007528,"data":"    605                 'http', request, response, code, msg, hdrs)\n"}
+,{"stream_name":"stderr","time":55.749011511,"data":"\n"}
+,{"stream_name":"stderr","time":55.749020514,"data":"/usr/lib/python3.13/urllib/request.py in error(self, proto, *args)\n"}
+,{"stream_name":"stderr","time":55.749023638,"data":"    532             args = (dict, 'default', 'http_error_default') + orig_args\n"}
+,{"stream_name":"stderr","time":55.749026169,"data":"--\u003e 533             return self._call_chain(*args)\n"}
+,{"stream_name":"stderr","time":55.749028689,"data":"    534 \n"}
+,{"stream_name":"stderr","time":55.749031762,"data":"\n"}
+,{"stream_name":"stderr","time":55.749048669,"data":"/usr/lib/python3.13/urllib/request.py in _call_chain(self, chain, kind, meth_name, *args)\n"}
+,{"stream_name":"stderr","time":55.7490537,"data":"    465             func = getattr(handler, meth_name)\n"}
+,{"stream_name":"stderr","time":55.749058134,"data":"--\u003e 466             result = func(*args)\n"}
+,{"stream_name":"stderr","time":55.749062773,"data":"    467             if result is not None:\n"}
+,{"stream_name":"stderr","time":55.749066992,"data":"\n"}
+,{"stream_name":"stderr","time":55.749070591,"data":"/usr/lib/python3.13/urllib/request.py in http_error_default(self, req, fp, code, msg, hdrs)\n"}
+,{"stream_name":"stderr","time":55.749075353,"data":"    612     def http_error_default(self, req, fp, code, msg, hdrs):\n"}
+,{"stream_name":"stderr","time":55.749079273,"data":"--\u003e 613         raise HTTPError(req.full_url, code, msg, hdrs, fp)\n"}
+,{"stream_name":"stderr","time":55.749083155,"data":"    614 \n"}
+,{"stream_name":"stderr","time":55.749086713,"data":"\n"}
+,{"stream_name":"stderr","time":55.749090239,"data":"HTTPError: HTTP Error 400: Bad Request\n"}
+,{"stream_name":"stderr","time":55.749093939,"data":"\n"}
+,{"stream_name":"stderr","time":55.749097465,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":55.749101273,"data":"\n"}
+,{"stream_name":"stderr","time":55.749105935,"data":"ConnectionError                           Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":55.749109843,"data":"/tmp/ipykernel_23/2408836024.py in get_hf_token()\n"}
+,{"stream_name":"stderr","time":55.749118179999996,"data":"      5         from kaggle_secrets import UserSecretsClient\n"}
+,{"stream_name":"stderr","time":55.749122103,"data":"----\u003e 6         return UserSecretsClient().get_secret('HF_TOKEN')\n"}
+,{"stream_name":"stderr","time":55.749126033,"data":"      7     except Exception as exc:\n"}
+,{"stream_name":"stderr","time":55.749129956,"data":"\n"}
+,{"stream_name":"stderr","time":55.749135218,"data":"/usr/local/lib/python3.13/dist-packages/kaggle_secrets.py in get_secret(self, label)\n"}
+,{"stream_name":"stderr","time":55.749141065,"data":"     63         }\n"}
+,{"stream_name":"stderr","time":55.749144887,"data":"---\u003e 64         response_json = self.web_client.make_post_request(request_body, self.GET_USER_SECRET_BY_LABEL_ENDPOINT)\n"}
+,{"stream_name":"stderr","time":55.749149648,"data":"     65         if 'secret' not in response_json:\n"}
+,{"stream_name":"stderr","time":55.749154125,"data":"\n"}
+,{"stream_name":"stderr","time":55.749158354,"data":"/usr/local/lib/python3.13/dist-packages/kaggle_web_client.py in make_post_request(self, data, endpoint, timeout)\n"}
+,{"stream_name":"stderr","time":55.749163524,"data":"     57                     'Timeout error trying to communicate with service. Please ensure internet is on.') from e\n"}
+,{"stream_name":"stderr","time":55.749178918,"data":"---\u003e 58             raise ConnectionError(\n"}
+,{"stream_name":"stderr","time":55.749182494,"data":"     59                 'Connection error trying to communicate with service.') from e\n"}
+,{"stream_name":"stderr","time":55.749186073,"data":"\n"}
+,{"stream_name":"stderr","time":55.749189419,"data":"ConnectionError: Connection error trying to communicate with service.\n"}
+,{"stream_name":"stderr","time":55.749192974,"data":"\n"}
+,{"stream_name":"stderr","time":55.749196284,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":55.749199924,"data":"\n"}
+,{"stream_name":"stderr","time":55.74920323,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":55.749206846,"data":"/tmp/ipykernel_23/2408836024.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":55.74921054,"data":"     11 if RUN_EXPERIMENT:\n"}
+,{"stream_name":"stderr","time":55.749213954,"data":"     12     from transformers import AutoModel\n"}
+,{"stream_name":"stderr","time":55.74921745,"data":"---\u003e 13     token=get_hf_token()\n"}
+,{"stream_name":"stderr","time":55.749225932,"data":"     14     encoder=AutoModel.from_pretrained(MODEL_ID,revision=MODEL_REVISION,token=token,\n"}
+,{"stream_name":"stderr","time":55.749229838,"data":"     15                                       use_safetensors=True,trust_remote_code=False).eval().to('cuda:0')\n"}
+,{"stream_name":"stderr","time":55.749244774,"data":"\n"}
+,{"stream_name":"stderr","time":55.749249539,"data":"/tmp/ipykernel_23/2408836024.py in get_hf_token()\n"}
+,{"stream_name":"stderr","time":55.74925365,"data":"      6         return UserSecretsClient().get_secret('HF_TOKEN')\n"}
+,{"stream_name":"stderr","time":55.749257924,"data":"      7     except Exception as exc:\n"}
+,{"stream_name":"stderr","time":55.74926212,"data":"----\u003e 8         raise RuntimeError('Attach the HF_TOKEN secret to this Kaggle notebook and accept official DINOv3 access.') from exc\n"}
+,{"stream_name":"stderr","time":55.749266191,"data":"      9 \n"}
+,{"stream_name":"stderr","time":55.749269622,"data":"     10 encoder=None\n"}
+,{"stream_name":"stderr","time":55.749272998,"data":"\n"}
+,{"stream_name":"stderr","time":55.749276292,"data":"RuntimeError: Attach the HF_TOKEN secret to this Kaggle notebook and accept official DINOv3 access.\n"}
+,{"stream_name":"stderr","time":55.749283422,"data":"\n"}
+,{"stream_name":"stderr","time":57.997962303,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":57.997991939,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":58.174843616,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":58.174867234,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":58.961594264,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":59.058172657,"data":"[NbConvertApp] Writing 648679 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":61.692845036,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":62.411155845,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":62.411188465,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":62.411665327,"data":"[NbConvertApp] Writing 375611 bytes to __results__.html\n"}
+]

@@ -1,0 +1,51 @@
+{
+  "updated_utc": "2026-10-21T13:41:44.074351+00:00",
+  "raw_manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06",
+  "raw_dataset": "trihuynhviprovcl/dentalselfie-gum-raw-roi-v1/1",
+  "old_dataset": "trihuynhviprovcl/dentalselfie-gum-roi-v1/1",
+  "runs": [
+    {
+      "track": "09.1",
+      "kernel": "trihuynhviprovcl/dentalselfie-09-1-resolution-control",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-09-1-resolution-control",
+      "version": 1,
+      "status": "COMPLETE",
+      "submission": "SAVE_AND_RUN_ALL",
+      "training_enabled": true,
+      "collected": true,
+      "full_results": 2,
+      "finding": "Two full runs verified; smoke checkpoint restore passed"
+    },
+    {
+      "track": "09.2",
+      "kernel": "trihuynhviprovcl/dentalselfie-09-2-imbalance-ablation",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-09-2-imbalance-ablation",
+      "version": 1,
+      "status": "COMPLETE",
+      "submission": "SAVE_AND_RUN_ALL",
+      "training_enabled": true,
+      "collected": true,
+      "full_results": 2,
+      "finding": "Two full runs verified; smoke checkpoint restore passed"
+    },
+    {
+      "track": "09.3",
+      "kernel": "trihuynhviprovcl/dentalselfie-09-3-foundation-feature-probe",
+      "url": "https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-09-3-foundation-feature-probe",
+      "version": 3,
+      "status": "COMPLETE",
+      "submission": "User-executed v3; versioned SDK collection",
+      "training_enabled": true,
+      "collected": true,
+      "full_results": 2,
+      "finding": "Both full probes verified; latest v4 cancelled with zero outputs",
+      "latest_version": 4,
+      "latest_status": "CANCEL_ACKNOWLEDGED"
+    }
+  ],
+  "gpu_hours_remaining_before_submission": 4.86,
+  "preflight": "16 local conversion/publication tests pass; notebook code AST parsed and reconstructed worker code hash matched. Remote GPU smoke scheduled; not yet verified from output.",
+  "dinov3_access": "Official DINOv3 successfully used by user-executed v3; no local credential required for result collection.",
+  "collected_at_utc": "2026-10-22T09:13:17.830142+00:00",
+  "analysis": "docs/reports/training/ROI_09_COMBINED_FINDINGS_2026-10-22.md"
+}

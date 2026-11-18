@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "private": true,
+  "accelerator": "NvidiaTeslaT4",
+  "status": "RUNNING"
+}

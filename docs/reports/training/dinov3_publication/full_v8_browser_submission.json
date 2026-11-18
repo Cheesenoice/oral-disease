@@ -1,0 +1,62 @@
+{
+  "recorded_utc": "2026-10-22T12:42:24.231058+00:00",
+  "tracks": [
+    {
+      "track": "11.1",
+      "kernel": "trihuynhviprovcl/dentalselfie-11-1-dinov3-patch-probe",
+      "version": 8,
+      "script_version_id": 361137081,
+      "phase": "full",
+      "launch_method": "Kaggle editor Save & Run All",
+      "hf_token_checkbox_verified": true,
+      "accelerator": "GPU T4 x2",
+      "input": [
+        "trihuynhviprovcl/dentalselfie-gum-raw-roi-v1/1"
+      ],
+      "submitted_notebook_sha256": "4a2947de60a0df64719d5ea178efc46326950ab6e9a754f64c72f055e768fc97",
+      "initial_state": "RUNNING: pinned model loaded, extracting full train",
+      "latest_state": "COMPLETE; outputs collected and all 1920 validation rows verified"
+    },
+    {
+      "track": "11.2",
+      "kernel": "trihuynhviprovcl/dentalselfie-11-2-dinov3-partial-adaptation",
+      "version": 8,
+      "script_version_id": 361136686,
+      "phase": "full",
+      "launch_method": "Kaggle editor Save & Run All",
+      "hf_token_checkbox_verified": true,
+      "accelerator": "GPU T4 x2",
+      "input": [
+        "trihuynhviprovcl/dentalselfie-gum-raw-roi-v1/1"
+      ],
+      "submitted_notebook_sha256": "ba8c55789241f3277ece2203ce14d0c970be92aacbf28d53896876aeb92b8125",
+      "initial_state": "QUEUED",
+      "latest_state": "COMPLETE; outputs collected, all 1920 validation predictions per arm verified",
+      "startup_verification": {
+        "crop_files_verified": 10889,
+        "hash_verification_seconds": 682.5,
+        "hf_token_preflight_passed": true,
+        "log_time_seconds": 784.8,
+        "workers": [
+          {
+            "trial": "frozen_CE",
+            "gpu": 0,
+            "return_code": null,
+            "heartbeat_age_seconds": 0
+          },
+          {
+            "trial": "last2_blocks_norm_CE",
+            "gpu": 1,
+            "return_code": null,
+            "heartbeat_age_seconds": 7
+          }
+        ]
+      }
+    }
+  ],
+  "cli_auth_available": false,
+  "full_results_collected": [
+    "11.1",
+    "11.2"
+  ]
+}

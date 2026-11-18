@@ -1,0 +1,36 @@
+{
+  "roi_rows": 17,
+  "roi_validation_population": 1920,
+  "detector_rows": 8,
+  "detector_validation_images": 327,
+  "test_images_opened": 0,
+  "training_started": false,
+  "sources": [
+    {
+      "file": "docs/reports/training/roi_method_comparison.json",
+      "sha256": "e808e3c772ea9b637bb32b2eb155c31b600a34849623e6f9382a9bad7228a9a5"
+    },
+    {
+      "file": "docs/reports/training/roi_recovery_comparison.json",
+      "sha256": "9473d3f8db457e406b5745b1096676141f741687ebfad29d8ccc02d862f9ca2f"
+    },
+    {
+      "file": "docs/reports/training/roi_foundation_probe_comparison.json",
+      "sha256": "5ff418567ced38eeda71de65521ac2e5059635bae476e2016f3f812bbcd4fb14"
+    },
+    {
+      "file": "docs/reports/training/dinov3_publication/11_1_full_v8/verification.json",
+      "sha256": "664420bf3aef9bf84bc48b55bd7235b1ee8a997b07bb5c4c42b1821abdd9418d"
+    },
+    {
+      "file": "docs/reports/training/dinov3_publication/11_2_full_v8/verification.json",
+      "sha256": "1a2f1a5e0037876df56cd5e3360652200a6961581d215f83832298529c661640"
+    },
+    {
+      "file": "docs/reports/post09/caries/summary.json",
+      "sha256": "85ba64be56ef31eebba1a92308568d7c8cc396594d7f053bcaa1cc21675051b1"
+    }
+  ],
+  "next_action": "Collect local phone captures and run notebook 12.2",
+  "personal_photos_uploaded": false
+}

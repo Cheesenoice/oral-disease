@@ -1,0 +1,23 @@
+{
+  "id": 145622789,
+  "ref": "trihuynhviprovcl/dentalselfie-gum-binary-v8s-20261117",
+  "title": "DentalSelfie Gum Binary V8s 20261117",
+  "author": "Tri Huynh",
+  "slug": "dentalselfie-gum-binary-v8s-20261117",
+  "lastRunTime": "2026-11-15T02:06:12.747Z",
+  "language": "python",
+  "kernelType": "notebook",
+  "isPrivate": false,
+  "enableGpu": true,
+  "enableInternet": true,
+  "categoryIds": [
+    "gpu"
+  ],
+  "datasetDataSources": [
+    "trihuynhviprovcl/dentalselfie-gum-binary-v1"
+  ],
+  "enableTpu": false,
+  "currentVersionNumber": 3,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:de153e6d303881930c51286216393d56f56b26458d0661350305a1e8144eea01",
+  "machineShape": "NvidiaTeslaT4"
+}

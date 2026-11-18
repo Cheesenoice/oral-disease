@@ -1,0 +1,8 @@
+{
+  "dataset": "trihuynhviprovcl/dentalselfie-data-v1",
+  "checked_files": 6492,
+  "remote_files": 6496,
+  "expanded_prefix": "prepared/",
+  "mismatches": 0,
+  "verification": "Remote filenames and byte sizes; local ZIP separately checked by CRC and SHA-256"
+}

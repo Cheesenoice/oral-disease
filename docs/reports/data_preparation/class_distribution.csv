@@ -1,0 +1,13 @@
+task,split,class_id,class_name,boxes,validation,same_split_visual_pairs_checked
+caries,train,0,visible_caries,4651,passed,12
+caries,val,0,visible_caries,1054,passed,12
+caries,test,0,visible_caries,952,passed,12
+gum,train,0,no_visible_inflammation,210,passed,0
+gum,train,1,mild_inflammation,3829,passed,0
+gum,train,2,marked_inflammation,4930,passed,0
+gum,val,0,no_visible_inflammation,49,passed,0
+gum,val,1,mild_inflammation,932,passed,0
+gum,val,2,marked_inflammation,939,passed,0
+gum,test,0,no_visible_inflammation,43,passed,0
+gum,test,1,mild_inflammation,829,passed,0
+gum,test,2,marked_inflammation,1048,passed,0

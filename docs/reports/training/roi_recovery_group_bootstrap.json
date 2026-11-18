@@ -1,0 +1,20 @@
+{
+  "unit": "Observable source group, not verified patient",
+  "groups": 160,
+  "replicates": 2000,
+  "intervals_delta_macro_f1_percentage_points": {
+    "R1-R0": [
+      -2.884355127628744,
+      4.429903965487673
+    ],
+    "R2-R1": [
+      -2.920002673846275,
+      3.0189192080997134
+    ],
+    "R3-R1": [
+      -7.7123788823880375,
+      -0.42013785429470707
+    ]
+  },
+  "limitation": "Conditional on validation-selected models; excludes training variability and model-selection uncertainty"
+}

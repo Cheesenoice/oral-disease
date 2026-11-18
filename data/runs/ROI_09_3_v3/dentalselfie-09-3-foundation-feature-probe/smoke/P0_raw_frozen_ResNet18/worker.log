@@ -1,0 +1,5 @@
+{"trial": {"id": "P0_raw_frozen_ResNet18", "kind": "probe", "data": "raw", "encoder": "resnet18"}, "rows": 192, "gpu": "Tesla T4", "manifest_sha256": "b9feaaceb4b9ea94ad540b553927ffb7f67e731098f7a78c770941804cbb4f06"}
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  0%|          | 0.00/44.7M [00:00<?, ?B/s] 23%|██▎       | 10.2M/44.7M [00:00<00:00, 107MB/s] 76%|███████▋  | 34.1M/44.7M [00:00<00:00, 191MB/s]100%|██████████| 44.7M/44.7M [00:00<00:00, 193MB/s]
+{"trial": "P0_raw_frozen_ResNet18", "C": 0.1, "macro_f1": 0.5418470418470419}
+SMOKE_OK: feature extraction and train-fitted linear probe

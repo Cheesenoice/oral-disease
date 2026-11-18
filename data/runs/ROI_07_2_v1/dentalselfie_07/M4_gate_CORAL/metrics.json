@@ -1,0 +1,38 @@
+{
+  "experiment": "M4_gate_CORAL",
+  "method": "gate",
+  "ordinal": true,
+  "gpu": "Tesla T4",
+  "epochs": 15,
+  "selected_epoch": 10,
+  "runtime_seconds": 1585.0,
+  "accuracy": 0.6364583333333333,
+  "macro_f1": 0.49480932707908504,
+  "balanced_accuracy": 0.5637359872486796,
+  "ordinal_mae": 0.3729166666666667,
+  "quadratic_kappa": 0.4383955937952172,
+  "confusion_matrix": [
+    [
+      20,
+      24,
+      5
+    ],
+    [
+      100,
+      370,
+      462
+    ],
+    [
+      13,
+      94,
+      832
+    ]
+  ],
+  "class_recall": [
+    0.40816326530612246,
+    0.3969957081545064,
+    0.88604898828541
+  ],
+  "gate_mean": 0.4520199707088371,
+  "manifest_sha256": "8ed4c05240a2d23e6c254ee74adf13af48ff45a4418f1e2024bd38498b02cab1"
+}
