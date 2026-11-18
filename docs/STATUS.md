@@ -2,7 +2,7 @@
 
 ## Public GitHub handoff preparation - 18 November 2026
 
-The owner requested a repository handoff to `https://github.com/Cheesenoice/oral-disease.git`. The publication set contains source, notebooks, research reports, and `data/runs/` metrics/visuals/checkpoints. Raw and processed datasets, manifests, pilot captures, Kaggle credentials, local-only phone notebooks/reports, and the authored progress-report DOCX are excluded. Checkpoints are Git LFS objects (154 staged pointers; 140 unique local objects, 3.76 GiB). The new agent guide is `docs/AGENT_HANDOFF.md`. Remote push is pending; do not claim publication until Git and LFS pushes both verify. Next action: inspect the staged path list, push `main` and LFS, then verify remote commit and LFS objects.
+The owner requested a repository handoff to `https://github.com/Cheesenoice/oral-disease.git`. The publication set contains source, notebooks, research reports, and `data/runs/` metrics/visuals/checkpoints. Raw and processed datasets, manifests, pilot captures, Kaggle credentials, local-only phone notebooks/reports, and the authored progress-report DOCX are excluded. Checkpoints are Git LFS objects (154 pointers; 140 unique objects, 3.76 GiB locally). The new agent guide is `docs/AGENT_HANDOFF.md`. Commit `ba9892025e30025f4a48e3c7869d41cb853e2b8d` was pushed to `main`; GitHub reported all 140 LFS objects uploaded (4.0 GB), the remote ref matches local `HEAD`, and `git lfs fsck --objects` passes. Next action for the research branch remains checking the live state and collecting the 16.21 GigiKita baseline before planning a follow-up experiment.
 
 ## Current focused crowding baseline - 18 November 2026
 
