@@ -4,7 +4,13 @@ New collaborators and agents: start with [`docs/AGENT_HANDOFF.md`](docs/AGENT_HA
 
 An offline dental-screening research project. Data preparation and initial YOLO training are complete; notebook 05 adds paired gingival crops for the CNN/ResNet research extension. Public research publication was explicitly requested on 21 October. Android implementation is deferred.
 
-Supervisor reporting checkpoint, 23 October 2026: development is temporarily paused at the user's request. Read the [English progress report](report/README.md), including the research narrative, all notebook roles, results and reproducible figures.
+Alignment improvement work resumed on 20 November 2026. For the thesis narrative and earlier executed experiments, read the [English progress report](report/README.md), including notebook roles, results and reproducible figures. Latest fixed-split results: [Spacing YOLOv8s vs P2](docs/reports/alignment/SPACING_P2_FULL_SPLIT_RESULTS_2026-11-22.md) and [Crowding YOLO26s/WBF comparison](docs/reports/alignment/CROWDING_CURRENT_WBF_RESULTS_2026-11-22_V2.md). P2 is not promoted; WBF gains mAP50 but loses mAP50-95 versus the single-model arm.
+
+For the Vietnamese, slide-style technical walkthrough of **caries, calculus and gingival appearance**, see [the three-label report](docs/reports/three_label_technical/BAO_CAO_KY_THUAT_BA_NHAN.md). It includes ten generated figures, actual validation prediction mosaics, the data/model workflow, results and speaker notes.
+
+For the Vietnamese, slide-style technical walkthrough of **orthodontic crowding and tooth spacing**, see [the alignment report](docs/reports/alignment/BAO_CAO_KY_THUAT_CHEN_CHUC_KHE_THUA.md). It explains the label definitions, data audit, YOLO box/image processing, baseline and resolution comparison, validation results, and limits. Its 14 figures can be regenerated with `src/scripts/generate_alignment_technical_report.py`.
+
+For the detailed Vietnamese account of **how the alignment datasets were sourced, audited, compared, deduplicated and prepared**, see [the data process report](docs/reports/alignment/BAO_CAO_QUY_TRINH_DATA_CHEN_CHUC_KHE_THUA.md). It includes source/label EDA, split and merge decisions, duplicate evidence and clear labeled image examples; figures are reproducible with `src/scripts/generate_alignment_data_report.py`.
 
 ## Start with the executed notebooks
 
@@ -51,7 +57,9 @@ Missing annotations are not healthy examples. Invalid/unknown annotations and co
 
 Three owner-supplied Roboflow candidate archives were moved into immutable `data/raw/alignment_external/` and audited on train/validation only. See the executed [notebook 16.20](notebooks/alignment/16_20_external_candidate_audit.ipynb) and [candidate audit report](docs/reports/alignment/EXTERNAL_ALIGNMENT_CANDIDATE_AUDIT_2026-11-18.md). GigiKita and FIPDZ contain repeated-scene candidates across sources and splits, so do not combine their frozen splits or treat their validation images as independent evidence. No new training or test access occurred.
 
-The focused crowding branch now uses only duplicate-grouped GigiKita train/validation data; see [notebook 16.21](notebooks/alignment/16_21_gigikita_crowding_yolo11s_baseline.ipynb) and the [split/baseline record](docs/reports/alignment/GIGIKITA_CROWDING_BASELINE_2026-11-18.md). Kaggle training status is recorded in `docs/STATUS.md`.
+The focused crowding branch now uses only duplicate-grouped GigiKita train/validation data. Notebook 16.23 is the matched 640 px control against 16.22 at 960 px; both use the same 37-epoch learning-rate schedule. See [notebooks 16.21-16.23](notebooks/alignment/), the [split and comparison record](docs/reports/alignment/GIGIKITA_CROWDING_BASELINE_2026-11-18.md), and the [Vietnamese process report for crowding and spacing](docs/reports/alignment/BAO_CAO_QUA_TRINH_RANG_THUA_CHEN_CHUC_VI.md). Kaggle outputs are collected under `data/runs/alignment_gigikita_crowding_640_matched_v1/` and `data/runs/alignment_gigikita_crowding_960_v2/`.
+
+Current alignment results: spacing 16.47 full-split YOLOv8s-P2 did not improve the matched standard arm; full-frame inference also beat SAHI tiles/hybrid in 16.48. See [P2 results](docs/reports/alignment/SPACING_P2_FULL_SPLIT_RESULTS_2026-11-22.md) and [SAHI results](docs/reports/alignment/SPACING_SAHI_INFERENCE_RESULTS_2026-11-22.md). Crowding 16.49 WBF gained mAP50 but lost mAP50-95 against the matched single model and is not promoted; see [WBF v2](docs/reports/alignment/CROWDING_CURRENT_WBF_RESULTS_2026-11-22_V2.md). Current references remain YOLO26s at 59.02%/24.02% for spacing (with a four-image train/validation counterpart caveat; 473-image sensitivity mAP50 59.72%) and YOLO26s + screened FIPDZ at 69.76%/32.76% for crowding. Notebook 16.51 crowding TTA reduced mAP50/mAP50-95 by 3.41/2.00 pp and spacing 16.50 TTA reduced them by 0.69/0.42 pp under its matched COCO evaluator; neither is promoted. See [crowding TTA](docs/reports/alignment/CROWDING_TTA_RESULTS_2026-11-22.md) and [spacing TTA](docs/reports/alignment/SPACING_TTA_RESULTS_2026-11-22.md). Notebook 16.52 sliced training is staged locally but not submitted: the account has 1.95 GPU h remaining versus an estimated 4-5 h need. Source test remains unopened.
 
 ## Minimal layout
 
@@ -83,3 +91,7 @@ The last notebook performs an external upload using existing Kaggle authenticati
 Training uses independent task workers on T4 ×2. The current bounded screening protocol uses 30 epochs, patience 8, a one-hour per-worker budget, a 10-minute per-worker no-progress watchdog and a two-hour Kaggle session cap. Every epoch saves a resumable checkpoint plus scheduler/process RNG state; worker/prefetch states are not serialized, so resumption is not bitwise identical. See the current status before submitting a run.
 
 Latest combined 09.x evidence: [report](docs/reports/training/ROI_09_COMBINED_FINDINGS_2026-10-22.md). Raw-source CB-CE reaches 57.40% macro-F1; frozen ResNet18/DINOv3 probes reach 50.08%/47.83%. The engineering target remains unmet.
+
+## Local web inference demo
+
+Run the disease and aesthetics interface with one selected checkpoint per source label. Follow [`src/web_demo/README.md`](src/web_demo/README.md). Local validation-only sample images are in `data/demo_images/images/`; their source/split manifest is intentionally local-only.

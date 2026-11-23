@@ -33,3 +33,9 @@ The current local OMNI pilot has provisional train annotations but lacks enough 
 - OMNI official repository and dataset link, https://github.com/RoundFaceJ/OMNI
 - OCCLSAL/Roboflow midline project, https://universe.roboflow.com/rocky-g7hdj/midline-shift-segementation-ns2ce
 - Roboflow dental object-detection candidate, https://universe.roboflow.com/okasha/dental-ktzqf
+
+## Roboflow source recheck - 23 November 2026
+
+The official Universe page lists the Okashas Workspace project as **4,773 images, two dataset versions, and 11 classes**, including `gap_or_spacing` and `malposition_present`, with a source-declared CC BY 4.0 license. The local archive `data/raw/alignment/Dental.v1-dataset-version-2.yolov8.zip` already belongs to this same workspace/project: its embedded `data.yaml` records `okasha/dental-ktzqf`, version 1, and the identical 11-class list. Its executed audit records 15,034 train views and 477 validation views; the source README and archive member count contain a version/image-count inconsistency already documented in `DENTALMATES_VISIBLE_DATASET_AUDIT_2026-11-18.md`.
+
+Therefore version 2 is a **new revision of an already-used source**, not a new independent dataset. It may contain edits or changed images, but exact image-level overlap cannot be proven without exporting its ZIP and hashing/near-duplicate screening. Since the user reports the preview looks identical and the source class taxonomy is unchanged, no duplicate download or training is justified now. Reconsider only if a specific v2 delta (new clean images, corrected annotations or useful split support) can be shown. The v2 page remains [Roboflow Dental Computer Vision Dataset v2](https://universe.roboflow.com/okasha/dental-ktzqf/dataset/2); no v2 archive has been downloaded or audited.

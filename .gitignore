@@ -18,6 +18,8 @@ data/raw/**
 data/processed/**
 data/pilot/**
 data/inbox/**
+data/demo_images/images/**
+data/demo_images/demo_manifest.csv
 data/manifests/*.csv
 data/manifests/*.lock.json
 artifacts/**
