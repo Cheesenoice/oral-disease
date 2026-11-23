@@ -8,6 +8,12 @@
 - `data/raw` (17.80 GB), `data/processed` (1.65 GB), `data/pilot` (2.47 GB), manifests, notebooks and reports are being retained. 118 intermediate epoch checkpoints in `data/runs` occupy 6.62 GB; 50 are Git-tracked and must not be removed. The safe cleanup helper skips tracked files and selects only untracked `epochNN.pt` files, including downloaded Kaggle-output copies: expected reclaimable total about 8.98 GB. Generated upload ZIPs in `.venv/work/kaggle/staging` add an optional 1.98 GB; these are not selected unless explicitly requested and can be rebuilt from retained data/notebooks.
 - Helper: `src/scripts/cleanup_large_checkpoints.ps1`. Preview with `& .\src\scripts\cleanup_large_checkpoints.ps1`; apply after reviewing the exact file list with `& .\src\scripts\cleanup_large_checkpoints.ps1 -Apply`. Add `-DeleteStagingArchives` only if the staged ZIPs are no longer needed. No Kaggle kernel, source data, best/last/resume checkpoint, or tracked artifact is modified by the helper.
 
+## Git and local cache cleanup - 24 November 2026
+
+- Published the reviewed seven-file documentation/notebook change as commit `04b9254` on `origin/main`; unrelated data and generated outputs were not included.
+- The local LFS cache had 216 objects (5.25 GB). Seventy-four old checkpoint objects referenced by history but missing remotely totaled about 1.49 GB; they were uploaded to Git LFS. `git lfs prune --verify-remote` then verified remote copies and removed 76 eligible cache objects (about 1.6 GB).
+- Current `.git` size is 4.24 GB: `.git/lfs/objects` 3.76 GB and ordinary Git objects 0.48 GB. The remaining LFS cache is retained by Git LFS for current/recent refs and the worktree. No datasets, notebooks, reports, or checkpoint files in the worktree were deleted.
+- Main is synchronized with origin. Thousands of untracked local artifacts remain outside `.git`; they were deliberately not bulk-added or deleted in this Git cleanup.
 ## Active spacing improvement work - 23 November 2026
 
 ### Owner download recheck - 23 November
