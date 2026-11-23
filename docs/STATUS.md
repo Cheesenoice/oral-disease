@@ -35,6 +35,10 @@
 - Archive SHA-256: `f43277174a60be6b8bc578c6c5d31a09fe4860997f62b529f6cd7bc2063f8344`. Train/validation have 2,427/699 images, with 1,074/317 boxes overall. The `spaced-teeth` class has 9 boxes on 8 train images and no validation positives. No malformed rows, missing pairs, or exact train-validation duplicates were found.
 - Reject this dataset for spacing experiments: class support is too small, its validation cannot score the target, and label equivalence to `gap_or_spacing` is unverified. Test payload was not opened.
 
+### Next data intervention
+
+- After the two active runs release the GPUs, the next planned paired experiment is notebook 16.70: add 536 train-only, deduplicated context crops / 662 boxes from GHQWDO to the project train arm, using the best verified YOLO26s + CIoU-NWD / common tooth-anatomy initialization. Local smoke and duplicate review passed; source validation/test are excluded. The locked 477/473 project views remain unchanged. This tests context/data compatibility, not a paper benchmark score.
+
 ### Kaggle state (latest check: 19:13 UTC; 16.67 v2 and 16.72 v1 are running)
 
 - `hngphc73/ds-spacing-train-add-on-ablation`: version 1 was `CANCEL_ACKNOWLEDGED` at 15:42 UTC. Validated version 2 was re-pushed at 15:48 UTC and remained `QUEUED` at the 17:11 UTC poll. No execution log or metrics exist yet. Keep version 2 in place; do not push a duplicate.
