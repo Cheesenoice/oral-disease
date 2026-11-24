@@ -125,3 +125,74 @@ Use the **local executed notebook** as the readable experiment protocol and the 
 
 The repository contains archived Kaggle output for some tracks but not a complete remote kernel URL/version receipt for every historical run. The notebooks and local run summaries remain the source of technical details; where the kernel slug/version is absent, the operator must locate the matching run in Kaggle account history from notebook title/date and then record the exact version before claiming bit-for-bit reproduction.
 
+## Artifact-level reproduction and weight recovery
+
+This section distinguishes **reproducing a metric** (rerun inference on the exact validation set) from **retraining a weight** (rerun the notebook from the pinned train data and configuration). A metric cannot be exactly reproduced from a notebook alone if the checkpoint, validation manifest, package versions or evaluator are missing.
+
+### Artifact map for selected checkpoints
+
+| Task | Selected checkpoint (local collected copy) | Weight source / recovery | Verification required before using the score |
+|---|---|---|---|
+| Caries YOLO26n | `data/runs/E1_full_v4/experiments/E1_caries_seed42/weights/best.pt` | Project result bundle [Kaggle `dentalselfie-yolo-v4-results`](https://www.kaggle.com/datasets/trihuynhviprovcl/dentalselfie-yolo-v4-results), v1; Kaggle training track and notebook 04 are documented in `docs/KAGGLE.md`, `docs/reports/training/` and `data/runs/E1_full_v4/`. If only the notebook output is available, recover using the recorded 04 kernel slug and exact completed version in the E1 execution receipt. | Match checkpoint SHA to `data/runs/E1_full_v4/`, attach prepared dataset v1, keep the 327-image split hash, and run notebook 10.2's clean validation protocol. The 94.12/73.01 result is the saved-weight source-validation score. |
+| Gingival-region YOLOv8n | `data/runs/gum_binary_v8n_v4/runs/gum_binary_v8n/weights/best.pt` | The source notebook is `notebooks/gingivitis/15_2n_binary_gingival_yolov8n.ipynb`; the completed run is Kaggle version 4 as recorded in `docs/reports/gingivitis_binary/BASELINE_RESULTS.md`. Use the exact kernel slug from `docs/KAGGLE.md`/publication receipt; retrieve the completed v4 output, not a newer unverified version. | Verify checkpoint SHA and prepared data manifest; validate the same 160 images / 1,870 boxes. State that there are no fully annotation-negative images. |
+| Calculus close-up YOLO26s extra-COCO | `data/runs/calculus_extra-coco-26_v1/runs/calculus_dual_yolo26s/weights/best.pt` | Kaggle notebook `notebooks/calculus/14_47_calculus_extra_coco_yolo26s.ipynb`; local `summary.json` records checkpoint SHA `fe444c5929aa9b03f2076c043bebfcf4c61aae87af434a08695e04a6295e7387`. The current repo does not have a verified kernel slug/version receipt beside this run. Recover the matching completed kernel by notebook title from Kaggle history; do not guess a slug or use a later output. | Check the weight hash against `summary.json`; attach the exact source and derived crop manifests; evaluate the 127 close-up crops and report full-image metrics separately. This crop result is validation-reused and development-selected. |
+| Crowding YOLO26s + screened FIPDZ add-on | `data/runs/crowding_fipdz_addon_yolo26s_20261121/best.pt` | Kaggle result package / notebook 16.42 and final dual-validation notebook 16.44 are identified in [`CROWDING_FIPDZ_ADDON_DUAL_VALIDATION_2026-11-21.md`](reports/alignment/CROWDING_FIPDZ_ADDON_DUAL_VALIDATION_2026-11-21.md). Input dataset versions are `trihuynhviprovcl/dentalselfie-crowding-gigikita-v1/1` and `trihuynhviprovcl/dentalselfie-fipdz-crowding-train-addon-v1/2`, per the experiment index. Use the exact kernel version from its result receipt/account run history. | Compare SHA to the run manifest and reproduce the 69.76/32.76 result with the same Ultralytics evaluator on all 1,357 GigiKita validation images. Do not use FIPDZ validation to reproduce this headline. |
+| Spacing YOLO26s + CIoU-NWD | Collected best checkpoint and comparison hashes are listed in `docs/reports/alignment/SPACING_CIOU_NWD_RESULTS_2026-11-23.md` and its run directory. | Kernel [`hngphc73/ds-spacing-ciou-nwd-ablation`](https://www.kaggle.com/code/hngphc73/ds-spacing-ciou-nwd-ablation), completed **v2**; notebook `notebooks/alignment/16_64_spacing_ciou_nwd_ablation.ipynb`. | Retrieve v2, verify both arm checkpoint hashes and fixed primary manifest; use the report's evaluator/settings for the 477-image result. The 473-image sensitivity cohort is a separate secondary calculation. |
+| Gingival appearance three-class ROI ResNet18 | Checkpoint/prediction exports are under `data/runs/ROI_09_2_v1/` and `data/runs/ROI_09_3_v3/`; R2 selected metric is recorded in the combined findings and summary. | Public raw-crop dataset `trihuynhviprovcl/dentalselfie-gum-raw-roi-v1/1`; kernel [`trihuynhviprovcl/dentalselfie-09-2-imbalance-ablation`](https://www.kaggle.com/code/trihuynhviprovcl/dentalselfie-09-2-imbalance-ablation), v1. The result is R2 from 09.2; 09.3 valid v3 is a separate representation probe, not its source. | Use the locked 1,920 ROI manifest and original class IDs; recompute macro-F1 from the saved prediction table. Do not use 09.3 v4 (cancelled) or mix its frozen-probe result with the fine-tuned classifier. |
+
+**Known artifact gap:** the repository's selected-result table includes strong calculus dual-view scores and a verified local checkpoint hash, but lacks a checked Kaggle kernel URL/version receipt for the 14.47 run. Treat its local output as the archived evidence; exact remote re-download requires matching it to the Kaggle account history. The caries/gingivitis training slugs should likewise be taken from their execution/publication receipts rather than guessed. Recording these missing identifiers is part of making the archive fully reproducible, not a reason to fabricate them.
+
+### Retrieve and verify an exact Kaggle output
+
+Use Kaggle CLI from the project root after local authentication. Kaggle's CLI output command may return the current/latest kernel output and may ignore numeric version suffixes. First confirm the required completed version through the version-aware Kaggle API/SDK or the stored execution receipt; only retrieve when the remote version matches. Do not label an unpinned latest output as a historical run.
+
+```powershell
+# Example: retrieve output only after confirming the kernel's current version
+# matches the completed version recorded in the run receipt.
+kaggle kernels output hngphc73/ds-spacing-ciou-nwd-ablation -p .venv/work/kaggle/spacing-nwd-v2
+
+# List files and inspect the result manifest before loading a weight
+Get-ChildItem .venv/work/kaggle/spacing-nwd-v2 -Recurse -File
+Get-Content .venv/work/kaggle/spacing-nwd-v2/comparison.json
+
+# Verify a local checkpoint against its recorded SHA-256
+(Get-FileHash .venv/work/kaggle/spacing-nwd-v2/spacing_nwd/project_best.pt -Algorithm SHA256).Hash.ToLower()
+```
+
+For a Kaggle dataset-published weight package, inspect the dataset version and file inventory using the Kaggle API/CLI before downloading, then compare the checkpoint SHA-256 to the notebook's `summary.json`/receipt. Never use a `latest` pointer to claim an old experiment was reproduced. Keep the downloaded original immutable and copy a selected checkpoint into a new local run folder only after its checksum matches.
+
+### Re-evaluate without retraining
+
+1. Recover the exact `best.pt`, `summary.json`/comparison, validation manifest, label file and evaluator source from the same run version.
+2. Verify all file hashes and counts. Confirm dataset version, task class mapping, image size, confidence floor, NMS IoU/max detections, evaluator implementation and validation membership against the cited report.
+3. Run saved-weight validation in the matching notebook's evaluation cell or its cited collector/evaluator script. For Ultralytics, keep the installed Ultralytics version pinned to the run; for COCO comparisons use the recorded `pycocotools` protocol. Do not compare scores across these evaluator implementations as if they were identical.
+4. Save a new, separate output containing predictions, metrics JSON, plots, environment versions and SHA receipts. Do not overwrite the historical artifacts.
+5. Compare recalculated results to the archived values. Small numerical differences can occur with package/GPU/evaluator changes; if the difference is material, stop and compare split, annotation normalization, class ID, image resize, confidence filtering and evaluator before reporting.
+
+### Retrain a weight from the notebook
+
+1. Attach the exact Kaggle dataset version and record its slug/version in notebook metadata or the run manifest. For the project-prepared data use `trihuynhviprovcl/dentalselfie-data-v1/1`; for paired/raw gingival ROIs use the specific v1 dataset named in the task row. Alignment and calculus branches use their task-specific published/source packages; do not substitute a similarly named Roboflow export.
+2. Open the task notebook listed in the reproduction map. Preserve the data-preflight assertions, class names, manifest SHA, train/validation counts and locked split. Verify that source test files are absent from the attached training package.
+3. Select the recorded GPU type and worker count, set the recorded seed/configuration, and run the existing notebook cells in order. Do not edit hyperparameters, validation rows or annotations and still call the result an exact reproduction.
+4. Download the completed kernel output with `kaggle kernels output <owner>/<kernel-slug> -p <output-directory>`. Confirm the kernel version in Kaggle run history and save it in `execution.json`.
+5. Compare `best.pt` hash, training history, args/config, metric JSON and expected checkpoint-selection epoch with the archived run. If any mismatch exists, label it a reproduction attempt or a new experiment, not the original result.
+
+## Annotation and metric provenance
+
+For every metric in a presentation, retain this minimum lineage:
+
+```text
+publisher/source archive + license/version/checksum
+  -> annotation format and class-ID mapping
+  -> immutable source manifest + duplicate/group policy
+  -> fixed train/validation membership and hashes
+  -> preparation notebook + derived data checksum
+  -> Kaggle dataset slug/version attached to training
+  -> training notebook + kernel slug/version + configuration
+  -> selected weight + SHA-256
+  -> evaluation notebook/script + evaluator/version/settings
+  -> metric JSON + validation cohort count + report
+```
+
+The class map, original annotations and overlays are reviewed in the label-specific audit notebooks/reports; the prepared data and upload receipts are indexed in `docs/reports/data_preparation/`. Missing labels are not negatives. Never infer a negative class from absent annotation unless that source's annotation policy confirms complete labeling for that class.
+
