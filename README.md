@@ -6,6 +6,8 @@ For the reusable, evidence-based training workflow across the current labels, se
 
 For the selected highest validation results across all current labels, including cohort-specific headline/secondary choices and overlap caveats, see [Final Metric Selection](docs/FINAL_METRIC_SELECTION_2026-11-24.md).
 
+The same report now includes the per-label Kaggle input, notebook sequence, result artifacts, and clone-to-reproduce checklist. Start there when rerunning a selected experiment.
+
 An offline dental-screening research project. Data preparation and initial YOLO training are complete; notebook 05 adds paired gingival crops for the CNN/ResNet research extension. Public research publication was explicitly requested on 21 October. Android implementation is deferred.
 
 Alignment improvement work resumed on 20 November 2026. For the thesis narrative and earlier executed experiments, read the [English progress report](report/README.md), including notebook roles, results and reproducible figures. Latest fixed-split results: [Spacing YOLOv8s vs P2](docs/reports/alignment/SPACING_P2_FULL_SPLIT_RESULTS_2026-11-22.md) and [Crowding YOLO26s/WBF comparison](docs/reports/alignment/CROWDING_CURRENT_WBF_RESULTS_2026-11-22_V2.md). P2 is not promoted; WBF gains mAP50 but loses mAP50-95 versus the single-model arm.
